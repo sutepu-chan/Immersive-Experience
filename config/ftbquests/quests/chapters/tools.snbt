@@ -1,0 +1,320 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools"
+	group: "00E9424D6B3ED400"
+	icon: {
+		Count: 1b
+		id: "constructionwand:iron_wand"
+		tag: {
+			Damage: 0
+			wand_options: { }
+		}
+	}
+	id: "760BA30BB7A3E4C3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&bAqeous sponge&r is a &6one-time&r use sponge"]
+			id: "207EAC6DC0D83CA4"
+			tasks: [{
+				id: "406E73BC1891C12E"
+				item: "permanentsponges:aqueous_sponge"
+				type: "item"
+			}]
+			title: "Better water sponges"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["207EAC6DC0D83CA4"]
+			description: ["&bAqueous sponge on a stick&r is a &6portable aqeous sponge&r with 65 uses."]
+			id: "16E5275EA2D2A6E9"
+			tasks: [{
+				id: "5A51AB1344FB3B5F"
+				item: {
+					Count: 1b
+					id: "permanentsponges:aqueous_sponge_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["&bMagmatic sponge&r is a &6one-time&r use sponge for lava."]
+			id: "47188BFB2FCB9BC8"
+			tasks: [{
+				id: "4C760707BEAAB8A9"
+				item: "permanentsponges:magmatic_sponge"
+				type: "item"
+			}]
+			title: "Better lava sponges"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47188BFB2FCB9BC8"]
+			description: ["&bMagmatic sponge on a stick&r is a &6portable magmatic sponge&r with 65 uses."]
+			id: "2F64B4DA61D2A7B7"
+			tasks: [{
+				id: "5A5709503016AC78"
+				item: {
+					Count: 1b
+					id: "permanentsponges:magmatic_sponge_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "62FA545E2B097980"
+			tasks: [{
+				id: "6950DEF4C47FDFA2"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62FA545E2B097980"]
+			description: ["&bDiamond Magnum Torch&r is a mega torch &6prevents mob spawns&r in a certain radius. Read the tooltip for more info."]
+			id: "1E20584DE3D7E4F7"
+			tasks: [{
+				id: "05B342D729AF565A"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62FA545E2B097980"]
+			description: ["&bEmerald Magnum Torch&r is a mega torch &6prevents mob spawns&r in a certain radius. Read the tooltip for more info."]
+			id: "1BA39EF67B77C655"
+			tasks: [{
+				id: "1EF26B69D7B2713C"
+				item: "magnumtorch:emerald_magnum_torch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["62FA545E2B097980"]
+			description: ["&bAmethyst Magnum Torch&r is a mega torch &6prevents water creatures from spawning&r in a certain radius. Read the tooltip for more info."]
+			id: "2EF8609B80D04C23"
+			tasks: [{
+				id: "109067CB19536CE8"
+				item: "magnumtorch:amethyst_magnum_torch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&6&lConstruction Wand&r help you place multiple blocks at once. Higher tiers can &6place more blocks&r at once and have higher capacity to be &6upgraded&r with additional cores."
+				""
+				"&bPlacement modes&r can be changed by &dShift+scroll&r or  &dCtrl+Shift+RC&r."
+				""
+				"Read the tooltip for more info."
+			]
+			id: "44D77B07536C629D"
+			tasks: [{
+				id: "2363870B4A74D9EA"
+				item: {
+					Count: 1b
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44D77B07536C629D"]
+			id: "526A32551247AF1C"
+			tasks: [{
+				id: "223980E123635175"
+				item: {
+					Count: 1b
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["526A32551247AF1C"]
+			id: "67C930CE9611169F"
+			tasks: [{
+				id: "362E18E116936682"
+				item: {
+					Count: 1b
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["67C930CE9611169F"]
+			id: "64F307F102F80E55"
+			tasks: [{
+				id: "356558B2C7978604"
+				item: {
+					Count: 1b
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["44D77B07536C629D"]
+			description: ["&bAngel Wand Core&r upgrades the wand so that blocks can be placed &6in air&r."]
+			id: "411F158BCA712FA6"
+			tasks: [{
+				id: "4008CAB635A4CBCD"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44D77B07536C629D"]
+			description: ["&bDestruction Wand Core&r &6destory blocks&r of the same type at once."]
+			id: "1096D7BD6B8A0CE8"
+			tasks: [{
+				id: "29A91321BAA5757D"
+				item: "constructionwand:core_destruction"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&bBuilding Gadget&r eases the progress of building and avoids building repetitive patterns. No more tedious building!"
+				""
+				"&dShift+RC&r to set the &6block type&r and press &dG&r to open &6menu"
+				"&r"
+				"Powers can be supplied by &cCreate&r or &cIron Furnaces&r"
+			]
+			id: "513E942A377D9F60"
+			tasks: [{
+				id: "2F04CAC7A6A452BA"
+				item: {
+					Count: 1b
+					id: "buildinggadgets2:gadget_building"
+					tag: {
+						uuid: [I;
+							431572373
+							1504857431
+							-1637709218
+							-1549344476
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			description: ["&bExchanging Gadget&r provides basic &6exchanging&r abilities using a set of different &6Exchanging Modes&r."]
+			id: "79BE800F8C4A9760"
+			tasks: [{
+				id: "56C30E6132D0135C"
+				item: {
+					Count: 1b
+					id: "buildinggadgets2:gadget_exchanging"
+					tag: {
+						uuid: [I;
+							-1815708421
+							-1767030570
+							-2049039995
+							489083277
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			description: ["&bCopy Paste Gadget&r allows you to select a large radius to &6copy and paste&r in a different location."]
+			id: "16DA5530E434BAE8"
+			tasks: [{
+				id: "2AF9951F97992D7A"
+				item: {
+					Count: 1b
+					id: "buildinggadgets2:gadget_copy_paste"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: ["&bCut Paste Gadget&r allows you to select a large radius to &6cut and paste&r in a different location."]
+			id: "4F10E3643FD9311D"
+			tasks: [{
+				id: "73747B1E46D36FCE"
+				item: {
+					Count: 1b
+					id: "buildinggadgets2:gadget_cut_paste"
+					tag: {
+						pastereplace: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["&bDestruction Gadget&r allows you to &6void&r a large area."]
+			id: "629629BAA35543BD"
+			tasks: [{
+				id: "03E2D9656CD158C9"
+				item: "buildinggadgets2:gadget_destruction"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+	]
+	title: "Tools"
+}

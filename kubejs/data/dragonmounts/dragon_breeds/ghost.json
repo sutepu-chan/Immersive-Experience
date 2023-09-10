@@ -1,0 +1,36 @@
+{
+    "immunities": [
+        "drown"
+    ],
+    "ambient_sound": "dragonmounts:entity.dragon.ambient.ghost",
+    "model_properties": {
+        "thin_legs": true
+    },
+    "attributes": {
+		"minecraft:generic.flying_speed": 1.0,
+		"minecraft:generic.attack_damage": 50,
+		"minecraft:generic.armor": 10,
+		"minecraft:generic.max_health": 200.0
+	},
+    "habitats": [
+        {
+            "required_habitats": [
+                {
+                    "points": 1,
+                    "below": true,
+                    "height": 0,
+                    "type": "world_height"
+                },
+                {
+                    "points": 2,
+                    "below": true,
+                    "light": 3,
+                    "type": "light"
+                }
+            ],
+            "type": "picky"
+        }
+    ],
+    "primary_color": "c4c4c4",
+    "secondary_color": "c2f8ff"
+}

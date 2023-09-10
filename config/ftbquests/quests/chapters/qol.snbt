@@ -1,0 +1,207 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "qol"
+	group: ""
+	icon: "create:experience_nugget"
+	id: "6F5BAC813CF2997A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Ever wondered why the &bdamage reduction&r of armor is &4irregular&r? The damage reduction doubles between iron and diamond armors!"
+				""
+				"In this pack, the &6damage reduction formula&r are changed to achieve the seamless reduction between each tier of armor."
+				""
+				"Besides, &barmor toughness&r are tweaked to be an &6additional layer of damage reduction&r, which grows with the percentage of health the hit would take and thus reduces the chance for oneshots."
+			]
+			id: "460C0DDC23E2A694"
+			tasks: [
+				{
+					id: "29A2F826760EFAB5"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56A161AC37ED0154"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "526963413A798028"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05BB9A197B5B0B1D"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armor"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Now you can &bimport custom pictures&r to replace the dull and boring vanilla minecraft paints!"]
+			id: "2BA1038B8676718A"
+			rewards: [
+				{
+					id: "3C93EE414B60BBBC"
+					item: "immersive_paintings:glow_painting"
+					type: "item"
+				}
+				{
+					id: "78D547328338D0D7"
+					item: "immersive_paintings:glow_graffiti"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3031A0BCB4B71DAA"
+					item: "immersive_paintings:painting"
+					type: "item"
+				}
+				{
+					id: "42D61DFBF50AC995"
+					item: "immersive_paintings:graffiti"
+					type: "item"
+				}
+			]
+			title: ".png in Minecraft"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&bObservable&r allows &6TPS profiling&r in your world. The user interface is easy to use and understand."
+				"Press &dEnd&r to open the interface."
+			]
+			id: "0644926D3316F693"
+			tasks: [{
+				id: "1F12A8360D7F0BC8"
+				title: "Observable"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			description: ["&bBlaze Rods&r are now &6placeable&r on ground, like end rods. It becomes new items for decoration."]
+			id: "74141897684DD802"
+			tasks: [{
+				id: "26AA43C868A7F039"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You definitely have noticed the difference of your camera angle. This provides additionally immersive feel to minecraft."
+				""
+				"I understand that not everybody like this. You may turn off 1st person camera by pressing &dF8&r"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-375519035
+							-1975500603
+							-1903724788
+							1345288620
+						]
+						Name: "sutepu_chan"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5NDMyOTI0NTkxMywKICAicHJvZmlsZUlkIiA6ICJlOTllMDhjNThhNDA0MGM1OGU4Nzc3MGM1MDJmNzlhYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzdXRlcHVfY2hhbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MmIyNjI3NTliMGY3MzJjOWQ4MGQ0OTMxMGY5OTkwMDljZjM4NTI5MTM3OTQxZTFkYjY3ZWVmOTNlMjViYTRmIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+			id: "5B882C0BC20E625A"
+			tasks: [{
+				id: "54F9CB749272159C"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "First Person Model"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The updates in 1.20 are great but dull at the same time. The &btrim&r should be able to add some &6special effects&r instead of just for decorations."
+				""
+				"In this pack, &6every material of trims&r are capable of bringing new effects. The list of effects are listed in the next few pages."
+				"{@pagebreak}"
+				"&n&bLapis&r: Increases &6XP&r gained by 10%."
+				""
+				"&n&bCopper&r: Adds 10% &6swimming speed&r."
+				""
+				"&n&bIron&r: Adds 2 &6armor points&r."
+				""
+				"&n&bRedstone&r: Adds 10% &6speed&r and increases &6step height &rby 1, full set is equivalent to Speed 2 potion."
+				""
+				"&n&bGold&r: Makes &6piglins&r neutral."
+				""
+				"&n&bDiamond&r: Adds 2 &6armor points&r and 2 &6armor toughness&r."
+				"{@pagebreak}"
+				"&n&bEmerald&r: Boosts &6villager reputation&r by 10% per piece, has no effect if reputation is negative."
+				""
+				"&n&bAmethyst&r: Adds 25% &6night vision&r, full set is equivalent to night vision effect."
+				""
+				"&n&bNether Quartz&r: Adds one point of &6thorn&r damage, requires direct melee contact, but does not damage armor."
+				""
+				"&n&bNetherite&r: Makes item &6fire proof&r and reduces fire damage by 25%, full set is equivalent to &6fire resistance&r potion."
+			]
+			id: "63B436A27C71A5FF"
+			tasks: [{
+				id: "49E4660586ED566E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:trim_templates"
+					}
+				}
+				title: "Any #minecraft:trim_templates"
+				type: "item"
+			}]
+			title: "Trim Effects"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "QoL"
+}

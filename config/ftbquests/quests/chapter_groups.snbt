@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "00E9424D6B3ED400", title: "Architecture" }
+		{ id: "2567E5CB30369DC8", title: "Adventure" }
+		{ id: "39486328CD6C133C", title: "Tech" }
+	]
+}

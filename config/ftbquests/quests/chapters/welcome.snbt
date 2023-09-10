@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "2AEFDDA74C4B8A23"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Welcome to Immersive Experience!"
+			""
+			"Note:"
+			"Quest are still under active developments."
+		]
+		id: "78F05417D0BED1E4"
+		tasks: [{
+			dimension: "minecraft:overworld"
+			icon: "ftbquests:book"
+			id: "32884C36D6538176"
+			title: "Press \"L\" to open quest"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Welcome"
+}

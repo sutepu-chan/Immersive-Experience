@@ -1,0 +1,275 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "workstations"
+	group: "00E9424D6B3ED400"
+	icon: "minecraft:crafting_table"
+	id: "551CF625A1B5E66B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This chapter introduces &l&6workstations&r to be worked with"]
+			id: "3521CF0E58CA5EE6"
+			tasks: [{
+				id: "2B443679A642F165"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3521CF0E58CA5EE6"]
+			description: [
+				"&l&bFramed blocks&r brought back the concept of &c&lCarpentor's blocks&r in 1.7.10. "
+				"Craft some &6framed cubes&r which can be changed to other shapes that can be made to have the appearance of every other blocks in this modpack."
+				"{@pagebreak}"
+				"&dRC&r the framed blocks with different items gives different properties"
+				""
+				"With a &6solid block&r or &6fluid container&r"
+				"&7-> make the framed block mimic the texture of the holding block&r"
+				""
+				"With &6glowstone dust&r"
+				"&7-> make the framed block produce light&r"
+				""
+				"With &6framed hammer&r"
+				"&7-> remove the camo&r"
+				""
+				"With &6empty fluid container&r"
+				"&7-> remove the fluid camo&r"
+			]
+			id: "335336251E567C41"
+			tasks: [
+				{
+					id: "665E33BD79CB342C"
+					item: "framedblocks:framing_saw"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C5CA29005F4488B"
+					item: "framedblocks:framed_cube"
+					type: "item"
+				}
+			]
+			title: "Framed blocks"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["335336251E567C41"]
+			description: [
+				"&bPowered Framing Saw&r is an automated saw that utilize RF to create bulk amount of designated shapes of framed blocks."
+				""
+				"RF can be supplied with contraptions from &c&lIron Furnaces&r and &c&lCreates&r."
+			]
+			id: "5BE7CEE22321F65F"
+			tasks: [{
+				id: "1E62266A59253E70"
+				item: "framedblocks:powered_framing_saw"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["335336251E567C41"]
+			description: ["&bFramed Hammer&r removes camo upon &dRC&r on &6framed blocks&r."]
+			id: "4191CE495332BD38"
+			tasks: [{
+				id: "5BCDC3B32FA73150"
+				item: "framedblocks:framed_hammer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["335336251E567C41"]
+			description: ["&bFramed Wrench&r rotates the targed &6framed block&r."]
+			id: "0A7E1BAE3AB5A8D6"
+			tasks: [{
+				id: "5F11C0AE970C4854"
+				item: "framedblocks:framed_wrench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["335336251E567C41"]
+			description: ["&bFramed Blueprints&r copies the attributes, including the camo and glowing state, from one &6framaed block&r to another."]
+			id: "6C0DA1B9C45607DC"
+			tasks: [{
+				id: "5426F6F04E472BEE"
+				item: {
+					Count: 1b
+					id: "framedblocks:framed_blueprint"
+					tag: {
+						blueprint_data: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4191CE495332BD38"]
+			description: [
+				"&bFramed Collapsible Block&r can be modified to create arbitrary slopes by changing the height of corners of one of the face with &6Framed Hammer&r."
+				""
+				"&dLC&r the concer of the face to be changed to move it "
+				"&6inward&r."
+				"&dShift+LC&r the corner of the face to be changed to make it &6outward&r."
+				""
+				"The changes are only allowed in single face at once. There might be potential rendering error when a plane cannot be formed by the corners."
+			]
+			id: "2703F62CDF243F2F"
+			tasks: [{
+				id: "028832CF1988F795"
+				item: "framedblocks:framed_collapsible_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["335336251E567C41"]
+			description: ["&bFramed Key&r lock the framed blocks upon &dRC&r in their current attributes which help you suppress neighbour updates"]
+			id: "4DB5A61E354B3C80"
+			tasks: [{
+				id: "6CF432B13C0035A3"
+				item: "framedblocks:framed_key"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["335336251E567C41"]
+			description: ["&bFramed Reinforcement&r makes the framed block &6blast resistant&r."]
+			id: "35AEC9DAD4C0222A"
+			tasks: [{
+				id: "0764488A6D818183"
+				item: "framedblocks:framed_reinforcement"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["335336251E567C41"]
+			description: ["&bFramed Screwdriver&r cycle through different states of the camo block (e.g. purpur pillar)."]
+			id: "70A0A9DAB7CD3D4E"
+			tasks: [{
+				id: "0AAC9B8D1BA48720"
+				item: "framedblocks:framed_screwdriver"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3521CF0E58CA5EE6"]
+			description: ["&bChisel&r from &6&lRechiseled&r brings you more variants of certain blocks, increasing the variation in your builds!"]
+			id: "7906A4246DB0C8A9"
+			tasks: [{
+				id: "24DB7A78465E3E19"
+				item: {
+					Count: 1b
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3521CF0E58CA5EE6"]
+			description: [
+				"Ever wondering why there is a stonecutter but not woodcutters? Here it is!"
+				"&bWoodcutters&r have the same function as stonecutter, but for wood!"
+			]
+			id: "1A69ACFE7CDEF456"
+			tasks: [{
+				id: "1F9837E1BDE8918B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "corail_woodcutter:woodcutters"
+					}
+				}
+				title: "Sawmills"
+				type: "item"
+			}]
+			title: "Woodcutters"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00D943721FD6C3ED"]
+			description: ["&bDye Crafting Table&r are specifically used in this mod to obtain specific coloured blocks."]
+			id: "3E5448A6A1B39BED"
+			tasks: [{
+				id: "482CCC8A354E8186"
+				item: "manyideas_core:dye_crafting_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3521CF0E58CA5EE6"]
+			description: [
+				"There are many &6new door variants&r in this modpack. The doors are no longer limited into a 2x1 size and you can have door with even larger or smaller sizes. All of these are achievable with a Table Saw."
+				"&bTable Saw&r produces materials for crafting. Higher tiers are capable of producing &6more advanced materials&r."
+			]
+			id: "00D943721FD6C3ED"
+			tasks: [
+				{
+					id: "1319EF823163757C"
+					item: "manyideas_core:table_saw_stone"
+					type: "item"
+				}
+				{
+					id: "744042EAB20F52F6"
+					item: "manyideas_core:table_saw_iron"
+					type: "item"
+				}
+				{
+					id: "1B3B35A76F0F32D0"
+					item: "manyideas_core:table_saw_diamond"
+					type: "item"
+				}
+			]
+			title: "Table Saw"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00D943721FD6C3ED"]
+			description: ["&bMortals&r can crush &6prismarine crystals&r into &brainbow dyes&r, which can be used to craft &6rainbow block&r that changes its colour upon time."]
+			id: "5230F9C201CEFB82"
+			tasks: [
+				{
+					id: "61FBD4FCAEB9D68D"
+					item: "manyideas_core:mortar"
+					type: "item"
+				}
+				{
+					id: "2ED4BFDD782E7486"
+					item: "manyideas_core:dye_rainbow"
+					type: "item"
+				}
+			]
+			title: "Rainbow blocks"
+			x: 4.0d
+			y: -2.0d
+		}
+	]
+	title: "Workstations"
+}

@@ -1,0 +1,393 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pets_and_friends"
+	group: "2567E5CB30369DC8"
+	icon: {
+		Count: 1b
+		id: "touhou_little_maid:entity_placeholder"
+		tag: {
+			RecipeId: "touhou_little_maid:altar/spawn_box"
+		}
+	}
+	id: "7A9D6FA0147551DE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"In this pack, you can &6summon maids&r who can help you in acitivities like farming and fighting. To summon a maid, you need some preparations."
+				""
+				"First, craft a &bgohei&r."
+			]
+			id: "10BDE1B64DE07498"
+			rewards: [{
+				id: "567D715DCAFC800A"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02CC914720D11A55"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:hakurei_gohei"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10BDE1B64DE07498"]
+			description: ["&6Taming a maid &rrequires &bcakes&r. Get a cake before summoning a maid."]
+			id: "7ADBD16688DE514C"
+			tasks: [{
+				id: "374ABDF2A6411CB7"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7ADBD16688DE514C"]
+			description: [
+				"To summon a maid, a &6multiblock altar&r has to be built. Check your &bMemorizable Gensokyo&r for more info."
+				""
+				"After building the altar, hold your &bGohei&r and &dRC&r  the red wool located at the centre left of the 4th row of the altar. The altar will then be activated."
+			]
+			id: "7BEB35BA8E2FBA6A"
+			tasks: [
+				{
+					count: 20L
+					id: "3E1796BE006A3899"
+					item: { Count: 20b, id: "minecraft:red_wool" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "41DE6315C8426D4E"
+					item: { Count: 18b, id: "minecraft:oak_log" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BEB35BA8E2FBA6A"]
+			description: ["Other than the ingredients required in summoning a maid, you also need &bpower points&r, which can be obtained by &6killing maid fairy&r which spawns naturally in world."]
+			id: "314EA14B07818860"
+			tasks: [{
+				entity: "touhou_little_maid:fairy"
+				icon: "touhou_little_maid:power_point"
+				id: "79E421A1C4079BB6"
+				type: "kill"
+				value: 2L
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["314EA14B07818860"]
+			description: ["Now, you can &6summon the maid&r. Place the ingredients on the &66 pillars&r by &dRC&r. Then, &dRC&r the altar with your Gohei to complete the summoning process."]
+			id: "1C3B65467F37594E"
+			tasks: [
+				{
+					id: "16A4832EFB2573B5"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "30A2B7870E3533DF"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "334917956D12F88E"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "11F61E3090948A97"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "53BD0CCB175C35C7"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "65DBA286C749F043"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			title: "Summoning maids"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C3B65467F37594E"]
+			description: [
+				"There are some &6accessories&r avaiable to your maid also."
+				""
+				"&bBackpacks&r can increase the &6slots&r of maid's inventory."
+				""
+				"Different types of &bbaubles&r gives different &6effects&r to the maid."
+				""
+				"Maid can also use &bGohei&r to perform &6melee attacks&r with danmaku."
+			]
+			id: "6E8A1CB00CF4535D"
+			tasks: [{
+				id: "21DFF1D2C90EF1ED"
+				item: "touhou_little_maid:maid_backpack_big"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C3B65467F37594E"]
+			description: ["There are also some items you can give to your maid."]
+			id: "1657D3F2BAFB6529"
+			tasks: [
+				{
+					id: "04A6C0C3381941F7"
+					item: "touhou_little_maid:maid_bed"
+					type: "item"
+				}
+				{
+					id: "6561954DBAE88166"
+					item: {
+						Count: 1b
+						id: "touhou_little_maid:chair"
+						tag: {
+							IsNoGravity: 0b
+							ModelId: "touhou_little_maid:bowl"
+							MountedHeight: -0.0625f
+							TameableCanRide: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C3B65467F37594E"]
+			description: [
+				"&bAya's Camera&r allows you to &6captures&r your maid. The captures maid turns into a &6photo&r."
+				""
+				"&dRC&r the photo on &6ground&r to call back your maid."
+			]
+			id: "15957DE5991B5692"
+			tasks: [{
+				id: "55D3D1DDB41C427B"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:camera"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15957DE5991B5692"]
+			description: [
+				"With your photo obtained, you can also get a &6statue&r of your maid."
+				""
+				"Hold the &6photo&r in your off-hand and &dRC&r a &6clay block&r with a &6chisel&r. The clay block will then turns into a statue."
+			]
+			id: "251D00F068807DF0"
+			tasks: [{
+				id: "79015B1CC15BE66A"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:chisel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1657D3F2BAFB6529"]
+			description: ["Perhaps you are using a special appearance of your maid's chair and you can't locate the hitbox of your chair. Use this item for location."]
+			id: "426DF06042403D34"
+			tasks: [{
+				id: "0978D80A1972CD5D"
+				item: "touhou_little_maid:chair_show"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C3B65467F37594E"]
+			description: ["When the maid is dead, a &bfilm&r item will be dropped, which can be used for &6respawning&r the maid by the altar."]
+			id: "1FA7D00600603DD5"
+			tasks: [{
+				id: "7CC67E4CA175BE0D"
+				item: "touhou_little_maid:film"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C3B65467F37594E"]
+			description: ["A &bTrumpet&r &6recalls&r all your maid in the loaded chunks."]
+			id: "1D751C3969A120E1"
+			tasks: [{
+				id: "2E91B9C04B796BBA"
+				item: "touhou_little_maid:trumpet"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["You can track properties of a &6tamed Creeper Minion&r with a &bCreeper Minion Tracker&r."]
+			id: "2506740ED87AE467"
+			tasks: [{
+				id: "7C59AB6324447849"
+				item: "mutantmonsters:creeper_minion_tracker"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["Ender dragon can be &6tamed&r in this pack. Before taming, you definitely need to defeat the &5ender dragon&r!"]
+			id: "3042BB8D927A6F8C"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "077475EE95C563D4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3042BB8D927A6F8C"]
+			description: [
+				"After obtaining the dragon egg, you can now start your &6hatching process&r."
+				""
+				"You have &b2 options&r:"
+				""
+				"1. Simply begin hatching by &dRC&r"
+				"2. You can place the egg in a designated space, or &b\"habitat\"&r and have it adapt to its &6surrounding environment&r."
+				"{@pagebreak}"
+				"There are 6 types of dragons with different habitats. The requirements are listed below."
+				"&n&cFire Dragon&r: Surrounded by fire/lava/magma block/campfire below"
+				""
+				"&n&aForest Dragon&r: Surrounded by plants below or in jungle biome"
+				" "
+				"&n&bIce Dragon&r: Surrounded by ice/snow below"
+				""
+				"&n&4Nether Dragon&r: Surrounded by nether blocks below or in nether"
+				""
+				"&n&1Water Dragon&r: Surrounded by water/sea plants below"
+				""
+				"&n&5End Dragon&r: Surrounded by end blocks below"
+				""
+				"&n&8Ghost Dragon&r: Hatched in light level < 3 or  y level<0"
+				""
+				"&n&9Aether Dragon&r: Hatched at y level>200"
+			]
+			id: "0B3684BC88B70BEE"
+			tasks: [{
+				id: "62047277B3F1F60C"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B3684BC88B70BEE"]
+			description: [
+				"Hatching takes a &6long time&r and it's time prepare your taming process."
+				""
+				"To imprint on your new partner, you need large sums of &bfish&r (much like a wolf with bones) until it warms up to you."
+				""
+				"Be careful as &6baby dragons&r are a little feisty, and tend to roam the new world they just found themselves in."
+				""
+				"If for some reason you meet up with an &6ADULT dragon&r, however, the fish offering should still work, but don't expect an adult to trust you as easily."
+				"{@pagebreak}"
+				"Dragons &6grow slowly&r with time, and incrementally. You can watch as they &6grow in size and strength&r!"
+				""
+				"You can &6speed up&r this growth by feeding your pet &bmeat&r."
+				"{@pagebreak}"
+				"When the dragon takes damage, &6health can be restored&r by &bmeats&r. A few &6steaks&r will bring it back up full of energy and back to potential."
+			]
+			id: "133FF7B1D2380DC9"
+			tasks: [
+				{
+					id: "354B18F856FC5824"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:fishes"
+						}
+					}
+					title: "Any #minecraft:fishes"
+					type: "item"
+				}
+				{
+					id: "7337819D0B8548D9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:meats"
+						}
+					}
+					title: "Any #forge:meats"
+					type: "item"
+				}
+			]
+			title: "Time to go Fishing"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["133FF7B1D2380DC9"]
+			description: [
+				"Dragons are very capable of taking its owners &6great distances&r. Simply &bsaddle&r them up and &dRC&r to start riding your pet."
+				"With the &6wings&r they were born with, dragons can soar the skies and travel great distances. However, the control is a bit difference from walking. Check your control options."
+			]
+			id: "1626E73ADD469E5A"
+			tasks: [{
+				id: "4C74FFC1EDBC23F5"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "Riding the dragon"
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "Pets and Friends"
+}

@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "39486328CD6C133C"
+	icon: "create:cogwheel"
+	id: "746D9143A5EA9DAF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: ["WIP"]
+		id: "34826D070531E19F"
+		tasks: [{
+			id: "7B1D56DA3BEABD93"
+			item: "create:cogwheel"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Create"
+}

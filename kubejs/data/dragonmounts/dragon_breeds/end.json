@@ -1,0 +1,21 @@
+{
+    "immunities": [
+        "dragonBreath"
+    ],
+    "attributes": {
+        "minecraft:generic.flying_speed": 0.7,
+        "minecraft:generic.attack_damage": 30,
+        "minecraft:generic.armor": 20,
+        "minecraft:generic.max_health": 150.0
+    },
+    "habitats": [
+        {
+            "type": "dragon_breath"
+        }
+    ],
+    "primary_color": "161616",
+    "secondary_color": "ff63e8",
+    "hatch_particles": {
+        "type": "minecraft:portal"
+    }
+}

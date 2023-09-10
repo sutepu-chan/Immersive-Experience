@@ -1,0 +1,31 @@
+{
+    "immunities": [
+        "drown",
+        "freeze"
+    ],
+    "attributes": {
+		"minecraft:generic.flying_speed": 0.8,
+		"minecraft:generic.attack_damage": 40,
+		"minecraft:generic.armor": 20,
+		"minecraft:generic.max_health": 130.0
+	},
+    "abilities": [
+        {
+            "type": "frost_walker"
+        },
+        {
+            "type": "snow_stepper"
+        }
+    ],
+    "habitats": [
+        {
+            "block_tag": "dragonmounts:ice_dragon_habitat_blocks",
+            "type": "nearby_blocks"
+        }
+    ],
+    "primary_color": "ffffff",
+    "secondary_color": "e1ff",
+    "hatch_particles": {
+        "type": "minecraft:snowflake"
+    }
+}

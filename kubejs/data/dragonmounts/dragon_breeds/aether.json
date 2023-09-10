@@ -1,0 +1,16 @@
+{
+    "attributes": {
+        "minecraft:generic.flying_speed": 1.2,
+        "minecraft:generic.attack_damage": 40,
+        "minecraft:generic.armor": 15,
+        "minecraft:generic.max_health": 120.0
+    },
+    "habitats": [
+        {
+            "height": 200,
+            "type": "world_height"
+        }
+    ],
+    "primary_color": "718aa9",
+    "secondary_color": "e6e6e6"
+}

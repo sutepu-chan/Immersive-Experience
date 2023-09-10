@@ -1,0 +1,584 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "39486328CD6C133C"
+	icon: "expandedstorage:diamond_chest"
+	id: "3D6484F99EA6287E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["314A2A51411E55D4"]
+			description: [
+				"&bStorage Mutator&r &6configures&r chests and barrels in world."
+				""
+				"It currently consists of &64 modes&r, note not all modes are applicable to all storage types:"
+				""
+				"&6&nMerge:&r Allows &6merging&r of two adjacent chests or old chests into a double chest."
+				""
+				"&6&nSplit:&r Allows &6splitting&r a double chest into two single chests."
+				""
+				"&6&nRotate:&r Allows &6rotating&r any storage container, note chests are limited to horizontal rotations."
+				""
+				"&6&nSwap theme:&r Allows &6changing the theme&r of the storage container, this only works for themes in the same tier."
+			]
+			id: "14D4A5E90EA351AE"
+			tasks: [{
+				id: "6F752E9A7D5C98AD"
+				item: {
+					Count: 1b
+					id: "expandedstorage:storage_mutator"
+					tag: {
+						mode: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Basic Minecraft chest"
+				""
+				"&7Note:&r"
+				"&7Now chests can be crafted directly with logs&r"
+			]
+			id: "78D38E5A67EF0C1B"
+			tasks: [{
+				id: "22AD84F9BFC6A5DA"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Basic Minecraft barrels"]
+			id: "3DC3B1A9B2D69708"
+			tasks: [{
+				id: "039A7C15941AC9D8"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78D38E5A67EF0C1B"]
+			description: [
+				"&bModelled chests&r act &6identical&r to vanilla chests however can generally hold more items."
+				""
+				"They can also &6merge vertically and horizontally&r in the long direction to form tall and long chests in addition to vanilla's double chest (wide chest) and single chest."
+			]
+			id: "314A2A51411E55D4"
+			tasks: [{
+				id: "0EAFB24E70587323"
+				item: "expandedstorage:wood_chest"
+				type: "item"
+			}]
+			title: "Wooden Chest, but modelled"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["314A2A51411E55D4"]
+			description: [
+				"&bModelled chests&r can be upgraded to higher tier, which can store more items."
+				""
+				" &f&lIron:&r can store &654&r items. (2 chests worth)"
+				" &6&lGolden:&r is liked by piglins, can store &681&r items. (3 chests worth)"
+				" &b&lDiamond:&r can store &6108&r items. (4 chests worth)"
+				" &5&lObsidian:&r is blast proof, can store &6108&r items. (4 chests worth)"
+				" &8&lNetherite:&r is fire-resistant and blast proof, can store &6135&r items. (5 chests worth)"
+				"{@pagebreak}"
+				"You can also convert chests in world directly with a &6Conversion Kit&r."
+			]
+			id: "7793421AFB8B68A7"
+			rewards: [
+				{
+					id: "1E207A198D6954B3"
+					item: "expandedstorage:wood_to_copper_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "27E42BE11013DE9D"
+					item: "expandedstorage:wood_to_iron_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "55FFFF1AE1B57CC5"
+					item: "expandedstorage:wood_to_gold_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "6C2D855C63C1B733"
+					item: "expandedstorage:wood_to_diamond_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "017EC0C85F26FB44"
+					item: "expandedstorage:wood_to_obsidian_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "26179BA0A77F5C2A"
+					item: "expandedstorage:wood_to_netherite_conversion_kit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2A6635F0C742A846"
+					item: "expandedstorage:iron_chest"
+					type: "item"
+				}
+				{
+					id: "38C099940215FD4E"
+					item: "expandedstorage:gold_chest"
+					type: "item"
+				}
+				{
+					id: "00EDFD7EFCD6CD01"
+					item: "expandedstorage:diamond_chest"
+					type: "item"
+				}
+				{
+					id: "09A20AC021AFB4A2"
+					item: "expandedstorage:obsidian_chest"
+					type: "item"
+				}
+				{
+					id: "19553776F6819640"
+					item: "expandedstorage:netherite_chest"
+					type: "item"
+				}
+			]
+			title: "Tiered Modelled Chest"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3DC3B1A9B2D69708"]
+			description: [
+				"&bModelled barrels&r can be upgraded to higher tier, which can store more items."
+				""
+				" &c&lCopper:&r can store &645&r items. (just under 2 chests worth)"
+				" &f&lIron:&r can store &654&r items. (2 chests worth)"
+				" &6&lGolden:&r is liked by piglins, can store &681&r items. (3 chests worth)"
+				" &b&lDiamond:&r can store &6108&r items. (4 chests worth)"
+				" &5&lObsidian:&r is blast proof, can store &6108&r items. (4 chests worth)"
+				" &8&lNetherite:&r is fire-resistant and blast proof, can store &6135&r items. (5 chests worth)"
+				"{@pagebreak}"
+				"You can also convert chests in world directly with a &6Conversion Kit&r."
+			]
+			id: "70B680770E94DEDF"
+			rewards: [
+				{
+					id: "3AD23B76F5EAFC3B"
+					item: "expandedstorage:wood_to_copper_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "44A4825498CEE40E"
+					item: "expandedstorage:wood_to_iron_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "2058EF85809F9794"
+					item: "expandedstorage:wood_to_gold_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "33EE1FCD179AC2B4"
+					item: "expandedstorage:wood_to_diamond_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "7F9B983394928155"
+					item: "expandedstorage:wood_to_obsidian_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "0F696904E22496BC"
+					item: "expandedstorage:wood_to_netherite_conversion_kit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0E034923BD3E52A7"
+					item: "expandedstorage:copper_barrel"
+					type: "item"
+				}
+				{
+					id: "2D890C797D76B7D2"
+					item: "expandedstorage:iron_barrel"
+					type: "item"
+				}
+				{
+					id: "27D410DD754356B8"
+					item: "expandedstorage:gold_barrel"
+					type: "item"
+				}
+				{
+					id: "1A37324564F318B2"
+					item: "expandedstorage:diamond_barrel"
+					type: "item"
+				}
+				{
+					id: "6A252D9F7A24F574"
+					item: "expandedstorage:obsidian_barrel"
+					type: "item"
+				}
+				{
+					id: "67F2B53127727AB1"
+					item: "expandedstorage:netherite_barrel"
+					type: "item"
+				}
+			]
+			title: "Tiered Barrels"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "7A961068B99C37DE"
+			tasks: [{
+				id: "043550365B82B18A"
+				item: "expandedstorage:netherite_mini_chest"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			id: "55EB50097B91B466"
+			tasks: [{
+				id: "1F2F3CF7DE399C74"
+				item: "expandedstorage:netherite_mini_barrel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["314A2A51411E55D4"]
+			description: ["Try to collect all of them!"]
+			id: "4C3FA276BCCBD3AC"
+			tasks: [
+				{
+					id: "79CB5E6D90B008DE"
+					item: "expandedstorage:pumpkin_chest"
+					type: "item"
+				}
+				{
+					id: "278B1CAED4F79E72"
+					item: "expandedstorage:present"
+					type: "item"
+				}
+				{
+					id: "76D302B22F7FC008"
+					item: "expandedstorage:bamboo_chest"
+					type: "item"
+				}
+				{
+					id: "48D83730FEDFEE03"
+					item: "expandedstorage:moss_chest"
+					type: "item"
+				}
+			]
+			title: "Cosmetic Modelled Chests"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			description: ["&bEnder Pouch&r is a &6movable ender chest&r. You don't need to carry an ender chest with silk touch pickaxe with your anymore."]
+			id: "77DA0B27F0930729"
+			tasks: [{
+				id: "5D06546D541CE731"
+				item: {
+					Count: 1b
+					id: "enderchests:ender_pouch"
+					tag: {
+						open: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77DA0B27F0930729"]
+			description: [
+				"&bEnder Chest&r is &6dimensional storage&r that shares contents within the same &6colour code&r. Colour can be applied through &dShift+RC&r with &6specific dyes&r on the latch."
+				""
+				"&6Upgrades&r are available by &dShift+RC&r with certain item"
+				""
+				"&2&nEnderpearl:&r increase storage space by &63&r (up to 27)"
+				"&5&nEndereye:&r increase storage space by &69&r (up to 27)"
+				"&b&nDiamond:&r make the chest become &6private&r"
+				"&a&nEmerald:&r make the chest accessible in FTB &6team&r network"
+			]
+			id: "45E35A9CCB50483D"
+			tasks: [{
+				id: "2764E28E5593E0DA"
+				item: {
+					Count: 1b
+					id: "enderchests:ender_chest"
+					tag: {
+						code: "000"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["45E35A9CCB50483D"]
+			description: [
+				"&bEnder Bag&r is &6portable&r colour coded ender chest."
+				"&dShift+RC&r to &6link&r to the  ender chest with designated colour code."
+			]
+			id: "6E0E13AF9B9DC445"
+			tasks: [{
+				id: "41D69BBA8A54E00F"
+				item: {
+					Count: 1b
+					id: "enderchests:ender_bag"
+					tag: {
+						code: "000"
+						open: 0b
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77DA0B27F0930729"]
+			description: [
+				"&bEnder Tank&r is &6dimensional storage&r that shares contents within the same &6colour code&r. Colour can be applied through &dShift+RC&r with &6specific dyes&r on the latch."
+				""
+				"&6Upgrades&r are available by &dShift+RC&r with certain item"
+				""
+				"&2&nEnderpearl:&r increase storage space by &68 buckets&r (up to 256)"
+				"&5&nEndereye:&r increase storage space by &664 buckets&r (up to 256)"
+				"&8&nPiston:&r &6speed up&r fluid transfer (up to 4 buckets per sec)"
+				"&b&nDiamond:&r make the chest become &6private&r"
+				"&a&nEmerald:&r make the chest accessible in FTB &6team&r network"
+			]
+			id: "36D206E37DC8A6AC"
+			tasks: [{
+				id: "3DC4F4C2AFEF7821"
+				item: {
+					Count: 1b
+					id: "endertanks:ender_tank"
+					tag: {
+						code: "000"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36D206E37DC8A6AC"]
+			description: [
+				"&bEnder Bucket&r is &6portable&r colour coded ender chest."
+				"&dShift+RC&r to &6link&r to the  ender chest with designated colour code."
+			]
+			id: "4735FC2F30F3D4B4"
+			tasks: [{
+				id: "6CB671C5757302B0"
+				item: {
+					Count: 1b
+					id: "endertanks:ender_bucket"
+					tag: {
+						code: "000"
+						mode: "normal"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: ["&bFunctional Storage&r is the elegant solutions for &6storing items or fluids in bulk&r. Every single drawers are able to store a large amount of items, up to millions with full upgrade."]
+			id: "4907DC827432E250"
+			tasks: [
+				{
+					id: "25BD7D5E4E05DDEC"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "functionalstorage:drawer"
+						}
+					}
+					title: "Any #functionalstorage:drawer"
+					type: "item"
+				}
+				{
+					id: "7AA9265CBA1C1B62"
+					item: "functionalstorage:fluid_1"
+					type: "item"
+				}
+			]
+			title: "Functional Storage"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4907DC827432E250"]
+			description: [
+				"&bStorage Controller&r allows you to set up a &6storage network&r for the ease of automation. All the items or fluids within the same storage network are &6assessible&r through the main controller. "
+				"Drawers can be &6linked&r to controller with the help of a &blinking tool&r."
+			]
+			id: "4DE57464140B7833"
+			tasks: [
+				{
+					id: "1658355F094E4199"
+					item: "functionalstorage:storage_controller"
+					type: "item"
+				}
+				{
+					id: "00E3B8EA3AE548D7"
+					item: {
+						Count: 1b
+						id: "functionalstorage:linking_tool"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Drawer Network"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4907DC827432E250"]
+			description: ["&bConfiguration Tool&r configures the &6display&r of a drawer, or &6locking&r the drawer."]
+			id: "3D13F90B4C69235E"
+			tasks: [{
+				id: "61CA8C968A6957AE"
+				item: {
+					Count: 1b
+					id: "functionalstorage:configuration_tool"
+					tag: {
+						Mode: "LOCKING"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DE57464140B7833"]
+			description: ["&bController Extension&r act as a &6storage controller&r when linked, allowing you have intputs or outputs at &6multiple&r locations."]
+			id: "667FCCD8D9F4EF3A"
+			tasks: [{
+				id: "5408C7B337118AF9"
+				item: "functionalstorage:controller_extension"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4907DC827432E250"]
+			description: ["&bCompacting Drawer&r are suitable for storing items like ingots. All the nugget and block forms are accessible at the same time."]
+			id: "4B21111D0874BA0E"
+			tasks: [
+				{
+					id: "4BA4954F021ED4E9"
+					item: "functionalstorage:compacting_drawer"
+					type: "item"
+				}
+				{
+					id: "31A088B93EC25028"
+					item: "functionalstorage:simple_compacting_drawer"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4907DC827432E250"]
+			description: ["Drawers supports different &bupgrades&r. Read the &6tooltip &rfor more info."]
+			id: "4569549231D57928"
+			tasks: [
+				{
+					id: "2DC5A95E613574F9"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "51C297646F69CA7F"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+				{
+					id: "358ED719D2F5B7EE"
+					item: "functionalstorage:diamond_upgrade"
+					type: "item"
+				}
+				{
+					id: "6A3855E25ACE36B1"
+					item: "functionalstorage:netherite_upgrade"
+					type: "item"
+				}
+				{
+					id: "3B6E50A724345B2A"
+					item: "functionalstorage:iron_downgrade"
+					type: "item"
+				}
+				{
+					id: "7B64D6B4EA4607A7"
+					item: "functionalstorage:redstone_upgrade"
+					type: "item"
+				}
+				{
+					id: "4BA2C72B6D9EA3DC"
+					item: "functionalstorage:collector_upgrade"
+					type: "item"
+				}
+				{
+					id: "1968E5F567459FBB"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+			]
+			title: "All the upgrades"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			description: ["&bExperience Obelisk&r allows you to &6store and share&r your xp. No need to worry about losing all your experience!"]
+			id: "2E5265F43F1454D0"
+			tasks: [{
+				id: "1726206D7400DF2E"
+				item: {
+					Count: 1b
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+	title: "Storage"
+}

@@ -1,0 +1,30 @@
+{
+    "immunities": [
+        "inFire",
+        "onFire",
+        "lava",
+        "hotFloor"
+    ],
+    "attributes": {
+		"minecraft:generic.flying_speed": 0.8,
+		"minecraft:generic.attack_damage": 30,
+		"minecraft:generic.armor": 25,
+		"minecraft:generic.max_health": 160.0
+	},
+    "habitats": [
+        {
+            "block_tag": "dragonmounts:nether_dragon_habitat_blocks",
+            "type": "nearby_blocks"
+        },
+        {
+            "points": 3,
+            "biome_tag": "minecraft:is_nether",
+            "type": "biome"
+        }
+    ],
+    "primary_color": "912400",
+    "secondary_color": "2e0b00",
+    "hatch_particles": {
+        "type": "minecraft:soul_fire_flame"
+    }
+}

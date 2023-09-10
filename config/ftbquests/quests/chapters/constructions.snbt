@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "constructions"
+	group: "00E9424D6B3ED400"
+	icon: {
+		Count: 1b
+		id: "minecraft:stone_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6A759E46B312E4EC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This chapter introduces possible &larchitectory projects&r that you can work on"]
+			id: "3A226597FB53BABA"
+			tasks: [{
+				id: "0E31827B9C695AAC"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A226597FB53BABA"]
+			description: ["&b&lAdditional Lights&r brings a wide variety of &6lights&r that enchances your building. You can now more fancy light sources other than torches."]
+			id: "744928E4C418E830"
+			tasks: [{
+				id: "0729CB93AED50F6C"
+				item: {
+					Count: 1b
+					id: "additional_lights:soul_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Additional Lights"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Projects"
+}

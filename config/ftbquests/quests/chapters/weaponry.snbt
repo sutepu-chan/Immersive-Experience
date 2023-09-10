@@ -1,0 +1,2536 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weaponry"
+	group: "2567E5CB30369DC8"
+	icon: {
+		Count: 1b
+		id: "epicpaladins:angel_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0459508DEA56251F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Vanilla &bshields&r are disabled in this pack. More variants of shields with different properties are introduced."
+				"There are also &6new mechanics&r on shield which allows you &6parry&r and deal damages to the mobs."
+				""
+				"There are 2 category of shields. The main differences are the moving speed while holding them in off-hand."
+			]
+			id: "0B1A02F83E069927"
+			tasks: [
+				{
+					id: "051291BD7166DDBC"
+					item: {
+						Count: 1b
+						id: "shieldexp:wooden_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5392624FC2E79B65"
+					item: {
+						Count: 1b
+						id: "shieldexp:golden_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F90F50E7E2AC4C7"
+					item: {
+						Count: 1b
+						id: "shieldexp:iron_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C87F34978DC0D8C"
+					item: {
+						Count: 1b
+						id: "shieldexp:griefer_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Light shields"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B1A02F83E069927"]
+			description: ["&bHeavy shields&r usually deal &6more damage&r upon parrying and have &6blast resistant&r. However, you will move &4slower&r and there is a&4 longer cooldown time&r."]
+			id: "64B99FA9795C4253"
+			tasks: [
+				{
+					id: "41635AADBBE642F0"
+					item: {
+						Count: 1b
+						id: "shieldexp:diamond_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C53BE53F0DDEA43"
+					item: {
+						Count: 1b
+						id: "shieldexp:netherite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Heavy Shields"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["In this pack, you need to equip with &bquivers&r in order to &6fire arrows with a bow&r. Quivers are equipped in the curios slot."]
+			id: "0B97651D5151062D"
+			tasks: [{
+				id: "2900CB6BA3A0B095"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"nyfsquiver:quiver_holder": {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 1
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 9
+							}
+						}
+					}
+					id: "nyfsquiver:basic_quiver"
+					tag: {
+						Damage: 0
+						inventory: {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 1
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 9
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B97651D5151062D"]
+			description: ["Higher tier of quivers can store more arrows."]
+			id: "4235649274A4E3EE"
+			tasks: [{
+				id: "6901B8A20A659673"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"nyfsquiver:quiver_holder": {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 2
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 18
+							}
+						}
+					}
+					id: "nyfsquiver:iron_quiver"
+					tag: {
+						Damage: 0
+						inventory: {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 2
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 18
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B97651D5151062D"]
+			id: "42381E1DB17499E6"
+			tasks: [{
+				id: "01E4878A621E6408"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"nyfsquiver:quiver_holder": {
+							currentslot: 0
+							inventory: {
+								columns: 7
+								rows: 2
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 14
+							}
+						}
+					}
+					id: "nyfsquiver:copper_quiver"
+					tag: {
+						Damage: 0
+						inventory: {
+							currentslot: 0
+							inventory: {
+								columns: 7
+								rows: 2
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 14
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"42381E1DB17499E6"
+				"4235649274A4E3EE"
+			]
+			dependency_requirement: "one_completed"
+			id: "6F122767C280C787"
+			tasks: [{
+				id: "3819237538EB82C2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"nyfsquiver:quiver_holder": {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 3
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack18: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack19: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack20: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack21: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack22: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack23: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack24: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack25: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack26: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 27
+							}
+						}
+					}
+					id: "nyfsquiver:gold_quiver"
+					tag: {
+						Damage: 0
+						inventory: {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 3
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack18: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack19: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack20: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack21: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack22: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack23: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack24: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack25: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack26: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 27
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3B8132ABF9C1FA60"]
+			id: "4C4FAB6FB75593E1"
+			tasks: [{
+				id: "3D91B5321CC7AD3C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"nyfsquiver:quiver_holder": {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 5
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack18: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack19: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack20: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack21: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack22: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack23: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack24: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack25: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack26: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack27: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack28: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack29: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack30: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack31: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack32: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack33: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack34: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack35: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack36: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack37: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack38: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack39: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack40: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack41: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack42: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack43: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack44: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 45
+							}
+						}
+					}
+					id: "nyfsquiver:netherite_quiver"
+					tag: {
+						Damage: 0
+						inventory: {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 5
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack18: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack19: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack20: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack21: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack22: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack23: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack24: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack25: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack26: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack27: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack28: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack29: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack30: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack31: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack32: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack33: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack34: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack35: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack36: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack37: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack38: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack39: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack40: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack41: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack42: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack43: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack44: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 45
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6F122767C280C787"]
+			id: "3B8132ABF9C1FA60"
+			tasks: [{
+				id: "017B1D06171F26A8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"nyfsquiver:quiver_holder": {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 4
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack18: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack19: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack20: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack21: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack22: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack23: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack24: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack25: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack26: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack27: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack28: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack29: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack30: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack31: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack32: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack33: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack34: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack35: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 36
+							}
+						}
+					}
+					id: "nyfsquiver:diamond_quiver"
+					tag: {
+						Damage: 0
+						inventory: {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 4
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack18: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack19: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack20: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack21: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack22: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack23: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack24: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack25: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack26: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack27: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack28: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack29: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack30: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack31: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack32: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack33: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack34: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack35: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 36
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: ["Basic Minecraft bow"]
+			id: "0957A4C6B76B3E0E"
+			tasks: [{
+				id: "69741E86A9739FEF"
+				item: {
+					Count: 1b
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0957A4C6B76B3E0E"]
+			description: ["&bNew tiers of arrows&r are introduced. Every tiers of arrow increases &6projectile damage&r."]
+			id: "07EDA2391125BE20"
+			tasks: [{
+				id: "7C4A3DC8F9B2ED28"
+				item: "nyfsarcheryplus:iron_arrowhead"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07EDA2391125BE20"]
+			id: "57290E8E846A6DB4"
+			tasks: [{
+				id: "56274CA8D056B016"
+				item: "nyfsarcheryplus:iron_tipped_arrow"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["07EDA2391125BE20"]
+			id: "3D3740EAFED9F41F"
+			tasks: [{
+				id: "60B123EF2C3A9A51"
+				item: "nyfsarcheryplus:diamond_arrowhead"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D3740EAFED9F41F"]
+			id: "4750C6A2E94C8C8C"
+			tasks: [{
+				id: "6D3167FF7DC1092E"
+				item: "nyfsarcheryplus:diamond_tipped_arrow"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D3740EAFED9F41F"]
+			id: "603A3C6F6C1EF687"
+			tasks: [{
+				id: "1C9EEEE61660E0C0"
+				item: "nyfsarcheryplus:netherite_arrowhead"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["603A3C6F6C1EF687"]
+			id: "2022FFF596CED953"
+			tasks: [{
+				id: "2F49362017D96666"
+				item: "nyfsarcheryplus:netherite_tipped_arrow"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0957A4C6B76B3E0E"]
+			description: ["&bNew tiers of bows&r are introduced. Each tier increases the &6durability&r."]
+			id: "042626B2E8D02BA6"
+			tasks: [{
+				id: "75B8552A94D5D8E6"
+				item: {
+					Count: 1b
+					id: "nyfsarcheryplus:iron_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["042626B2E8D02BA6"]
+			id: "5EA707E3BD07D43C"
+			tasks: [{
+				id: "17503D3486D85A02"
+				item: {
+					Count: 1b
+					id: "nyfsarcheryplus:diamond_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5EA707E3BD07D43C"]
+			id: "7FBFB9A326732529"
+			tasks: [{
+				id: "42F6AC22C4BA7D94"
+				item: {
+					Count: 1b
+					id: "nyfsarcheryplus:netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"There are &bhigher tiered netherites&r for end games and gives you even &6higher protection values and attack damages&r."
+				""
+				"Each tier also gives &6extra effects&r. Read the tooltip for more info."
+			]
+			id: "61A8AFB17839298D"
+			tasks: [{
+				id: "02820C959E1EC008"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61A8AFB17839298D"]
+			id: "2F4AE6CE2202BCA2"
+			tasks: [{
+				id: "537F2510582B3C93"
+				item: "advancednetherite:netherite_iron_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F4AE6CE2202BCA2"]
+			id: "6004A50560DE2AC6"
+			tasks: [{
+				id: "4EC43B7192A64073"
+				item: "advancednetherite:netherite_gold_ingot"
+				type: "item"
+			}]
+			title: "&6Netherite-Gold Ingot"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6004A50560DE2AC6"]
+			id: "6249221DEA11AD4C"
+			tasks: [{
+				id: "1B64EE97DB08FC71"
+				item: "advancednetherite:netherite_emerald_ingot"
+				type: "item"
+			}]
+			title: "&2Netherite_Emerald Ingot"
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6249221DEA11AD4C"]
+			id: "47E3ADF179E2AF98"
+			tasks: [{
+				id: "1896F101279A2251"
+				item: "advancednetherite:netherite_diamond_ingot"
+				type: "item"
+			}]
+			title: "&bNetherite-Diamond Ingot"
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F4AE6CE2202BCA2"]
+			id: "4FB4C7C3ACE56947"
+			tasks: [
+				{
+					id: "576799354647D676"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0144309813F390E4"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C6885514A99EDA6"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28BAD3ED82F71953"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite-Iron Armor"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6004A50560DE2AC6"]
+			id: "7C39A31C30515EE0"
+			tasks: [
+				{
+					id: "6AC97B05DE95372F"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_gold_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "099254619AC7A1C9"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_gold_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "490F984AC104A138"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_gold_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C8A09A357CB17E2"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_gold_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Netherite-Gold Armor"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6249221DEA11AD4C"]
+			id: "532987ADE63D19D8"
+			tasks: [
+				{
+					id: "437A15A9B7152600"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_emerald_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BFAF8C95932F874"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_emerald_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61059A4539D81F2D"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_emerald_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B33574633317405"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_emerald_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&2Netherite_Emerald Armor"
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47E3ADF179E2AF98"]
+			id: "1A08403A05E9FFAF"
+			tasks: [
+				{
+					id: "78FA2A7E90097D19"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "514861234AC4AEEE"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A7B02949FF39C10"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4541B06A65C86EDA"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bNetherite-Diamond Armor"
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47E3ADF179E2AF98"]
+			id: "61ABEBB2560A24C4"
+			tasks: [{
+				id: "106507962F0F1F9D"
+				item: {
+					Count: 1b
+					id: "advancednetherite:netherite_diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bNetherite-Diamond Sword"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6249221DEA11AD4C"]
+			id: "641D991E3C25B968"
+			tasks: [{
+				id: "5501FC0D6EBC1DFD"
+				item: {
+					Count: 1b
+					id: "advancednetherite:netherite_emerald_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Netherite_Emerald Sword"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6004A50560DE2AC6"]
+			id: "7D44D63D93177914"
+			tasks: [{
+				id: "57684AECC8FDEABD"
+				item: {
+					Count: 1b
+					id: "advancednetherite:netherite_gold_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Netherite-Gold Sword"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F4AE6CE2202BCA2"]
+			id: "33FA22BD3507EBB4"
+			tasks: [{
+				id: "43927190ABE1F603"
+				item: {
+					Count: 1b
+					id: "advancednetherite:netherite_iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"New mechanics on &benchantments&r are introduced"
+				""
+				"- Lapis and items are now able to &6remain on the table&r."
+				"- Enchantments can be &6rerolled&r with the cost of lapis and a few xp"
+				"- Blocks between a bookshelf and an enchanting table are no longer forced to be air, anything without a collision box will work now such a torches or tall grass."
+			]
+			id: "03DC9E2B1FBF5831"
+			tasks: [
+				{
+					id: "7E09A5A2CC1A1E4C"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "4C06CF1B4B51AEB8"
+					item: { Count: 22b, id: "minecraft:bookshelf" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03DC9E2B1FBF5831"]
+			description: [
+				"&bEnchanting Infuser&r allows you to &6select&r which enchantments you want to put onto your item."
+				""
+				"Place &6bookshelves&r nearby like using a normal enchanting table in order to &6extend the enchanting limit&r."
+				""
+				"The enchantments available &4excludes&r curses and treasure and untradeable enchantments."
+			]
+			id: "05512920E69B5314"
+			tasks: [{
+				id: "7437EC90CD742BA6"
+				item: "enchantinginfuser:enchanting_infuser"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05512920E69B5314"]
+			description: [
+				"&bAdvanced Enchanting Infuser&r allows you to &6select&r which enchantments you want to put onto your item."
+				"It also allows &6modify&r enchantments on enchanted items."
+				"Items could also be &6repaired&r using xp."
+			]
+			id: "09A224DCE34351B5"
+			tasks: [{
+				id: "5B0E2E851204BF48"
+				item: "enchantinginfuser:advanced_enchanting_infuser"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&bUnique weapons&r are &6rare&r and &6powerful&r weapons which can be found in loot chests in dungeons."
+				"Each of them carries an &6ability&r that helps you fight mobs."
+			]
+			id: "7CC2FC597B533D43"
+			tasks: [{
+				id: "6AF1B38D96F8A763"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "simplyswords:uniques"
+					}
+				}
+				title: "Any #simplyswords:uniques"
+				type: "item"
+			}]
+			title: "Unique weapons"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7CC2FC597B533D43"]
+			description: ["Smelting of unique weapons results in Empowered Remnant."]
+			id: "3227DC29012D2428"
+			tasks: [{
+				id: "49D6E25D9AD687F5"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3227DC29012D2428"]
+			description: [
+				"Combining the &6Empowered Remnant&r with &6runic tablets&r and &6netherite ingot&r, or &6crying obsidian&r gives you a &bgem&r. This gem can be inserted into the &5socket&r of uniquee weapons which brings them additional abilities."
+				""
+				"&bNetherfused Gem&r can be inserted into &5Netherfused Sockets&r while &bRunefused Gem&r can be inserted into &5Runefused Sockets&r."
+				""
+				"To &6insert&r the gem, first open your inventory. &dLC&r the gem then the unique weapon to be inserted. The gem will then disappear from your cursor and goes into the socket of the weapon."
+			]
+			id: "39173F0F4F4C64DB"
+			tasks: [
+				{
+					id: "387BF89972FDF36F"
+					item: {
+						Count: 1b
+						id: "simplyswords:runefused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "66141CFF84CF6CC0"
+					item: {
+						Count: 1b
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&5Gems"
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			description: ["&b&lEpic Samurai&r and &b&lEpic Paladins&r provides tons of &6new metal ingots and gems&r. These items are able to craft new weapons and armors. Try to collect them all!"]
+			id: "402E4BB19EAFB7B2"
+			tasks: [
+				{
+					id: "04245546238D737C"
+					item: "epicpaladins:arclight_gem"
+					type: "item"
+				}
+				{
+					id: "6FA49B3400771FA7"
+					item: "epicpaladins:moonlight_gem"
+					type: "item"
+				}
+				{
+					id: "211515991D16CCA9"
+					item: "epicpaladins:bloodstone_gem"
+					type: "item"
+				}
+				{
+					id: "2D1B521E3AB8497E"
+					item: "epicpaladins:cryorium_gem"
+					type: "item"
+				}
+				{
+					id: "16B9012AE2BFB772"
+					item: "epicsamurai:ruby"
+					type: "item"
+				}
+				{
+					id: "522E9F0DAD9EA360"
+					item: "epicsamurai:jade"
+					type: "item"
+				}
+				{
+					id: "4DD504BF677F409D"
+					item: "epicsamurai:aquamarine"
+					type: "item"
+				}
+				{
+					id: "757333DD126EDE57"
+					item: "epicsamurai:onyx"
+					type: "item"
+				}
+				{
+					id: "1B7819FF21C5ECA8"
+					item: "epicsamurai:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "53FABD56E307429A"
+					item: "epicsamurai:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "54B19ACA6A6E7737"
+					item: "epicsamurai:amethyst_ingot"
+					type: "item"
+				}
+				{
+					id: "61FD6E09BA2C77BB"
+					item: "epicsamurai:quartz_ingot"
+					type: "item"
+				}
+			]
+			title: "Epic Gems and Metals"
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["402E4BB19EAFB7B2"]
+			description: ["For some armors, you need &btemplates&r to craft them. Try to collect all types of templates!"]
+			id: "179C405E62D500BD"
+			tasks: [
+				{
+					id: "3F91834AC198EC92"
+					item: "epicpaladins:arclight_template"
+					type: "item"
+				}
+				{
+					id: "2CEE09518D95FEB6"
+					item: "epicpaladins:bloodstone_template"
+					type: "item"
+				}
+				{
+					id: "345B39E79CAA45FD"
+					item: "epicpaladins:cryorium_template"
+					type: "item"
+				}
+				{
+					id: "281C587F03D8D2BB"
+					item: "epicpaladins:jade_template"
+					type: "item"
+				}
+				{
+					id: "0BF3E923423D7787"
+					item: "epicpaladins:moonlight_template"
+					type: "item"
+				}
+				{
+					id: "74E38D3E42B57915"
+					item: "epicpaladins:sculk_template"
+					type: "item"
+				}
+				{
+					id: "7C7949FE0C673366"
+					item: "epicpaladins:steel_template"
+					type: "item"
+				}
+			]
+			title: "Epic Templates"
+			x: -6.0d
+			y: -8.0d
+		}
+	]
+	title: "Weaponry"
+}
