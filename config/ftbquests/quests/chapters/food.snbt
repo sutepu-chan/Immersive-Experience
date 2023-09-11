@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1421C541ABA38519"]
 			description: ["&bFarmers Delight&r is a &6kitchen and food&r mod that allows you to craft copious type of food."]
 			id: "63976D3D56F0CC0E"
 			tasks: [
@@ -239,6 +240,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1421C541ABA38519"]
 			description: ["&bVinery&r is a mod that make &6wines&r in minecraft. Wines can also give some effects to you"]
 			id: "1D89AEC45F5CC452"
 			tasks: [
@@ -317,6 +319,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1D89AEC45F5CC452"]
 			description: ["You may also meet &bwandering wine maker&r in world that &6trades seeds and wines&r."]
 			id: "70E0292EE5822986"
 			tasks: [{

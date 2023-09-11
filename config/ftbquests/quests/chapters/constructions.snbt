@@ -28,7 +28,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -47,8 +47,350 @@
 				type: "item"
 			}]
 			title: "Additional Lights"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["There are &6modern cars&r available in this pack. However, &6energy&r is required to initiate the progress of crafting your car. Energy can be easily produced by a &bdynamo&r and &bcrank&r."]
+			id: "371D05F13A5E5480"
+			tasks: [
+				{
+					id: "300601F580C15AA5"
+					item: "car:dynamo"
+					type: "item"
+				}
+				{
+					id: "20E1805A596C86A7"
+					item: "car:crank"
+					type: "item"
+				}
+			]
+			title: "Modern Cars"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: ["&bCanola&r is the most fundamental material to &6prepare your fuel&r for cars."]
+			id: "6389CE0B6A274DAB"
+			tasks: [
+				{
+					id: "0B3AE812F917E1DD"
+					item: "car:canola_seeds"
+					type: "item"
+				}
+				{
+					id: "1FB17F921C4EF005"
+					item: "car:canola"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6389CE0B6A274DAB"
+				"371D05F13A5E5480"
+			]
+			description: ["Put your &6canola&r into the &boil mill&r to obtain &bcanola oil&r. To power the oili mil, simply place the &6dynamo&r next to the oil mill and hold &dRC&r on the crank."]
+			id: "6DEF8CD63A93F3DF"
+			tasks: [
+				{
+					id: "061F78DAADB353B7"
+					item: "car:oilmill"
+					type: "item"
+				}
+				{
+					id: "6283505C09EFD484"
+					item: "car:canola_oil_bucket"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DEF8CD63A93F3DF"]
+			description: ["Other than &6Canola Oil&r, you also need &bMethanol&r as a material of your fuel. Place &6logs&r into the &bblast furnace&r to produce Methanol."]
+			id: "24ACDAC3D377D991"
+			tasks: [
+				{
+					id: "30252AE2C18EF68A"
+					item: "car:blastfurnace"
+					type: "item"
+				}
+				{
+					id: "10C127F41FEF4D2A"
+					item: "car:methanol_bucket"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24ACDAC3D377D991"]
+			description: ["With the &6canola oil&r and &6methanol&r obtained, insert them into the &bBackmix Reactor&r. Then, &bCanola Methanol Mix&r can be obtained."]
+			id: "23EEFB6091BAB91B"
+			tasks: [
+				{
+					id: "3BA21CC1B6DD0EA6"
+					item: "car:backmix_reactor"
+					type: "item"
+				}
+				{
+					id: "50F746450F8CF88B"
+					item: "car:canola_methanol_mix_bucket"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23EEFB6091BAB91B"]
+			description: ["The &6Canola Methanol Mix&r can be further separated into &bBiodiesel&r, which is your main fuel, and &bglycerin&r as a side product. &6Glycerin&r has to be &6collected in a tank&r to make the split tank process go on."]
+			id: "4B530F721F750951"
+			tasks: [
+				{
+					id: "1A5E46122EE06B59"
+					item: "car:split_tank"
+					type: "item"
+				}
+				{
+					id: "5B0FF93A30B7CBED"
+					item: "car:glycerin_bucket"
+					type: "item"
+				}
+				{
+					id: "3242BA974422790F"
+					item: "car:bio_diesel_bucket"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4B530F721F750951"]
+			description: ["Biodiesel can &6generate FE&r in a rapid rate through &bGenerator&r."]
+			id: "76C6181C74374160"
+			tasks: [{
+				id: "6D71A14DEDC47D60"
+				item: "car:generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["76C6181C74374160"]
+			description: ["With that &6huge amount of FE&r generated, you definitely need a &befficient energy wire&r to transport the FE to your machines."]
+			id: "2C18A51147D84376"
+			tasks: [{
+				id: "051A8D85E5C8B5A8"
+				item: "car:cable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7A43FD3944EE59E8"]
+			description: [
+				"There are many &bdecorative items&r available. It is recommended to &6construct a road&r specifically for your vehicles. "
+				""
+				"Note:"
+				"Your vehicle can only &6travels up or down&r via a &bslope&r."
+			]
+			id: "3BBB04144D1E92D5"
+			tasks: [
+				{
+					id: "4D83B2CBFD44E7EE"
+					item: {
+						Count: 1b
+						id: "car:painter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42F239285D65EB93"
+					item: {
+						Count: 1b
+						id: "car:painter_yellow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EEA28ECF0A48DDF"
+					item: "car:asphalt"
+					type: "item"
+				}
+				{
+					id: "6E7F6903BDDCCE7F"
+					item: "car:guard_rail"
+					type: "item"
+				}
+				{
+					id: "14D8E1690B87C47F"
+					item: "car:sign"
+					type: "item"
+				}
+				{
+					id: "243B6A5B72D83CDF"
+					item: "car:sign_post"
+					type: "item"
+				}
+				{
+					id: "44CE9EB330C673C4"
+					item: "car:asphalt_slope"
+					type: "item"
+				}
+				{
+					id: "2C5D0BF8088F0CF1"
+					item: "car:asphalt_slope_flat_upper"
+					type: "item"
+				}
+				{
+					id: "12A0BB79E943B233"
+					item: "car:asphalt_slope_flat_lower"
+					type: "item"
+				}
+			]
+			title: "Decorations!"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59CA437DD525107D"]
+			description: [
+				"To craft your vehicle, a &bCar Workshop&r need to be placed on ground and surrounded by &b8 Car Workshop Part&r. A &6multipart workbench&r is formed. &dRC&r to open the GUI for crafting your car."
+				""
+				"There are some required components for a car, including &6car bodies&r, "
+				"&6wheels&r, &6engines&r and &6tanks&r."
+				"{@pagebreak}"
+				"There are&6 5 different types of bodies&r:"
+				"1. The wooden body (Available in all wood types)"
+				"2. The big wooden body (Available in all wood types)"
+				"3. The transporter body (Available in every Minecraft dye color)"
+				"4. The SUV body (Available in every Minecraft dye color)"
+				"5. The sportscar body (Available in every Minecraft dye color)"
+				""
+				"&bEvery car&r needs &64 wheels&r while &btransporter&r needs &66 wheels&r. &bSUV bodies&r requires &6big wheels&r and all &bother&r needs &6small wheels&r. Note that you have to put each wheel in a &6separate slot&r of the car."
+				""
+				"There are 3 types of &bengines&r. Each type have a different &6fuel consumption&r and produces different &6speed&r."
+				""
+				"The last required component is the &btank&r. There are 3 different types of tanks: Small, medium and large."
+				""
+				"There are also some &boptional components&r, which are the &6license plate holder&r, &6bumper&r (for wooden cars only),  and &6containers&r (for transporters)."
+			]
+			id: "7A43FD3944EE59E8"
+			tasks: [
+				{
+					id: "2ACAB50973624E19"
+					item: "car:car_workshop"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3886994DEFEA2F6B"
+					item: { Count: 8b, id: "car:car_workshop_outter" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A43FD3944EE59E8"]
+			description: ["&b2 Keys&r will be found in the car's inventory when a car is crafted. You can &6lock and unlock&r your car by &dRC&r when you are in the &6range of 25 blocks&r. You can &6duplicate&r your key by putting a key and an&6 iron ingot&r into a crafting table. The new key will be a copy of your old key."]
+			id: "667A5225B89ABD21"
+			tasks: [{
+				id: "29B7B7092DF17CE0"
+				item: "car:key"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4B530F721F750951"]
+			description: ["&bGas Station&r allows you to &6fill your vehicle with fuel&r. Fuel are automatically filled when you vehiclee are &6within a certain radius&r of the gas station."]
+			id: "59CA437DD525107D"
+			tasks: [{
+				id: "5CE607105619C017"
+				item: "car:gas_station"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59CA437DD525107D"]
+			description: ["&bCanister&r is the perfect item if a &6long distance&r is going to be travelled. &dShift+RC&r the canister on the &6gas station&r to refill the fuel, then &6put it into your car&r. This canister will hen be the &6backup fuel&r of your car."]
+			id: "47B5F9228FFB48F3"
+			tasks: [{
+				id: "2D29CEC8A712A352"
+				item: "car:canister"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A43FD3944EE59E8"]
+			description: [
+				"You can &6destroy&r your car by holding a Hammer/Screw Driver/Wrench in your hand and &6hitting it twice&r within half a second."
+				""
+				"Your car can get &6damage&r if you drive against other cars or blocks. It can also get damage by being &6in contact with water or lava&r."
+				""
+				"Cars can be &6repaired&r in the car workshop or with a&b repair kit&r. The repair kit will repair 5% of damage, by putting it into the slot with the repair kit icon."
+			]
+			id: "3082256B03ED07D5"
+			tasks: [{
+				id: "16647B523216C29C"
+				item: "car:repair_kit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4DA70E578178DA70"]
+			description: ["Fluid in tanks can be &6further utilized&r through a &bfluid extractor&r and &bfluid cable&r."]
+			id: "4E9455BA0FBB26D3"
+			tasks: [
+				{
+					id: "25E2D8B37693A6AE"
+					item: "car:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "1EB1A49BC57C37B5"
+					item: "car:fluid_extractor"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["6DEF8CD63A93F3DF"]
+			description: ["&6Exccessive fluid&r can be filled into &btank&r for storing. You can connect as many tanks as you wish by &6placing them side by side&r."]
+			id: "4DA70E578178DA70"
+			tasks: [{
+				id: "188B994739BA9F84"
+				item: "car:tank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
 		}
 	]
 	title: "Projects"

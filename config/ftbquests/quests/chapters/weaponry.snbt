@@ -2531,6 +2531,103 @@
 			x: -6.0d
 			y: -8.0d
 		}
+		{
+			description: ["&bMahou Tsukai &ris a magic mod that brings extremely &6powerful staffs&r to your world. To start this mod, you need to increase your &6mana&r. The &6mana capacity&r grows upon every time you uses your mana. The only way you can do now is transferring your mana into an &battuned diamond&r."]
+			id: "51D2F2168852959A"
+			tasks: [{
+				id: "763D6700A4BB6D30"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 0
+						}
+					}
+					id: "mahoutsukai:attuned_diamond"
+					tag: {
+						MAHOUTSUKAI_GEM_STORED_MANA: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mahou Tsukai"
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51D2F2168852959A"]
+			description: ["Drawing &6mahoujin&r (magic circles) requires some &6powdered gems or metals&r. You can obtain powdered form of materials with a &bpestal and mortar&r."]
+			id: "4D7B7C2425A84B29"
+			tasks: [{
+				id: "6EFCD8BB1CB4C0B1"
+				item: "mahoutsukai:mortar_and_pestle"
+				type: "item"
+			}]
+			title: "Basic equipments!"
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D7B7C2425A84B29"]
+			description: ["For some of the &6mahoujin&r, you need a &bspell cloth&r to perform."]
+			id: "27A267560AD1F26D"
+			tasks: [{
+				id: "4736AE825B51AD50"
+				item: "mahoutsukai:spell_cloth"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D7B7C2425A84B29"]
+			description: ["You need to sacrifice some of your &bblood&r in order to draw a &6mahoujin&r. &dRC&r with the dagger and press &d;&r by default."]
+			id: "0CAFB2E15E152F62"
+			tasks: [{
+				id: "19FA2ABF1A153BA9"
+				item: "mahoutsukai:dagger"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0CAFB2E15E152F62"]
+			description: ["There are many powerful weapons and staffs in &b&lMahou Tsukai&r. Check the knowledge compendium for more info."]
+			id: "16099D78359FA75A"
+			tasks: [
+				{
+					id: "11D989326E1C3096"
+					item: {
+						Count: 1b
+						id: "mahoutsukai:mystic_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6020AD897A18B955"
+					item: {
+						Count: 1b
+						id: "mahoutsukai:spatial_disorientation_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18C397DD036B6FFE"
+					item: "mahoutsukai:staff_emrys"
+					type: "item"
+				}
+			]
+			title: "Powerful Staffs"
+			x: -10.0d
+			y: 6.0d
+		}
 	]
 	title: "Weaponry"
 }

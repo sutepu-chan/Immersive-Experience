@@ -243,6 +243,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["7793421AFB8B68A7"]
+			description: ["A &6fun&r item (but &4expensive&r) for &6decorative&r purpose."]
 			id: "7A961068B99C37DE"
 			tasks: [{
 				id: "043550365B82B18A"
@@ -250,17 +252,19 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 12.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["70B680770E94DEDF"]
+			description: ["A &6fun&r item (but &4expensive&r) for &6decorative&r purpose."]
 			id: "55EB50097B91B466"
 			tasks: [{
 				id: "1F2F3CF7DE399C74"
 				item: "expandedstorage:netherite_mini_barrel"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["314A2A51411E55D4"]

@@ -130,8 +130,25 @@ ItemEvents.tooltip(e => {
     tooltips.yellow('car:gas_station', 'Fill nearby vehicles using Bio Diesel');
     //#endregion
 
-    //#region dragon mounts
-    tooltips.blue('dragonmounts:dragon_egg', 'Dragon eggs will adapt to surrounding environment and change the breed.')
+    //#region doggy talents
+    tooltips.white('doggytalents:throw_bone', 'RC to throw');
+    tooltips.white('doggytalents:throw_stick', 'RC to throw');
+    tooltips.white('doggytalents:throw_bone_wet', 'RC to remove the drool');
+    tooltips.white('doggytalents:throw_stick_wet', 'RC to remove the drool');
+    tooltips.white('doggytalents:training_treat', 'Use in level < 20');
+    tooltips.white('doggytalents:super_treat', 'Use in level 20-40');
+    tooltips.white('doggytalents:master_treat', 'Use in level 40-60');
+    tooltips.white('doggytalents:dire_treat', 'Use in level > 60');
+    e.add('doggytalents:whistle', [
+        [Text.of('RC ').gold(), Text.of('to use').gray()],
+        [Text.of('Shift+RC ').gold(), Text.of('to open GUI').gray()]
+    ]);
+    e.add('doggytalents:canine_tracker', [
+        [Text.of('RC ').gold(), Text.of('to open GUI').gray()],
+    ]);
+    e.add('doggytalents:radio_collar', [
+        [Text.of('RC ').gold(), Text.of('your doggo to equip').gray()],
+    ]);
     //#endregion
 
     //#region framed blocks
@@ -195,6 +212,9 @@ ItemEvents.tooltip(e => {
 
     //#region miscellaneous
     tooltips.darkPurple('manyideas_core:end_block', 'Just a decorative block')
+    tooltips.blue('dragonmounts:dragon_egg', 'Dragon eggs will adapt to surrounding environment and change the breed.')
+    tooltips.darkPurple('majruszsdifficulty:wither_sword', 'Turns normal skeletons into Wither skeleton by chances')
+    tooltips.darkPurple('majruszsdifficulty:enderium_upgrade_smithing_template', 'Loots in structures in the End dimension')
     //#endregion
     
 })

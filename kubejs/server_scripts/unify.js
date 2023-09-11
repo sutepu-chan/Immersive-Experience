@@ -10,4 +10,9 @@ ServerEvents.recipes(e => {
     unifyMetal('#forge:ingots/steel', ['epicsamurai:steel_ingot', 'epicpaladins:steel_ingot']);
     unifyMetal('#forge:nuggets/steel', ['epicsamurai:steel_nugget', 'epicpaladins:steel_ingot']);
     unifyMetal('#forge:storage_blocks/steel', ['epicsamurai:steel_block', 'epicpaladins:steel_block']);
+
+    e.remove({id: 'car:iron_stick'});
+    e.replaceInput({input: 'car:iron_stick'}, 'car:iron_stick', '#forge:rods/iron');
+    e.replaceOutput({output: '#forge:rods/iron'}, '#forge:rods/iron', 'createaddition:iron_rod');
+
 });

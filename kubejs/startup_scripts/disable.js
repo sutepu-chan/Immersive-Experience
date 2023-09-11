@@ -14,4 +14,5 @@ global.recipe_disable = [
     'tofucraft:tofu_shield',
     'minecraft:shield',
     'bygonenether:gilded_netherite_shield',
+    'majruszsdifficulty:ender_pouch'
 ]

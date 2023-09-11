@@ -273,8 +273,8 @@
 				item: "mutantmonsters:creeper_minion_tracker"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			description: ["Ender dragon can be &6tamed&r in this pack. Before taming, you definitely need to defeat the &5ender dragon&r!"]
@@ -285,7 +285,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -321,7 +321,7 @@
 				item: "minecraft:dragon_egg"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -369,7 +369,7 @@
 				}
 			]
 			title: "Time to go Fishing"
-			x: 2.5d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -387,6 +387,325 @@
 			title: "Riding the dragon"
 			x: 0.0d
 			y: 6.0d
+		}
+		{
+			description: [
+				"Many &6dogs mechanics and behaviour&r are enhanced in this pack. &bLeveling and talents system&rs are introduced. &dAnimation&r of dogs are also improved to make the dogs look more dynamic."
+				""
+				"To get started, you definitely need to &6tame a wolf&r first."
+			]
+			id: "2B1D1DE8F89FEC85"
+			tasks: [{
+				id: "568C647740CF6F35"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			title: "Taming a Wolf"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B1D1DE8F89FEC85"]
+			description: [
+				"To turn a tamed wolf into a &6trainable dog&r, &dRC&r your doggo to feed him a &bTraining Treat&r."
+				""
+				"&bStick&r can be used to access the &6dog's Menu&r. From there you can start customizing your dog, naming him, adjusting your dog mode, etc. More information can be found in &6Dog Menu&r."
+				""
+				"&b&nAdditional Info:&r"
+				"- Trained Dogs are now becoming &6Immortal&r"
+				"- They can only be bred by &6Breeding Bones&r"
+				"- They have &6nourishment points&r which means having food in your inventory is a must"
+			]
+			id: "298B97FF14DCCEEF"
+			tasks: [
+				{
+					id: "19E4D863CE4B7ECB"
+					item: "doggytalents:training_treat"
+					type: "item"
+				}
+				{
+					id: "4C4B394E8FE8AE3D"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "Trainable Dogs"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: [
+				"&bDog Bed&r is a placeable block that allows your dog to &6respawn&r if it happens to get slain."
+				"If the bed is owned by a dog, it will be his &6forever&r, even if broken and placed again."
+				""
+				"&dShift+RC&r with your dog nearby with &6BOTH&r of your hands &6emptied&r and they will come and make the bed their own."
+				"When your dog dies, &dRC&r the bed to &6revive&r them."
+			]
+			id: "3857B6E1B687274F"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "doggytalents:dog_bed"
+					tag: {
+						doggytalents: {
+							beddingId: "minecraft:black_wool"
+							casingId: "minecraft:acacia_planks"
+						}
+					}
+				}
+				id: "6AAB59B3DF62A47D"
+				item: {
+					Count: 1b
+					id: "doggytalents:dog_bed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: [
+				"Dog Bath is a decoration block that used to have a function."
+				""
+				"&nFunction in the past:&r"
+				"&8When standing in the dog bath, the dog seems to continuously shake, flinging water particles and occasionally dropping fish if you have spent skill points on the Fisher Dog skill, all you have to do is get your dog sitting in the bath.&r"
+			]
+			id: "1214DB4CD8296D71"
+			tasks: [{
+				id: "572ED37449915453"
+				item: "doggytalents:dog_bath"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: [
+				"&bDog Food Bowl&r &6automatically feeds&r the dog whenever its nourishment point drops to a &6certain range&r."
+				"An alternative to auto-feeding is to put food into a Trained dog with &bPuppy Pack Talent's&r inventory."
+			]
+			id: "03F4CE842634BA98"
+			tasks: [{
+				id: "741075C87270E436"
+				item: "doggytalents:food_bowl"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: ["&bThrowing Bone&r and &bThrowing Sticks&r are throwable items that let you &6play and interact&r with your doggo! (Your dog need to be in &6DOCILE&r mode)"]
+			id: "1FAC0B6687F26CD3"
+			tasks: [
+				{
+					id: "6F5AA655E0F1636A"
+					item: "doggytalents:throw_bone"
+					type: "item"
+				}
+				{
+					id: "17CC38B473D8EAA0"
+					item: "doggytalents:throw_stick"
+					type: "item"
+				}
+			]
+			title: "Playing with your dog"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: ["There are different types of treats. Each types of treats can raise your &6dog's level and spendable points&r by 1. However, there is a&6 level limit&r of using the treats. Treats with higher tiers can raise your doggo to a higher level. Reaed the tooltip for more info."]
+			id: "209BE9D4AE001AA2"
+			tasks: [{
+				id: "09C44DD887DD3B0C"
+				item: "doggytalents:super_treat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["209BE9D4AE001AA2"]
+			id: "61B0FA1A882DDB78"
+			tasks: [{
+				id: "434E85B6D496A662"
+				item: "doggytalents:master_treat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["61B0FA1A882DDB78"]
+			id: "4180B0305E2DECD7"
+			tasks: [{
+				id: "17EF3BE168B3B82E"
+				item: "doggytalents:dire_treat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: [
+				"&bWhistle&r gives your dog &6commands&r that it can listen to. Different commands are expressed via several modes."
+				""
+				"&dShift+RC&r to &6open GUI&r. Via this GUI, you will be presented with the list of modes available now:"
+				""
+				"Use &dArrow keys&r or your &dmouse&r to select the mode you want, you can also &6type to search&r for the mode and finally &dEnter&r to set the mode."
+				""
+				"Additionally, you can use the &dcorresponding Number keys&r for each mode (shown before the mode in Orange) to quickly select it."
+			]
+			id: "0F3C3FC576DDFB03"
+			tasks: [{
+				id: "56C80372F8C1286B"
+				item: "doggytalents:whistle"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: [
+				"&bCanine Tracker&r locates the &6position&r of a dog that is equipped with &6Radio Collar&r."
+				""
+				"&dRC&r to open GUI and simply select the dog you want to track."
+			]
+			id: "59E69A0C152A8241"
+			tasks: [{
+				id: "00E7BE36C767791D"
+				item: "doggytalents:canine_tracker"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: ["&bRadio Collar&r is used alongside the &6Canine Tracker&r."]
+			id: "45132D7B675539A2"
+			tasks: [{
+				id: "37C3ABF3D8A10C62"
+				item: "doggytalents:radio_collar"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: ["Trainable dogs are only &6breedable&r by &bBreeding Bone&r."]
+			id: "287D32B02C2327BE"
+			tasks: [{
+				id: "0F4957D60CD8D5CC"
+				item: "doggytalents:breeding_bone"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: [
+				"&bEnergizer Stick&r is an item that gives your dog:"
+				""
+				"- &6Glowing&r for 5 seconds"
+				"- &6Speed VII&r for 10 seconds"
+				"- &6Regeneration III&r for 5 seconds"
+			]
+			id: "2ED44D9AC33B0308"
+			tasks: [{
+				id: "32A01666820A8A2D"
+				item: "doggytalents:energizer_stick"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: ["&bBand-Aid&r is able to speed up your dog's &6Incapacitate mode&r."]
+			id: "3008AB370B8C7375"
+			tasks: [{
+				id: "4083BDCB30A35A0F"
+				item: "doggytalents:bandaid"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: ["&bAmnesia Bone&r is a craftable dev-tier item that makes your dog &6forget certain things&r (changing owners and forgetting talents). This item can only be used up to &68 times&r."]
+			id: "5F1BC558F008671F"
+			tasks: [{
+				id: "560B4C6F4EB17C6D"
+				item: "doggytalents:amnesia_bone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: ["There are some &bdyeable customization&r available to your dogs."]
+			id: "52223B38EB0E6EDB"
+			tasks: [
+				{
+					id: "46D170925B0CE552"
+					item: "doggytalents:wool_collar"
+					type: "item"
+				}
+				{
+					id: "12A3126BD198EBEA"
+					item: "doggytalents:cape_coloured"
+					type: "item"
+				}
+				{
+					id: "3517E701A1DAB3E2"
+					item: "doggytalents:bowtie"
+					type: "item"
+				}
+				{
+					id: "157F2B519C477A15"
+					item: "doggytalents:bach_wig"
+					type: "item"
+				}
+			]
+			title: "Dyeable Customization"
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["209BE9D4AE001AA2"]
+			description: ["&bTreat Bags&r help you store treats so that treats don't occupy your inventory space much."]
+			id: "431A815E9C1B875D"
+			tasks: [{
+				id: "5C6A3F782498BB1A"
+				item: "doggytalents:treat_bag"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["298B97FF14DCCEEF"]
+			description: ["&bFeathered Mantle&r is the only &6artifact&r available now that makes  your dog &6floats&r."]
+			id: "47279225ED0A389B"
+			tasks: [{
+				id: "39B12B4E41F08269"
+				item: "doggytalents:feathered_mantle"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 	title: "Pets and Friends"
