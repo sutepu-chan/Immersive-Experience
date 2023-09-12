@@ -392,6 +392,17 @@
 			x: 2.0d
 			y: 2.0d
 		}
+		{
+			description: ["&bPedestal&r is useful in &6displaying&r items."]
+			id: "52C7CB499CFD7B5D"
+			tasks: [{
+				id: "0F4E0C61724179E2"
+				item: "irons_spellbooks:pedestal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
 	]
 	title: "Projects"
 }

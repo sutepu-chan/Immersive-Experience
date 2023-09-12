@@ -707,6 +707,24 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["314EA14B07818860"]
+			description: ["&bShrine Lamp&r is able to give&6 bonus effect&r (like &6beacons&r) in a certain range. It costs &60.9 Power Point/h&r where the Power Point is absorbed in a radius of 6. You can also &6pre-store&r the Power Points by &dRC&r the lamp."]
+			id: "1AE8B602B5953B62"
+			tasks: [{
+				id: "55B01B6725F5C935"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:maid_beacon"
+					tag: {
+						StorageData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
 	]
 	title: "Pets and Friends"
 }

@@ -2628,6 +2628,1126 @@
 			x: -10.0d
 			y: 6.0d
 		}
+		{
+			description: ["You may notice that you are finding &bmagic scrolls&r during your &6exploration&r. All the scrolls can be consu&6med&r to &6cast the spells&r without consuming mana or triggering a cooldown."]
+			id: "5E143D194DEC6161"
+			tasks: [{
+				id: "0734D8A377B03B6F"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: { }
+				}
+				title: "Magic Scroll"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5E143D194DEC6161"]
+			description: ["Those &6magic scrolls&r can also be &6inscripted&r into a &bspell book&r through the &bInscription Table&r. There are different types of spell books which can be found during exploration or crafted. The tier of your spell books determines the &6maximum amount and rarity &rof the magic scroll to be inscripted."]
+			id: "352E905AA10794EA"
+			tasks: [{
+				id: "535D4C0FE3D2DABA"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2369E08DA0CBB964"]
+			description: [
+				"&bInk&r can be found in &6magic structures&r, such as wizard towers, and is the key to crafting scrolls. There are &65 variants&r, one for each rarity of scroll."
+				""
+				"When using ink in the &6Scroll Forge&r, it will allow you to craft a spell of the corresponding rarity, at the lowest level available."
+				""
+				"If the &6minimum rarity&r of a spell is higher than the ink provided, you will not be able to craft it at all, instead needing a &6higher quality ink&r to craft its first level."
+			]
+			id: "1A1A4C115EEB8E3F"
+			tasks: [
+				{
+					id: "4C146D6492F22C6E"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					id: "03078E2528B9C1F4"
+					item: "irons_spellbooks:uncommon_ink"
+					type: "item"
+				}
+				{
+					id: "20E801E8732C1797"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+				{
+					id: "1ADF0DBA19E59FF5"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+				{
+					id: "4253E7FA982D300A"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			title: "Ink"
+			x: 2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["5E143D194DEC6161"]
+			description: ["&bScroll Forge&r allows the you to craft scrolls by using &6ink, paper, and a focus&r. The &8ink&r determines the &8rarity/level&r, and the &efocus&r determines what &eschool of spells&r you can craft."]
+			id: "2369E08DA0CBB964"
+			tasks: [{
+				id: "066140475528D70A"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5E143D194DEC6161"]
+			description: [
+				"&bArcane Anvil&r allows you to &6combine magic items&r together, such as:"
+				""
+				"- Upgrading &6scrolls&r (by combining 2 scrolls of the same school at the same level)"
+				""
+				"- Upgrade school armor and Spell Books using &6upgrade orbs&r"
+				""
+				"- &6Imbue swords&r with a spell (only one at a time, scrolls cannot be retrieved after imbuing them)"
+			]
+			id: "57E9B656A6203915"
+			tasks: [{
+				id: "05B6761E2D535F31"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2369E08DA0CBB964"]
+			description: [
+				"There are &69 schools of magic&r, and you require a &bmagical focus&r to craft &6scrolls&r or &6gear pertaining&r to that school. The schools and their focus are:"
+				""
+				"&cFire&r - Blaze Rods"
+				"&bIce&r - Frozen Bones"
+				"&eLightning&r - Bottles o' Lightning"
+				"&6Holy&r - Divine Pearls"
+				"&4Blood&r - Blood Vials"
+				"&2Ender&r - Ender Pearls"
+				"&aEvocation&r - Emeralds"
+				"&8Void&r - Echo Shards"
+				"&5Poison&r - Poisonous Potatoes"
+			]
+			id: "1B269BD7FC7EFCA2"
+			tasks: [
+				{
+					id: "32D853B530C741F5"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "083329EA5B7BB73F"
+					item: "irons_spellbooks:frozen_bone"
+					type: "item"
+				}
+				{
+					id: "336A8AB2587219C6"
+					item: "irons_spellbooks:lightning_bottle"
+					type: "item"
+				}
+				{
+					id: "7CB0F3D6650EF82E"
+					item: "irons_spellbooks:divine_pearl"
+					type: "item"
+				}
+				{
+					id: "61928311B843CBC2"
+					item: "irons_spellbooks:blood_vial"
+					type: "item"
+				}
+				{
+					id: "32A145002DCBFE3D"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "3B05E9C3BB560155"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1E0E5A85E3E18D73"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "71473A5F254F4E95"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+			]
+			title: "Focuses"
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5E143D194DEC6161"]
+			description: ["&bArcane essence&r is the most common and most important &6magical material&r. It can be found in magical structures, or looted from killing magical enemies. Low amounts of it may craft weak magic items, but its primary purpose is to be condensed into &6Arcane Cloth&r or &6Arcane Ingots&r, and used in more powerful crafting recipes."]
+			id: "246A19339FC2A821"
+			tasks: [{
+				id: "5EEBE697B41DF321"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["246A19339FC2A821"]
+			id: "7C8E51BC42921CD8"
+			tasks: [{
+				id: "07F1940D1390FE99"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["246A19339FC2A821"]
+			id: "172B08DD81C9BE8F"
+			tasks: [{
+				id: "17F0A4F590D41A2B"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1B269BD7FC7EFCA2"]
+			description: ["&bRunestone&r is rare and can be found in magical structures, and are always found as &6blank runestones&r. Using 8 focuses, you can craft a runestone to a specific school, and use your &6inscribed runestone&r to craft gear related to that school."]
+			id: "5B9761B680379E04"
+			tasks: [{
+				id: "4286FF68E066869D"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["246A19339FC2A821"]
+			description: ["&bWander Magician&r set is an &6early game&r armor to give players &6additional power&r."]
+			id: "0148948D87C2AD46"
+			tasks: [
+				{
+					id: "4F11430408128727"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AD2F1B7CE2750A4"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "155E92B796E560B9"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "504746C830358E65"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wandering Magician"
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0148948D87C2AD46"]
+			description: ["&bScarecrow&r set is a &6mid game&r armor to give players &6additional power&r."]
+			id: "41DAA83AA5BCCB24"
+			tasks: [
+				{
+					id: "0AB663418F21854F"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76F0564173D78AD2"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07D1379BC3B1B26C"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3842D2E8BF7F34B1"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["41DAA83AA5BCCB24"]
+			description: ["&cPyromancer&r set is the &6late game&r armor to give players &6additional power&r for the &cschool of fire&r."]
+			id: "492D54B99B7D6F2E"
+			tasks: [
+				{
+					id: "0D7400A9B592B360"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A88EA0E9FB4653B"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pyromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2FAC07269112DE"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pyromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17245C3A088E512C"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pyromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&cPyromancer"
+			x: -8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["41DAA83AA5BCCB24"]
+			description: ["&eElectromancer&r set is the &6late game&r armor to give players &6additional power&r for the &eschool of lightning&r."]
+			id: "3862F2290A215DDD"
+			tasks: [
+				{
+					id: "2F7BDDDC64D4AEAB"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "742C4C0522D25EC4"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:electromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1669A716D05B33AF"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:electromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E0C08E1866F83E7"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:electromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eElectromancer"
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["41DAA83AA5BCCB24"]
+			description: ["&aArchevoker&r set is the &6late game&r armor to give players &6additional power&r for the &aschool of evocation&r."]
+			id: "4237ABBBD143EC32"
+			tasks: [
+				{
+					id: "66FE14E87502BC87"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13A856888D8221E8"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42F655B036F9937E"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66BD3246192F852E"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aArchevoker"
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["41DAA83AA5BCCB24"]
+			description: ["&4Cultist&r set is the &6late game&r armor to give players &6additional power&r for the &4school of blood&r."]
+			id: "04EB83B7C4606BEE"
+			tasks: [
+				{
+					id: "0286775FFF0C874D"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B3C05C9F601F1E8"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cultist_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "619292C7C583EBE4"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cultist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37ADDE68B8D14D1B"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cultist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4Cultist"
+			x: -8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["41DAA83AA5BCCB24"]
+			description: ["&bCyromancer&r set is the &6late game&r armor to give players &6additional power&r for the &bschool of ice&r."]
+			id: "21FC97CA9ED1F019"
+			tasks: [
+				{
+					id: "2BACA59BD297C827"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "435E14AF14EAF481"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cryomancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "263A7D28EB25BDC8"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cryomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C67CA52BCBA54CD"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cryomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bCyromancer"
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["41DAA83AA5BCCB24"]
+			description: ["&3Shadow-walker&r set is the &6late game&r armor to give players &6additional power&r for the &3school of ender&r."]
+			id: "00ED81E707B7EB80"
+			tasks: [
+				{
+					id: "355DB2FBF19A5961"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A66CEF2AA79E404"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50D08E219B470E4F"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28D39777F5775D2D"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&3Shadow-Walker"
+			x: -4.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["41DAA83AA5BCCB24"]
+			description: ["&6Priest&r set is the &6late game&r armor to give players &6additional power&r for the &6school of holy&r."]
+			id: "0F07B5E937BEBEC5"
+			tasks: [
+				{
+					id: "7BF9ACC20FC9AD52"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D217AEEB2F2A950"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:priest_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1508DDB426073AD8"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F8E49E18FC4201A"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Priest"
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["41DAA83AA5BCCB24"]
+			description: ["&5Plagued&r set is the &6late game&r armor to give players &6additional power&r for the &5school of poison&r."]
+			id: "2AD5AD7D8EAC56EF"
+			tasks: [
+				{
+					id: "41936C621EC7BF63"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41A5550BC832B324"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:plagued_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7222E780294C8B21"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:plagued_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7064A89FFADE75BC"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:plagued_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["49C5F38620ED41FB"]
+			description: ["&bAlchemist Cauldron&r is able to turn the scroll back into the &6ink&r, which is useful in&6 recycling unused scolls&r."]
+			id: "4D80D6F322F6524F"
+			tasks: [{
+				id: "5360A17CE2549CDC"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2369E08DA0CBB964"]
+			description: ["&bCinder Essence&r is obtained from defeating &6Ancient Knights&r. Ancient Knights spawns by &6harvesting Armor Piles&r found scattered throughout &6Ancient Battlegrounds&r."]
+			id: "49C5F38620ED41FB"
+			tasks: [{
+				id: "7712D5708734E6AA"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2369E08DA0CBB964"]
+			description: ["&bArcane Debris&r can be found &6not exposed to air below y = -38&r. Requires a &6netherite pickaxe&r to harvest."]
+			id: "646CFF3A9F0C598F"
+			tasks: [
+				{
+					id: "41C517B3C64F6ECB"
+					item: "irons_spellbooks:arcane_debris"
+					type: "item"
+				}
+				{
+					id: "60BB9B941C44721E"
+					item: "irons_spellbooks:arcane_salvage"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"646CFF3A9F0C598F"
+				"49C5F38620ED41FB"
+			]
+			description: ["&bUpgrade Orbs&r are crafted using &6Arcane debris&r and &6Cinder Essence&r. It can be used to empower your sets by with &6corresponded schools of magic&r. By default, you can only upgrade an applicable piece of equipment &6three times&r."]
+			id: "53D9266F8D787375"
+			tasks: [{
+				id: "187F8DF820EB2FA4"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			description: ["&bTerrible Armors&r are obtained from defeating &6Anglerfish&r. It gives useful &6set bonuses&r and has a pretty good armor value."]
+			id: "677481B5BE285E23"
+			tasks: [
+				{
+					id: "5920582C1645E667"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B7CA8A368A71F4C"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EA60A5C00668003"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42276BA1A636D214"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bTerrible Armor"
+			x: -10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["677481B5BE285E23"]
+			description: ["&dThe Blinding Abyss set&r is a very powerful armor set which is obtained from &6the mother of the maze&r. It also gives useful set bonuses and has a good armor value."]
+			id: "3AC3E0534B8BF826"
+			tasks: [
+				{
+					id: "37455B467952007B"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "200CFBF85594B3DF"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "035CDC5C0CE4CCD1"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A1840D104EFB394"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "671CB060327258B1"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_tiara"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&dThe Blinding Abyss"
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3AC3E0534B8BF826"]
+			description: ["&6Three-Bolt Armor&r is obtained from defeating the &5AquaMirae Boss&r. It has very useful abilities and a powerful armor value."]
+			id: "5437C27530E3BAB7"
+			tasks: [
+				{
+					id: "7350002B07FDE8CF"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4725A9BFFA9BFECD"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52C20C0C62F1874D"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0001E33FE69558D2"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Three-Bolt Armor"
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			description: ["&2Soy Sculk Bone&r is harder than turtle shell!"]
+			id: "73BC3A1C269E32AE"
+			tasks: [
+				{
+					id: "23F0EC92B686C36F"
+					item: {
+						Count: 1b
+						id: "tofucraft:sculk_bone_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55B2EBC01B7B63DC"
+					item: {
+						Count: 1b
+						id: "tofucraft:sculk_bone_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ABC793E6329BA78"
+					item: {
+						Count: 1b
+						id: "tofucraft:sculk_bone_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "616115462D21DB51"
+					item: {
+						Count: 1b
+						id: "tofucraft:sculk_bone_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&2Soy Sculk Bone Armor&r"
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			description: ["&eCrust Armor&r is the armor set with a high value of &6toughness and knockback resistance&r. Make good use of this!"]
+			id: "6A0197BAF9363BB3"
+			tasks: [
+				{
+					id: "5897B8CDA09DC331"
+					item: {
+						Count: 1b
+						id: "fromtheshadows:crust_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46426B8ED010E77D"
+					item: {
+						Count: 1b
+						id: "fromtheshadows:crust_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67C26A7C80DD69A8"
+					item: {
+						Count: 1b
+						id: "fromtheshadows:crust_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eCrust Armor"
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6A0197BAF9363BB3"]
+			description: ["&eDiabolium Armor &ris a strong armor set that &6heals you&r with the amount of damage dealt."]
+			id: "70C34A2C8976F012"
+			tasks: [
+				{
+					id: "775F56A401E5C4FD"
+					item: {
+						Count: 1b
+						id: "fromtheshadows:diabolium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61FEF9F7EDF8D261"
+					item: {
+						Count: 1b
+						id: "fromtheshadows:diabolium_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EC03718971008ED"
+					item: {
+						Count: 1b
+						id: "fromtheshadows:diabolium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDiabolium Armor"
+			x: -2.0d
+			y: -14.0d
+		}
 	]
 	title: "Weaponry"
 }

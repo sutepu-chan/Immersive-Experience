@@ -9,10 +9,10 @@
 	#If set to true, right-clicking the result slot in a crafting table will craft a full stack.
 	rightClickCraftsStack = true
 	#We both know JEI is much better. This option hides Vanilla's crafting book button instead of moving it.
-	hideVanillaCraftingGuide = false
+	hideVanillaCraftingGuide = true
 	#Set to 'DEFAULT' to enable both buttons and hotkeys. Set to 'BUTTONS' to enable buttons only. Set to 'HOTKEYS' to enable hotkeys only. Set to 'DISABLED' to disable completely.
 	#Allowed Values: DEFAULT, BUTTONS, HOTKEYS, DISABLED
-	mode = "DEFAULT"
+	mode = "BUTTONS"
 	#Add mod ids here of mods that you wish to disable Crafting Tweaks support for.
 	disabledAddons = []
 

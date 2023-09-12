@@ -1,6 +1,7 @@
 ## construction
 - create
 - minecolonies
-- car
-## magic
-- iron's spells'n spell
+
+simply sword loot config
+simply sword weapon attributes
+configure weapon value

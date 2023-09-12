@@ -686,7 +686,7 @@
 	[GameStage.MasterMode]
 		#List of entities which start the game stage after killing them.
 		#Supports 'regular expressions' when text starts with {regex} prefix.
-		triggering_entities = ["minecraft:warden"]
+		triggering_entities = ["cataclysm:ender_guardian"]
 		#List of dimensions which start the game stage after entering them.
 		#Supports 'regular expressions' when text starts with {regex} prefix.
 		triggering_dimensions = [""]

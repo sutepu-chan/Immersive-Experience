@@ -110,6 +110,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["72BFDC167B05BBE4"]
 			description: ["More contents related to the &6ancient city&r are added. A &6new dimension&r can be explored through the portal frame at the centre in ancient city. Try to &6defeat the warden&r first!"]
 			icon: "minecraft:sculk_catalyst"
 			id: "1177EE213831E998"
@@ -119,8 +120,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -132,8 +133,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: -4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -145,8 +146,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: -6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -158,8 +159,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.0d
-			y: 4.0d
+			x: -8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -171,8 +172,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.0d
-			y: 6.0d
+			x: -4.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -184,8 +185,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -4.0d
-			y: 6.0d
+			x: -6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -197,13 +198,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.0d
-			y: 6.0d
+			x: -8.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["72BFDC167B05BBE4"]
+			dependencies: [
+				"72BFDC167B05BBE4"
+				"1FE458DD0531E608"
+			]
 			description: [
-				"Killing the &bdragons&r brings you to the &cEXPERT MODE&r. In this mode, the overall difficulty increases, with features including,"
+				"Killing the &bEnder Dragons&r brings you to the &cEXPERT MODE&r. In this mode, the overall difficulty increases, with features including,"
 				""
 				"- &62x&r spawn rate"
 				"- &6More mob types&r are possible to spawn"
@@ -218,10 +222,9 @@
 			]
 			id: "113B1FA9ECCF4319"
 			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "719FB4FA23A465AD"
-				type: "kill"
-				value: 1L
+				id: "2FB0677E7F468442"
+				title: "&cEXPERT MODE"
+				type: "checkmark"
 			}]
 			title: "&cEXPERT MODE"
 			x: -6.0d
@@ -229,11 +232,11 @@
 		}
 		{
 			dependencies: [
-				"1177EE213831E998"
 				"113B1FA9ECCF4319"
+				"6F4DB0C5351F9116"
 			]
 			description: [
-				"Killing the &bwarden&r brings you to the &2MASTER MODE&r. In this mode, the overall difficulty increases, with features including,"
+				"Killing the &bEnder Guardian&r brings you to the &2MASTER MODE&r. In this mode, the overall difficulty increases, with features including,"
 				""
 				"- &63x&r spawn rate"
 				"- &6More mob types&r are possible to spawn"
@@ -406,6 +409,134 @@
 				value: 20L
 			}]
 			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: [
+				"The &5Ender Dragon&r fight becomes much more difficult now. Here are the some tweaks listed:"
+				""
+				"1. Increased &6attack variants"
+				"&r2. &6Crystal respawn&r after certain time"
+				"3. &cHealth and Damage boost&r of the Ender Dragon"
+				"4. Several types of &cmob spawns&r upon &6crystal destroyed"
+				"&r5. Several types of &cmob spawns&r upon &6crystal respawn"
+				"&r6. Several types of &cmob spawns&r while the dragon is &6sitting in the middle&r"
+			]
+			id: "1FE458DD0531E608"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "1DE8EB1501F2C059"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Savage Ender Dragon"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["113B1FA9ECCF4319"]
+			description: ["&9Ender Guardian&r is the &6most difficult&r mob to defeat in this pack (V1.0). Defeating the Ender Guardian brings you to the &2MASTER MODE&r."]
+			id: "6F4DB0C5351F9116"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:altar_of_void"
+				id: "5E628F0EE997D5DF"
+				title: "Defeat the Ender Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&9Ender Guardian"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: [
+				"&4Nehemoth&r is a brutal monster that rarely appears in caves. They will use a very brutal attack to tear you apart. They also &6harden like stones&r when exposed to &6sunlight&r during the day. But when there is no light or night comes, they start moving again. "
+				""
+				"&bCrystallized blood&r is dropped as loots, which is used to make a special material called &6diabolium&r."
+			]
+			id: "3C179B42EEBABCF3"
+			tasks: [{
+				entity: "fromtheshadows:nehemoth"
+				icon: "fromtheshadows:nehemoth_spawn_egg"
+				id: "2146068A4C010EBB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: [
+				"&bAnglerfish&r spawns underwater at any time."
+				""
+				"- It is &6more common during the day&r"
+				""
+				"- When spawned, it has a 0.5% chance to also &6spawn Mother of the Maze&r nearby."
+				""
+				"- Can &6jump onto land&r when trying to attack you."
+				""
+				"- Anglerfish &6can't move on land&r and falls on its side, but despite this it doesn't suffocate without water."
+			]
+			id: "58DEC07517992391"
+			tasks: [{
+				entity: "aquamirae:anglerfish"
+				id: "39616015D5883298"
+				type: "kill"
+				value: 5L
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58DEC07517992391"]
+			description: [
+				"&bMother of the Maze&r is a massive stingray-like creature with a cluster of amethysts on its back. It is a &6mini-boss&r and can spawn &6Underwater&r."
+				""
+				"- When Mother spawns, all nearby players will receive the following chat message: &d\"You feel a vibrations under the ice...\"&r."
+				""
+				"- Mother will attempt to &6break the ice under its target&r with its amethyst growth."
+				""
+				"- spawn along with the &6Anglerfish&r with 0.5%"
+			]
+			id: "028538773BBC64E9"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				id: "69E3BCA7A7271BCD"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Are you lucky to meet &bthe Mother of the Maze"
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["028538773BBC64E9"]
+			description: [
+				"&dGhost of Captain Cornelia&r is the main boss in &bAquamirae&r. This boss can be summoned with &bShell Horn&r."
+				""
+				"Upon &6spawning&r, Cornelia gains the&6 Levitation effect&r for a short time.There is &6no delay&r between attacks if close to the target or levitated."
+				""
+				"When health &6drops below 20%&r, Cornelia &6fully regenerates&r, gains Levitation effect, and&6 summons three Poisononed Chakras&r. This ability can only be used twice."
+				""
+				"When health&6 drops below 5%&r, Cornelia quickly regenerates health to 5-7%. She can't use this ability if she has a &7Weakness effect&r. It is possible to finish off Cornelia without a potion of weakness, but for this you need to &6deal damage equal to 5%&r of her maximum health once."
+				""
+				""
+				"&n&bNote:&r"
+				"Cornelia completely &6ignores projectile damage&r."
+			]
+			id: "3E39DA90709263EE"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "360655E96011A452"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &dGhost of Captain Cornelia&r"
+			x: -14.0d
 			y: -4.0d
 		}
 	]

@@ -12,7 +12,7 @@
 			description: [
 				"Ever wondered why the &bdamage reduction&r of armor is &4irregular&r? The damage reduction doubles between iron and diamond armors!"
 				""
-				"In this pack, the &6damage reduction formula&r are changed to achieve the seamless reduction between each tier of armor."
+				"In this pack, the &6damage reduction formula&r are modified to achieve the seamless reduction between each tier of armor."
 				""
 				"Besides, &barmor toughness&r are tweaked to be an &6additional layer of damage reduction&r, which grows with the percentage of health the hit would take and thus reduces the chance for oneshots."
 			]
