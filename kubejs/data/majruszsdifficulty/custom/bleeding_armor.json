@@ -1,0 +1,754 @@
+[
+    {
+        "id": "advancednetherite:netherite_iron_helmet",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "advancednetherite:netherite_iron_chestplate",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "advancednetherite:netherite_iron_leggings",
+        "chance_multiplier": 0.55
+    },
+    {
+        "id": "advancednetherite:netherite_iron_boots",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "advancednetherite:netherite_gold_helmet",
+        "chance_multiplier": 0.65
+    },
+    {
+        "id": "advancednetherite:netherite_gold_chestplate",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "advancednetherite:netherite_gold_leggings",
+        "chance_multiplier": 0.55
+    },
+    {
+        "id": "advancednetherite:netherite_gold_boots",
+        "chance_multiplier": 0.65
+    },
+    {
+        "id": "advancednetherite:netherite_emerald_helmet",
+        "chance_multiplier": 0.6
+    },
+    {
+        "id": "advancednetherite:netherite_emerald_chestplate",
+        "chance_multiplier": 0.45
+    },
+    {
+        "id": "advancednetherite:netherite_emerald_leggings",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "advancednetherite:netherite_emerald_boots",
+        "chance_multiplier": 0.6
+    },
+    {
+        "id": "advancednetherite:netherite_diamond_helmet",
+        "chance_multiplier": 0.55
+    },
+    {
+        "id": "advancednetherite:netherite_diamond_chestplate",
+        "chance_multiplier": 0.35
+    },
+    {
+        "id": "advancednetherite:netherite_diamond_leggings",
+        "chance_multiplier": 0.4
+    },
+    {
+        "id": "advancednetherite:netherite_diamond_boots",
+        "chance_multiplier": 0.55
+    },
+    {
+        "id": "majruszsdifficulty:enderium_helmet",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "majruszsdifficulty:enderium_chestplate",
+        "chance_multiplier": 0.3
+    },
+    {
+        "id": "majruszsdifficulty:enderium_leggings",
+        "chance_multiplier": 0.3
+    },
+    {
+        "id": "majruszsdifficulty:enderium_boots",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "cataclysm:ignitium_helmet",
+        "chance_multiplier": 0.55
+    },
+    {
+        "id": "cataclysm:ignitium_chestplate",
+        "chance_multiplier": 0.2
+    },
+    {
+        "id": "cataclysm:ignitium_leggings",
+        "chance_multiplier": 0.25
+    },
+    {
+        "id": "cataclysm:ignitium_boots",
+        "chance_multiplier": 0.55
+    },
+    {
+        "id": "enlightened_end:adamantite_armor_helmet",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "enlightened_end:adamantite_armor_chestplate",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "enlightened_end:adamantite_armor_leggings",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "enlightened_end:adamantite_armor_boots",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicpaladins:arclight_helmet",
+        "chance_multiplier": 0.65
+    },
+    {
+        "id": "epicpaladins:arclight_chestplate",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicpaladins:arclight_leggings",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicpaladins:arclight_boots",
+        "chance_multiplier": 0.6
+    },
+    {
+        "id": "epicpaladins:jade_helmet",
+        "chance_multiplier": 0.65
+    },
+    {
+        "id": "epicpaladins:jade_chestplate",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicpaladins:jade_leggings",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicpaladins:jade_boots",
+        "chance_multiplier": 0.6
+    },
+    {
+        "id": "epicpaladins:bloodstone_helmet",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "epicpaladins:bloodstone_chestplate",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicpaladins:bloodstone_leggings",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicpaladins:bloodstone_boots",
+        "chance_multiplier": 0.65
+    },
+    {
+        "id": "epicpaladins:cryorium_helmet",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "epicpaladins:cryorium_chestplate",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicpaladins:cryorium_leggings",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicpaladins:cryorium_boots",
+        "chance_multiplier": 0.65
+    },
+    {
+        "id": "epicpaladins:moonlight_helmet",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "epicpaladins:moonlight_chestplate",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicpaladins:moonlight_leggings",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicpaladins:moonlight_boots",
+        "chance_multiplier": 0.65
+    },
+    {
+        "id": "epicpaladins:sculk_helmet",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "epicpaladins:sculk_chestplate",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicpaladins:sculk_leggings",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicpaladins:sculk_boots",
+        "chance_multiplier": 0.65
+    },
+    {
+        "id": "tofucraft:tofu_solid_helmet",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "tofucraft:tofu_solid_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "tofucraft:tofu_solid_leggings",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "tofucraft:tofu_solid_boots",
+        "chance_multiplier": 0.95
+    },
+    {
+        "id": "tofucraft:tofu_metal_helmet",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "tofucraft:tofu_metal_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "tofucraft:tofu_metal_leggings",
+        "chance_multiplier": 0.85
+    },
+    {
+        "id": "tofucraft:tofu_metal_boots",
+        "chance_multiplier": 0.95
+    },
+    {
+        "id": "tofucraft:tofu_diamond_helmet",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "tofucraft:tofu_diamond_chestplate",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "tofucraft:tofu_diamond_leggings",
+        "chance_multiplier": 0.75
+    },
+    {
+        "id": "tofucraft:tofu_diamond_boots",
+        "chance_multiplier": 0.85
+    },
+    {
+        "id": "tofucraft:sculk_bone_helmet",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "tofucraft:sculk_bone_chestplate",
+        "chance_multiplier": 0.65
+    },
+    {
+        "id": "tofucraft:sculk_bone_leggings",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "tofucraft:sculk_bone_boots",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "aquamirae:terrible_helmet",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "aquamirae:terrible_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "aquamirae:terrible_leggings",
+        "chance_multiplier": 0.85
+    },
+    {
+        "id": "aquamirae:terrible_boots",
+        "chance_multiplier": 0.95
+    },
+    {
+        "id": "aquamirae:abyssal_helmet",
+        "chance_multiplier": 0.65
+    },
+    {
+        "id": "aquamirae:abyssal_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "aquamirae:abyssal_leggings",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "aquamirae:abyssal_boots",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "aquamirae:three_bolt_helmet",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "aquamirae:three_bolt_chestplate",
+        "chance_multiplier": 0.6
+    },
+    {
+        "id": "aquamirae:three_bolt_leggings",
+        "chance_multiplier": 0.6
+    },
+    {
+        "id": "aquamirae:three_bolt_boots",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "deeperdarker:warden_helmet",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "deeperdarker:warden_chestplate",
+        "chance_multiplier": 0.45
+    },
+    {
+        "id": "deeperdarker:warden_leggings",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "deeperdarker:warden_boots",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "epicsamurai:gold_samurai_helmet",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:gold_samurai_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicsamurai:gold_samurai_leggings",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:gold_samurai_boots",
+        "chance_multiplier": 1
+    },
+    {
+        "id": "epicsamurai:iron_samurai_helmet",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:iron_samurai_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicsamurai:iron_samurai_leggings",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:iron_samurai_boots",
+        "chance_multiplier": 1
+    },
+    {
+        "id": "epicsamurai:silver_samurai_helmet",
+        "chance_multiplier": 0.85
+    },
+    {
+        "id": "epicsamurai:silver_samurai_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicsamurai:silver_samurai_leggings",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:silver_samurai_boots",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:steel_helmet",
+        "chance_multiplier": 0.85
+    },
+    {
+        "id": "epicsamurai:steel_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicsamurai:steel_leggings",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:steel_boots",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:red_samurai_helmet",
+        "chance_multiplier": 0.85
+    },
+    {
+        "id": "epicsamurai:red_samurai_chestplate",
+        "chance_multiplier": 0.75
+    },
+    {
+        "id": "epicsamurai:red_samurai_leggings",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicsamurai:red_samurai_boots",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:diamond_samurai_helmet",
+        "chance_multiplier": 0.85
+    },
+    {
+        "id": "epicsamurai:diamond_samurai_chestplate",
+        "chance_multiplier": 0.75
+    },
+    {
+        "id": "epicsamurai:diamond_samurai_leggings",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicsamurai:diamond_samurai_boots",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:brass_samurai_helmet",
+        "chance_multiplier": 0.85
+    },
+    {
+        "id": "epicsamurai:brass_samurai_chestplate",
+        "chance_multiplier": 0.75
+    },
+    {
+        "id": "epicsamurai:brass_samurai_leggings",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicsamurai:brass_samurai_boots",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:gray_samurai_helmet",
+        "chance_multiplier": 0.85
+    },
+    {
+        "id": "epicsamurai:gray_samurai_chestplate",
+        "chance_multiplier": 0.75
+    },
+    {
+        "id": "epicsamurai:gray_samurai_leggings",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicsamurai:gray_samurai_boots",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:green_samurai_helmet",
+        "chance_multiplier": 0.85
+    },
+    {
+        "id": "epicsamurai:green_samurai_chestplate",
+        "chance_multiplier": 0.75
+    },
+    {
+        "id": "epicsamurai:green_samurai_leggings",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicsamurai:green_samurai_boots",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:blue_samurai_helmet",
+        "chance_multiplier": 0.85
+    },
+    {
+        "id": "epicsamurai:blue_samurai_chestplate",
+        "chance_multiplier": 0.75
+    },
+    {
+        "id": "epicsamurai:blue_samurai_leggings",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicsamurai:blue_samurai_boots",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:amethyst_samurai_helmet",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "epicsamurai:amethyst_samurai_chestplate",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicsamurai:amethyst_samurai_leggings",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicsamurai:amethyst_samurai_boots",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "epicsamurai:quartz_samurai_helmet",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "epicsamurai:quartz_samurai_chestplate",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicsamurai:quartz_samurai_leggings",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicsamurai:quartz_samurai_boots",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "epicsamurai:netherite_samurai_helmet",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "epicsamurai:netherite_samurai_chestplate",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicsamurai:netherite_samurai_leggings",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicsamurai:netherite_samurai_boots",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "epicsamurai:sculk_samurai_helmet",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "epicsamurai:sculk_samurai_chestplate",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicsamurai:sculk_samurai_leggings",
+        "chance_multiplier": 0.5
+    },
+    {
+        "id": "epicsamurai:sculk_samurai_boots",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "minecraft:leather_helmet",
+        "chance_multiplier": 1
+    },
+    {
+        "id": "minecraft:leather_chestplate",
+        "chance_multiplier": 0.95
+    },
+    {
+        "id": "minecraft:leather_leggings",
+        "chance_multiplier": 0.95
+    },
+    {
+        "id": "minecraft:leather_boots",
+        "chance_multiplier": 1
+    },
+    {
+        "id": "minecraft:iron_helmet",
+        "chance_multiplier": 0.95
+    },
+    {
+        "id": "minecraft:iron_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "minecraft:iron_leggings",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "minecraft:iron_boots",
+        "chance_multiplier": 1
+    },
+    {
+        "id": "minecraft:golden_helmet",
+        "chance_multiplier": 0.95
+    },
+    {
+        "id": "minecraft:golden_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "minecraft:golden_leggings",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "minecraft:golden_boots",
+        "chance_multiplier": 1
+    },
+    {
+        "id": "minecraft:diamond_helmet",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "minecraft:diamond_chestplate",
+        "chance_multiplier": 0.65
+    },
+    {
+        "id": "minecraft:diamond_leggings",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "minecraft:diamond_boots",
+        "chance_multiplier": 0.85
+    },
+    {
+        "id": "minecraft:netherite_helmet",
+        "chance_multiplier": 0.75
+    },
+    {
+        "id": "minecraft:netherite_chestplate",
+        "chance_multiplier": 0.55
+    },
+    {
+        "id": "minecraft:netherite_leggings",
+        "chance_multiplier": 0.6
+    },
+    {
+        "id": "minecraft:netherite_boots",
+        "chance_multiplier": 0.75
+    },
+    {
+        "id": "epicpaladins:assassin_helmet",
+        "chance_multiplier": 0.95
+    },
+    {
+        "id": "epicpaladins:assassin_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicpaladins:assassin_leggings",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicpaladins:assassin_boots",
+        "chance_multiplier": 1
+    },
+    {
+        "id": "epicpaladins:knight_helmet",
+        "chance_multiplier": 0.95
+    },
+    {
+        "id": "epicpaladins:knight_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicpaladins:knight_leggings",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicpaladins:knight_boots",
+        "chance_multiplier": 1
+    },
+    {
+        "id": "monsterplus:crystal_helmet",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "monsterplus:crystal_chestplate",
+        "chance_multiplier": 0.75
+    },
+    {
+        "id": "monsterplus:crystal_leggings",
+        "chance_multiplier": 0.75
+    },
+    {
+        "id": "monsterplus:crystal_boots",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:iron_helmet",
+        "chance_multiplier": 0.95
+    },
+    {
+        "id": "epicsamurai:iron_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicsamurai:iron_leggings",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:iron_boots",
+        "chance_multiplier": 1
+    },
+    {
+        "id": "epicsamurai:golden_helmet",
+        "chance_multiplier": 0.95
+    },
+    {
+        "id": "epicsamurai:golden_chestplate",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicsamurai:golden_leggings",
+        "chance_multiplier": 0.9
+    },
+    {
+        "id": "epicsamurai:golden_boots",
+        "chance_multiplier": 1
+    },
+    {
+        "id": "epicsamurai:diamond_helmet",
+        "chance_multiplier": 0.8
+    },
+    {
+        "id": "epicsamurai:diamond_chestplate",
+        "chance_multiplier": 0.65
+    },
+    {
+        "id": "epicsamurai:diamond_leggings",
+        "chance_multiplier": 0.7
+    },
+    {
+        "id": "epicsamurai:diamond_boots",
+        "chance_multiplier": 0.85
+    },
+    {
+        "id": "epicsamurai:netherite_helmet",
+        "chance_multiplier": 0.75
+    },
+    {
+        "id": "epicsamurai:netherite_chestplate",
+        "chance_multiplier": 0.55
+    },
+    {
+        "id": "epicsamurai:netherite_leggings",
+        "chance_multiplier": 0.6
+    },
+    {
+        "id": "epicsamurai:netherite_boots",
+        "chance_multiplier": 0.75
+    }
+]

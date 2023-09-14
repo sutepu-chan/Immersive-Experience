@@ -9,65 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Ever wondered why the &bdamage reduction&r of armor is &4irregular&r? The damage reduction doubles between iron and diamond armors!"
-				""
-				"In this pack, the &6damage reduction formula&r are modified to achieve the seamless reduction between each tier of armor."
-				""
-				"Besides, &barmor toughness&r are tweaked to be an &6additional layer of damage reduction&r, which grows with the percentage of health the hit would take and thus reduces the chance for oneshots."
-			]
-			id: "460C0DDC23E2A694"
-			tasks: [
-				{
-					id: "29A2F826760EFAB5"
-					item: {
-						Count: 1b
-						id: "minecraft:iron_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "56A161AC37ED0154"
-					item: {
-						Count: 1b
-						id: "minecraft:iron_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "526963413A798028"
-					item: {
-						Count: 1b
-						id: "minecraft:iron_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "05BB9A197B5B0B1D"
-					item: {
-						Count: 1b
-						id: "minecraft:iron_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Armor"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			description: ["Now you can &bimport custom pictures&r to replace the dull and boring vanilla minecraft paints!"]
 			id: "2BA1038B8676718A"
 			rewards: [

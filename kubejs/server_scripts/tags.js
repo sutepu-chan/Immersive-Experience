@@ -1,5 +1,4 @@
 ServerEvents.tags('item', e => {
-    //#region metal
     e.add('forge:storage_blocks', [
         '#forge:storage_blocks/jade',
         '#forge:storage_blocks/steel',
@@ -22,15 +21,40 @@ ServerEvents.tags('item', e => {
     e.add('forge:storage_blocks/aquamarine', ['epicsamurai:aquamarine_block']);
     e.add('forge:storage_blocks/onyx', ['epicsamurai:onyx_block']);
     e.add('forge:storage_blocks/silver', ['epicsamurai:silver_block']);
-    //#endregion
+    e.add('forge:planks', [
+        /regions_unexplored:.+planks/
+    ]);
+    e.add('minecraft:planks', [
+        /regions_unexplored:.+planks/
+    ]);
 
-    //#region curios
     e.add('curios:head', [
         'epicsamurai:kitsune_mask',
         'epicsamurai:oni_mask',
         'epicsamurai:mask_straw_hat',
         'epicsamurai:straw_hat',
-    ])
+    ]);
+
+    //#region quest
+    e.add('quest:weapons/stone', [
+        'minecraft:stone_sword',
+        'minecraft:stone_axe',
+    ]);
+    e.add('quest:weapons/iron', [
+        'minecraft:iron_sword',
+        'minecraft:iron_axe',
+        '#simplyswords:iron_gear'
+    ]);
+    e.add('quest:weapons/diamond', [
+        'minecraft:diamond_sword',
+        'minecraft:diamond_axe',
+        '#simplyswords:diamond_gear'
+    ]);
+    e.add('quest:weapons/netherite', [
+        'minecraft:netherite_sword',
+        'minecraft:netherite_axe',
+        '#simplyswords:netherite_gear'
+    ]);
 })
 
 ServerEvents.tags('block', e => {
@@ -469,4 +493,11 @@ ServerEvents.tags('block', e => {
     e.add('forge:storage_blocks/onyx', ['epicsamurai:onyx_block']);
     e.add('forge:storage_blocks/silver', ['epicsamurai:silver_block']);
     //#endregion
+
+    e.add('forge:planks', [
+        /regions_unexplored:.+planks/
+    ]);
+    e.add('minecraft:planks', [
+        /regions_unexplored:.+planks/
+    ]);
 })

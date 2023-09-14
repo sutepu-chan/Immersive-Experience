@@ -9,7 +9,7 @@
 		nutrient_level_malnourished = 10.0
 		#Initial nutrient level for new player. (default:50.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		nutrient_initial = 30.0
+		nutrient_initial = 50.0
 		#Boundary between low and target, above which good affects can occur. (default:100.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		nutrient_level_low_target = 100.0

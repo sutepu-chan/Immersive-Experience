@@ -1,4 +1,25 @@
-jei:information
+REIEvents.removeCategories(e => {
+    let id = [
+        'minecraft:anvil',
+        'minecraft:blasting',
+        'minecraft:smoking',
+        'minecraft:plugins/tag',
+        'minecraft:plugins/composting',
+        'minecraft:plugins/stripping',
+        'minecraft:plugins/pathing',
+        'minecraft:plugins/waxing',
+        'minecraft:plugins/wax_scraping',
+        'minecraft:plugins/oxidizing',
+        'minecraft:plugins/oxidation_scraping',
+        'car:painter_yellow',
+        'minecraft:campfire',
+    ];
+    id.forEach(i => {
+        e.remove(i);
+    });
+});
+// backup of category sort
+/*
 minecraft:crafting
 minecraft:brewing
 minecraft:furnace
@@ -108,5 +129,4 @@ minecraft:blasting
 minecraft:campfire
 minecraft:smoking
 car:painter_yellow
-ftbquests:loot_crate
-ftbquests:quest
+*/

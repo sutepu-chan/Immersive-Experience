@@ -350,7 +350,7 @@
 				""
 				"Your car can get &6damage&r if you drive against other cars or blocks. It can also get damage by being &6in contact with water or lava&r."
 				""
-				"Cars can be &6repaired&r in the car workshop or with a&b repair kit&r. The repair kit will repair 5% of damage, by putting it into the slot with the repair kit icon."
+				"Cars can be &6repaired&r in the car workshop or with a&b repair kit&r. The repair kit will &6repair 40% of damage&r, by putting it into the slot with the repair kit icon."
 			]
 			id: "3082256B03ED07D5"
 			tasks: [{

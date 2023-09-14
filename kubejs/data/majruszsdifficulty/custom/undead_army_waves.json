@@ -1,0 +1,212 @@
+[
+    {
+        "mobs": [
+            {
+                "type": "minecraft:zombie",
+                "count": 3,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_1"
+            },
+            {
+                "type": "minecraft:skeleton",
+                "count": 3,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_1"
+            },
+            {
+                "type": "monsterplus:swamp_zombie",
+                "count": 2,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_1"
+            },
+            {
+                "type": "monsterplus:glow_skeleton",
+                "count": 2,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_1"
+            },
+            {
+                "type": "minecraft:husk",
+                "count": 1,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_1"
+            },
+            {
+                "type": "minecraft:stray",
+                "count": 1,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_1"
+            }
+        ],
+        "exp": 20
+    },
+    {
+        "mobs": [
+            {
+                "type": "monsterplus:swamp_zombie",
+                "count": 3,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_1"
+            },
+            {
+                "type": "monsterplus:glow_skeleton",
+                "count": 4,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_2"
+            },
+            {
+                "type": "monsterplus:overgrown_skeleton",
+                "count": 2,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_2"
+            },
+            {
+                "type": "enderzoology:infested_zombie",
+                "count": 3,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_2"
+            },
+            {
+                "type": "enderzoology:fallen_knight",
+                "count": 2
+            }
+        ],
+        "boss": {
+            "type": "majruszsdifficulty:tank"
+        },
+        "exp": 40
+    },
+    {
+        "mobs": [
+            {
+                "type": "monsterplus:crystal_zombie",
+                "count": 3,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_3"
+            },
+            {
+                "type": "monsterplus:glow_skeleton",
+                "count": 5,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_3"
+            },
+            {
+                "type": "monsterplus:overgrown_skeleton",
+                "count": 3,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_3_skeleton"
+            },
+            {
+                "type": "minecraft:stray",
+                "count": 3,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_3_skeleton"
+            },
+            {
+                "type": "enderzoology:fallen_knight",
+                "count": 2
+            },
+            {
+                "type": "bygonenether:wither_skeleton_knight",
+                "count": 1
+            }
+        ],
+        "exp": 60,
+        "game_stage": "EXPERT"
+    },
+    {
+        "mobs": [
+            {
+                "type": "monsterplus:crystal_zombie",
+                "count": 4,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_4"
+            },
+            {
+                "type": "monsterplus:glow_skeleton",
+                "count": 5,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_4"
+            },
+            {
+                "type": "monsterplus:overgrown_skeleton",
+                "count": 2,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_4_skeleton"
+            },
+            {
+                "type": "enderzoology:fallen_knight",
+                "count": 5
+            },
+            {
+                "type": "bygonenether:wither_skeleton_knight",
+                "count": 3
+            },
+            {
+                "type": "majruszsdifficulty:tank",
+                "count": 2
+            }
+        ],
+        "boss": {
+            "type": "majruszsdifficulty:cerberus"
+        },
+        "exp": 80,
+        "game_stage": "EXPERT"
+    },
+    {
+        "mobs": [
+            {
+                "type": "enderzoology:fallen_knight",
+                "count": 5,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_5"
+            },
+            {
+                "type": "bygonenether:wither_skeleton_knight",
+                "count": 5,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_5"
+            },
+            {
+                "type": "majruszsdifficulty:tank",
+                "count": 3
+            },
+            {
+                "type": "majruszsdifficulty:cerberus",
+                "count": 2
+            },
+            {
+                "type": "mutantmonsters:mutant_skeleton",
+                "count": 1
+            },
+            {
+                "type": "mutantmonsters:mutant_zombie",
+                "count": 1
+            },
+            {
+                "type": "majruszsdifficulty:giant",
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_5"
+            }
+        ],
+        
+        "exp": 100,
+        "game_stage": "MASTER"
+    },
+    {
+        "mobs": [
+            {
+                "type": "majruszsdifficulty:giant",
+                "count": 1,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_6"
+            },
+            {
+                "type": "mutantmonsters:mutant_skeleton",
+                "count": 2
+            },
+            {
+                "type": "mutantmonsters:mutant_zombie",
+                "count": 2
+            },
+            {
+                "type": "majruszsdifficulty:cerberus",
+                "count": 3
+            },
+            {
+                "type": "enderzoology:fallen_knight",
+                "count": 5,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_6"
+            },
+            {
+                "type": "bygonenether:wither_skeleton_knight",
+                "count": 5,
+                "equipment": "majruszsdifficulty:undead_army/equipment_wave_6"
+            }
+        ],
+        "boss": {
+            "type": "cataclysm:ender_golem"
+        },
+        "exp": 200,
+        "game_stage": "MASTER"
+    }
+]

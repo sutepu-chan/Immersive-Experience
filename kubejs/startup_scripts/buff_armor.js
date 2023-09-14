@@ -172,15 +172,6 @@ ItemEvents.modification(e => {
             }
         },
         {
-            name: 'aquamirae:three_bolt',
-            attributes: {
-                armor: [6, 4, 4, 4], //13 9 9 7
-                armor_toughness: 2, //4
-                knockback_resistance: 0.1, //0.2
-                max_health: 3
-            }
-        },
-        {
             name: 'deeperdarker:warden',
             attributes: {
                 armor: [2, 3, 2, 2], //6 12 9 6
@@ -290,6 +281,42 @@ ItemEvents.modification(e => {
                 armor_toughness: 0.5, //3.5
                 knockback_resistance: 0.05, //0.15
                 max_health: 1
+            }
+        },
+        {
+            name: 'monsterplus:crystal',
+            attributes: {
+                armor: [2, 4, 4, 4], //5 12 10 7
+                armor_toughness: 2.5,
+                knockback_resistance: 0.1,
+                max_health: 2
+            }
+        },
+        {
+            name: 'epicsamurai:iron',
+            attributes: {
+                armor: [0, 1, 1, 0],
+            }
+        },
+        {
+            name: 'epicsamurai:golden',
+            attributes: {
+                armor: [0, 1, 1, 0],
+            }
+        },
+        {
+            name: 'epicsamurai:diamond',
+            attributes: {
+                armor: [2, 4, 4, 4],
+                armor_toughness: 1,
+                knockback_resistance: 0.1,
+            }
+        },
+        {
+            name: 'epicsamurai:netherite',
+            attributes: {
+                armor: [1, 1, 1, 1],
+                knockback_resistance: 0.1,
             }
         },
     ];
@@ -561,37 +588,7 @@ ItemEvents.modification(e => {
             $AM$Operation.ADDITION
         );
     });
-    //mutant skeleton 2 6 5 2 + 3 4 3 3
-    e.modify('mutantmonsters:mutant_skeleton_skull', (item) => {
-        item.addAttribute(
-            'minecraft:generic.armor',
-            $UUID.randomUUID(),
-            "Armor modifier",
-            3,
-            $AM$Operation.ADDITION
-        );
-        item.addAttribute(
-            'minecraft:generic.armor_toughness',
-            $UUID.randomUUID(),
-            "Armor modifier",
-            3.5,
-            $AM$Operation.ADDITION
-        );
-        item.addAttribute(
-            'minecraft:generic.knockback_resistance',
-            $UUID.randomUUID(),
-            "Armor modifier",
-            0.1,
-            $AM$Operation.ADDITION
-        );
-        item.addAttribute(
-            'minecraft:generic.max_health',
-            $UUID.randomUUID(),
-            "Armor modifier",
-            1,
-            $AM$Operation.ADDITION
-        );
-    });
+    //mutant skeleton 6 5 2 + 4 3 3
     e.modify('mutantmonsters:mutant_skeleton_chestplate', (item) => {
         item.addAttribute(
             'minecraft:generic.armor',
@@ -679,6 +676,126 @@ ItemEvents.modification(e => {
             $UUID.randomUUID(),
             "Armor modifier",
             1,
+            $AM$Operation.ADDITION
+        );
+    });
+    e.modify('aquamirae:three_bolt_helmet', (item) => {
+        item.addAttribute(
+            'minecraft:generic.armor',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            6,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.armor_toughness',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            2,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.knockback_resistance',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            0.1,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.max_health',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            3,
+            $AM$Operation.ADDITION
+        );
+    });
+    e.modify('aquamirae:three_bolt_suit', (item) => {
+        item.addAttribute(
+            'minecraft:generic.armor',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            4,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.armor_toughness',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            2,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.knockback_resistance',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            0.1,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.max_health',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            3,
+            $AM$Operation.ADDITION
+        );
+    });
+    e.modify('aquamirae:three_bolt_leggings', (item) => {
+        item.addAttribute(
+            'minecraft:generic.armor',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            4,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.armor_toughness',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            2,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.knockback_resistance',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            0.1,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.max_health',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            3,
+            $AM$Operation.ADDITION
+        );
+    });
+    e.modify('aquamirae:three_bolt_boots', (item) => {
+        item.addAttribute(
+            'minecraft:generic.armor',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            4,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.armor_toughness',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            2,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.knockback_resistance',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            0.1,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.max_health',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            3,
             $AM$Operation.ADDITION
         );
     });

@@ -1,0 +1,4567 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventure"
+	group: "2567E5CB30369DC8"
+	id: "63CF6D2AE1BDAB89"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6B8F7E9D7F8F3608"]
+			description: [
+				"Have you ever wondered why the &bdamage reduction&r of armor is &4inconsistent&r? The damage reduction doubles between iron and diamond armors!"
+				""
+				"In this pack, the &6damage reduction formula&r has been modified to achieve a smooth progression between each tier of armor."
+				""
+				"When the armor value &6falls below 10&r (equivalent to having a half set of chainmail armor), you will actually take &6more damage&r."
+				""
+				"Additionally, the &barmor toughness&r has been adjusted to provide an &6additional layer of damage reduction&r. It scales based on the percentage of health the hit would take, reducing the chance of being one-shotted."
+			]
+			id: "460C0DDC23E2A694"
+			tasks: [{
+				id: "161F5C8B0DD7F0CA"
+				title: "&2I have read it!"
+				type: "checkmark"
+			}]
+			title: "&bDamage Reudction Formula"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"This pack consists of three game stages:"
+				"- &b&lNORMAL MODE&r"
+				"- &c&lEXPERT MODE&r"
+				"- &2&lMASTER MODE&r"
+				""
+				"By default, the survival game starts in &b&lNORMAL MODE&r. In this mode, the number of mobs spawned during the night increases. Additionally, mobs will have &cincreased health and damage&r during nighttime."
+				""
+				"Remember, as you progress through the stages, the game will become more &cdemanding&r. Adapt your strategies, gather resources wisely, and conquer the challenges that await you!"
+				""
+				"&6Good luck and enjoy your quest!&r"
+			]
+			id: "72BFDC167B05BBE4"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2F7DD8DBA392781D"
+				title: "&bNORMAL MODE"
+				type: "checkmark"
+			}]
+			title: "&bNORMAL MODE"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["77F85B053BFFE8AD"]
+			description: [
+				"&4Nehemoth&r is a brutal monster that rarely appears in caves. They will use a very brutal attack to tear you apart. They also &6harden like stones&r when exposed to &6sunlight&r during the day. But when there is no light or night comes, they start moving again."
+				""
+				"&bCrystallized blood&r is dropped as loot, which is used to make a special material called &6diabolium&r."
+			]
+			id: "3C179B42EEBABCF3"
+			tasks: [{
+				entity: "fromtheshadows:nehemoth"
+				icon: "fromtheshadows:nehemoth_spawn_egg"
+				id: "2146068A4C010EBB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4Nehemoth - the king of cave"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: ["The og &bMinecraft Monsters&r is brought back to modern version of Minecraft. They are more &6formidable&r than ever. Prepare yourself for &6intense battles&r as they possess powerful abilities and are difficult to defeat"]
+			hide_dependency_lines: true
+			id: "37CD8B33B32C8A2A"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_creeper"
+					icon: "mutantmonsters:mutant_creeper_spawn_egg"
+					id: "17175108EC7B6ADC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mutantmonsters:mutant_enderman"
+					icon: "mutantmonsters:mutant_enderman_spawn_egg"
+					id: "2B4A6F9AC7E24006"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+					id: "744017265735BD39"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mutantmonsters:mutant_zombie"
+					icon: "mutantmonsters:mutant_zombie_spawn_egg"
+					id: "6E9E997CCADE0740"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mutantmonsters:spider_pig"
+					icon: "mutantmonsters:spider_pig_spawn_egg"
+					id: "70E889CB3A78EC45"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mutantmonsters:mutant_snow_golem"
+					icon: "mutantmonsters:mutant_snow_golem_spawn_egg"
+					id: "40E41E3D7CF3FCD9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Kill all the types of Mutant Mobs"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["028538773BBC64E9"]
+			description: [
+				"&dGhost of Captain Cornelia&r is the main boss in &bAquamirae&r. This boss can be summoned with &bShell Horn&r."
+				""
+				"Upon &6spawning&r, Cornelia gains the&6 Levitation effect&r for a short time.There is &6no delay&r between attacks if close to the target or levitated."
+				""
+				"When health &6drops below 20%&r, Cornelia &6fully regenerates&r, gains Levitation effect, and&6 summons three Poisononed Chakras&r. This ability can only be used twice."
+				""
+				"When health&6 drops below 5%&r, Cornelia quickly regenerates health to 5-7%. She can't use this ability if she has a &7Weakness effect&r. It is possible to finish off Cornelia without a potion of weakness, but for this you need to &6deal damage equal to 5%&r of her maximum health once."
+				""
+				""
+				"&n&bNote:&r"
+				"Cornelia completely &6ignores projectile damage&r."
+			]
+			id: "3E39DA90709263EE"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:frozen_key"
+				id: "360655E96011A452"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &dGhost of Captain Cornelia&r"
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["58DEC07517992391"]
+			description: [
+				"&bMother of the Maze&r is a massive stingray-like creature with a cluster of amethysts on its back. It is a &6mini-boss&r and can spawn &6Underwater&r."
+				""
+				"- When Mother spawns, all nearby players will receive the following chat message: &d\"You feel a vibrations under the ice...\"&r."
+				""
+				"- Mother will attempt to &6break the ice under its target&r with its amethyst growth."
+				""
+				"- spawn along with the &6Anglerfish&r with 0.5%"
+			]
+			id: "028538773BBC64E9"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: "aquamirae:ship_graveyard_echo"
+				id: "69E3BCA7A7271BCD"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Are you lucky to meet &bthe Mother of the Maze"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4710915C2C2426D9"]
+			description: [
+				"&bAnglerfish&r spawns underwater at any time."
+				""
+				"- It is &6more common during the day&r"
+				""
+				"- When spawned, it has a 0.5% chance to also &6spawn Mother of the Maze&r nearby."
+				""
+				"- Can &6jump onto land&r when trying to attack you."
+				""
+				"- Anglerfish &6can't move on land&r and falls on its side, but despite this it doesn't suffocate without water."
+			]
+			id: "58DEC07517992391"
+			tasks: [{
+				entity: "aquamirae:anglerfish"
+				icon: "aquamirae:fin"
+				id: "39616015D5883298"
+				type: "kill"
+				value: 5L
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: ["&bSpiders&r now have a chance to inflict the &6poison effect&r. In addition, the amplifier and duration of poison effects are increased in higher difficulty modes. Be cautious when fighting them!"]
+			id: "6C8A1E30E4F12DE4"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "4DA535D7896851A5"
+				title: "Poisonous Spider"
+				type: "kill"
+				value: 50L
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: ["&bSlimes&r now have a chance to inflict the &6slowness effect&r. In addition, the amplifier and duration of the slowness effects are increased in higher difficulty modes. Be cautious when fighting them!"]
+			id: "25DC787BCAE2D037"
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "2ACDF94B0EA1C0DE"
+				title: "Slowness Slime"
+				type: "kill"
+				value: 75L
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			description: ["&bShulkers&r deals &6blindness effect&r by chance now. The amplifier and duration of poison increases difficulties with pack mode. Be aware while fighting them!"]
+			id: "285F67981081B670"
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "1BF19A1D3FE123F6"
+				title: "Blinding Shulker"
+				type: "kill"
+				value: 30L
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1177EE213831E998"]
+			id: "7D95802627CC1220"
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				icon: "deeperdarker:sculk_snapper_spawn_egg"
+				id: "53622B5ED80168CF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1177EE213831E998"]
+			description: ["Each time you break a &6Vase&r, there is a chance for a &4Stalker&r to spawn. Defeating them gives you a &bSoul Crystal&r."]
+			id: "1A1F011D9320922E"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:stalker_spawn_egg"
+				id: "33377C760BDFE9A1"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1177EE213831E998"]
+			description: ["In the depths of your exploration, you might step on &6Infested Sculk&r. A &bShriek Worm&r may rise from the ground and attack you."]
+			id: "68E93CA12BB95666"
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: "deeperdarker:shriek_worm_spawn_egg"
+				id: "6410C27E90177F9E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1177EE213831E998"]
+			id: "3828937CB4876E7A"
+			tasks: [{
+				entity: "deeperdarker:sculk_leech"
+				icon: "deeperdarker:sculk_leech_spawn_egg"
+				id: "408619D2C87766A9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5063F43A5622FF09"]
+			description: [
+				"Defeating &3the Warden&r makes you the way to the &8Otherside dimension&r."
+				""
+				"To reach &8the Otherside&r, head to the &6Portal Frame&r in the &3Ancient City&r. Climb up, and clear off any Sculk, as it will prevent it from activating."
+				""
+				"Using&d the Heart of the Deep&r to activate it. Make sure to write down the coordinates, as if you lose the Portal, the only way home is to die."
+			]
+			icon: "minecraft:sculk_catalyst"
+			id: "1177EE213831E998"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "5A34F3D393C1D6B7"
+				type: "dimension"
+			}]
+			title: "Entering &8the Otherside&r"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1177EE213831E998"]
+			description: ["&bSculk Centipedes&r can be tamed with &6Enchanted Netherite Chestplates&r, occasionally granting you valuable &6Enchanted Books&r. However, please be cautious as there are currently known issues with their behavior, and they have been reported to cause world crashes. Exercise extra care when interacting with them until the issue is resolved."]
+			id: "29E37FC3764F341E"
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				icon: "deeperdarker:sculk_centipede_spawn_egg"
+				id: "582308A0515343B1"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1177EE213831E998"]
+			id: "700CA9A21AC938AD"
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				icon: "deeperdarker:shattered_spawn_egg"
+				id: "37CC903D137297A0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			dependency_requirement: "one_completed"
+			description: ["Before exploring the world, you definitely need to &6explore the cave&r to mine for some valuable resources. Get ready and grab your &bbasic stone swords&r!"]
+			id: "66DBD397DD7C86DC"
+			tasks: [{
+				id: "6685E439879EAFCC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "quest:weapons/stone"
+					}
+				}
+				title: "Any Stone Weapon"
+				type: "item"
+			}]
+			title: "Stone Weapon"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["66DBD397DD7C86DC"]
+			description: [
+				"You definitely need a &bsufficiently powerful weapon&r to deal with those terrifying mobs. There are various types of weapons in this pack, each with &6unique attributes and properties&r, such as different &6attack ranges&r and &6attack modes&r."
+				""
+				"&7&nNote:&r"
+				"&7Craft any one of the items to complete the quest.&r"
+			]
+			id: "77F85B053BFFE8AD"
+			tasks: [{
+				id: "22F2B73FC6DECC2E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "quest:weapons/iron"
+					}
+				}
+				title: "Any Iron Weapon"
+				type: "item"
+			}]
+			title: "Iron Weapons"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77F85B053BFFE8AD"]
+			description: ["Perhaps you have noticed that the mobs are a &4bit too strong&r for you. It's time to craft some &biron gear&r so that you can continue your journey."]
+			id: "6B8F7E9D7F8F3608"
+			tasks: [
+				{
+					id: "49DCEBB4C8A03032"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F6BF4D76E80979B"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E73DFDCA0014B8B"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43DAB2B118A79438"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Armor"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["21586BF54F1F27AF"]
+			description: ["With all the &6iron and steel ingot&r you have gathered, why not give your armor a &2little upgrade&r? The &bIron Samurai Armor&r provides a slight boost in armor toughness to your Iron Armor. Plus, it looks great!"]
+			id: "19E101DAF5100D83"
+			optional: true
+			size: 0.8d
+			tasks: [
+				{
+					id: "7B01BD99B2189B64"
+					item: {
+						Count: 1b
+						id: "epicsamurai:iron_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A0930223DA8E40F"
+					item: {
+						Count: 1b
+						id: "epicsamurai:iron_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D14B02C42332582"
+					item: {
+						Count: 1b
+						id: "epicsamurai:iron_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B93603951F64ED6"
+					item: {
+						Count: 1b
+						id: "epicsamurai:iron_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Samurai Armor"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77F85B053BFFE8AD"]
+			description: ["During your &6cave exploration&r, you may come across these ores. They are valuable for &bcrafting tools and armor&r. Make sure to find them all!"]
+			id: "65233C0C2B6463E0"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4E4A7E658DB7E503"
+					item: "epicpaladins:arclight_gem"
+					type: "item"
+				}
+				{
+					id: "26CB7B93E92E83ED"
+					item: "epicpaladins:cryorium_gem"
+					type: "item"
+				}
+				{
+					id: "1E91BE50929616FD"
+					item: "epicsamurai:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "7C8223B05F8D6C63"
+					item: "epicsamurai:ruby"
+					type: "item"
+				}
+				{
+					id: "787CE0BE07733CA8"
+					item: "epicsamurai:jade"
+					type: "item"
+				}
+				{
+					id: "158F07267F70C256"
+					item: "epicsamurai:aquamarine"
+					type: "item"
+				}
+				{
+					id: "183DFE7F57A61941"
+					item: "epicsamurai:onyx"
+					type: "item"
+				}
+			]
+			title: "&bEpic Gems"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77F85B053BFFE8AD"]
+			description: ["Even though you're playing a modpack, make sure to collect all the resources from &bvanilla Minecraft&r as well! These ores are &6essential for crafting your tools and armor."]
+			id: "352CE5900BAE3041"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7DD136F5C3916A97"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6CA5FEA420C9091E"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "32BED1DEFD18A8B6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "5F9EA59D6BAC8F7D"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "671B2EC88AF5FFCA"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "59641C36623ABF38"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B8F7E9D7F8F3608"]
+			description: ["&bSteel ingots&r are vital materials for crafting powerful tools and armor. They can be obtained by &6smelting iron ingots&r in furnaces."]
+			id: "21586BF54F1F27AF"
+			tasks: [{
+				id: "0B3C567B34A60EEC"
+				item: "epicsamurai:steel_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65233C0C2B6463E0"]
+			description: ["The &bSilver Samurai&r is a formidable armor set that is &6highly effective&r in the early game. Not only does it provide excellent protection, but it also has a &6stylish appearance&r! Why not craft a set and try it on for yourself?"]
+			id: "409D9FD5CD9ECF3E"
+			optional: true
+			shape: "circle"
+			size: 0.8d
+			tasks: [
+				{
+					id: "354A6D5F6F3DB456"
+					item: {
+						Count: 1b
+						id: "epicsamurai:white_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CDCCE9EC689EAB8"
+					item: {
+						Count: 1b
+						id: "epicsamurai:white_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ADB7A05F994D263"
+					item: {
+						Count: 1b
+						id: "epicsamurai:white_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3786D8C9B6D43B10"
+					item: {
+						Count: 1b
+						id: "epicsamurai:white_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bSilver Samurai"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65233C0C2B6463E0"]
+			description: ["The &bRuby Samurai&r is a formidable armor set that is &6highly effective&r in the early game. Not only does it provide excellent protection, but it also has a &6stylish appearance&r! Why not craft a set and try it on for yourself?"]
+			id: "34166BD390A40EEB"
+			optional: true
+			size: 0.8d
+			tasks: [
+				{
+					id: "091D8A435F1DEB3B"
+					item: {
+						Count: 1b
+						id: "epicsamurai:red_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6655A7D43C007D04"
+					item: {
+						Count: 1b
+						id: "epicsamurai:red_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6564686992F30532"
+					item: {
+						Count: 1b
+						id: "epicsamurai:red_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26B447ADD03175FB"
+					item: {
+						Count: 1b
+						id: "epicsamurai:red_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bRuby Samurai"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65233C0C2B6463E0"]
+			description: ["The &bCryorium Samurai&r is a formidable armor set that is &6highly effective&r in the early game. Not only does it provide excellent protection, but it also has a &6stylish appearance&r! Why not craft a set and try it on for yourself?"]
+			id: "3705348A7C4B1007"
+			optional: true
+			size: 0.8d
+			tasks: [
+				{
+					id: "68E4B48ADF6A8D09"
+					item: {
+						Count: 1b
+						id: "epicpaladins:cryorium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "263B07C802314FDB"
+					item: {
+						Count: 1b
+						id: "epicpaladins:cryorium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "632E301868F4F060"
+					item: {
+						Count: 1b
+						id: "epicpaladins:cryorium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "254F3651C56582C0"
+					item: {
+						Count: 1b
+						id: "epicpaladins:cryorium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bCryorium Samurai"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65233C0C2B6463E0"]
+			description: ["The &bAquamarine Samurai&r is a formidable armor set that is &6highly effective&r in the early game. Not only does it provide excellent protection, but it also has a &6stylish appearance&r! Why not craft a set and try it on for yourself?"]
+			id: "129E8542F4F41841"
+			optional: true
+			size: 0.8d
+			tasks: [
+				{
+					id: "3DD6F16BD6920B38"
+					item: {
+						Count: 1b
+						id: "epicsamurai:blue_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E4A151E0E473079"
+					item: {
+						Count: 1b
+						id: "epicsamurai:blue_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E7A8C283B4BE918"
+					item: {
+						Count: 1b
+						id: "epicsamurai:blue_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "659B8D51816F55F2"
+					item: {
+						Count: 1b
+						id: "epicsamurai:blue_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bAquamarine Samurai"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65233C0C2B6463E0"]
+			description: ["The &bOnyx Samurai&r is a formidable armor set that is &6highly effective&r in the early game. Not only does it provide excellent protection, but it also has a &6stylish appearance&r! Why not craft a set and try it on for yourself?"]
+			id: "733FF249E5D5E175"
+			optional: true
+			size: 0.8d
+			tasks: [
+				{
+					id: "725E9EE0FC921573"
+					item: {
+						Count: 1b
+						id: "epicsamurai:gray_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "640191C7CEB84C58"
+					item: {
+						Count: 1b
+						id: "epicsamurai:gray_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FB4CEC2DEF68A33"
+					item: {
+						Count: 1b
+						id: "epicsamurai:gray_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "186E05C6A5039C87"
+					item: {
+						Count: 1b
+						id: "epicsamurai:gray_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bOnyx Samurai"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57AE08DD9801A6C9"]
+			description: ["The &bJade Samurai&r is a formidable armor set in the mid-game. It boasts a &6high armor value&r, along with &6excellent toughness and knockback resistance&r."]
+			id: "4927AA8BBCAF9BB9"
+			optional: true
+			size: 0.8d
+			tasks: [
+				{
+					id: "24BB7D02A35D18E1"
+					item: {
+						Count: 1b
+						id: "epicpaladins:jade_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54F01C06641F2E3B"
+					item: {
+						Count: 1b
+						id: "epicpaladins:jade_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A4E180975843DD6"
+					item: {
+						Count: 1b
+						id: "epicpaladins:jade_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "617BAD7052BCB5C3"
+					item: {
+						Count: 1b
+						id: "epicpaladins:jade_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["57AE08DD9801A6C9"]
+			description: ["The &bArclight Samurai&r is a formidable armor set in the mid-game. It boasts a &6high armor value&r, along with &6excellent toughness and knockback resistance&r."]
+			id: "4040760D416862DD"
+			optional: true
+			size: 0.8d
+			tasks: [
+				{
+					id: "13AA8D59E3192D75"
+					item: {
+						Count: 1b
+						id: "epicpaladins:arclight_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24FEFCA3F038AB93"
+					item: {
+						Count: 1b
+						id: "epicpaladins:arclight_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BAE1F81F9BE2172"
+					item: {
+						Count: 1b
+						id: "epicpaladins:arclight_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CC9AF3C5DA4654A"
+					item: {
+						Count: 1b
+						id: "epicpaladins:arclight_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65233C0C2B6463E0"]
+			description: ["The &bJade Samurai&r is a formidable armor set that is &6highly effective&r in the early game. Not only does it provide excellent protection, but it also has a &6stylish appearance&r! Why not craft a set and try it on for yourself?"]
+			id: "7B85A177DEBD68D5"
+			optional: true
+			size: 0.8d
+			tasks: [
+				{
+					id: "326CE44867C04DEC"
+					item: {
+						Count: 1b
+						id: "epicsamurai:green_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7ECE67658CDF1436"
+					item: {
+						Count: 1b
+						id: "epicsamurai:green_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11F7496AC547B211"
+					item: {
+						Count: 1b
+						id: "epicsamurai:green_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "100503390AB76ABF"
+					item: {
+						Count: 1b
+						id: "epicsamurai:green_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bJade Samurai"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["352CE5900BAE3041"]
+			description: [
+				"Similar to the &6Iron gear&r, there are also various types of &bpowerful diamond weapons&r. Craft one of them to try it out!"
+				""
+				"&7&nNote:&r"
+				"&7Craft any one of the items to complete the quest.&r"
+			]
+			id: "0AE56FEBFA8C2394"
+			tasks: [{
+				id: "0006821755FD547B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "quest:weapons/diamond"
+					}
+				}
+				title: "Any Diamond Weapon"
+				type: "item"
+			}]
+			title: "&bDiamond Weapons"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AE56FEBFA8C2394"]
+			description: ["With your diamonds mined, it's high time to venture into the &cNether&r for a wider variety of resources and more powerful tool and armor sets! Start by crafting a &bDiamond Pickaxe&r and gather some obsidian."]
+			id: "66D494BEBC50B231"
+			tasks: [{
+				id: "61FEB357AC364189"
+				item: "minecraft:obsidian"
+				title: "&dObsidian"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66DBD397DD7C86DC"]
+			description: ["&bBows&r can be obtained by &6crafting&r or by &6looting&r from mobs."]
+			id: "0957A4C6B76B3E0E"
+			tasks: [{
+				id: "69741E86A9739FEF"
+				item: {
+					Count: 1b
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0957A4C6B76B3E0E"
+				"77F85B053BFFE8AD"
+			]
+			description: ["&bNew tiers of bows&r have been introduced, with each tier increasing the &6durability&r."]
+			id: "042626B2E8D02BA6"
+			tasks: [{
+				id: "75B8552A94D5D8E6"
+				item: {
+					Count: 1b
+					id: "nyfsarcheryplus:iron_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["042626B2E8D02BA6"]
+			id: "5EA707E3BD07D43C"
+			tasks: [{
+				id: "17503D3486D85A02"
+				item: {
+					Count: 1b
+					id: "nyfsarcheryplus:diamond_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"57AE08DD9801A6C9"
+				"5EA707E3BD07D43C"
+			]
+			description: ["&bNetherite Bow&r is the &6highest tier bow&r in this pack"]
+			id: "7FBFB9A326732529"
+			tasks: [{
+				id: "42F6AC22C4BA7D94"
+				item: {
+					Count: 1b
+					id: "nyfsarcheryplus:netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07EDA2391125BE20"]
+			description: ["&bHigher-tiered arrows&r deal more damage, making them &4more powerful&r in combat."]
+			id: "57290E8E846A6DB4"
+			tasks: [{
+				id: "56274CA8D056B016"
+				item: "nyfsarcheryplus:iron_tipped_arrow"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4235649274A4E3EE"]
+			description: ["To complement your tiered bows and quivers, you'll need &bupgraded arrows&r. Start by crafting an &6arrow head&r to begin crafting arrows."]
+			id: "07EDA2391125BE20"
+			tasks: [{
+				id: "7C4A3DC8F9B2ED28"
+				item: "nyfsarcheryplus:iron_arrowhead"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07EDA2391125BE20"]
+			id: "3D3740EAFED9F41F"
+			tasks: [{
+				id: "60B123EF2C3A9A51"
+				item: "nyfsarcheryplus:diamond_arrowhead"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D3740EAFED9F41F"]
+			id: "4750C6A2E94C8C8C"
+			tasks: [{
+				id: "6D3167FF7DC1092E"
+				item: "nyfsarcheryplus:diamond_tipped_arrow"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["603A3C6F6C1EF687"]
+			id: "2022FFF596CED953"
+			tasks: [{
+				id: "2F49362017D96666"
+				item: "nyfsarcheryplus:netherite_tipped_arrow"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3D3740EAFED9F41F"
+				"57AE08DD9801A6C9"
+			]
+			id: "603A3C6F6C1EF687"
+			tasks: [{
+				id: "1C9EEEE61660E0C0"
+				item: "nyfsarcheryplus:netherite_arrowhead"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0957A4C6B76B3E0E"]
+			description: ["In this pack, you need to equip &bquivers&r in order to &6fire arrows with a bow&r. Quivers are required to equip in the curios slot."]
+			id: "0B97651D5151062D"
+			tasks: [{
+				id: "2900CB6BA3A0B095"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"nyfsquiver:quiver_holder": {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 1
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 9
+							}
+						}
+					}
+					id: "nyfsquiver:basic_quiver"
+					tag: {
+						Damage: 0
+						inventory: {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 1
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 9
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0B97651D5151062D"]
+			description: ["&bQuivers&r can now be upgraded as well. &6Higher-tier&r quivers have the ability to &6store more arrows&r at once."]
+			id: "4235649274A4E3EE"
+			tasks: [{
+				id: "6901B8A20A659673"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"nyfsquiver:quiver_holder": {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 2
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 18
+							}
+						}
+					}
+					id: "nyfsquiver:iron_quiver"
+					tag: {
+						Damage: 0
+						inventory: {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 2
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 18
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"42381E1DB17499E6"
+				"4235649274A4E3EE"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7&nNote:"
+				"&7Complete either one of the dependency requirements to unlock the quest."
+			]
+			id: "6F122767C280C787"
+			tasks: [{
+				id: "3819237538EB82C2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"nyfsquiver:quiver_holder": {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 3
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack18: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack19: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack20: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack21: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack22: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack23: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack24: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack25: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack26: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 27
+							}
+						}
+					}
+					id: "nyfsquiver:gold_quiver"
+					tag: {
+						Damage: 0
+						inventory: {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 3
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack18: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack19: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack20: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack21: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack22: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack23: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack24: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack25: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack26: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 27
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F122767C280C787"]
+			id: "3B8132ABF9C1FA60"
+			tasks: [{
+				id: "017B1D06171F26A8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"nyfsquiver:quiver_holder": {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 4
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack18: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack19: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack20: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack21: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack22: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack23: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack24: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack25: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack26: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack27: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack28: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack29: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack30: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack31: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack32: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack33: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack34: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack35: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 36
+							}
+						}
+					}
+					id: "nyfsquiver:diamond_quiver"
+					tag: {
+						Damage: 0
+						inventory: {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 4
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack18: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack19: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack20: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack21: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack22: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack23: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack24: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack25: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack26: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack27: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack28: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack29: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack30: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack31: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack32: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack33: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack34: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack35: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 36
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3B8132ABF9C1FA60"
+				"57AE08DD9801A6C9"
+			]
+			id: "4C4FAB6FB75593E1"
+			tasks: [{
+				id: "3D91B5321CC7AD3C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"nyfsquiver:quiver_holder": {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 5
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack18: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack19: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack20: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack21: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack22: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack23: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack24: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack25: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack26: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack27: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack28: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack29: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack30: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack31: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack32: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack33: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack34: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack35: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack36: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack37: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack38: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack39: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack40: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack41: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack42: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack43: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack44: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 45
+							}
+						}
+					}
+					id: "nyfsquiver:netherite_quiver"
+					tag: {
+						Damage: 0
+						inventory: {
+							currentslot: 0
+							inventory: {
+								columns: 9
+								rows: 5
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack14: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack15: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack16: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack17: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack18: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack19: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack20: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack21: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack22: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack23: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack24: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack25: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack26: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack27: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack28: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack29: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack30: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack31: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack32: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack33: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack34: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack35: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack36: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack37: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack38: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack39: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack40: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack41: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack42: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack43: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack44: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 45
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B97651D5151062D"]
+			description: ["&bQuivers&r can now be upgraded as well. &6Higher-tier&r quivers have the ability to &6store more arrows&r at once."]
+			id: "42381E1DB17499E6"
+			tasks: [{
+				id: "01E4878A621E6408"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"nyfsquiver:quiver_holder": {
+							currentslot: 0
+							inventory: {
+								columns: 7
+								rows: 2
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 14
+							}
+						}
+					}
+					id: "nyfsquiver:copper_quiver"
+					tag: {
+						Damage: 0
+						inventory: {
+							currentslot: 0
+							inventory: {
+								columns: 7
+								rows: 2
+								stack0: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack1: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack10: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack11: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack12: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack13: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack2: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack3: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack4: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack5: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack6: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack7: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack8: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stack9: {
+									Count: 3b
+									id: "minecraft:air"
+									tag: { }
+								}
+								stacks: 14
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AE56FEBFA8C2394"]
+			description: ["Find the &2Deep Dark Biome&r."]
+			id: "4D298AA0BA084E21"
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: "minecraft:sculk_shrieker"
+				id: "701F0FBB567EA821"
+				title: "Find the Deep Dark"
+				type: "biome"
+			}]
+			title: "&2Deep Dark Biome&r"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D298AA0BA084E21"]
+			description: ["Find the Kill the &3Warden&r."]
+			id: "5063F43A5622FF09"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					icon: "minecraft:sculk_catalyst"
+					id: "60E66A46478579AF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6B0BB8EFD662FF53"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+				{
+					id: "3BDCE0DE38D1804F"
+					item: "deeperdarker:warden_carapace"
+					type: "item"
+				}
+				{
+					id: "7A4A2014DEE2EA5E"
+					item: "minecraft:sculk_catalyst"
+					type: "item"
+				}
+			]
+			title: "Defeat the &3Warden"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66D494BEBC50B231"]
+			description: [
+				"It's time to venture into &4the Nether&r! Grab your &6weapons&r and equip your &6armors&r for the journey ahead!"
+				""
+				"Note:"
+				"There are many &6flying mobs&r in &4the Nether&r. Make sure to bring your &bbow, quivers and arrows&r."
+			]
+			id: "3A88AAE96B6BB165"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "29119AB02DD20A3E"
+				title: "Going to the Nether"
+				type: "dimension"
+			}]
+			title: "Venturing into &4the Nether&r"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A88AAE96B6BB165"]
+			description: ["You definitely need some &bnetherites&r... Netherites were the most powerful resources in vanilla Minecraft. Although it is still useful now, there are much more powerful things in this pack. Netherite is one of the indispensable &6materials&r to craft them."]
+			id: "57AE08DD9801A6C9"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "69FBD9053F257557"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "6055CC668BC1F4F0"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "434C59BF34570560"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			title: "&6Netherites"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: [
+				"&bThe Ice Maze&r is a sprawling cluster of &3ice spikes&r that blankets the surface of the Deep Frozen Ocean biome. These &3spikes&r intertwine and create a vast network, forming an intricate ice layer at sea level."
+				""
+				"The surface is safe during the day.  However, &4aggressive Maws&r spawns at night. You may also find &6wandering Tortured Souls&r and &6Golden Moths&r at the same time."
+				""
+				"The Underwater is more &4dangerous&r. The water will &3freeze&r you if you try to come down here without a &5Three-Bolt Armor&r. "
+				""
+				"Inside the Ice Maze, you'll encounter an assortment of structures. You can find &6Pillagers' camps&r and &6their ships&r occasionally."
+			]
+			id: "4710915C2C2426D9"
+			tasks: [{
+				biome: "#aquamirae:ice_maze"
+				icon: "minecraft:blue_ice"
+				id: "5892402BFED94006"
+				title: "Find the Ice Maze Biome"
+				type: "biome"
+			}]
+			title: "Find the Ice Maze Biome"
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7C8E51BC42921CD8"]
+			description: ["&5Plagued&r set is the &6late game&r armor to give players &6additional power&r for the &5school of poison&r."]
+			id: "2AD5AD7D8EAC56EF"
+			tasks: [
+				{
+					id: "41936C621EC7BF63"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41A5550BC832B324"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:plagued_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7222E780294C8B21"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:plagued_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7064A89FFADE75BC"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:plagued_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C8E51BC42921CD8"]
+			description: ["&4Cultist&r set is the &6late game&r armor to give players &6additional power&r for the &4school of blood&r."]
+			id: "04EB83B7C4606BEE"
+			tasks: [
+				{
+					id: "0286775FFF0C874D"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B3C05C9F601F1E8"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cultist_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "619292C7C583EBE4"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cultist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37ADDE68B8D14D1B"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cultist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4Cultist"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C8E51BC42921CD8"]
+			description: ["&cPyromancer&r set is the &6late game&r armor to give players &6additional power&r for the &cschool of fire&r."]
+			id: "492D54B99B7D6F2E"
+			tasks: [
+				{
+					id: "0D7400A9B592B360"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A88EA0E9FB4653B"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pyromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2FAC07269112DE"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pyromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17245C3A088E512C"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pyromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&cPyromancer"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C8E51BC42921CD8"]
+			description: ["&eElectromancer&r set is the &6late game&r armor to give players &6additional power&r for the &eschool of lightning&r."]
+			id: "3862F2290A215DDD"
+			tasks: [
+				{
+					id: "2F7BDDDC64D4AEAB"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "742C4C0522D25EC4"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:electromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1669A716D05B33AF"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:electromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E0C08E1866F83E7"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:electromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eElectromancer"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C8E51BC42921CD8"]
+			description: ["&aArchevoker&r set is the &6late game&r armor to give players &6additional power&r for the &aschool of evocation&r."]
+			id: "4237ABBBD143EC32"
+			tasks: [
+				{
+					id: "66FE14E87502BC87"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13A856888D8221E8"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42F655B036F9937E"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66BD3246192F852E"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aArchevoker"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C8E51BC42921CD8"]
+			description: ["&6Priest&r set is the &6late game&r armor to give players &6additional power&r for the &6school of holy&r."]
+			id: "0F07B5E937BEBEC5"
+			tasks: [
+				{
+					id: "7BF9ACC20FC9AD52"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D217AEEB2F2A950"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:priest_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1508DDB426073AD8"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F8E49E18FC4201A"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Priest"
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C8E51BC42921CD8"]
+			description: ["&3Shadow-walker&r set is the &6late game&r armor to give players &6additional power&r for the &3school of ender&r."]
+			id: "00ED81E707B7EB80"
+			tasks: [
+				{
+					id: "355DB2FBF19A5961"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A66CEF2AA79E404"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50D08E219B470E4F"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28D39777F5775D2D"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&3Shadow-Walker"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C8E51BC42921CD8"]
+			description: ["&bCyromancer&r set is the &6late game&r armor to give players &6additional power&r for the &bschool of ice&r."]
+			id: "21FC97CA9ED1F019"
+			tasks: [
+				{
+					id: "2BACA59BD297C827"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "435E14AF14EAF481"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cryomancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "263A7D28EB25BDC8"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cryomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C67CA52BCBA54CD"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cryomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bCyromancer"
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0148948D87C2AD46"]
+			description: ["&bScarecrow&r set is a &6mid game&r armor to give players &6additional power&r."]
+			id: "41DAA83AA5BCCB24"
+			tasks: [
+				{
+					id: "0AB663418F21854F"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76F0564173D78AD2"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07D1379BC3B1B26C"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3842D2E8BF7F34B1"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["246A19339FC2A821"]
+			description: ["&bWander Magician&r set is an &6early game&r armor to give players &6additional power&r."]
+			id: "0148948D87C2AD46"
+			tasks: [
+				{
+					id: "4F11430408128727"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AD2F1B7CE2750A4"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "155E92B796E560B9"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "504746C830358E65"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wandering Magician"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: ["You may notice that you are finding &bmagic scrolls&r during your &6exploration&r. All the scrolls can be consu&6med&r to &6cast the spells&r without consuming mana or triggering a cooldown."]
+			id: "5E143D194DEC6161"
+			tasks: [{
+				id: "0734D8A377B03B6F"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: { }
+				}
+				title: "Magic Scroll"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5E143D194DEC6161"]
+			description: [
+				"&bArcane Anvil&r allows you to &6combine magic items&r together, such as:"
+				""
+				"- Upgrading &6scrolls&r (by combining 2 scrolls of the same school at the same level)"
+				""
+				"- Upgrade school armor and Spell Books using &6upgrade orbs&r"
+				""
+				"- &6Imbue swords&r with a spell (only one at a time, scrolls cannot be retrieved after imbuing them)"
+			]
+			id: "57E9B656A6203915"
+			tasks: [{
+				id: "05B6761E2D535F31"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5E143D194DEC6161"]
+			description: ["&bArcane essence&r is the most common and most important &6magical material&r. It can be found in magical structures, or looted from killing magical enemies. Low amounts of it may craft weak magic items, but its primary purpose is to be condensed into &6Arcane Cloth&r or &6Arcane Ingots&r, and used in more powerful crafting recipes."]
+			id: "246A19339FC2A821"
+			tasks: [{
+				id: "5EEBE697B41DF321"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["246A19339FC2A821"]
+			id: "7C8E51BC42921CD8"
+			tasks: [{
+				id: "07F1940D1390FE99"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["246A19339FC2A821"]
+			id: "172B08DD81C9BE8F"
+			tasks: [{
+				id: "17F0A4F590D41A2B"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5E143D194DEC6161"]
+			description: ["Those &6magic scrolls&r can also be &6inscripted&r into a &bspell book&r through the &bInscription Table&r. There are different types of spell books which can be found during exploration or crafted. The tier of your spell books determines the &6maximum amount and rarity &rof the magic scroll to be inscripted."]
+			id: "352E905AA10794EA"
+			tasks: [{
+				id: "535D4C0FE3D2DABA"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5E143D194DEC6161"]
+			description: ["&bScroll Forge&r allows the you to craft scrolls by using &6ink, paper, and a focus&r. The &8ink&r determines the &8rarity/level&r, and the &efocus&r determines what &eschool of spells&r you can craft."]
+			id: "2369E08DA0CBB964"
+			tasks: [{
+				id: "066140475528D70A"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2369E08DA0CBB964"]
+			description: [
+				"&bInk&r can be found in &6magic structures&r, such as wizard towers, and is the key to crafting scrolls. There are &65 variants&r, one for each rarity of scroll."
+				""
+				"When using ink in the &6Scroll Forge&r, it will allow you to craft a spell of the corresponding rarity, at the lowest level available."
+				""
+				"If the &6minimum rarity&r of a spell is higher than the ink provided, you will not be able to craft it at all, instead needing a &6higher quality ink&r to craft its first level."
+			]
+			id: "1A1A4C115EEB8E3F"
+			tasks: [
+				{
+					id: "4C146D6492F22C6E"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					id: "03078E2528B9C1F4"
+					item: "irons_spellbooks:uncommon_ink"
+					type: "item"
+				}
+				{
+					id: "20E801E8732C1797"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+				{
+					id: "1ADF0DBA19E59FF5"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+				{
+					id: "4253E7FA982D300A"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			title: "Ink"
+			x: 8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1B269BD7FC7EFCA2"]
+			description: ["&bRunestone&r is rare and can be found in magical structures, and are always found as &6blank runestones&r. Using 8 focuses, you can craft a runestone to a specific school, and use your &6inscribed runestone&r to craft gear related to that school."]
+			id: "5B9761B680379E04"
+			tasks: [{
+				id: "4286FF68E066869D"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2369E08DA0CBB964"]
+			description: [
+				"There are &69 schools of magic&r, and you require a &bmagical focus&r to craft &6scrolls&r or &6gear pertaining&r to that school. The schools and their focus are:"
+				""
+				"&cFire&r - Blaze Rods"
+				"&bIce&r - Frozen Bones"
+				"&eLightning&r - Bottles o' Lightning"
+				"&6Holy&r - Divine Pearls"
+				"&4Blood&r - Blood Vials"
+				"&2Ender&r - Ender Pearls"
+				"&aEvocation&r - Emeralds"
+				"&8Void&r - Echo Shards"
+				"&5Poison&r - Poisonous Potatoes"
+			]
+			id: "1B269BD7FC7EFCA2"
+			tasks: [
+				{
+					id: "32D853B530C741F5"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "083329EA5B7BB73F"
+					item: "irons_spellbooks:frozen_bone"
+					type: "item"
+				}
+				{
+					id: "336A8AB2587219C6"
+					item: "irons_spellbooks:lightning_bottle"
+					type: "item"
+				}
+				{
+					id: "7CB0F3D6650EF82E"
+					item: "irons_spellbooks:divine_pearl"
+					type: "item"
+				}
+				{
+					id: "61928311B843CBC2"
+					item: "irons_spellbooks:blood_vial"
+					type: "item"
+				}
+				{
+					id: "32A145002DCBFE3D"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "3B05E9C3BB560155"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1E0E5A85E3E18D73"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "71473A5F254F4E95"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+			]
+			title: "Focuses"
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["246A19339FC2A821"]
+			description: ["&bArcane Debris&r can be found &6not exposed to air below y = -38&r. Requires a &6netherite pickaxe&r to harvest."]
+			id: "646CFF3A9F0C598F"
+			tasks: [
+				{
+					id: "41C517B3C64F6ECB"
+					item: "irons_spellbooks:arcane_debris"
+					type: "item"
+				}
+				{
+					id: "60BB9B941C44721E"
+					item: "irons_spellbooks:arcane_salvage"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2369E08DA0CBB964"]
+			description: ["&bCinder Essence&r is obtained from defeating &6Ancient Knights&r. Ancient Knights spawns by &6harvesting Armor Piles&r found scattered throughout &6Ancient Battlegrounds&r."]
+			id: "49C5F38620ED41FB"
+			tasks: [{
+				id: "7712D5708734E6AA"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["49C5F38620ED41FB"]
+			description: ["&bAlchemist Cauldron&r is able to turn the scroll back into the &6ink&r, which is useful in&6 recycling unused scolls&r."]
+			id: "4D80D6F322F6524F"
+			tasks: [{
+				id: "5360A17CE2549CDC"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"646CFF3A9F0C598F"
+				"172B08DD81C9BE8F"
+			]
+			description: ["&bUpgrade Orbs&r are crafted using &6Arcane debris&r and &6Cinder Essence&r. It can be used to empower your sets by with &6corresponded schools of magic&r. By default, you can only upgrade an applicable piece of equipment &6three times&r."]
+			id: "53D9266F8D787375"
+			tasks: [{
+				id: "187F8DF820EB2FA4"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58DEC07517992391"]
+			description: ["&bTerrible Armors&r are obtained from defeating &6Anglerfish&r. It gives useful &6set bonuses&r and has a pretty good armor value."]
+			id: "677481B5BE285E23"
+			tasks: [
+				{
+					id: "5920582C1645E667"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B7CA8A368A71F4C"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EA60A5C00668003"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42276BA1A636D214"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bTerrible Armor"
+			x: -14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"677481B5BE285E23"
+				"028538773BBC64E9"
+			]
+			description: ["&dThe Blinding Abyss set&r is a very powerful armor set which is obtained from &6the mother of the maze&r. It also gives useful set bonuses and has a good armor value."]
+			id: "3AC3E0534B8BF826"
+			tasks: [
+				{
+					id: "37455B467952007B"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "200CFBF85594B3DF"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "035CDC5C0CE4CCD1"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A1840D104EFB394"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "671CB060327258B1"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_tiara"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&dThe Blinding Abyss"
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3AC3E0534B8BF826"
+				"3E39DA90709263EE"
+			]
+			description: ["&6Three-Bolt Armor&r is obtained from defeating the &5AquaMirae Boss&r. It has very useful abilities and a powerful armor value."]
+			id: "5437C27530E3BAB7"
+			tasks: [
+				{
+					id: "7350002B07FDE8CF"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4725A9BFFA9BFECD"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52C20C0C62F1874D"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0001E33FE69558D2"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Three-Bolt Armor"
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5063F43A5622FF09"]
+			description: ["The &bReinforced Echo Shard&r is the required material to craft all the warden version armor."]
+			id: "115B98781912E453"
+			tasks: [{
+				id: "5DE749EF8B85C5A2"
+				item: "deeperdarker:reinforced_echo_shard"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["115B98781912E453"]
+			description: ["The &bWarden Armor&r is a powerful armor set obtained in the Overworld, surpassing even the strength of &6netherite armors&r."]
+			id: "5AE9A6F198433A50"
+			optional: true
+			size: 0.8d
+			tasks: [
+				{
+					id: "6596E0E8584CA0A2"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "704BB65B64BB660E"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76AACABF4D268EA3"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6856EA3123DC0DC9"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&3Warden Armor"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["115B98781912E453"]
+			description: ["The &bWarden Samurai Armor&r is a highly powerful armor set in the Samurai series."]
+			id: "32F9E67F68FF1677"
+			optional: true
+			size: 0.8d
+			tasks: [
+				{
+					id: "5FD6B92FDC2733DD"
+					item: {
+						Count: 1b
+						id: "epicsamurai:sculk_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B2AF478F3C69436"
+					item: {
+						Count: 1b
+						id: "epicsamurai:sculk_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B23A863B70C368C"
+					item: {
+						Count: 1b
+						id: "epicsamurai:sculk_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E777A898432822E"
+					item: {
+						Count: 1b
+						id: "epicsamurai:sculk_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&3Warden Samurai"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2F4AE6CE2202BCA2"]
+			id: "4FB4C7C3ACE56947"
+			tasks: [
+				{
+					id: "576799354647D676"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0144309813F390E4"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C6885514A99EDA6"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28BAD3ED82F71953"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite-Iron Armor"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["57AE08DD9801A6C9"]
+			description: [
+				"There are &bhigher tiered netherites&r for end games and gives you even &6higher protection values and attack damages&r."
+				""
+				"Each tier also gives &6extra effects&r. Read the tooltip for more info."
+			]
+			id: "2F4AE6CE2202BCA2"
+			tasks: [{
+				id: "537F2510582B3C93"
+				item: "advancednetherite:netherite_iron_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2F4AE6CE2202BCA2"]
+			id: "33FA22BD3507EBB4"
+			tasks: [{
+				id: "43927190ABE1F603"
+				item: {
+					Count: 1b
+					id: "advancednetherite:netherite_iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6004A50560DE2AC6"]
+			id: "7D44D63D93177914"
+			tasks: [{
+				id: "57684AECC8FDEABD"
+				item: {
+					Count: 1b
+					id: "advancednetherite:netherite_gold_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Netherite-Gold Sword"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F4AE6CE2202BCA2"]
+			id: "6004A50560DE2AC6"
+			tasks: [{
+				id: "4EC43B7192A64073"
+				item: "advancednetherite:netherite_gold_ingot"
+				type: "item"
+			}]
+			title: "&6Netherite-Gold Ingot"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6004A50560DE2AC6"]
+			id: "7C39A31C30515EE0"
+			tasks: [
+				{
+					id: "6AC97B05DE95372F"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_gold_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "099254619AC7A1C9"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_gold_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "490F984AC104A138"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_gold_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C8A09A357CB17E2"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_gold_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Netherite-Gold Armor"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6249221DEA11AD4C"]
+			id: "532987ADE63D19D8"
+			tasks: [
+				{
+					id: "437A15A9B7152600"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_emerald_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BFAF8C95932F874"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_emerald_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61059A4539D81F2D"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_emerald_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B33574633317405"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_emerald_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&2Netherite_Emerald Armor"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6004A50560DE2AC6"]
+			id: "6249221DEA11AD4C"
+			tasks: [{
+				id: "1B64EE97DB08FC71"
+				item: "advancednetherite:netherite_emerald_ingot"
+				type: "item"
+			}]
+			title: "&2Netherite_Emerald Ingot"
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6249221DEA11AD4C"]
+			id: "641D991E3C25B968"
+			tasks: [{
+				id: "5501FC0D6EBC1DFD"
+				item: {
+					Count: 1b
+					id: "advancednetherite:netherite_emerald_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Netherite_Emerald Sword"
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["47E3ADF179E2AF98"]
+			id: "61ABEBB2560A24C4"
+			tasks: [{
+				id: "106507962F0F1F9D"
+				item: {
+					Count: 1b
+					id: "advancednetherite:netherite_diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bNetherite-Diamond Sword"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6249221DEA11AD4C"]
+			id: "47E3ADF179E2AF98"
+			tasks: [{
+				id: "1896F101279A2251"
+				item: "advancednetherite:netherite_diamond_ingot"
+				type: "item"
+			}]
+			title: "&bNetherite-Diamond Ingot"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["47E3ADF179E2AF98"]
+			id: "1A08403A05E9FFAF"
+			tasks: [
+				{
+					id: "78FA2A7E90097D19"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "514861234AC4AEEE"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A7B02949FF39C10"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4541B06A65C86EDA"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bNetherite-Diamond Armor"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A88AAE96B6BB165"]
+			id: "2B0C28FCA72EBB3D"
+			tasks: [{
+				id: "6102289FB284DD17"
+				item: {
+					Count: 1b
+					id: "simplyswords:netherite_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Netherite Weapons"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A88AAE96B6BB165"]
+			description: ["To obtain the &6blaze rods&r, you definitely need to go to &cthe Fortress&r."]
+			id: "764C557A3C82FA84"
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "7990817C5AE9178A"
+				structure: "minecraft:fortress"
+				title: "Find &cthe Fortress"
+				type: "structure"
+			}]
+			title: "Find &cthe Fortress"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "3A9570A6B719E2BF"
+			tasks: [{
+				entity: "monsterplus:mother_lava_squid"
+				id: "5E2FCBB847E850B4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			id: "72F650C78FD30081"
+			tasks: [{
+				entity: "monsterplus:lava_squid"
+				id: "66B670F448A23DBA"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+	]
+	title: "Adventure"
+}
