@@ -55,6 +55,17 @@ ServerEvents.tags('item', e => {
         'minecraft:netherite_axe',
         '#simplyswords:netherite_gear'
     ]);
+    e.add('quest:weapons/light_shield', [
+        'shieldexp:griefer_shield',
+        'shieldexp:wooden_shield',
+        'shieldexp:iron_shield',
+        'shieldexp:golden_shield'
+    ]);
+    e.add('quest:weapons/heavy_shield', [
+        'shieldexp:diamond_shield',
+        'shieldexp:netherite_shield',
+        'shieldexp:paragon_shield',
+    ]);
 })
 
 ServerEvents.tags('block', e => {

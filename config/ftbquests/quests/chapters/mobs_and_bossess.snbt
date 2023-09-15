@@ -9,10 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"72BFDC167B05BBE4"
-				"1FE458DD0531E608"
-			]
+			dependencies: ["72BFDC167B05BBE4"]
 			description: [
 				"Killing the &bEnder Dragons&r brings you to the &cEXPERT MODE&r. In this mode, the overall difficulty increases, with features including,"
 				""
@@ -175,29 +172,6 @@
 			}]
 			x: -4.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["72BFDC167B05BBE4"]
-			description: [
-				"The &5Ender Dragon&r fight becomes much more difficult now. Here are the some tweaks listed:"
-				""
-				"1. Increased &6attack variants"
-				"&r2. &6Crystal respawn&r after certain time"
-				"3. &cHealth and Damage boost&r of the Ender Dragon"
-				"4. Several types of &cmob spawns&r upon &6crystal destroyed"
-				"&r5. Several types of &cmob spawns&r upon &6crystal respawn"
-				"&r6. Several types of &cmob spawns&r while the dragon is &6sitting in the middle&r"
-			]
-			id: "1FE458DD0531E608"
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "1DE8EB1501F2C059"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&5Savage Ender Dragon"
-			x: -6.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["113B1FA9ECCF4319"]

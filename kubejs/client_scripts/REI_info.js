@@ -75,6 +75,23 @@ REIEvents.information(e => {
     e.addItem('deeperdarker:warden_carapace', 'Heart of the Deep', [
         'Obtain from defeating §sthe Warden'
     ]);
-    
+    e.addItem('endrem:undead_soul', 'undead_soul'.format(), [
+        'Obtain from killing a skeleton horse'
+    ]);
+    e.addItem('obscure_api:astral_dust', 'astral_dust'.format(), [
+        'Obtain from §bFrozen Chests'
+    ]);
+    e.addItem('aquamirae:rune_of_the_storm', 'rune_of_the_storm'.format(), [
+        'Obtain from §bFrozen Chests'
+    ]);
+    e.addItem('aquamirae:dagger_of_greed', 'dagger_of_greed'.format(), [
+        'Obtain from §bFrozen Chests'
+    ]);
+    e.addItem('aquamirae:coral_lance', 'coral_lance'.format(), [
+        'Dropped from defeating §dthe Ghost of Captain Cornelia§r with a small chance'
+    ]);
+    e.addItem('aquamirae:sweet_lance', 'sweet_lance'.format(), [
+        'Festical version of Coral Lance'
+    ]);
 
 })

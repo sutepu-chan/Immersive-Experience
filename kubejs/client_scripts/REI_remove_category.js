@@ -1,8 +1,9 @@
 REIEvents.removeCategories(e => {
     let id = [
-        'minecraft:anvil',
-        'minecraft:blasting',
-        'minecraft:smoking',
+        'minecraft:plugins/anvil',
+        'minecraft:plugins/blasting',
+        'minecraft:plugins/smoking',
+        'minecraft:plugins/campfire',
         'minecraft:plugins/tag',
         'minecraft:plugins/composting',
         'minecraft:plugins/stripping',
@@ -12,7 +13,6 @@ REIEvents.removeCategories(e => {
         'minecraft:plugins/oxidizing',
         'minecraft:plugins/oxidation_scraping',
         'car:painter_yellow',
-        'minecraft:campfire',
     ];
     id.forEach(i => {
         e.remove(i);

@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "adventure"
 	group: "2567E5CB30369DC8"
+	icon: {
+		Count: 1b
+		id: "simplyswords:sunfire"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "63CF6D2AE1BDAB89"
 	order_index: 0
 	quest_links: [ ]
@@ -25,7 +32,7 @@
 				type: "checkmark"
 			}]
 			title: "&bDamage Reudction Formula"
-			x: -4.0d
+			x: -2.0d
 			y: -6.0d
 		}
 		{
@@ -150,7 +157,7 @@
 			}]
 			title: "Defeat the &dGhost of Captain Cornelia&r"
 			x: -12.0d
-			y: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["58DEC07517992391"]
@@ -173,7 +180,7 @@
 			}]
 			title: "Are you lucky to meet &bthe Mother of the Maze"
 			x: -12.0d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4710915C2C2426D9"]
@@ -210,8 +217,8 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: 2.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -224,8 +231,8 @@
 				type: "kill"
 				value: 75L
 			}]
-			x: -2.0d
-			y: -8.0d
+			x: 0.0d
+			y: -10.0d
 		}
 		{
 			description: ["&bShulkers&r deals &6blindness effect&r by chance now. The amplifier and duration of poison increases difficulties with pack mode. Be aware while fighting them!"]
@@ -346,6 +353,8 @@
 			dependency_requirement: "one_completed"
 			description: ["Before exploring the world, you definitely need to &6explore the cave&r to mine for some valuable resources. Get ready and grab your &bbasic stone swords&r!"]
 			id: "66DBD397DD7C86DC"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "6685E439879EAFCC"
 				item: {
@@ -367,10 +376,15 @@
 			description: [
 				"You definitely need a &bsufficiently powerful weapon&r to deal with those terrifying mobs. There are various types of weapons in this pack, each with &6unique attributes and properties&r, such as different &6attack ranges&r and &6attack modes&r."
 				""
+				"&6&nTips:&r"
+				"You can hold swords on your &bboth hands&r to deal &6melee attacks&r."
+				""
 				"&7&nNote:&r"
 				"&7Craft any one of the items to complete the quest.&r"
 			]
 			id: "77F85B053BFFE8AD"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "22F2B73FC6DECC2E"
 				item: {
@@ -547,7 +561,8 @@
 			dependencies: ["77F85B053BFFE8AD"]
 			description: ["Even though you're playing a modpack, make sure to collect all the resources from &bvanilla Minecraft&r as well! These ores are &6essential for crafting your tools and armor."]
 			id: "352CE5900BAE3041"
-			shape: "diamond"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "7DD136F5C3916A97"
@@ -928,7 +943,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 8.0d
 			y: 4.0d
 		}
 		{
@@ -983,7 +998,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -1051,6 +1066,8 @@
 				"&7Craft any one of the items to complete the quest.&r"
 			]
 			id: "0AE56FEBFA8C2394"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "0006821755FD547B"
 				item: {
@@ -1071,6 +1088,8 @@
 			dependencies: ["0AE56FEBFA8C2394"]
 			description: ["With your diamonds mined, it's high time to venture into the &cNether&r for a wider variety of resources and more powerful tool and armor sets! Start by crafting a &bDiamond Pickaxe&r and gather some obsidian."]
 			id: "66D494BEBC50B231"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "61FEB357AC364189"
 				item: "minecraft:obsidian"
@@ -2998,6 +3017,8 @@
 				"There are many &6flying mobs&r in &4the Nether&r. Make sure to bring your &bbow, quivers and arrows&r."
 			]
 			id: "3A88AAE96B6BB165"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:netherrack"
@@ -3928,7 +3949,11 @@
 				"677481B5BE285E23"
 				"028538773BBC64E9"
 			]
-			description: ["&dThe Blinding Abyss set&r is a very powerful armor set which is obtained from &6the mother of the maze&r. It also gives useful set bonuses and has a good armor value."]
+			description: [
+				"&dThe Blinding Abyss set&r is a very powerful armor set which is obtained from &6the mother of the maze&r. It also gives useful set bonuses and has a good armor value."
+				""
+				"It has two helmet options. Different helmets grant &6different full set abilities&r. It's impossible to activate both abilities at the same time."
+			]
 			id: "3AC3E0534B8BF826"
 			tasks: [
 				{
@@ -3989,14 +4014,18 @@
 			]
 			title: "&dThe Blinding Abyss"
 			x: -14.0d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
 				"3AC3E0534B8BF826"
 				"3E39DA90709263EE"
 			]
-			description: ["&6Three-Bolt Armor&r is obtained from defeating the &5AquaMirae Boss&r. It has very useful abilities and a powerful armor value."]
+			description: [
+				"&6Three-Bolt Armor&r is obtained from defeating the &5AquaMirae Boss&r. It has very useful abilities and a powerful armor value."
+				""
+				"It also allows you to &6dive Underwater&r. Provides &6oxygen&r and &6protects against freezing&r."
+			]
 			id: "5437C27530E3BAB7"
 			tasks: [
 				{
@@ -4046,7 +4075,7 @@
 			]
 			title: "&6Three-Bolt Armor"
 			x: -14.0d
-			y: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5063F43A5622FF09"]
@@ -4222,8 +4251,8 @@
 				}
 			]
 			title: "Netherite-Iron Armor"
-			x: 2.0d
-			y: 6.0d
+			x: 4.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["57AE08DD9801A6C9"]
@@ -4238,8 +4267,8 @@
 				item: "advancednetherite:netherite_iron_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["2F4AE6CE2202BCA2"]
@@ -4256,7 +4285,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["6004A50560DE2AC6"]
@@ -4274,7 +4303,7 @@
 			}]
 			title: "&6Netherite-Gold Sword"
 			x: 6.0d
-			y: 8.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2F4AE6CE2202BCA2"]
@@ -4285,8 +4314,8 @@
 				type: "item"
 			}]
 			title: "&6Netherite-Gold Ingot"
-			x: 4.0d
-			y: 8.0d
+			x: 2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6004A50560DE2AC6"]
@@ -4338,8 +4367,8 @@
 				}
 			]
 			title: "&6Netherite-Gold Armor"
-			x: 2.0d
-			y: 8.0d
+			x: 4.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6249221DEA11AD4C"]
@@ -4391,8 +4420,8 @@
 				}
 			]
 			title: "&2Netherite_Emerald Armor"
-			x: 2.0d
-			y: 10.0d
+			x: 4.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["6004A50560DE2AC6"]
@@ -4403,8 +4432,8 @@
 				type: "item"
 			}]
 			title: "&2Netherite_Emerald Ingot"
-			x: 4.0d
-			y: 10.0d
+			x: 2.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["6249221DEA11AD4C"]
@@ -4422,7 +4451,7 @@
 			}]
 			title: "&2Netherite_Emerald Sword"
 			x: 6.0d
-			y: 10.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["47E3ADF179E2AF98"]
@@ -4440,7 +4469,7 @@
 			}]
 			title: "&bNetherite-Diamond Sword"
 			x: 6.0d
-			y: 12.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6249221DEA11AD4C"]
@@ -4451,8 +4480,8 @@
 				type: "item"
 			}]
 			title: "&bNetherite-Diamond Ingot"
-			x: 4.0d
-			y: 12.0d
+			x: 2.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["47E3ADF179E2AF98"]
@@ -4504,11 +4533,11 @@
 				}
 			]
 			title: "&bNetherite-Diamond Armor"
-			x: 2.0d
-			y: 12.0d
+			x: 4.0d
+			y: 16.0d
 		}
 		{
-			dependencies: ["3A88AAE96B6BB165"]
+			dependencies: ["57AE08DD9801A6C9"]
 			id: "2B0C28FCA72EBB3D"
 			tasks: [{
 				id: "6102289FB284DD17"
@@ -4522,13 +4551,15 @@
 				type: "item"
 			}]
 			title: "&6Netherite Weapons"
-			x: -2.0d
-			y: 6.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
 			description: ["To obtain the &6blaze rods&r, you definitely need to go to &cthe Fortress&r."]
 			id: "764C557A3C82FA84"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				icon: "minecraft:nether_bricks"
 				id: "7990817C5AE9178A"
@@ -4541,26 +4572,896 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["3A88AAE96B6BB165"]
 			id: "3A9570A6B719E2BF"
 			tasks: [{
 				entity: "monsterplus:mother_lava_squid"
+				icon: "monsterplus:mother_lava_squid_spawn_egg"
 				id: "5E2FCBB847E850B4"
 				type: "kill"
 				value: 1L
 			}]
 			x: -2.0d
-			y: 8.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["3A88AAE96B6BB165"]
+			description: ["Lava Squid is a &ccommon mob&r found in the &cNether&r. Try to eliminate &610 of them&r. Defeat the Lava Squid and prove your prowess in the dangerous depths of the Nether!"]
 			id: "72F650C78FD30081"
 			tasks: [{
 				entity: "monsterplus:lava_squid"
+				icon: "monsterplus:lava_squid_spawn_egg"
 				id: "66B670F448A23DBA"
 				type: "kill"
 				value: 10L
 			}]
 			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&dThe Wither &rhas been more deadly ever than before. The level increases every time you defeat one (&6max level 10&r).The tweaks are listed below."
+				""
+				"&c&nHealth:&r &6+100&r for each level."
+				""
+				"&c&nRegeneration:&r &6+0.8HP/s&r for each level (&6max 8HP/s&r) "
+				""
+				"&c&nDamage Resistance:&r &6+4%&r resistance per level (&6max 40%&r) when HP>= 50% ,  and &6+6%&r per level (&6max 60%&r) when HP < 50%."
+				""
+				"&c&nMagic Vulnerability:&r &6+100%&r more magic damage every 100 hp missing."
+				""
+				"&c&nWither Skulls:&r More &6damage&r and higher &6velocity&r"
+				""
+				"With the harder mode, the &6rewards&r are undoubtedly better. Wither drops &b2 ancient debris and nether star shards&r per level, and &b1000% more xp&r in every level. This makes fighting wither is a &6perfect way to obtain resources&r!"
+				"{@pagebreak}"
+				"There are &62 new attack modes&r"
+				""
+				"&4&nCharge Attack:&r"
+				"- Appears by chance when Wither is damaged, or when the players hide too long"
+				"- Chances increases with the lower health and more damage taken"
+				"- Wither becomes &5purple&r and after 3 seconds will target the nearest player and charges to him, &6destroying blocks&r, dealing &6massive damage&r and &6knocking back&r everyone in its path."
+				"- Wither &6regens&r some of the health at the same time"
+				""
+				"&4&nBarrage Attack:&r"
+				"- Chances increases with the lower health and more damage taken"
+				"- Wither will start shoting skulls to &6random targets&r nearby at rate of 5 skulls/1-10s"
+			]
+			id: "17BB368DB4FFFF9C"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_rose"
+				id: "081F005B61D047B7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dFirst Wither Fight&r"
+			x: -6.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["17BB368DB4FFFF9C"]
+			description: [
+				"After defeating your 3rd Wither, &dWither&r reaches &clv.3&r"
+				""
+				"&6Minions&r are spawned every 30-60 seconds. The amount of spawned Minions increases by 2 in every level. When the hp belows 50%, the Minions are spawned more frequently."
+				""
+				"Minions share the same amount of &6damage reduction&r and &6magic vulnerability&r with &dWither&r."
+				""
+				"Minions are also buffed in higher difficulties. They will be able to walk faster, have higher chance to wield an &6enchanted Bow/Sword&r with higher level of &6sharpness / power&r."
+			]
+			id: "1DA6CDC69A9143C2"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "majruszsdifficulty:wither_treasure_bag"
+				id: "27E119D89EBE83BB"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&dWither &clv.3"
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1DA6CDC69A9143C2"]
+			description: [
+				"After defeating your 7th Wither, &dWither&r reaches &clv.7&r"
+				"Now, &6Wither Explosion&r causes &6fire&r."
+			]
+			id: "51D68E3A0054D994"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "progressivebosses:nether_star_shard"
+				id: "5A794786B58241E8"
+				type: "kill"
+				value: 7L
+			}]
+			title: "&dWither &clv.7"
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["51D68E3A0054D994"]
+			description: ["Prepare this fight with the &6best possible weapon and armor&r, and of course some potion for &6magic damage&r."]
+			id: "39F1C572E332B440"
+			tasks: [{
+				advancement: "progressivebosses:max_diff_wither"
+				criterion: ""
+				icon: "minecraft:nether_star"
+				id: "20EAA2C9B84ACFB8"
+				title: "Defeat a &dWither&r with&c max level"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			description: [
+				"&5Ender Dragon &rhas been more deadly ever than before. The level increases every time you defeat one (&6max level 20&r).The tweaks are listed below."
+				""
+				"&c&nHealth:&r &6+50&r for each level."
+				""
+				"&c&nRegeneration:&r &6+0.1HP/s&r for each level (up to 2HP per second) "
+				""
+				"&c&nDamage Resistance:&r &6+2%&r resistance per level (max 40%) when at centre ,  and &6+1.4%&r per level (max 28%) when flying around."
+				""
+				"&c&nExplosion Resistance:&r &6-80%&r less explosion damage."
+				""
+				"&c&nCrystal Respawn:&r Ender Dragon are able to &6respawn crystals&r itself but it takes &650% more damage&r during respawn."
+				""
+				"&5Ender Dragon&r drops &b1000% more xp&r in every level"
+				"{@pagebreak}"
+				"&5The Ender Dragon&r deals more &6direct and acid damage&r based off difficulty."
+				""
+				"It can even &6Charge or Fireball&r the player when circlying around. It has higher chances to charge / fireball when there player near a crystal or at higher difficulty."
+				""
+				"The amount of fireball &6increases by 1 &rin each level. The fireball also &6deals damage on impact&r and produces a &6dragon breath cloud&r."
+			]
+			id: "1FE458DD0531E608"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_breath"
+				id: "1DE8EB1501F2C059"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Savage Ender Dragon"
+			x: -8.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1FE458DD0531E608"]
+			description: [
+				"After defeating your &55th dragon,&r Ender Dragon reaches &clv.5&r. "
+				""
+				"There will be &6more cages&r appearing around the crystals, with maximum of &68 cages&r, making it more difficult to access and destroy the crystals. Your strategic approach to disable the crystals becomes even more crucial."
+				""
+				"Besides, &5Ender Dragon&r may starts &6summonning Larvae&r every 2 minutes, which brings additional challenges to you."
+			]
+			id: "1BFFC00EF45D04E2"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_egg"
+				id: "4D633BBB59EBA3ED"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&dEnder Dragon &clv.5"
+			x: -8.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["1BFFC00EF45D04E2"]
+			description: [
+				"After defeating your &510th dragon,&r Ender Dragon reaches &clv.10&r. "
+				""
+				"Now, crystals start spawning &6inside the obsidian tower&r. You will need more time to dig out and destroy the crystals."
+				""
+				"&5Ender Dragon&r may starts &6summonning Minions&r every 2-3 minutes."
+			]
+			id: "75172170154E2990"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "majruszsdifficulty:ender_dragon_treasure_bag"
+				id: "0DA16F523250F072"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&dEnder Dragon &clv.10"
+			x: -8.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["75172170154E2990"]
+			description: ["Prepare this fight with the &6best possible weapon and armor&r."]
+			id: "1F19B83479B02347"
+			tasks: [{
+				advancement: "progressivebosses:max_diff_dragon"
+				criterion: ""
+				id: "0ADEF152E2D4BC13"
+				title: "Defeat an &dEnder Dragon&r with&c max level"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 26.5d
+		}
+		{
+			description: ["&bOld Eyes&r are found in &6Desert Pyramids&r."]
+			id: "54101CF83D7447BE"
+			tasks: [{
+				id: "378C9C789A797784"
+				item: {
+					Count: 1b
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			description: ["&bNether Eye&r is found in &cNether Fortress&r."]
+			id: "196E94592C0B2A04"
+			tasks: [{
+				id: "456B6A1DD13AB5AA"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 22.0d
+		}
+		{
+			description: ["&bCold Eye&r is found in &1Igloos&r."]
+			id: "71DFC9F0DBE1400E"
+			tasks: [{
+				id: "6380001B79A274B3"
+				item: {
+					Count: 1b
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			description: ["&bRogue Eye&r is found in &2Jungle Pyramids&r."]
+			id: "101C669C8660AF72"
+			tasks: [{
+				id: "43F5E3297FEB54B9"
+				item: {
+					Count: 1b
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			description: ["&bBlack Eye&r is found in &0Buried Chests&r."]
+			id: "22A01E0107674336"
+			tasks: [{
+				id: "3D564D3E127C0481"
+				item: {
+					Count: 1b
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			description: ["&bMagical Eye&r is dropped by &5Evokers&r."]
+			id: "3231A678E6DEAB49"
+			tasks: [{
+				id: "39B2AFD65169270B"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			description: ["&bLost Eye&r can be found in &8Mineshafts&r."]
+			id: "40A1E505AD8441DB"
+			tasks: [{
+				id: "23A97293A53F17E9"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			description: ["&bCorrupted Eye&r can be found in &4Pillager Outposts&r."]
+			id: "1BA7D25E4F922F33"
+			tasks: [{
+				id: "594A57D9E474E9AE"
+				item: {
+					Count: 1b
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			description: ["&bWither Eye&r is dropped by defeating &dThe Wither&r."]
+			id: "419260BFBC5BDC06"
+			tasks: [{
+				id: "2298F0D594F6A0EB"
+				item: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 24.0d
+		}
+		{
+			description: ["&bGuardian Eye&r can be obtained by slaying the &3Elder Guardian&r."]
+			id: "6CF0C386EBC0F44B"
+			tasks: [{
+				id: "700D114033F6CAF2"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 24.0d
+		}
+		{
+			description: ["&bWitch Eye&r can be crafted using the &2Witch Pupil&r."]
+			id: "6E0611B1C24B0887"
+			tasks: [{
+				id: "401BA1EABA8D82D9"
+				item: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			description: ["&bCursed Eye&r can be found in &6Bastions&r' treasure chests."]
+			id: "173B67293A245F60"
+			tasks: [{
+				id: "09456C50D46CAF70"
+				item: {
+					Count: 1b
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 22.0d
+		}
+		{
+			description: ["&bExotic Eye&r can be crafted using various &9aquatic items&r."]
+			id: "58764B341F312277"
+			tasks: [{
+				id: "505BD6E3F9FEF1CA"
+				item: {
+					Count: 1b
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 22.0d
+		}
+		{
+			description: ["&bEvil Eye&r can be purchased from a &9Master Cleric&r."]
+			id: "6B1AB2F991C5DCB4"
+			tasks: [{
+				id: "607E2FEC701E592F"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			description: ["&bUndead Eye&r can be crafted using an &8Undead Soul&r."]
+			id: "10034630779157D9"
+			tasks: [{
+				id: "73A431DE9A4E07D6"
+				item: {
+					Count: 1b
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 24.0d
+		}
+		{
+			description: ["&bCryptic Eye&r has a small chance to be obtained when &5enchanting items&r."]
+			id: "77BF4794B3E320F9"
+			tasks: [{
+				id: "3E79A8A8A423321E"
+				item: {
+					Count: 1b
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3A88AAE96B6BB165"]
+			id: "70413C6C3E56A79D"
+			tasks: [{
+				entity: "epicsamurai:akaname"
+				icon: "epicsamurai:akaname_spawn_egg"
+				id: "3321A84E3DB1C46C"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: [
+				"In this pack, the use of &bvanilla shields&r is disabled. Instead, a variety of new shields with different properties have been introduced."
+				""
+				"&6New shield mechanics&r are added, including the ability to &6parry&r enemy attacks and &6deal damage back&r to the assailants. Mastering this technique will greatly improve your combat effectiveness."
+				""
+				"The shields are divided into&6 two categories&r, distinguished primarily by their impact on your &6movement speed&r while held in the off-hand. Choose wisely according to your playstyle and combat preferences."
+			]
+			id: "0B1A02F83E069927"
+			tasks: [{
+				id: "094B0808F6227CEF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "quest:weapons/light_shield"
+					}
+				}
+				title: "Any #quest:weapons/light_shield"
+				type: "item"
+			}]
+			title: "Light shields"
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0B1A02F83E069927"]
+			description: ["&bHeavy shields&r usually deal &6more damage&r upon parrying and have &6blast resistant&r. However, you will move &4slower&r and there is a&4 longer cooldown time&r."]
+			id: "64B99FA9795C4253"
+			tasks: [
+				{
+					id: "41635AADBBE642F0"
+					item: {
+						Count: 1b
+						id: "shieldexp:diamond_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C53BE53F0DDEA43"
+					item: {
+						Count: 1b
+						id: "shieldexp:netherite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Heavy Shields"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			id: "11B85CF334FDECA2"
+			tasks: [{
+				icon: "minecraft:blackstone"
+				id: "1DAAED40795DCCE6"
+				structure: "minecraft:bastion_remnant"
+				title: "Find &6the Bastion"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E39DA90709263EE"]
+			description: [
+				"&dRune of the Storm&r is the most valuable item in &bAquamirae&r. Guaranteed to spawn in a &bFrozen Chest&r."
+				""
+				"It can be inserted into any weapon and permanently &6increase its damage in cold biomes by 33%&r."
+			]
+			id: "2B09230B69AA7CC7"
+			tasks: [{
+				id: "4122FCE0271CC24E"
+				item: "aquamirae:rune_of_the_storm"
+				title: "&dRune of the Storm&r"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["58DEC07517992391"]
+			description: [
+				"&bTerrible Sword&r is a situational weapon capable of dealing a lot of damage in one hit, and it is &6good in early game&r."
+				"It has &6high critical damage and critical chance&r but it also &4deals 1 damage to you&r if the hit doesn't kill the target, ignoring armor."
+			]
+			id: "30B11749564531B4"
+			tasks: [{
+				id: "7FA7DBB685FE08E4"
+				item: {
+					Count: 1b
+					id: "aquamirae:terrible_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&bTerrible Sword&r"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58DEC07517992391"]
+			description: ["&bFin Cutter&r &6increases damage&r from each missing heart container."]
+			id: "384A72F224A7738A"
+			tasks: [{
+				id: "1FA2BD89517A6282"
+				item: {
+					Count: 1b
+					id: "aquamirae:fin_cutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&bFin Cutter&r"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58DEC07517992391"]
+			description: ["&2Poisoned Blade&r is a simple weapon that &6poisons&r the target."]
+			id: "124526670C80A13B"
+			tasks: [{
+				id: "74BF3D46A4DB9A5C"
+				item: {
+					Count: 1b
+					id: "aquamirae:poisoned_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&2Poisoned Blade"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4710915C2C2426D9"]
+			id: "155EE405522014B1"
+			tasks: [{
+				entity: "aquamirae:spinefish"
+				icon: "aquamirae:sharp_bones"
+				id: "2C6F08844F1CABC5"
+				type: "kill"
+				value: 2L
+			}]
+			x: -14.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["155EE405522014B1"]
+			description: ["&bRemnant's Saber&r deals &6double damage underwater&r."]
+			id: "1722CF2D90C8A06D"
+			tasks: [{
+				id: "6F1DA408E5158313"
+				item: {
+					Count: 1b
+					id: "aquamirae:remnants_saber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["028538773BBC64E9"]
+			description: ["&dDivider&r is capable of quickly inflicting &6heavy damage&r on enemies with a large supply of health. It temporarily &6reduces the target's armor&r by a percentage per hit."]
+			id: "2F409BA2E28336A9"
+			tasks: [{
+				id: "5A24D7CA6E8F5B26"
+				item: {
+					Count: 1b
+					id: "aquamirae:divider"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&dDivider&r"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["028538773BBC64E9"]
+			description: ["&dWhisper of the Abyss&r is capable of significantly &6damaging targets with high armor&r. It temporarily &6reduces the target's armor&r by a percentage per hit."]
+			id: "6A847FE607821D90"
+			tasks: [{
+				id: "37F723217F322B93"
+				item: {
+					Count: 1b
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&dWhisper of the Abyss&r"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E39DA90709263EE"]
+			description: [
+				"&4Dagger of Greed&r is a cursed weapon that &4inflicts violence&r..."
+				"It can only be obtained from &bIce Maze chests&r."
+			]
+			id: "089DCFDFE39624F4"
+			tasks: [{
+				id: "0F6A345EC1F2FF30"
+				item: {
+					Count: 1b
+					id: "aquamirae:dagger_of_greed"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&4Dagger of Greed&r"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3E39DA90709263EE"]
+			description: [
+				"&9Coral Lance&r is the weapon carried by &dthe Ghost of Captain Cornelia&r. No one in the Ice Maze dares to argue with the owner of this weapon."
+				""
+				"It deals &6doubles damage&r against all creatures in the Ice Maze."
+				"The ability only applies to the true creatures of the Ice Maze. It's not enough to just be in a biome."
+			]
+			id: "1D1A1315969F0478"
+			rewards: [{
+				id: "556465023E0C1BFD"
+				item: {
+					Count: 1b
+					id: "aquamirae:sweet_lance"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:looting"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53FFC186BF7EAADA"
+				item: {
+					Count: 1b
+					id: "aquamirae:coral_lance"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 4s
+						}]
+					}
+				}
+				title: "&9Coral Lance&r"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["115B98781912E453"]
+			description: ["&2Warden Sword&r has a &6decent attack value&r and &6critical chance&r."]
+			id: "7FF231CBD8C8A765"
+			tasks: [{
+				id: "22F6EA9EEE346730"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&2Warden Sword&r"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: [
+				"In this pack, for &6every 150 undead creatures&r you slained, an &7Undead Army&r will be summoned and try to take revenge from you!"
+				""
+				"&b&nNORMAL MODE:&r"
+				"- 2 waves of &7Undead Army&r"
+				"- Common undeads found in caves"
+				"- Boss is spawned in the 2nd wave"
+				""
+				"&c&nEXPERT MODE:&r"
+				"- 4 waves of &7Undead Army&r"
+				"- More strong undeads"
+				"- Boss is spawned in the 2nd and 4th wave"
+				""
+				"&2&nMASTER MODE:&r"
+				"- 6 waves of &7Undead Army&r"
+				"- Most power undeads in this pack"
+				"- Boss is spawned in the 2nd, 4th and 6th wave"
+			]
+			id: "745CDCF61A86DCE7"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "479A1D19EF8CC39E"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "5A37AD06CFED1B97"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "&7Undead Army&r"
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["745CDCF61A86DCE7"]
+			description: ["Wither Sword has a chance to drop in the fight during &7Undead Army&r."]
+			id: "359E247DF2B6D697"
+			tasks: [{
+				id: "63A6154F8D8DF103"
+				item: {
+					Count: 1b
+					id: "majruszsdifficulty:wither_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: ["&bAncient Crystal&r can be obtained from defeating &6certain cave mobs&r."]
+			id: "275C3DA382B728BF"
+			tasks: [
+				{
+					id: "684A90FA0716FA2F"
+					item: "monsterplus:crystal_shard"
+					type: "item"
+				}
+				{
+					id: "4644451B8BCB4D42"
+					item: "monsterplus:ancient_crystal"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["275C3DA382B728BF"]
+			description: ["&bAncient Crystal Sword&r is crafted from ancient crystals, and is able to &6summon crystal spikes&r during melee attack."]
+			id: "6B9F153E241EF523"
+			tasks: [{
+				id: "2AAB24EF22C8B395"
+				item: {
+					Count: 1b
+					id: "monsterplus:crystal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
 		}
 	]
 	title: "Adventure"

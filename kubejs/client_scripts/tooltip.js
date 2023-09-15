@@ -215,6 +215,10 @@ ItemEvents.tooltip(e => {
     tooltips.blue('dragonmounts:dragon_egg', 'Dragon eggs will adapt to surrounding environment and change the breed.')
     tooltips.darkPurple('majruszsdifficulty:wither_sword', 'Turns normal skeletons into Wither skeleton by chances')
     tooltips.darkPurple('majruszsdifficulty:enderium_upgrade_smithing_template', 'Loots in structures in the End dimension')
+    tooltips.darkRed('aquamirae:poisoned_chakra', 'W.I.P.');
+    tooltips.darkRed('aquamirae:maze_rose', 'W.I.P.');
+    tooltips.darkRed('cataclysm:final_fractal', 'W.I.P.');
+    tooltips.darkRed('cataclysm:zweiender', 'W.I.P.');
     //#endregion
     
 })

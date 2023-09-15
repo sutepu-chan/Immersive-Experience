@@ -1,6 +1,17 @@
 REIEvents.groupEntries(e => {
-    let colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'];
-
+    const colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'];
+    const woodVariants = [
+        'oak',
+        'spruce',
+        'birch',
+        'jungle',
+        'acacia',
+        'dark_oak',
+        'crimson',
+        'warped',
+        'mangrove',
+        'cherry'
+    ]
     String.prototype.format = function () {
         const sentence = this.toString();
 
@@ -54,10 +65,6 @@ REIEvents.groupEntries(e => {
         e.groupItems(`kubejs:rei_groups/${name}`, name.format(), createColorVariants(whiteItem));
     }
     colorVariants.forEach(([name, whiteItem]) => groupItems(name, whiteItem));
-
-    //#endregion
-
-    //#region wood variants
 
     //#endregion
 
@@ -115,6 +122,23 @@ REIEvents.groupEntries(e => {
     //doggy talents
     e.groupItems('kubejs:rei_groups/doggy_talents/dog_beds', 'Dog Beds', [
         Item.of('doggytalents:dog_bed').ignoreNBT()
+    ]);
+
+    //drawers
+    
+    e.groupItems('kubejs:rei_group/functionalstorage/drawer_1', '1x1 Drawers', [
+        /functionalstorage:.+_1/
+    ]);
+    e.groupItems('kubejs:rei_group/functionalstorage/drawer_2', '1x2 Drawers', [
+        /functionalstorage:.+_2/
+    ]);
+    e.groupItems('kubejs:rei_group/functionalstorage/drawer_4', '2x2 Drawers', [
+        /functionalstorage:.+_4/
+    ]);
+
+    //car
+    e.groupItems('kubejs:rei_group/car/arrows', 'Arrows', [
+        /car:arrow_.+/
     ]);
 
     //#endregion
