@@ -52,16 +52,16 @@
 	Ashenbreathdamage = 10.0
 	#Death Laser's Damage
 	#Range: 0.0 ~ 1000000.0
-	DeathLaserdamage = 15.0
+	DeathLaserdamage = 20.0
 	#Death Laser's Hp Damage
 	#Range: 0.0 ~ 1.0
 	DeathLaserHpdamage = 0.1
 	#Laser's Damage
 	#Range: 0.0 ~ 1000000.0
-	Laserdamage = 12.0
+	Laserdamage = 16.0
 	#Blazing Bone's Damage
 	#Range: 0.0 ~ 1000000.0
-	BlazingBonedamage = 15.0
+	BlazingBonedamage = 22.0
 	#Lionfish Spike's Damage
 	#Range: 0.0 ~ 1000000.0
 	LionfishSpikedamage = 12.0
@@ -70,30 +70,30 @@
 	WitherMissiledamage = 10.0
 	#Wither Howizter's Damage
 	#Range: 0.0 ~ 1000000.0
-	WitherHowizterdamage = 15.0
+	WitherHowizterdamage = 20.0
 	#Dimensional Rift's Damage
 	#Range: 0.0 ~ 1000000.0
 	DimensionalRiftdamage = 40.0
 	#Wither Homing Missile's Damage
 	#Range: 0.0 ~ 1000000.0
-	WitherHomingMissiledamage = 8.0
+	WitherHomingMissiledamage = 25.0
 	#Abyss Blast's Damage
 	#Range: 0.0 ~ 1000000.0
-	AbyssBlastdamage = 40.0
+	AbyssBlastdamage = 25.0
 	#Abyss Blast's Hp Damage
 	#Range: 0.0 ~ 1.0
-	AbyssBlastHpdamage = 0.2
+	AbyssBlastHpdamage = 0.15
 	#Abyss Orb's Damage
 	#Range: 0.0 ~ 1000000.0
-	AbyssOrbdamage = 10.0
+	AbyssOrbdamage = 15.0
 	#Lava bomb's Radius
 	#Range: 1 ~ 7
-	Lavabombradius = 3
+	Lavabombradius = 4
 
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianHealthMultiplier = 3.0
+	EnderGuardianHealthMultiplier = 5.5
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageMultiplier = 2.0
@@ -139,13 +139,13 @@
 ["Netherite Monstrosity"]
 	#Monstrosity's Lavabomb magazine.
 	#Range: 1 ~ 1000000
-	LavabombMagazine = 8
+	LavabombMagazine = 12
 	#Monstrosity's Lavabomb amount
 	#Range: 1 ~ 1000000
 	Lavabombamount = 4
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 3.0
+	MonstrosityHealthMultiplier = 5.5
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityDamageMultiplier = 2.0
@@ -175,15 +175,15 @@
 	"Endergolem's prevent attacks from far away Range" = 5.0
 	#Golem's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemHealthMultiplier = 3.0
+	GolemHealthMultiplier = 4.0
 	#Golem's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemDamageMultiplier = 2.0
+	GolemDamageMultiplier = 3.0
 
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 3.0
+	IgnisHealthMultiplier = 5.0
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	IgnisDamageMultiplier = 2.0
@@ -213,7 +213,7 @@
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 3.0
+	HarbingerHealthMultiplier = 5.0
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerDamageMultiplier = 2.0
@@ -238,7 +238,7 @@
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 3.0
+	LeviathanHealthMultiplier = 5.0
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	LeviathanDamageMultiplier = 2.0
@@ -271,7 +271,7 @@
 ["The Baby Leviathan"]
 	#BabyLeviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	BabyLeviathanHealthMultiplier = 3.0
+	BabyLeviathanHealthMultiplier = 5.0
 	#BabyLeviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	BabyLeviathanDamageMultiplier = 2.0

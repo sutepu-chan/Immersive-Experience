@@ -14,5 +14,12 @@ global.recipe_disable = [
     'tofucraft:tofu_shield',
     'minecraft:shield',
     'bygonenether:gilded_netherite_shield',
-    'majruszsdifficulty:ender_pouch'
+    'majruszsdifficulty:ender_pouch',
+    'ironfurnaces:allthemodium_furnace',
+    'ironfurnaces:vibranium_furnace',
+    'ironfurnaces:unobtainium_furnace',
+    'ironfurnaces:upgrade_allthemodium',
+    'ironfurnaces:upgrade_vibranium',
+    'ironfurnaces:upgrade_unobtainium',
+    'ironfurnaces:rainbow_coal'
 ]

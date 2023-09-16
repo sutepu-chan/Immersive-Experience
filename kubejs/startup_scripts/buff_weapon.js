@@ -446,7 +446,7 @@ ItemEvents.modification(e => {
 		["righteous_relic", 0.4, 3],
 		["tainted_relic", 0.4, 3]
 	]
-	simplySwordItems.forEach((simplySwordItem, crit_hit, crit_dam) => {
+	simplySwordItems.forEach(([simplySwordItem, crit_hit, crit_dam]) => {
 		e.modify(`simplyswords:${simplySwordItem}`, (item) => {
 			item.addAttribute(
 				'obscure_api:critical_hit',
@@ -872,75 +872,6 @@ ItemEvents.modification(e => {
 			$AM$Operation.ADDITION
 		);	
 	});
-	e.modify('cataclysm:gauntlet_of_guard', (item) => {
-		item.addAttribute(
-			'minecraft:generic.attack_damage',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			12, //23
-			$AM$Operation.ADDITION
-		);
-		item.addAttribute(
-			'obscure_api:critical_hit',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			0.55,
-			$AM$Operation.ADDITION
-		);
-		item.addAttribute(
-			'obscure_api:critical_damage',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			3.8,
-			$AM$Operation.ADDITION
-		);	
-	});
-	e.modify('cataclysm:gauntlet_of_bulwark', (item) => {
-		item.addAttribute(
-			'minecraft:generic.attack_damage',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			15, //26
-			$AM$Operation.ADDITION
-		);
-		item.addAttribute(
-			'obscure_api:critical_hit',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			0.65,
-			$AM$Operation.ADDITION
-		);
-		item.addAttribute(
-			'obscure_api:critical_damage',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			4.0,
-			$AM$Operation.ADDITION
-		);	
-	});
-	e.modify('cataclysm:the_incinerator', (item) => {
-		item.addAttribute(
-			'minecraft:generic.attack_damage',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			18, //32
-			$AM$Operation.ADDITION
-		);
-		item.addAttribute(
-			'obscure_api:critical_hit',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			0.8,
-			$AM$Operation.ADDITION
-		);
-		item.addAttribute(
-			'obscure_api:critical_damage',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			5.0,
-			$AM$Operation.ADDITION
-		);	
-	});
 	e.modify('cataclysm:infernal_forge', (item) => {
 		item.addAttribute(
 			'minecraft:generic.attack_damage',
@@ -984,52 +915,6 @@ ItemEvents.modification(e => {
 			$UUID.randomUUID(),
 			"Weapon modifier",
 			5.0,
-			$AM$Operation.ADDITION
-		);	
-	});
-	e.modify('cataclysm:void_forge', (item) => {
-		item.addAttribute(
-			'minecraft:generic.attack_damage',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			11, //24
-			$AM$Operation.ADDITION
-		);
-		item.addAttribute(
-			'obscure_api:critical_hit',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			0.99,
-			$AM$Operation.ADDITION
-		);
-		item.addAttribute(
-			'obscure_api:critical_damage',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			5.0,
-			$AM$Operation.ADDITION
-		);	
-	});
-	e.modify('cataclysm:tidal_claws', (item) => {
-		item.addAttribute(
-			'minecraft:generic.attack_damage',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			20, //28
-			$AM$Operation.ADDITION
-		);
-		item.addAttribute(
-			'obscure_api:critical_hit',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			0.4,
-			$AM$Operation.ADDITION
-		);
-		item.addAttribute(
-			'obscure_api:critical_damage',
-			$UUID.randomUUID(),
-			"Weapon modifier",
-			3.5,
 			$AM$Operation.ADDITION
 		);	
 	});

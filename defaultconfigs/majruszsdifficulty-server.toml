@@ -386,10 +386,10 @@
 			normal = 0.0
 			#Expert Mode
 			#Range: 0.0 ~ 10.0
-			expert = 0.1
+			expert = 1.0
 			#Master Mode
 			#Range: 0.0 ~ 10.0
-			master = 0.2
+			master = 2.0
 
 		[Features.MobsSpawnStronger.DamageBonusMultiplier]
 			#Normal Mode
@@ -397,22 +397,22 @@
 			normal = 0.0
 			#Expert Mode
 			#Range: 0.0 ~ 10.0
-			expert = 0.1
+			expert = 0.5
 			#Master Mode
 			#Range: 0.0 ~ 10.0
-			master = 0.2
+			master = 1.0
 
 		#Multiplies health and damage bonuses at night.
 		[Features.MobsSpawnStronger.NightMultiplier]
 			#Normal Mode
 			#Range: 1.0 ~ 10.0
-			normal = 1.5
+			normal = 1.0
 			#Expert Mode
 			#Range: 1.0 ~ 10.0
 			expert = 1.5
 			#Master Mode
 			#Range: 1.0 ~ 10.0
-			master = 1.5
+			master = 2.5
 
 	#Jockey is more likely to spawn.
 	[Features.JockeySpawn]
@@ -655,7 +655,7 @@
 	extra_size_per_player = 0.5
 	#Radius, which determines how big is the raid circle (in blocks).
 	#Range: 35 ~ 140
-	army_radius = 70
+	army_radius = 50
 	#Required amount of killed undead to start the Undead Army. (set to 0 if you want to disable this)
 	#Range: 0 ~ 1000
 	kill_requirement = 150

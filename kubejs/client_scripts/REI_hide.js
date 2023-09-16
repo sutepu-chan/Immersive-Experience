@@ -4,6 +4,7 @@ REIEvents.hide('item', e => {
     e.hide('@ftbquests');
     e.hide('@itemfilters');
     e.hide('@structure_gel');
+    e.hide('@libraryferret');
     let unifiedItems = [
         'epicpaladins:jade_ore',
         'epicpaladins:jade_block',

@@ -121,7 +121,7 @@ REIEvents.groupEntries(e => {
 
     //doggy talents
     e.groupItems('kubejs:rei_groups/doggy_talents/dog_beds', 'Dog Beds', [
-        Item.of('doggytalents:dog_bed').ignoreNBT()
+        'doggytalents:dog_bed'
     ]);
 
     //drawers

@@ -16,7 +16,7 @@ REIEvents.information(e => {
 
         return formattedSentence;
     };
-
+    /*
     //#region archery plus
     const arrowheads = [
         'stone',
@@ -41,7 +41,7 @@ REIEvents.information(e => {
         }
     });
     //#endregion
-
+    */
     //#region car
     e.addItem('car:canola_cake', 'canola_cake'.format(), [
         'A side product obtained from putting Canola into Oil Mill.'
