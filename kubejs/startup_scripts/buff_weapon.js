@@ -402,16 +402,16 @@ ItemEvents.modification(e => {
 			});
 		}
 	}
-	//1.0 0.8, 4.6
-	//1.2 0.7, 4.2
-	//1.4 0.6, 3.8
-	//1.6 0.5, 3.4
-	//1.8 0.4, 3
-	//2.0 0.35, 2.6
-	//2.2 0.3, 2.3
-	//2.4 0.25, 2.0
-	//2.6 0.2, 1.8
-	//2.8 0.15, 1.6
+	//1.0 0.8, 4.6 0.66
+	//1.2 0.7, 4.2 0.62
+	//1.4 0.6, 3.8 0.58
+	//1.6 0.5, 3.4 0.54
+	//1.8 0.4, 3 0.5
+	//2.0 0.35, 2.6 0.46
+	//2.2 0.3, 2.3 0.43
+	//2.4 0.25, 2.0 0.4 
+	//2.6 0.2, 1.8 0.38
+	//2.8 0.15, 1.6 0.36
 	const simplySwordItems = [
 		["brimstone_claymore", 0.6, 3.8], //1.4
 		["watcher_claymore", 0.6, 3.8], //1.4
@@ -918,5 +918,28 @@ ItemEvents.modification(e => {
 			$AM$Operation.ADDITION
 		);	
 	});
+	e.modify('fromtheshadows:thirst_for_blood', (item => {
+		item.addAttribute(
+			'minecraft:generic.attack_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			6, //15
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_hit',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			0.175,
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			0.98,
+			$AM$Operation.ADDITION
+		);	
+	}))
 	//#endregion
 });

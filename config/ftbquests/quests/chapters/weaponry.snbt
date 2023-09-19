@@ -37,7 +37,7 @@
 				}
 			]
 			x: -6.0d
-			y: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["03DC9E2B1FBF5831"]
@@ -55,7 +55,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["05512920E69B5314"]
@@ -71,7 +71,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 6.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -206,7 +206,7 @@
 			}]
 			title: "Mahou Tsukai"
 			x: -8.0d
-			y: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["51D2F2168852959A"]
@@ -219,7 +219,7 @@
 			}]
 			title: "Basic equipments!"
 			x: -8.0d
-			y: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4D7B7C2425A84B29"]
@@ -231,7 +231,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4D7B7C2425A84B29"]
@@ -243,7 +243,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0CAFB2E15E152F62"]
@@ -280,7 +280,7 @@
 			]
 			title: "Powerful Staffs"
 			x: -10.0d
-			y: 6.0d
+			y: 0.0d
 		}
 		{
 			description: ["&2Soy Sculk Bone&r is harder than turtle shell!"]

@@ -6,10 +6,11 @@ differentiateByServerAddress:true
 debugEntityIcons:false
 debugEntityVariantIds:false
 radarHideInvisibleEntities:true
+allowInternetAccess:true
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:false
 minimap:true
-caveMaps:0
+caveMaps:1
 caveZoom:1
 showWaypoints:true
 showIngameWaypoints:true
@@ -18,7 +19,7 @@ deathpoints:true
 oldDeathpoints:true
 distance:1
 lockNorth:true
-zoom:0
+zoom:1
 minimapSize:0
 chunkGrid:-1
 slimeChunks:false

@@ -1,0 +1,98 @@
+{
+  "commonHelmets": {
+    "entries": {
+      "epicsamurai:white_samurai_helmet": 0.05,
+      "epicsamurai:iron_samurai_helmet": 0.05,
+      "epicsamurai:steel_helmet": 0.05,
+      "epicsamurai:gray_samurai_helmet": 0.05,
+      "epicsamurai:green_samurai_helmet": 0.05,
+      "epicsamurai:blue_samurai_helmet": 0.05,
+      "epicsamurai:red_samurai_helmet": 0.05,
+      "epicsamurai:gold_samurai_helmet": 0.05,
+      "minecraft:golden_helmet": 0.15,
+      "irons_spellbooks:wandering_magician_helmet": 0.2,
+      "epicpaladins:knight_helmet": 0.15
+    },
+    "defaultItem": "air"
+  },
+  "rareHelmets": {
+    "entries": {
+      "minecraft:diamond_helmet": 0.1,
+      "epicsamurai:diamond_samurai_helmet": 0.1,
+      "irons_spellbooks:pumpkin_helmet": 0.1
+    },
+    "defaultItem": "air"
+  },
+  "commonChestplates": {
+    "entries": {
+      "epicsamurai:white_samurai_chestplate": 0.05,
+      "epicsamurai:iron_samurai_chestplate": 0.05,
+      "epicsamurai:steel_chestplate": 0.05,
+      "epicsamurai:gray_samurai_chestplate": 0.05,
+      "epicsamurai:green_samurai_chestplate": 0.05,
+      "epicsamurai:blue_samurai_chestplate": 0.05,
+      "epicsamurai:red_samurai_chestplate": 0.05,
+      "epicsamurai:gold_samurai_chestplate": 0.05,
+      "minecraft:golden_chestplate": 0.15,
+      "epicpaladins:knight_chestplate": 0.2,
+      "irons_spellbooks:wandering_magician_chestplate": 0.15
+    },
+    "defaultItem": "air"
+  },
+  "rareChestplates": {
+    "entries": {
+      "minecraft:diamond_chestplate": 0.1,
+      "epicsamurai:diamond_samurai_chestplate": 0.1,
+      "irons_spellbooks:pumpkin_chestplate": 0.1
+    },
+    "defaultItem": "air"
+  },
+  "commonLeggings": {
+    "entries": {
+      "epicsamurai:white_samurai_leggings": 0.05,
+      "epicsamurai:iron_samurai_leggings": 0.05,
+      "epicsamurai:steel_leggings": 0.05,
+      "epicsamurai:gray_samurai_leggings": 0.05,
+      "epicsamurai:green_samurai_leggings": 0.05,
+      "epicsamurai:blue_samurai_leggings": 0.05,
+      "epicsamurai:red_samurai_leggings": 0.05,
+      "epicsamurai:gold_samurai_leggings": 0.05,
+      "minecraft:golden_leggings": 0.15,
+      "epicpaladins:knight_leggings": 0.2,
+      "irons_spellbooks:wandering_magician_leggings": 0.15
+    },
+    "defaultItem": "air"
+  },
+  "rareLeggings": {
+    "entries": {
+      "minecraft:diamond_leggings": 0.1,
+      "epicsamurai:diamond_samurai_leggings": 0.1,
+      "irons_spellbooks:pumpkin_leggings": 0.1
+    },
+    "defaultItem": "air"
+  },
+  "commonBoots": {
+    "entries": {
+      "epicsamurai:white_samurai_boots": 0.05,
+      "epicsamurai:iron_samurai_boots": 0.05,
+      "epicsamurai:steel_boots": 0.05,
+      "epicsamurai:gray_samurai_boots": 0.05,
+      "epicsamurai:green_samurai_boots": 0.05,
+      "epicsamurai:blue_samurai_boots": 0.05,
+      "epicsamurai:red_samurai_boots": 0.05,
+      "epicsamurai:gold_samurai_boots": 0.05,
+      "minecraft:golden_boots": 0.15,
+      "epicpaladins:knight_boots": 0.2,
+      "irons_spellbooks:wandering_magician_boots": 0.15
+    },
+    "defaultItem": "air"
+  },
+  "rareBoots": {
+    "entries": {
+      "minecraft:diamond_boots": 0.1,
+      "epicsamurai:diamond_samurai_boots": 0.1,
+      "irons_spellbooks:pumpkin_boots": 0.1
+    },
+    "defaultItem": "air"
+  }
+}

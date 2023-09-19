@@ -22,6 +22,17 @@
 					item: "immersive_paintings:glow_graffiti"
 					type: "item"
 				}
+				{
+					id: "12EFFB471073ABC3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26E0FCF5E009A748"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
 			]
 			tasks: [
 				{
@@ -45,6 +56,19 @@
 				"Press &dEnd&r to open the interface."
 			]
 			id: "0644926D3316F693"
+			rewards: [
+				{
+					id: "7C8263A411BFA3D7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F094A610C19D99C"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1F12A8360D7F0BC8"
 				title: "Observable"
@@ -56,6 +80,11 @@
 		{
 			description: ["&bBlaze Rods&r are now &6placeable&r on ground, like end rods. It becomes new items for decoration."]
 			id: "74141897684DD802"
+			rewards: [{
+				id: "5958E16A2E9F43BD"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "26AA43C868A7F039"
 				item: "minecraft:blaze_rod"
@@ -91,6 +120,19 @@
 				}
 			}
 			id: "5B882C0BC20E625A"
+			rewards: [
+				{
+					id: "704147619F1BA9B8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B1A6FA8FD0BE900"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "54F9CB749272159C"
 				item: "minecraft:cobblestone"
@@ -127,6 +169,19 @@
 				"&n&bNetherite&r: Makes item &6fire proof&r and reduces fire damage by 25%, full set is equivalent to &6fire resistance&r potion."
 			]
 			id: "63B436A27C71A5FF"
+			rewards: [
+				{
+					id: "166D2819B44965DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "439373EE429AAE18"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "49E4660586ED566E"
 				item: {

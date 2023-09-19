@@ -1,0 +1,252 @@
+{
+	icon: "vinery:wine_bottle"
+	id: "288FAF34D62458F5"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "vinery:stal_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:kelp_cider"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:strad_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:magnetic_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:chorus_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:aegis_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:solaris_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:noir_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:bolvar_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:cherry_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:clark_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:jellie_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:apple_cider"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:apple_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:red_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:praetorian_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:chenet_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:king_danis_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:mellohi_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:jo_special_mixture"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:cristel_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:glowing_wine"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:creepers_crush"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:bottle_mojang_noir"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:villagers_fright"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:mead"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vinery:eiswein"
+				tag: {
+					Year: 3
+				}
+			}
+		}
+	]
+	title: "Wine"
+}

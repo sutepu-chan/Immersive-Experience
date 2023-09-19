@@ -15,7 +15,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6B8F7E9D7F8F3608"]
 			description: [
 				"Have you ever wondered why the &bdamage reduction&r of armor is &4inconsistent&r? The damage reduction doubles between iron and diamond armors!"
 				""
@@ -26,14 +25,200 @@
 				"Additionally, the &barmor toughness&r has been adjusted to provide an &6additional layer of damage reduction&r. It scales based on the percentage of health the hit would take, reducing the chance of being one-shotted."
 			]
 			id: "460C0DDC23E2A694"
+			rewards: [
+				{
+					id: "1D92D0C0379A66E1"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 2.0d
+									AttributeName: "minecraft:generic.armor"
+									Name: "base_armor"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1072147578
+										273762840
+										-1524532748
+										-123377307
+									]
+								}
+								{
+									Amount: 0.1d
+									AttributeName: "minecraft:generic.attack_damage"
+									Name: "base_bonus"
+									Operation: 2
+									Slot: "head"
+									UUID: [I;
+										-1523536262
+										1483426755
+										-1486666341
+										-1685077428
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 2s
+							}]
+							display: {
+								Name: "{\"translate\":\"set.aquamirae.dead_sea_helmet\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5432775717A123A4"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 6.0d
+									AttributeName: "minecraft:generic.armor"
+									Name: "base_armor"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										-116078284
+										1676889259
+										-2039620500
+										-2125290784
+									]
+								}
+								{
+									Amount: 0.1d
+									AttributeName: "minecraft:generic.attack_damage"
+									Name: "base_bonus"
+									Operation: 2
+									Slot: "chest"
+									UUID: [I;
+										749197197
+										-196459552
+										-1402142673
+										1674545640
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 2s
+							}]
+							display: {
+								Name: "{\"translate\":\"set.aquamirae.dead_sea_chestplate\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B241CEBD417C726"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 5.0d
+									AttributeName: "minecraft:generic.armor"
+									Name: "base_armor"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										-249690186
+										-1033483678
+										-1211791366
+										577955646
+									]
+								}
+								{
+									Amount: 0.1d
+									AttributeName: "minecraft:generic.attack_damage"
+									Name: "base_bonus"
+									Operation: 2
+									Slot: "legs"
+									UUID: [I;
+										657043920
+										923615412
+										-1691218158
+										-1036390820
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 2s
+							}]
+							display: {
+								Name: "{\"translate\":\"set.aquamirae.dead_sea_leggings\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30CC404298AA8C74"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 2.0d
+									AttributeName: "minecraft:generic.armor"
+									Name: "base_armor"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										390574915
+										1604669239
+										-1286366114
+										-572257226
+									]
+								}
+								{
+									Amount: 0.1d
+									AttributeName: "minecraft:generic.attack_damage"
+									Name: "base_bonus"
+									Operation: 2
+									Slot: "feet"
+									UUID: [I;
+										51913455
+										-1332329574
+										-1326300240
+										44197375
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 2s
+							}]
+							display: {
+								Name: "{\"translate\":\"set.aquamirae.dead_sea_boots\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "161F5C8B0DD7F0CA"
 				title: "&2I have read it!"
 				type: "checkmark"
 			}]
 			title: "&bDamage Reudction Formula"
-			x: -2.0d
-			y: -6.0d
+			x: -7.5d
+			y: -9.0d
 		}
 		{
 			description: [
@@ -49,6 +234,19 @@
 				"&6Good luck and enjoy your quest!&r"
 			]
 			id: "72BFDC167B05BBE4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A63C785BFEB0A74"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+				{
+					id: "122A41CAD6BE249C"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -68,6 +266,12 @@
 				"&bCrystallized blood&r is dropped as loot, which is used to make a special material called &6diabolium&r."
 			]
 			id: "3C179B42EEBABCF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2067F5CC6ADFB34E"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			tasks: [{
 				entity: "fromtheshadows:nehemoth"
 				icon: "fromtheshadows:nehemoth_spawn_egg"
@@ -84,6 +288,26 @@
 			description: ["The og &bMinecraft Monsters&r is brought back to modern version of Minecraft. They are more &6formidable&r than ever. Prepare yourself for &6intense battles&r as they possess powerful abilities and are difficult to defeat"]
 			hide_dependency_lines: true
 			id: "37CD8B33B32C8A2A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "757BD1DB15CFBDED"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3499A056F01B61C3"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E5A8F8F48A9587E"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					entity: "mutantmonsters:mutant_creeper"
@@ -148,6 +372,20 @@
 				"Cornelia completely &6ignores projectile damage&r."
 			]
 			id: "3E39DA90709263EE"
+			rewards: [
+				{
+					count: 16
+					id: "299C449F09F7B4A4"
+					item: "aquamirae:treasure_pouch"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "28B2C5E06A6DB988"
+					item: "aquamirae:luminescent_lamp"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
 				icon: "aquamirae:frozen_key"
@@ -171,6 +409,20 @@
 				"- spawn along with the &6Anglerfish&r with 0.5%"
 			]
 			id: "028538773BBC64E9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3605837D47F7B99B"
+					table_id: 6225236626738686000L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "68C50247AA50665F"
+					item: "aquamirae:dead_sea_scroll"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "aquamirae:maze_mother"
 				icon: "aquamirae:ship_graveyard_echo"
@@ -196,6 +448,25 @@
 				"- Anglerfish &6can't move on land&r and falls on its side, but despite this it doesn't suffocate without water."
 			]
 			id: "58DEC07517992391"
+			rewards: [
+				{
+					count: 2
+					id: "235B008E7267CAC4"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CDF4DAD330640F0"
+					item: "aquamirae:golden_moth_in_a_jar"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "aquamirae:anglerfish"
 				icon: "aquamirae:fin"
@@ -210,6 +481,32 @@
 			dependencies: ["72BFDC167B05BBE4"]
 			description: ["&bSpiders&r now have a chance to inflict the &6poison effect&r. In addition, the amplifier and duration of poison effects are increased in higher difficulty modes. Be cautious when fighting them!"]
 			id: "6C8A1E30E4F12DE4"
+			rewards: [
+				{
+					id: "5C8128DE78579881"
+					item: {
+						Count: 1b
+						id: "untamedwilds:bottle_tarantula"
+						tag: {
+							CustomModelData: 3
+							variant: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C757D03AF2E62A5"
+					item: {
+						Count: 1b
+						id: "untamedwilds:bottle_tarantula"
+						tag: {
+							CustomModelData: 5
+							variant: 5
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:spider"
 				id: "4DA535D7896851A5"
@@ -217,13 +514,19 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: 2.0d
-			y: -10.0d
+			x: -4.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
 			description: ["&bSlimes&r now have a chance to inflict the &6slowness effect&r. In addition, the amplifier and duration of the slowness effects are increased in higher difficulty modes. Be cautious when fighting them!"]
 			id: "25DC787BCAE2D037"
+			rewards: [{
+				count: 12
+				id: "1FF5D8F76842B4F1"
+				item: "minecraft:slime_block"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:slime"
 				id: "2ACDF94B0EA1C0DE"
@@ -231,7 +534,7 @@
 				type: "kill"
 				value: 75L
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: -10.0d
 		}
 		{
@@ -244,12 +547,25 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: 12.0d
-			y: 8.0d
+			x: -10.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
 			id: "7D95802627CC1220"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59F12F923E120ADB"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "6660137EE15BF278"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				entity: "deeperdarker:sculk_snapper"
 				icon: "deeperdarker:sculk_snapper_spawn_egg"
@@ -264,6 +580,19 @@
 			dependencies: ["1177EE213831E998"]
 			description: ["Each time you break a &6Vase&r, there is a chance for a &4Stalker&r to spawn. Defeating them gives you a &bSoul Crystal&r."]
 			id: "1A1F011D9320922E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03FFD12DD4FDCADE"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "5E0189A296904968"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				entity: "deeperdarker:stalker"
 				icon: "deeperdarker:stalker_spawn_egg"
@@ -278,6 +607,19 @@
 			dependencies: ["1177EE213831E998"]
 			description: ["In the depths of your exploration, you might step on &6Infested Sculk&r. A &bShriek Worm&r may rise from the ground and attack you."]
 			id: "68E93CA12BB95666"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FD2C8108D26D672"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "6F0D453F3325F4A8"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				entity: "deeperdarker:shriek_worm"
 				icon: "deeperdarker:shriek_worm_spawn_egg"
@@ -291,6 +633,19 @@
 		{
 			dependencies: ["1177EE213831E998"]
 			id: "3828937CB4876E7A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58D73F1CE378EF3F"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "3844D37FD337D2D8"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				entity: "deeperdarker:sculk_leech"
 				icon: "deeperdarker:sculk_leech_spawn_egg"
@@ -325,6 +680,19 @@
 			dependencies: ["1177EE213831E998"]
 			description: ["&bSculk Centipedes&r can be tamed with &6Enchanted Netherite Chestplates&r, occasionally granting you valuable &6Enchanted Books&r. However, please be cautious as there are currently known issues with their behavior, and they have been reported to cause world crashes. Exercise extra care when interacting with them until the issue is resolved."]
 			id: "29E37FC3764F341E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01282FBB57ECAFAE"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "6219EC828B5F7A16"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				entity: "deeperdarker:sculk_centipede"
 				icon: "deeperdarker:sculk_centipede_spawn_egg"
@@ -338,6 +706,19 @@
 		{
 			dependencies: ["1177EE213831E998"]
 			id: "700CA9A21AC938AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1EAA71037B839AED"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "388EAE9E0ABC6F8A"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				entity: "deeperdarker:shattered"
 				icon: "deeperdarker:shattered_spawn_egg"
@@ -353,6 +734,19 @@
 			dependency_requirement: "one_completed"
 			description: ["Before exploring the world, you definitely need to &6explore the cave&r to mine for some valuable resources. Get ready and grab your &bbasic stone swords&r!"]
 			id: "66DBD397DD7C86DC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "677DA13F9443DCA5"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+				{
+					id: "32A43B1905FDAAA9"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -383,6 +777,19 @@
 				"&7Craft any one of the items to complete the quest.&r"
 			]
 			id: "77F85B053BFFE8AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "298F94F2DA099884"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+				{
+					id: "393F752B7012E44E"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -405,6 +812,12 @@
 			dependencies: ["77F85B053BFFE8AD"]
 			description: ["Perhaps you have noticed that the mobs are a &4bit too strong&r for you. It's time to craft some &biron gear&r so that you can continue your journey."]
 			id: "6B8F7E9D7F8F3608"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29AD16D9D067A6FD"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "49DCEBB4C8A03032"
@@ -460,6 +873,12 @@
 			description: ["With all the &6iron and steel ingot&r you have gathered, why not give your armor a &2little upgrade&r? The &bIron Samurai Armor&r provides a slight boost in armor toughness to your Iron Armor. Plus, it looks great!"]
 			id: "19E101DAF5100D83"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F636301953C8687"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			size: 0.8d
 			tasks: [
 				{
@@ -515,6 +934,11 @@
 			dependencies: ["77F85B053BFFE8AD"]
 			description: ["During your &6cave exploration&r, you may come across these ores. They are valuable for &bcrafting tools and armor&r. Make sure to find them all!"]
 			id: "65233C0C2B6463E0"
+			rewards: [{
+				id: "350D1982A80ED933"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -561,6 +985,19 @@
 			dependencies: ["77F85B053BFFE8AD"]
 			description: ["Even though you're playing a modpack, make sure to collect all the resources from &bvanilla Minecraft&r as well! These ores are &6essential for crafting your tools and armor."]
 			id: "352CE5900BAE3041"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20089E9327A722E9"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+				{
+					id: "0BCE6C7D2FAFE3DC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [
@@ -602,6 +1039,13 @@
 			dependencies: ["6B8F7E9D7F8F3608"]
 			description: ["&bSteel ingots&r are vital materials for crafting powerful tools and armor. They can be obtained by &6smelting iron ingots&r in furnaces."]
 			id: "21586BF54F1F27AF"
+			rewards: [{
+				count: 3
+				id: "12DC66961CE88198"
+				item: "minecraft:coal_block"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B3C567B34A60EEC"
 				item: "epicsamurai:steel_ingot"
@@ -615,6 +1059,12 @@
 			description: ["The &bSilver Samurai&r is a formidable armor set that is &6highly effective&r in the early game. Not only does it provide excellent protection, but it also has a &6stylish appearance&r! Why not craft a set and try it on for yourself?"]
 			id: "409D9FD5CD9ECF3E"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63FD7DB1DBA114F3"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			shape: "circle"
 			size: 0.8d
 			tasks: [
@@ -672,6 +1122,12 @@
 			description: ["The &bRuby Samurai&r is a formidable armor set that is &6highly effective&r in the early game. Not only does it provide excellent protection, but it also has a &6stylish appearance&r! Why not craft a set and try it on for yourself?"]
 			id: "34166BD390A40EEB"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33BF916C02C27727"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			size: 0.8d
 			tasks: [
 				{
@@ -724,10 +1180,16 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["65233C0C2B6463E0"]
-			description: ["The &bCryorium Samurai&r is a formidable armor set that is &6highly effective&r in the early game. Not only does it provide excellent protection, but it also has a &6stylish appearance&r! Why not craft a set and try it on for yourself?"]
+			dependencies: ["2FC9B01A160A5C0E"]
+			description: ["The &bCryorium Samurai&r is a formidable armor set in the mid-game. It boasts a &6high armor value&r, along with &6excellent toughness and knockback resistance&r."]
 			id: "3705348A7C4B1007"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05A6A3416E45738D"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			size: 0.8d
 			tasks: [
 				{
@@ -776,14 +1238,20 @@
 				}
 			]
 			title: "&bCryorium Samurai"
-			x: -6.0d
-			y: -2.0d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["65233C0C2B6463E0"]
 			description: ["The &bAquamarine Samurai&r is a formidable armor set that is &6highly effective&r in the early game. Not only does it provide excellent protection, but it also has a &6stylish appearance&r! Why not craft a set and try it on for yourself?"]
 			id: "129E8542F4F41841"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32FA08986F53AB75"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			size: 0.8d
 			tasks: [
 				{
@@ -840,6 +1308,12 @@
 			description: ["The &bOnyx Samurai&r is a formidable armor set that is &6highly effective&r in the early game. Not only does it provide excellent protection, but it also has a &6stylish appearance&r! Why not craft a set and try it on for yourself?"]
 			id: "733FF249E5D5E175"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CC1BD9E9E6BA0F7"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			size: 0.8d
 			tasks: [
 				{
@@ -888,14 +1362,20 @@
 				}
 			]
 			title: "&bOnyx Samurai"
-			x: -8.0d
+			x: -6.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["57AE08DD9801A6C9"]
+			dependencies: ["2FC9B01A160A5C0E"]
 			description: ["The &bJade Samurai&r is a formidable armor set in the mid-game. It boasts a &6high armor value&r, along with &6excellent toughness and knockback resistance&r."]
 			id: "4927AA8BBCAF9BB9"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E6A74220759A129"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			size: 0.8d
 			tasks: [
 				{
@@ -944,13 +1424,19 @@
 				}
 			]
 			x: 8.0d
-			y: 4.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["57AE08DD9801A6C9"]
+			dependencies: ["2FC9B01A160A5C0E"]
 			description: ["The &bArclight Samurai&r is a formidable armor set in the mid-game. It boasts a &6high armor value&r, along with &6excellent toughness and knockback resistance&r."]
 			id: "4040760D416862DD"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C2C1D697853A58E"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			size: 0.8d
 			tasks: [
 				{
@@ -998,14 +1484,20 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 4.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["65233C0C2B6463E0"]
 			description: ["The &bJade Samurai&r is a formidable armor set that is &6highly effective&r in the early game. Not only does it provide excellent protection, but it also has a &6stylish appearance&r! Why not craft a set and try it on for yourself?"]
 			id: "7B85A177DEBD68D5"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30960F45B073BE8E"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			size: 0.8d
 			tasks: [
 				{
@@ -1066,6 +1558,19 @@
 				"&7Craft any one of the items to complete the quest.&r"
 			]
 			id: "0AE56FEBFA8C2394"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3163B23C20167048"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+				{
+					id: "344B3513096EFE65"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -1088,6 +1593,30 @@
 			dependencies: ["0AE56FEBFA8C2394"]
 			description: ["With your diamonds mined, it's high time to venture into the &cNether&r for a wider variety of resources and more powerful tool and armor sets! Start by crafting a &bDiamond Pickaxe&r and gather some obsidian."]
 			id: "66D494BEBC50B231"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18B7C2A961498A6A"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+				{
+					id: "242D7ECA19C3BAF2"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "3C824DD071CA4590"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -1103,6 +1632,12 @@
 			dependencies: ["66DBD397DD7C86DC"]
 			description: ["&bBows&r can be obtained by &6crafting&r or by &6looting&r from mobs."]
 			id: "0957A4C6B76B3E0E"
+			rewards: [{
+				count: 32
+				id: "7960472210E3C454"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
 			tasks: [{
 				id: "69741E86A9739FEF"
 				item: {
@@ -1122,8 +1657,14 @@
 				"0957A4C6B76B3E0E"
 				"77F85B053BFFE8AD"
 			]
-			description: ["&bNew tiers of bows&r have been introduced, with each tier increasing the &6durability&r."]
+			description: ["&bNew tiers of bows&r have been introduced, with each tier has an increased &6durability&r and &6damaged&r."]
 			id: "042626B2E8D02BA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BFB2C4F02747BBE"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "75B8552A94D5D8E6"
 				item: {
@@ -1141,6 +1682,12 @@
 		{
 			dependencies: ["042626B2E8D02BA6"]
 			id: "5EA707E3BD07D43C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55C7F43C8C218268"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "17503D3486D85A02"
 				item: {
@@ -1162,6 +1709,12 @@
 			]
 			description: ["&bNetherite Bow&r is the &6highest tier bow&r in this pack"]
 			id: "7FBFB9A326732529"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E3A945E24417178"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			tasks: [{
 				id: "42F6AC22C4BA7D94"
 				item: {
@@ -1174,12 +1727,18 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["07EDA2391125BE20"]
 			description: ["&bHigher-tiered arrows&r deal more damage, making them &4more powerful&r in combat."]
 			id: "57290E8E846A6DB4"
+			rewards: [{
+				count: 16
+				id: "29CA682620F4EF82"
+				item: "nyfsarcheryplus:iron_tipped_arrow"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56274CA8D056B016"
 				item: "nyfsarcheryplus:iron_tipped_arrow"
@@ -1192,6 +1751,12 @@
 			dependencies: ["4235649274A4E3EE"]
 			description: ["To complement your tiered bows and quivers, you'll need &bupgraded arrows&r. Start by crafting an &6arrow head&r to begin crafting arrows."]
 			id: "07EDA2391125BE20"
+			rewards: [{
+				count: 4
+				id: "36B9F76B3A5BAE0E"
+				item: "minecraft:flint"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C4A3DC8F9B2ED28"
 				item: "nyfsarcheryplus:iron_arrowhead"
@@ -1203,6 +1768,12 @@
 		{
 			dependencies: ["07EDA2391125BE20"]
 			id: "3D3740EAFED9F41F"
+			rewards: [{
+				count: 4
+				id: "3F55C60ED58D1FDC"
+				item: "minecraft:flint"
+				type: "item"
+			}]
 			tasks: [{
 				id: "60B123EF2C3A9A51"
 				item: "nyfsarcheryplus:diamond_arrowhead"
@@ -1214,6 +1785,12 @@
 		{
 			dependencies: ["3D3740EAFED9F41F"]
 			id: "4750C6A2E94C8C8C"
+			rewards: [{
+				count: 16
+				id: "2BA52642ECA2C026"
+				item: "nyfsarcheryplus:diamond_tipped_arrow"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D3167FF7DC1092E"
 				item: "nyfsarcheryplus:diamond_tipped_arrow"
@@ -1225,13 +1802,19 @@
 		{
 			dependencies: ["603A3C6F6C1EF687"]
 			id: "2022FFF596CED953"
+			rewards: [{
+				count: 16
+				id: "2CDA04C2141BC81C"
+				item: "nyfsarcheryplus:netherite_tipped_arrow"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F49362017D96666"
 				item: "nyfsarcheryplus:netherite_tipped_arrow"
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1239,18 +1822,30 @@
 				"57AE08DD9801A6C9"
 			]
 			id: "603A3C6F6C1EF687"
+			rewards: [{
+				count: 4
+				id: "61F18A0AD6D5FD91"
+				item: "minecraft:flint"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C9EEEE61660E0C0"
 				item: "nyfsarcheryplus:netherite_arrowhead"
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0957A4C6B76B3E0E"]
 			description: ["In this pack, you need to equip &bquivers&r in order to &6fire arrows with a bow&r. Quivers are required to equip in the curios slot."]
 			id: "0B97651D5151062D"
+			rewards: [{
+				count: 16
+				id: "646838D725726DC4"
+				item: "minecraft:spectral_arrow"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2900CB6BA3A0B095"
 				item: {
@@ -1377,6 +1972,19 @@
 			dependencies: ["0B97651D5151062D"]
 			description: ["&bQuivers&r can now be upgraded as well. &6Higher-tier&r quivers have the ability to &6store more arrows&r at once."]
 			id: "4235649274A4E3EE"
+			rewards: [{
+				count: 8
+				id: "320DAB11057D35AB"
+				item: {
+					Count: 1b
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "minecraft:strong_harming"
+					}
+				}
+				random_bonus: 16
+				type: "item"
+			}]
 			tasks: [{
 				id: "6901B8A20A659673"
 				item: {
@@ -1600,6 +2208,34 @@
 				"&7Complete either one of the dependency requirements to unlock the quest."
 			]
 			id: "6F122767C280C787"
+			rewards: [
+				{
+					count: 16
+					id: "635C3AE895F6705A"
+					item: {
+						Count: 1b
+						id: "nyfsarcheryplus:iron_tipped_arrow"
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 16
+					id: "123599C28587A976"
+					item: {
+						Count: 1b
+						id: "nyfsarcheryplus:iron_tipped_arrow"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					random_bonus: 8
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3819237538EB82C2"
 				item: {
@@ -1905,6 +2541,34 @@
 		{
 			dependencies: ["6F122767C280C787"]
 			id: "3B8132ABF9C1FA60"
+			rewards: [
+				{
+					count: 16
+					id: "0DC1C02AC3699F5F"
+					item: {
+						Count: 1b
+						id: "nyfsarcheryplus:diamond_tipped_arrow"
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6965D6037A016E7F"
+					item: {
+						Count: 1b
+						id: "nyfsarcheryplus:diamond_tipped_arrow"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					random_bonus: 8
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "017B1D06171F26A8"
 				item: {
@@ -2303,6 +2967,34 @@
 				"57AE08DD9801A6C9"
 			]
 			id: "4C4FAB6FB75593E1"
+			rewards: [
+				{
+					count: 16
+					id: "36149A67F5AB4069"
+					item: {
+						Count: 1b
+						id: "nyfsarcheryplus:netherite_tipped_arrow"
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 16
+					id: "00E7AB4897746C6A"
+					item: {
+						Count: 1b
+						id: "nyfsarcheryplus:netherite_tipped_arrow"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					random_bonus: 8
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3D91B5321CC7AD3C"
 				item: {
@@ -2783,12 +3475,25 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0B97651D5151062D"]
 			description: ["&bQuivers&r can now be upgraded as well. &6Higher-tier&r quivers have the ability to &6store more arrows&r at once."]
 			id: "42381E1DB17499E6"
+			rewards: [{
+				count: 8
+				id: "22FE0F164163DB18"
+				item: {
+					Count: 1b
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "minecraft:strong_harming"
+					}
+				}
+				random_bonus: 16
+				type: "item"
+			}]
 			tasks: [{
 				id: "01E4878A621E6408"
 				item: {
@@ -2965,6 +3670,11 @@
 			dependencies: ["0AE56FEBFA8C2394"]
 			description: ["Find the &2Deep Dark Biome&r."]
 			id: "4D298AA0BA084E21"
+			rewards: [{
+				id: "437F7F8BCA5FD354"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			tasks: [{
 				biome: "minecraft:deep_dark"
 				icon: "minecraft:sculk_shrieker"
@@ -2980,6 +3690,19 @@
 			dependencies: ["4D298AA0BA084E21"]
 			description: ["Find the Kill the &3Warden&r."]
 			id: "5063F43A5622FF09"
+			rewards: [
+				{
+					count: 2
+					id: "3D934FBAB339D5E8"
+					item: "minecraft:warden_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "072D7931016331F2"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
 			tasks: [
 				{
 					entity: "minecraft:warden"
@@ -3017,8 +3740,20 @@
 				"There are many &6flying mobs&r in &4the Nether&r. Make sure to bring your &bbow, quivers and arrows&r."
 			]
 			id: "3A88AAE96B6BB165"
+			rewards: [{
+				count: 2
+				id: "3DD2BEB88C885897"
+				item: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:netherrack"
@@ -3028,13 +3763,20 @@
 			}]
 			title: "Venturing into &4the Nether&r"
 			x: 0.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
 			description: ["You definitely need some &bnetherites&r... Netherites were the most powerful resources in vanilla Minecraft. Although it is still useful now, there are much more powerful things in this pack. Netherite is one of the indispensable &6materials&r to craft them."]
 			id: "57AE08DD9801A6C9"
-			shape: "diamond"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "390E2F6656880045"
+				table_id: 5877745173198024707L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [
 				{
 					id: "69FBD9053F257557"
@@ -3054,7 +3796,7 @@
 			]
 			title: "&6Netherites"
 			x: 2.0d
-			y: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -3068,6 +3810,31 @@
 				"Inside the Ice Maze, you'll encounter an assortment of structures. You can find &6Pillagers' camps&r and &6their ships&r occasionally."
 			]
 			id: "4710915C2C2426D9"
+			rewards: [{
+				id: "7247EECCA679A30F"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				biome: "#aquamirae:ice_maze"
 				icon: "minecraft:blue_ice"
@@ -3894,6 +4661,12 @@
 			dependencies: ["58DEC07517992391"]
 			description: ["&bTerrible Armors&r are obtained from defeating &6Anglerfish&r. It gives useful &6set bonuses&r and has a pretty good armor value."]
 			id: "677481B5BE285E23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00CD008234EBA7D4"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "5920582C1645E667"
@@ -3955,6 +4728,19 @@
 				"It has two helmet options. Different helmets grant &6different full set abilities&r. It's impossible to activate both abilities at the same time."
 			]
 			id: "3AC3E0534B8BF826"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48610DA0CCA0F90B"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+				{
+					id: "61CB91D9F920B569"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [
 				{
 					id: "37455B467952007B"
@@ -4027,6 +4813,12 @@
 				"It also allows you to &6dive Underwater&r. Provides &6oxygen&r and &6protects against freezing&r."
 			]
 			id: "5437C27530E3BAB7"
+			rewards: [{
+				count: 4
+				id: "528C20A01CC33536"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7350002B07FDE8CF"
@@ -4081,6 +4873,12 @@
 			dependencies: ["5063F43A5622FF09"]
 			description: ["The &bReinforced Echo Shard&r is the required material to craft all the warden version armor."]
 			id: "115B98781912E453"
+			rewards: [{
+				count: 4
+				id: "69C067FD7645790B"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5DE749EF8B85C5A2"
 				item: "deeperdarker:reinforced_echo_shard"
@@ -4094,6 +4892,12 @@
 			description: ["The &bWarden Armor&r is a powerful armor set obtained in the Overworld, surpassing even the strength of &6netherite armors&r."]
 			id: "5AE9A6F198433A50"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D80589204B62243"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			size: 0.8d
 			tasks: [
 				{
@@ -4150,6 +4954,12 @@
 			description: ["The &bWarden Samurai Armor&r is a highly powerful armor set in the Samurai series."]
 			id: "32F9E67F68FF1677"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BB77C524E848D2B"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			size: 0.8d
 			tasks: [
 				{
@@ -4204,6 +5014,19 @@
 		{
 			dependencies: ["2F4AE6CE2202BCA2"]
 			id: "4FB4C7C3ACE56947"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "335FFCDAEDBE629C"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "363697DDB0B54014"
+					type: "xp"
+					xp: 225
+				}
+			]
 			tasks: [
 				{
 					id: "576799354647D676"
@@ -4262,6 +5085,8 @@
 				"Each tier also gives &6extra effects&r. Read the tooltip for more info."
 			]
 			id: "2F4AE6CE2202BCA2"
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "537F2510582B3C93"
 				item: "advancednetherite:netherite_iron_ingot"
@@ -4273,6 +5098,19 @@
 		{
 			dependencies: ["2F4AE6CE2202BCA2"]
 			id: "33FA22BD3507EBB4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "609B881B61E81F9C"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "3B71F693E9DCE5D7"
+					type: "xp"
+					xp: 225
+				}
+			]
 			tasks: [{
 				id: "43927190ABE1F603"
 				item: {
@@ -4290,6 +5128,19 @@
 		{
 			dependencies: ["6004A50560DE2AC6"]
 			id: "7D44D63D93177914"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3363E08D5C35D79F"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "00458D853D1A288D"
+					type: "xp"
+					xp: 225
+				}
+			]
 			tasks: [{
 				id: "57684AECC8FDEABD"
 				item: {
@@ -4308,6 +5159,8 @@
 		{
 			dependencies: ["2F4AE6CE2202BCA2"]
 			id: "6004A50560DE2AC6"
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "4EC43B7192A64073"
 				item: "advancednetherite:netherite_gold_ingot"
@@ -4320,6 +5173,19 @@
 		{
 			dependencies: ["6004A50560DE2AC6"]
 			id: "7C39A31C30515EE0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "530A7060201B6647"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "2852A1B49EB06236"
+					type: "xp"
+					xp: 225
+				}
+			]
 			tasks: [
 				{
 					id: "6AC97B05DE95372F"
@@ -4373,6 +5239,19 @@
 		{
 			dependencies: ["6249221DEA11AD4C"]
 			id: "532987ADE63D19D8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78B669100EC89A4F"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "04289D228DC50BCA"
+					type: "xp"
+					xp: 225
+				}
+			]
 			tasks: [
 				{
 					id: "437A15A9B7152600"
@@ -4426,6 +5305,8 @@
 		{
 			dependencies: ["6004A50560DE2AC6"]
 			id: "6249221DEA11AD4C"
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "1B64EE97DB08FC71"
 				item: "advancednetherite:netherite_emerald_ingot"
@@ -4438,6 +5319,19 @@
 		{
 			dependencies: ["6249221DEA11AD4C"]
 			id: "641D991E3C25B968"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79B6B5E9136FE6E4"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "60F7B5FF3285EF81"
+					type: "xp"
+					xp: 225
+				}
+			]
 			tasks: [{
 				id: "5501FC0D6EBC1DFD"
 				item: {
@@ -4456,6 +5350,19 @@
 		{
 			dependencies: ["47E3ADF179E2AF98"]
 			id: "61ABEBB2560A24C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21ECBDF6E7A0D361"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "65C4B39A1E57FC66"
+					type: "xp"
+					xp: 225
+				}
+			]
 			tasks: [{
 				id: "106507962F0F1F9D"
 				item: {
@@ -4474,6 +5381,8 @@
 		{
 			dependencies: ["6249221DEA11AD4C"]
 			id: "47E3ADF179E2AF98"
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "1896F101279A2251"
 				item: "advancednetherite:netherite_diamond_ingot"
@@ -4486,6 +5395,19 @@
 		{
 			dependencies: ["47E3ADF179E2AF98"]
 			id: "1A08403A05E9FFAF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "546C07705F23D15F"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "0FAC30AC6EAD4F40"
+					type: "xp"
+					xp: 225
+				}
+			]
 			tasks: [
 				{
 					id: "78FA2A7E90097D19"
@@ -4539,6 +5461,12 @@
 		{
 			dependencies: ["57AE08DD9801A6C9"]
 			id: "2B0C28FCA72EBB3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39EA02A327D58B7C"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6102289FB284DD17"
 				item: {
@@ -4551,28 +5479,29 @@
 				type: "item"
 			}]
 			title: "&6Netherite Weapons"
-			x: 4.0d
-			y: 4.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
-			description: ["To obtain the &6blaze rods&r, you definitely need to go to &cthe Fortress&r."]
+			description: ["The &cFortress&r is undeniably one of the symbolic structures in Minecraft. Now, the fortress has returned, &6bigger than ever&r, and offers even better loot."]
 			id: "764C557A3C82FA84"
 			shape: "rsquare"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				icon: "minecraft:nether_bricks"
 				id: "7990817C5AE9178A"
-				structure: "minecraft:fortress"
+				structure: "betterfortresses:fortress"
 				title: "Find &cthe Fortress"
 				type: "structure"
 			}]
 			title: "Find &cthe Fortress"
 			x: 0.0d
-			y: 8.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
+			description: ["&4Gigantic Lava Squid&r"]
 			id: "3A9570A6B719E2BF"
 			tasks: [{
 				entity: "monsterplus:mother_lava_squid"
@@ -4586,8 +5515,14 @@
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
-			description: ["Lava Squid is a &ccommon mob&r found in the &cNether&r. Try to eliminate &610 of them&r. Defeat the Lava Squid and prove your prowess in the dangerous depths of the Nether!"]
+			description: ["Lava Squid is a &ccommon mob&r found in the &cNether&r. Try to eliminate &610 of them&r!"]
 			id: "72F650C78FD30081"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "300915E52EE4D533"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				entity: "monsterplus:lava_squid"
 				icon: "monsterplus:lava_squid_spawn_egg"
@@ -4599,10 +5534,11 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1B5E1F3844153536"]
 			description: [
 				"&dThe Wither &rhas been more deadly ever than before. The level increases every time you defeat one (&6max level 10&r).The tweaks are listed below."
 				""
-				"&c&nHealth:&r &6+100&r for each level."
+				"&c&nHealth:&r &6+150&r for each level."
 				""
 				"&c&nRegeneration:&r &6+0.8HP/s&r for each level (&6max 8HP/s&r) "
 				""
@@ -4635,8 +5571,8 @@
 				value: 1L
 			}]
 			title: "&dFirst Wither Fight&r"
-			x: -6.0d
-			y: 10.0d
+			x: -4.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["17BB368DB4FFFF9C"]
@@ -4726,7 +5662,7 @@
 			}]
 			title: "&5Savage Ender Dragon"
 			x: -8.0d
-			y: 20.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1FE458DD0531E608"]
@@ -4747,7 +5683,7 @@
 			}]
 			title: "&dEnder Dragon &clv.5"
 			x: -8.0d
-			y: 22.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1BFFC00EF45D04E2"]
@@ -4768,7 +5704,7 @@
 			}]
 			title: "&dEnder Dragon &clv.10"
 			x: -8.0d
-			y: 24.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["75172170154E2990"]
@@ -4782,7 +5718,7 @@
 				type: "advancement"
 			}]
 			x: -8.0d
-			y: 26.5d
+			y: 16.0d
 		}
 		{
 			description: ["&bOld Eyes&r are found in &6Desert Pyramids&r."]
@@ -4800,23 +5736,6 @@
 			}]
 			x: 4.0d
 			y: 18.0d
-		}
-		{
-			description: ["&bNether Eye&r is found in &cNether Fortress&r."]
-			id: "196E94592C0B2A04"
-			tasks: [{
-				id: "456B6A1DD13AB5AA"
-				item: {
-					Count: 1b
-					id: "endrem:nether_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: 22.0d
 		}
 		{
 			description: ["&bCold Eye&r is found in &1Igloos&r."]
@@ -4870,7 +5789,7 @@
 			y: 20.0d
 		}
 		{
-			description: ["&bMagical Eye&r is dropped by &5Evokers&r."]
+			description: ["&bMagical Eye&r is dropped by &5Illusioner&r."]
 			id: "3231A678E6DEAB49"
 			tasks: [{
 				id: "39B2AFD65169270B"
@@ -4972,7 +5891,9 @@
 			y: 18.0d
 		}
 		{
-			description: ["&bCursed Eye&r can be found in &6Bastions&r' treasure chests."]
+			dependencies: ["11B85CF334FDECA2"]
+			dependency_requirement: "one_completed"
+			description: ["&bCursed Eye&r can be obtained by killing &6Pigling Brutes&r."]
 			id: "173B67293A245F60"
 			tasks: [{
 				id: "09456C50D46CAF70"
@@ -4985,8 +5906,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 22.0d
+			x: -4.0d
+			y: 10.0d
 		}
 		{
 			description: ["&bExotic Eye&r can be crafted using various &9aquatic items&r."]
@@ -5023,7 +5944,7 @@
 			y: 20.0d
 		}
 		{
-			description: ["&bUndead Eye&r can be crafted using an &8Undead Soul&r."]
+			description: ["The &bUndead Eye&r can be crafted using an &8Undead Soul&r, which is dropped by &6mutant zombies&r."]
 			id: "10034630779157D9"
 			tasks: [{
 				id: "73A431DE9A4E07D6"
@@ -5058,6 +5979,7 @@
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
+			description: ["The &5Akaname&r spawns occasionally in the Nether."]
 			id: "70413C6C3E56A79D"
 			tasks: [{
 				entity: "epicsamurai:akaname"
@@ -5079,6 +6001,12 @@
 				"The shields are divided into&6 two categories&r, distinguished primarily by their impact on your &6movement speed&r while held in the off-hand. Choose wisely according to your playstyle and combat preferences."
 			]
 			id: "0B1A02F83E069927"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65BF7157AC984DE2"
+				table_id: 3416584882695544973L
+				type: "random"
+			}]
 			tasks: [{
 				id: "094B0808F6227CEF"
 				item: {
@@ -5099,6 +6027,12 @@
 			dependencies: ["0B1A02F83E069927"]
 			description: ["&bHeavy shields&r usually deal &6more damage&r upon parrying and have &6blast resistant&r. However, you will move &4slower&r and there is a&4 longer cooldown time&r."]
 			id: "64B99FA9795C4253"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23C8ED9713D84EA1"
+				table_id: 2922747324652607733L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "41635AADBBE642F0"
@@ -5128,6 +6062,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["3A88AAE96B6BB165"]
 			id: "11B85CF334FDECA2"
 			tasks: [{
 				icon: "minecraft:blackstone"
@@ -5136,8 +6071,8 @@
 				title: "Find &6the Bastion"
 				type: "structure"
 			}]
-			x: -4.0d
-			y: 8.0d
+			x: -2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3E39DA90709263EE"]
@@ -5147,6 +6082,28 @@
 				"It can be inserted into any weapon and permanently &6increase its damage in cold biomes by 33%&r."
 			]
 			id: "2B09230B69AA7CC7"
+			rewards: [
+				{
+					id: "1B2CFCE7297E1739"
+					item: "aquamirae:painting_anglerfish"
+					type: "item"
+				}
+				{
+					id: "65A6487A78FE410E"
+					item: "aquamirae:painting_oxygelium"
+					type: "item"
+				}
+				{
+					id: "5CC032F3D9E8021D"
+					item: "aquamirae:painting_tortured_soul"
+					type: "item"
+				}
+				{
+					id: "45650A4F0D012EEF"
+					item: "aquamirae:painting_aurora"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4122FCE0271CC24E"
 				item: "aquamirae:rune_of_the_storm"
@@ -5163,6 +6120,12 @@
 				"It has &6high critical damage and critical chance&r but it also &4deals 1 damage to you&r if the hit doesn't kill the target, ignoring armor."
 			]
 			id: "30B11749564531B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D744EF2E9FD62B6"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7FA7DBB685FE08E4"
 				item: {
@@ -5182,6 +6145,12 @@
 			dependencies: ["58DEC07517992391"]
 			description: ["&bFin Cutter&r &6increases damage&r from each missing heart container."]
 			id: "384A72F224A7738A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B5F2D5870EA4603"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1FA2BD89517A6282"
 				item: {
@@ -5201,6 +6170,12 @@
 			dependencies: ["58DEC07517992391"]
 			description: ["&2Poisoned Blade&r is a simple weapon that &6poisons&r the target."]
 			id: "124526670C80A13B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D8D5D3A58D9CEF3"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			tasks: [{
 				id: "74BF3D46A4DB9A5C"
 				item: {
@@ -5218,7 +6193,14 @@
 		}
 		{
 			dependencies: ["4710915C2C2426D9"]
+			description: ["The &bSpinefish&r spawns naturally on the land of the biome."]
 			id: "155EE405522014B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "374CA1EB4ABC9CBD"
+				table_id: 3416584882695544973L
+				type: "random"
+			}]
 			tasks: [{
 				entity: "aquamirae:spinefish"
 				icon: "aquamirae:sharp_bones"
@@ -5233,6 +6215,12 @@
 			dependencies: ["155EE405522014B1"]
 			description: ["&bRemnant's Saber&r deals &6double damage underwater&r."]
 			id: "1722CF2D90C8A06D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EE90C9387AAED5E"
+				table_id: 3416584882695544973L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6F1DA408E5158313"
 				item: {
@@ -5251,6 +6239,19 @@
 			dependencies: ["028538773BBC64E9"]
 			description: ["&dDivider&r is capable of quickly inflicting &6heavy damage&r on enemies with a large supply of health. It temporarily &6reduces the target's armor&r by a percentage per hit."]
 			id: "2F409BA2E28336A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AF2E2376B99F969"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+				{
+					id: "18AC9ED869A2986E"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				id: "5A24D7CA6E8F5B26"
 				item: {
@@ -5270,6 +6271,19 @@
 			dependencies: ["028538773BBC64E9"]
 			description: ["&dWhisper of the Abyss&r is capable of significantly &6damaging targets with high armor&r. It temporarily &6reduces the target's armor&r by a percentage per hit."]
 			id: "6A847FE607821D90"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "653A1A0373E89272"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+				{
+					id: "539952DC78191B7C"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				id: "37F723217F322B93"
 				item: {
@@ -5292,6 +6306,11 @@
 				"It can only be obtained from &bIce Maze chests&r."
 			]
 			id: "089DCFDFE39624F4"
+			rewards: [{
+				id: "3821FF88053A32BB"
+				item: "aquamirae:rune_of_the_storm"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F6A345EC1F2FF30"
 				item: {
@@ -5317,7 +6336,7 @@
 			]
 			id: "1D1A1315969F0478"
 			rewards: [{
-				id: "556465023E0C1BFD"
+				id: "719C9DEDBEDBF65F"
 				item: {
 					Count: 1b
 					id: "aquamirae:sweet_lance"
@@ -5354,6 +6373,12 @@
 			dependencies: ["115B98781912E453"]
 			description: ["&2Warden Sword&r has a &6decent attack value&r and &6critical chance&r."]
 			id: "7FF231CBD8C8A765"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FA645279EF8E0DD"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			tasks: [{
 				id: "22F6EA9EEE346730"
 				item: {
@@ -5390,6 +6415,11 @@
 				"- Boss is spawned in the 2nd, 4th and 6th wave"
 			]
 			id: "745CDCF61A86DCE7"
+			rewards: [{
+				id: "0B93C78A7532C846"
+				item: "minecraft:zombie_head"
+				type: "item"
+			}]
 			tasks: [
 				{
 					entity: "minecraft:zombie"
@@ -5405,13 +6435,19 @@
 				}
 			]
 			title: "&7Undead Army&r"
-			x: -2.0d
+			x: -4.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["745CDCF61A86DCE7"]
 			description: ["Wither Sword has a chance to drop in the fight during &7Undead Army&r."]
 			id: "359E247DF2B6D697"
+			rewards: [{
+				count: 3
+				id: "39B46462BA8EA07D"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
 			tasks: [{
 				id: "63A6154F8D8DF103"
 				item: {
@@ -5423,13 +6459,19 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: -10.0d
 		}
 		{
-			dependencies: ["72BFDC167B05BBE4"]
-			description: ["&bAncient Crystal&r can be obtained from defeating &6certain cave mobs&r."]
+			dependencies: ["31ECC4BAF3F524E0"]
+			description: ["&bAncient Crystal Fragments&r can be obtained from defeating &6certain cave mobs&r. You can then craft them into &5Ancient Crystals&r using &6Blaze Powder&r."]
 			id: "275C3DA382B728BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15CB386CE86582CC"
+				table_id: 3847649148309268719L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "684A90FA0716FA2F"
@@ -5442,13 +6484,20 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -6.0d
+			x: -2.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["275C3DA382B728BF"]
 			description: ["&bAncient Crystal Sword&r is crafted from ancient crystals, and is able to &6summon crystal spikes&r during melee attack."]
 			id: "6B9F153E241EF523"
+			rewards: [{
+				count: 32
+				id: "551F908FFB4B96D5"
+				item: "monsterplus:crystal_arrow"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AAB24EF22C8B395"
 				item: {
@@ -5460,8 +6509,305 @@
 				}
 				type: "item"
 			}]
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["66DBD397DD7C86DC"]
+			description: [
+				"This pack introduces a new effect: &4Bleeding&r. You will be inflicted with the Bleeding effect when damaged by an undead mob or injured by other players."
+				""
+				"In &c&lEXPERT MODE&r, Bleeding II will be inflicted, and in &2&lMASTER MODE&r, Bleeding III will be inflicted. The duration of the effect also increases with the difficulty level."
+			]
+			id: "1C4AC82E0745A173"
+			rewards: [{
+				id: "4B4303916404C530"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "majruszsdifficulty:progressive_difficulty/bleeding"
+				criterion: ""
+				id: "4086C5F4F0483A8C"
+				type: "advancement"
+			}]
+			title: "Bleed for the first time"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1C4AC82E0745A173"]
+			description: ["A &eBandage&r is a useful item for dealing with the Bleeding effect. It immediately cures your Bleeding effect and grants you &eGlass Regeneration&r, which is a weaker form of the &dRegeneration effect&r."]
+			id: "53961F0E80EE7AA1"
+			rewards: [{
+				count: 16
+				id: "7343B8235F3E7D97"
+				item: "majruszsdifficulty:bandage"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7570608A32273D84"
+				item: "majruszsdifficulty:bandage"
+				type: "item"
+			}]
+			title: "&eBandage&r"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53961F0E80EE7AA1"]
+			description: ["The &6Golden Bandage&r is an upgraded version of the bandage. It provides you with the &eGlass Regeneration II&r effect and grants you the &eBleeding Immunity&r effect, which prevents you from being inflicted with the Bleeding effect."]
+			id: "2274B233ADCA779F"
+			rewards: [{
+				count: 16
+				id: "4D8233BEA9D82FD9"
+				item: "majruszsdifficulty:golden_bandage"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2866A73936F75879"
+				item: "majruszsdifficulty:golden_bandage"
+				type: "item"
+			}]
+			title: "&6Golden Bandage&r"
 			x: -6.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["57AE08DD9801A6C9"]
+			description: ["Although &cNetherite Armor&r is no longer the most powerful &6armor set&r in this pack, it still possesses a &6decent armor value&r. It also serves as the &6base armor material&r for crafting other armors."]
+			id: "2FC9B01A160A5C0E"
+			rewards: [{
+				id: "687AF319BEB4FCB5"
+				item: "nourished_nether:netherite_scrap_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5BC5A131E8ACA8E7"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A3237E1F59EB5A8"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06377F09A23D4F12"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FAE3DBFF71911C5"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&cNetherite Armor&r "
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["764C557A3C82FA84"]
+			description: ["The &6Blaze King&r resides at the top of the &cBlaze King Tower&r. Your objective is to overcome the obstacles and reach the summit, where you will face and defeat the &6Blaze King&r!"]
+			id: "78EC8A11A4DD5406"
+			shape: "rsquare"
+			tasks: [{
+				advancement: "1_splatus:ultris/blazepath/blazetower"
+				criterion: ""
+				id: "28FC6EE881F2FE86"
+				title: "Go Inside the Blaze King Tower"
+				type: "advancement"
+			}]
+			title: "&cBlaze King Tower&r"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["78EC8A11A4DD5406"]
+			description: ["After defeating the &6Blaze King&r, you will be rewarded with a &bNether Eye&r, which is one of the key items required to access the End."]
+			id: "7AA0A17A6B498823"
+			rewards: [{
+				id: "13A490E62D71C96B"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "1_splatus:ultris/blazepath/kingblazekill"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "minecraft:iron_helmet"
+					tag: {
+						CustomModelData: 87003
+						Damage: 0
+						Enchantments: [
+							{
+								id: "fire_protection"
+								lvl: 2s
+							}
+							{
+								id: "unbreaking"
+								lvl: 3s
+							}
+						]
+						UltrisBlazeKingHelmet: 1
+						display: {
+							Lore: [
+								"{\"translate\":\"\",\"color\":\"#FF9326\"}"
+								"{\"translate\":\"The helmet of the Blaze King, amplifies\",\"color\":\"#FF9326\"}"
+								"{\"translate\":\"the power and determination of\",\"color\":\"#FF9326\"}"
+								"{\"translate\":\"the bearer when at low health\",\"color\":\"#FF9326\"}"
+								"{\"translate\":\"Ultris: Boss Expansion\",\"color\":\"#676e75\",\"italic\": true}"
+							]
+							Name: "{\"translate\":\"Blaze King's Helmet\",\"color\":\"#FF6333\",\"italic\": false}"
+						}
+					}
+				}
+				id: "3D03BDED132D898B"
+				title: "Defeat &6Blaze King&r"
+				type: "advancement"
+			}]
+			title: "&6Blaze King&r"
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["764C557A3C82FA84"]
+			description: ["Get &63 Wither Skeleton Skulls&r in order to summon a Wither."]
+			id: "1B5E1F3844153536"
+			tasks: [{
+				count: 3L
+				id: "38C91B518896D4EA"
+				item: { Count: 3b, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["764C557A3C82FA84"]
+			description: ["Find and kill &c12 Blaze&r. You will need some &6Blaze Rods&r and &6Blaze Powder&r for your journey."]
+			id: "31ECC4BAF3F524E0"
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_rod"
+				id: "2B261FFE38CDB427"
+				type: "kill"
+				value: 12L
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: ["&4Corrupted Enderman&r is occasionally found in the Overworld. They are dangerous and require a &6special method to defeat&r. Take some time to observe their differences and find a way to tackle them!"]
+			hide_dependency_lines: true
+			id: "406CAD16772E30AB"
+			tasks: [{
+				advancement: "1_splatus:ultris/enderkill"
+				criterion: ""
+				id: "24D6995CDB1F89CA"
+				title: "Defeat &4Corrupted Enderman&r"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"31ECC4BAF3F524E0"
+				"406CAD16772E30AB"
+			]
+			description: [
+				"Use an &bOminous Eye&r along with &6Blaze Powder&r to craft an &bOminous Pearl&r, which can be exchaned with the location of Sanctum."
+				""
+				"&7Notes:"
+				"&7Click to submit this item."
+			]
+			id: "3EC887C4B801537D"
+			rewards: [{
+				command: "/locate structure 1_splatus:sanctum"
+				icon: "minecraft:oxidized_cut_copper_slab"
+				id: "57249F104DDFBA21"
+				title: "Get the location of Sanctum"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5BB6BD4179DD199B"
+				item: {
+					Count: 1b
+					id: "minecraft:ender_eye"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 1s
+						}]
+						UltrisOminousPearl: 1
+						display: {
+							Lore: ["{\"translate\":\"Ultris: Boss Expansion\",\"color\":\"#676e75\",\"italic\": true}"]
+							Name: "{\"translate\":\"Ominous Pearl\",\"color\":\"light_purple\",\"italic\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3EC887C4B801537D"]
+			description: ["The &5Sanctum&r is a massive structure filled with numerous mobs. Explore the structure, free the souls you encountered, and ultimately defeat the Ultris Boss: &5Sanctum Keeper&r."]
+			id: "53E1E3EED607FD91"
+			tasks: [{
+				advancement: "1_splatus:ultris/sanctum/keeper2"
+				criterion: ""
+				id: "21A1F8A074F5281E"
+				title: "Free the &5Sanctum&r"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 18.0d
 		}
 	]
 	title: "Adventure"

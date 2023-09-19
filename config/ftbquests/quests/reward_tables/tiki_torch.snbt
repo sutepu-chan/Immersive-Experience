@@ -1,0 +1,30 @@
+{
+	icon: "mcwlights:oak_tiki_torch"
+	id: "6A433B949C7EAE99"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 64, item: "mcwlights:oak_tiki_torch" }
+		{ count: 64, item: "mcwlights:spruce_tiki_torch" }
+		{ count: 64, item: "mcwlights:birch_tiki_torch" }
+		{ count: 64, item: "mcwlights:jungle_tiki_torch" }
+		{ count: 64, item: "mcwlights:acacia_tiki_torch" }
+		{ count: 64, item: "mcwlights:crimson_tiki_torch" }
+		{ count: 64, item: "mcwlights:warped_tiki_torch" }
+		{ count: 64, item: "mcwlights:mangrove_tiki_torch" }
+		{ count: 64, item: "mcwlights:bamboo_tiki_torch" }
+		{ count: 64, item: "mcwlights:soul_oak_tiki_torch" }
+		{ count: 64, item: "mcwlights:soul_spruce_tiki_torch" }
+		{ count: 64, item: "mcwlights:soul_birch_tiki_torch" }
+		{ count: 64, item: "mcwlights:soul_jungle_tiki_torch" }
+		{ count: 64, item: "mcwlights:soul_acacia_tiki_torch" }
+		{ count: 64, item: "mcwlights:soul_dark_oak_tiki_torch" }
+		{ count: 64, item: "mcwlights:soul_crimson_tiki_torch" }
+		{ count: 64, item: "mcwlights:soul_warped_tiki_torch" }
+		{ count: 64, item: "mcwlights:soul_mangrove_tiki_torch" }
+		{ count: 64, item: "mcwlights:soul_bamboo_tiki_torch" }
+		{ count: 64, item: "mcwlights:cherry_tiki_torch" }
+		{ count: 64, item: "mcwlights:soul_cherry_tiki_torch" }
+	]
+	title: "Tiki Torch"
+}

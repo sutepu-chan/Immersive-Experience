@@ -1,0 +1,31 @@
+{
+	icon: "minecraft:diamond"
+	id: "1662D01F3240F7BF"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 4, item: "minecraft:iron_ingot" }
+		{ count: 8, item: "minecraft:copper_ingot" }
+		{ count: 2, item: "minecraft:gold_ingot" }
+		{ count: 2, item: "epicsamurai:silver_ingot" }
+		{ count: 2, item: "epicsamurai:steel_ingot" }
+		{ count: 8, item: "create:andesite_alloy" }
+		{ count: 3, item: "create:zinc_ingot" }
+		{ item: "minecraft:diamond" }
+		{ count: 2, item: "minecraft:emerald" }
+		{ count: 16, item: "minecraft:lapis_lazuli" }
+		{ count: 4, item: "minecraft:quartz" }
+		{ count: 2, item: "minecraft:amethyst_shard" }
+		{ count: 2, item: "epicpaladins:arclight_gem" }
+		{ count: 2, item: "epicpaladins:moonlight_gem" }
+		{ count: 2, item: "epicpaladins:bloodstone_gem" }
+		{ count: 2, item: "epicpaladins:cryorium_gem" }
+		{ count: 2, item: "epicsamurai:ruby" }
+		{ count: 2, item: "epicsamurai:jade" }
+		{ count: 2, item: "epicsamurai:aquamarine" }
+		{ count: 2, item: "epicsamurai:onyx" }
+		{ count: 32, item: "minecraft:redstone" }
+		{ count: 16, item: "minecraft:coal" }
+	]
+	title: "Ore Resources"
+}

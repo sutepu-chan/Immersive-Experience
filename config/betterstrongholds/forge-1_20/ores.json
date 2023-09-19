@@ -1,0 +1,23 @@
+{
+  "oreChances": {
+    "entries": {
+      "minecraft:iron_ore": 0.15,
+      "minecraft:copper_ore": 0.1,
+      "minecraft:gold_ore": 0.05,
+      "minecraft:redstone_ore[lit=false]": 0.2,
+      "minecraft:emerald_ore": 0.1,
+      "minecraft:lapis_ore": 0.1,
+      "minecraft:diamond_ore": 0.05,
+      "epicpaladins:arclight_ore": 0.05,
+      "epicpaladins:cryorium_ore": 0.05,
+      "epicpaladins:bloodstone_ore": 0.05,
+      "epicsamurai:ruby_ore": 0.05,
+      "epicsamurai:jade_ore": 0.05,
+      "epicsamurai:aquamarine_ore": 0.05,
+      "epicsamurai:onyx_ore": 0.05,
+      "epicsamurai:silver_ore": 0.05,
+      "create:zinc_ore": 0.1
+    },
+    "defaultBlock": "minecraft:coal_ore"
+  }
+}

@@ -1,15 +1,373 @@
 [
     {
         "id": "minecraft:trident",
-        "chance": 0.25
+        "chance": 0.16
     },
     {
-        "id": "{regex}.*_sword",
+        "id": "{regex}(.*_pickaxe)|minecraft:shears",
+        "chance": 0.05
+    },
+    {
+        "id": "{regex}.*_shovel",
+        "chance": 0.02
+    },
+    {
+        "id": "{regex}.*_hoe",
+        "chance": 0.08
+    },
+    {
+        "id": "aquamirae:terrible_sword",
+        "chance": 1.0,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "aquamirae:fin_cutter",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "aquamirae:poisoned_blade",
+        "chance": 0.167,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "aquamirae:remnants_saber",
+        "chance": 0.167,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "aquamirae:whisper_of_the_abyss",
+        "chance": 0.22,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "aquamirae:divider",
+        "chance": 0.196,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "aquamirae:dagger_of_greed",
+        "chance": 0.5
+    },
+    {
+        "id": "aquamirae:coral_lance",
+        "chance": 0.516,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "aquamirae:sweet_lance",
+        "chance": 0.516,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "cataclysm:bulwark_of_the_flame",
+        "chance": 0.11
+    },
+    {
+        "id": "cataclysm:infernal_forge",
+        "chance": 0.792,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "cataclysm:void_forge",
+        "chance": 0.814,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "cataclysm:the_incinerator",
+        "chance": 0.6969,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "cataclysm:gauntlet_of_guard",
+        "chance": 0.62,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "cataclysm:gauntlet_of_bulwark",
+        "chance": 0.64,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "cataclysm:tidal_claws",
+        "chance": 0.523,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "minecraft:bow",
+        "chance": 0.005,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:iron_bow",
+        "chance": 0.12,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:golden_bow",
+        "chance": 0.18,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:diamond_bow",
+        "chance": 0.24,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:netherite_bow",
+        "chance": 0.30,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "minecraft:crossbow",
+        "chance": 0.008,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:iron_crossbow",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:golden_crossbow",
+        "chance": 0.21,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:diamond_crossbow",
+        "chance": 0.27,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:netherite_crossbow",
+        "chance": 0.33,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:moonlight_glaive",
+        "chance": 0.328,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:cryorium_battle_axe",
+        "chance": 0.363,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:angel_sword",
+        "chance": 0.31,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicsamurai:katana",
         "chance": 0.25,
         "enchantments": [
             {
                 "id": "minecraft:sharpness",
-                "extra_chance": 0.015
+                "extra_chance": 0.02
             },
             {
                 "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
@@ -18,12 +376,534 @@
         ]
     },
     {
-        "id": "{regex}.*_axe",
+        "id": "epicsamurai:naginata",
+        "chance": 0.25,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicsamurai:nagamaki",
+        "chance": 0.25,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicsamurai:shuko",
+        "chance": 0.25,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicsamurai:tetsubo",
+        "chance": 0.25,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "mutantmonsters:hulk_hammer",
+        "chance": 0.31
+    },
+    {
+        "id": "simplyswords:brimstone_claymore",
+        "chance": 0.58,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:watcher_claymore",
+        "chance": 0.58,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:storms_edge",
+        "chance": 0.43,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:stormbringer",
+        "chance": 0.5,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:sword_on_a_stick",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:bramblethorn",
+        "chance": 0.4,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:watching_warglaive",
+        "chance": 0.46,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:toxic_longsword",
+        "chance": 0.5,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:emberblade",
+        "chance": 0.5,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:hearthflame",
+        "chance": 0.66,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:soulkeeper",
+        "chance": 0.58,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:twisted_blade",
+        "chance": 0.54,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:soulrender",
+        "chance": 0.5,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:soulstealer",
+        "chance": 0.36,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:mjolnir",
+        "chance": 0.62,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:soulpyre",
+        "chance": 0.62,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:frostfall",
+        "chance": 0.5,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:molten_edge",
+        "chance": 0.43,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:livyatan",
+        "chance": 0.43,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:icewhisper",
+        "chance": 0.54,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:arcanethyst",
+        "chance": 0.54,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:thunderbrand",
+        "chance": 0.54,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:waking_lichblade",
+        "chance": 0.62,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:awakened_lichblade",
+        "chance": 0.62,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:slumbering_lichblade",
+        "chance": 0.62,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:shadowsting",
+        "chance": 0.38,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:sunfire",
+        "chance": 0.5,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:harbinger",
+        "chance": 0.5,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:whisperwind",
+        "chance": 0.43,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:dormant_relic",
+        "chance": 0.5,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:righteous_relic",
+        "chance": 0.5,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:tainted_relic",
+        "chance": 0.5,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "advancednetherite:netherite_iron_sword",
+        "chance": 0.25,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "advancednetherite:netherite_iron_axe",
         "chance": 0.225,
         "enchantments": [
             {
                 "id": "minecraft:sharpness",
-                "extra_chance": 0.015
+                "extra_chance": 0.02
             },
             {
                 "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
@@ -32,15 +912,1669 @@
         ]
     },
     {
-        "id": "{regex}(.*_pickaxe)|minecraft:shears",
-        "chance": 0.2
+        "id": "advancednetherite:netherite_gold_sword",
+        "chance": 0.3,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
     },
     {
-        "id": "{regex}.*_shovel",
-        "chance": 0.175
+        "id": "advancednetherite:netherite_gold_axe",
+        "chance": 0.27499999999999997,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
     },
     {
-        "id": "{regex}.*_hoe",
-        "chance": 0.15
+        "id": "advancednetherite:netherite_emerald_sword",
+        "chance": 0.35,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "advancednetherite:netherite_emerald_axe",
+        "chance": 0.32499999999999996,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "advancednetherite:netherite_diamond_sword",
+        "chance": 0.4,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "advancednetherite:netherite_diamond_axe",
+        "chance": 0.375,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "majruszsdifficulty:enderium_sword",
+        "chance": 0.45,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "majruszsdifficulty:enderium_axe",
+        "chance": 0.425,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "cataclysm:ignitium_sword",
+        "chance": 0.625,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "cataclysm:ignitium_axe",
+        "chance": 0.6,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "enlightened_end:adamantite_armor_sword",
+        "chance": 0.17,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "enlightened_end:adamantite_armor_axe",
+        "chance": 0.14500000000000002,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:arclight_sword",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:arclight_axe",
+        "chance": 0.255,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:jade_sword",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:jade_axe",
+        "chance": 0.255,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:bloodstone_sword",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:bloodstone_axe",
+        "chance": 0.255,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:cryorium_sword",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:cryorium_axe",
+        "chance": 0.255,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:moonlight_sword",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:moonlight_axe",
+        "chance": 0.255,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:sculk_sword",
+        "chance": 0.32,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "epicpaladins:sculk_axe",
+        "chance": 0.295,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "tofucraft:tofu_solid_sword",
+        "chance": 0.001,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "tofucraft:tofu_solid_axe",
+        "chance": -0.024,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "tofucraft:tofu_metal_sword",
+        "chance": 0.0128,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "tofucraft:tofu_metal_axe",
+        "chance": -0.0122,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "tofucraft:tofu_diamond_sword",
+        "chance": 0.0256,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "tofucraft:tofu_diamond_axe",
+        "chance": 0.0005999999999999998,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "tofucraft:sculk_bone_sword",
+        "chance": 0.0512,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "tofucraft:sculk_bone_axe",
+        "chance": 0.0262,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "deeperdarker:warden_sword",
+        "chance": 0.29,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "deeperdarker:warden_axe",
+        "chance": 0.26499999999999996,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "minecraft:wooden_sword",
+        "chance": 0.01,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "minecraft:wooden_axe",
+        "chance": -0.015000000000000001,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "minecraft:iron_sword",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "minecraft:iron_axe",
+        "chance": 0.03,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "minecraft:golden_sword",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "minecraft:golden_axe",
+        "chance": 0.034999999999999996,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "minecraft:diamond_sword",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "minecraft:diamond_axe",
+        "chance": 0.125,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "minecraft:netherite_sword",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "minecraft:netherite_axe",
+        "chance": 0.17500000000000002,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_longsword",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_twinblade",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_rapier",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_katana",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_sai",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_spear",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_glaive",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_warglaive",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_cutlass",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_claymore",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_greathammer",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_greataxe",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_chakram",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_scythe",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:golden_halberd",
+        "chance": 0.06,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_longsword",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_twinblade",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_rapier",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_katana",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_sai",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_spear",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_glaive",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_warglaive",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_cutlass",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_claymore",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_greathammer",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_greataxe",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_chakram",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_scythe",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:iron_halberd",
+        "chance": 0.055,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_longsword",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_twinblade",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_rapier",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_katana",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_sai",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_spear",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_glaive",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_warglaive",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_cutlass",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_claymore",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_greathammer",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_greataxe",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_chakram",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_scythe",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:diamond_halberd",
+        "chance": 0.15,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_longsword",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_twinblade",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_rapier",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_katana",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_sai",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_spear",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_glaive",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_warglaive",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_cutlass",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_claymore",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_greathammer",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_greataxe",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_chakram",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_scythe",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:netherite_halberd",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_longsword",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_twinblade",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_rapier",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_katana",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_sai",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_spear",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_glaive",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_warglaive",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_cutlass",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_claymore",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_greathammer",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_greataxe",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_chakram",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_scythe",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
+    },
+    {
+        "id": "simplyswords:runic_halberd",
+        "chance": 0.28,
+        "enchantments": [
+            {
+                "id": "minecraft:sharpness",
+                "extra_chance": 0.02
+            },
+            {
+                "id": "{regex}(minecraft:smite)|(minecraft:bane_of_arthropods)|(majruszsenchantments:misanthropy)",
+                "extra_chance": 0.01
+            }
+        ]
     }
 ]

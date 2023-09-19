@@ -183,10 +183,10 @@
 		WEAPON_SHOOTER_MANA_COST = 100
 		#Speed of projectiles shot from the weapon projectile bow
 		#Range: 0.0 ~ 1.0E7
-		WEAPON_SHOOTER_PROJECTILE_SPEED = 3.0
+		WEAPON_SHOOTER_PROJECTILE_SPEED = 5.0
 		#Damage multiplier for projectiles shot from the weapon projectile bow
 		#Range: 0.0 ~ 1.0E7
-		WEAPON_SHOOTER_DAMAGE_MULTIPLIER = 1.0
+		WEAPON_SHOOTER_DAMAGE_MULTIPLIER = 2.2
 		#Weapon projectile bow durability
 		#Range: 0 ~ 10000000
 		WEAPON_SHOOTER_DURABILITY = 30
@@ -194,28 +194,28 @@
 	[projection.treasury]
 		#This is the cost of using the scroll
 		#Range: 0 ~ 100000000
-		TREASURY_PROJECTION_SCROLL_MANA_COST = 1000
+		TREASURY_PROJECTION_SCROLL_MANA_COST = 5000
 		#This is the cost per projectile when using the gauntlet
 		#Range: 0 ~ 100000000
-		TREASURY_PROJECTION_GAUNTLET_MANA_COST = 120
+		TREASURY_PROJECTION_GAUNTLET_MANA_COST = 200
 		#This is the delay between projectiles of the gauntlet
 		#Range: 0 ~ 100000000
 		TREASURY_PROJECTION_COOLDOWN = 10
 		#This is the cost per chain when using the gauntlet in Chains mode
 		#Range: 0 ~ 100000000
-		TREASURY_PROJECTION_CHAINS_MANA_COST = 120
+		TREASURY_PROJECTION_CHAINS_MANA_COST = 200
 		#This is the delay between chains of the gauntlet in Chains mode
 		#Range: 0 ~ 100000000
-		TREASURY_PROJECTION_CHAINS_COOLDOWN = 10
+		TREASURY_PROJECTION_CHAINS_COOLDOWN = 40
 		#How many initial chains to spawn
 		#Range: 0 ~ 100000000
-		TREASURY_PROJECTION_CHAINS_COUNT = 16
+		TREASURY_PROJECTION_CHAINS_COUNT = 8
 		#How much damage chains do on contact
 		#Range: 0.0 ~ 1.0E8
-		TREASURY_PROJECTION_CHAINS_DAMAGE = 1.0
+		TREASURY_PROJECTION_CHAINS_DAMAGE = 4.0
 		#This is the cost per weapon when using the gauntlet in AOE mode
 		#Range: 0 ~ 100000000
-		TREASURY_PROJECTION_AOE_MANA_COST = 120
+		TREASURY_PROJECTION_AOE_MANA_COST = 200
 		#This is the delay between weapons of the gauntlet in AOE mode
 		#Range: 0 ~ 100000000
 		TREASURY_PROJECTION_AOE_COOLDOWN = 4
@@ -233,21 +233,21 @@
 		#Ignore whitelist & blacklist; allow everything
 		TREASURY_PROJECTION_DENY_ALL = false
 		#A list of additional registry names which will be considered for selection in Treasury Projection
-		TREASURY_PROJECTION_WHITELIST = []
+		TREASURY_PROJECTION_WHITELIST = ["cataclysm:the_incinerator","cataclysm:gauntlet_of_bulwark","cataclysm:tidal_claws","cataclysm:gauntlet_of_guard"]
 		#A list of  registry names which will be not considered for selection in Treasury Projection
 		TREASURY_PROJECTION_BLACKLIST = []
 		#Treasury Projection Speed Increase Per Available Sword
 		#Range: -10000.0 ~ 10000.0
-		TREASURY_PROJECTION_SPEED_INCREASE_PER_SWORD = 1.0
+		TREASURY_PROJECTION_SPEED_INCREASE_PER_SWORD = 1.15
 		#Treasury Projection Speed Minimum
 		#Range: 0.0 ~ 100000.0
 		TREASURY_PROJECTION_SPEED_MIN = 10.0
 		#Treasury Projection Cooldown Increase Per Available Sword
 		#Range: -10000.0 ~ 10000.0
-		TREASURY_PROJECTION_COOLDOWN_INCREASE_PER_SWORD = 1.0
+		TREASURY_PROJECTION_COOLDOWN_INCREASE_PER_SWORD = 1.15
 		#Treasury Projection Cooldown Minimum
 		#Range: 0.0 ~ 100000.0
-		TREASURY_PROJECTION_COOLDOWN_MIN = 3.0
+		TREASURY_PROJECTION_COOLDOWN_MIN = 2.0
 		#Treasury Projection AOE Mode Max Spawns Per Tick
 		#Range: 0.0 ~ 100000.0
 		TREASURY_PROJECTION_AOE_MAX_SPAWNS = 3.0
@@ -264,14 +264,14 @@
 	[projection.strengthening]
 		#This is the cost of using the scroll
 		#Range: 0 ~ 100000000
-		STRENGTHENING_MANA_COST = 50
+		STRENGTHENING_MANA_COST = 600
 		#Strengthening Item Spawn Blacklist
 		STRENGTHENING_ITEM_SPAWN_BLACKLIST = []
 		#Items that Strengthening won't work on
 		STRENGTHENING_ITEM_BLACKLIST = []
 		#Max Strengthening Cap
 		#Range: 0 ~ 100000000
-		STRENGTHENING_CAP = 50
+		STRENGTHENING_CAP = 100
 
 	[projection."reality marble"]
 		#This is the cost of using the scroll
@@ -305,7 +305,7 @@
 	[projection.projection]
 		#This is the cost of using the scroll
 		#Range: 0 ~ 100000000
-		PROJECTION_MANA_COST = 100
+		PROJECTION_MANA_COST = 1000
 		#A list of item names which cannot be projected. Such as minecraft:diamond_sword , for example.
 		PROJECTION_BLACKLIST = []
 		#If False, PROJECTION_BLACKLIST will be considered a whitelist
@@ -314,7 +314,7 @@
 		PROJECTION_ENCHANTMENT_BLACKLIST = []
 		#Either the amount of damage a projected item takes from its max, or the total durability of the projected item
 		#Range: 0 ~ 100000000
-		PROJECTION_DURABILITY_FACTOR = 5
+		PROJECTION_DURABILITY_FACTOR = 10
 		#Whether the projected durability is based on max damage (false) or just flat (true)
 		PROJECTION_DURABILITY_FLAT = true
 		#Projection items cannot be used in anvil
@@ -325,10 +325,10 @@
 	[projection."power consolidation"]
 		#This is the cost per sword transformation.
 		#Range: 0 ~ 100000000
-		POWER_CONSOLIDATION_SWORD_MANA_COST = 5000
+		POWER_CONSOLIDATION_SWORD_MANA_COST = 10000
 		#This is the cost per cycle for creating the lake.
 		#Range: 0 ~ 100000000
-		POWER_CONSOLIDATION_LAKE_MANA_COST = 30
+		POWER_CONSOLIDATION_LAKE_MANA_COST = 60
 		#This is how often the lake does it's thing to make a lake
 		#Range: 0 ~ 100000000
 		POWER_CONSOLIDATION_LAKE_CYCLE = 20
@@ -340,19 +340,19 @@
 		POWER_CONSOLIDATION_LAKE_THRESHHOLD = 150
 		#This is a nerf factor applied to enchantments to reduce the amount of power that can be consolidated. Lower is less nerf.
 		#Range: 0.0 ~ 1.0E8
-		POWER_CONSOLIDATION_NERF_FACTOR = 0.6
+		POWER_CONSOLIDATION_NERF_FACTOR = 0.5
 		#This is the distance before the lake begins to generate fog. (Note: Higher values may decrease FPS)
 		#Range: 0.0 ~ 1.0E8
 		POWER_CONSOLIDATION_FOG_RADIUS = 8.0
 		#This is the range for pulling undead mobs with Caliburn
 		#Range: 0 ~ 100000000
-		POWER_CONSOLIDATION_PULL_RADIUS = 20
+		POWER_CONSOLIDATION_PULL_RADIUS = 30
 		#This is the range for smiting undead mobs with Caliburn
 		#Range: 0 ~ 100000000
 		POWER_CONSOLIDATION_SMITE_RADIUS = 10
 		#How much durability Caliburn has.
 		#Range: 0 ~ 100000000
-		POWER_CONSOLIDATION_DURABILITY = 1000
+		POWER_CONSOLIDATION_DURABILITY = 25600
 		#This is the range for undead mobs to fear Caliburn
 		#Range: 0 ~ 100000000
 		POWER_CONSOLIDATION_FEAR_RADIUS = 15
@@ -361,7 +361,7 @@
 		POWER_CONSOLIDATION_SWEEP_RADIUS = 6
 		#The highest attack Caliburn can go to
 		#Range: 0 ~ 100000000
-		POWER_CONSOLIDATION_ATTACK_CAP = 5000000
+		POWER_CONSOLIDATION_ATTACK_CAP = 8964
 		#Entities must be this close to the wielder of Caliburn's look vector to be affected by the sweep.
 		#Range: 0 ~ 100000000
 		POWER_CONSOLIDATION_SWEEP_LOOK_RADIUS = 3
@@ -406,13 +406,13 @@
 		CLARENT_UNBREAKABLE = true
 		#Clarent Durability
 		#Range: 0 ~ 100000000
-		CLARENT_DURABILITY = 1500
+		CLARENT_DURABILITY = 15000
 		#How long Clarent's wound lasts
 		#Range: 0 ~ 100000000
 		CLARENT_WOUND_TICKS = 600
 		#How much damage the wound does per hit
 		#Range: 0.0 ~ 1.0E8
-		CLARENT_WOUND_DAMAGE = 0.2
+		CLARENT_WOUND_DAMAGE = 2
 		#How much Clarent's stored damage decreases per tick while blocking
 		#Range: 0.0 ~ 1.0E8
 		CLARENT_DECREASE_PER_BLOCKING_TICK = 0.02
@@ -439,18 +439,18 @@
 		EMRYS_MAX_RANGE = 22
 		#Emrys Damage Focused Per Second
 		#Range: 0.0 ~ 1.0E8
-		EMRYS_DAMAGE_FOCUSED_PER_SECOND = 4.0
+		EMRYS_DAMAGE_FOCUSED_PER_SECOND = 90
 		#How much damage the chain lightning does
 		#Range: 0.0 ~ 1.0E8
-		EMRYS_DAMAGE_ZAP = 1.5
+		EMRYS_DAMAGE_ZAP = 55
 		#Whether sky lightning from the emrys staff ignites the ground
 		EMRYS_BOLT_FIRE = false
 		#How much mana per second drained by Emrys Staff when using focused attack
 		#Range: 0 ~ 100000000
-		EMRYS_MANA_COST_FOCUSED = 200
+		EMRYS_MANA_COST_FOCUSED = 1000
 		#How much mana per second drained by Emrys Staff when using focused attack
 		#Range: 0 ~ 100000000
-		EMRYS_MANA_COST_PASSIVE = 80
+		EMRYS_MANA_COST_PASSIVE = 200
 		#Disable Emrys
 		DISABLE_EMRYS = false
 
@@ -459,10 +459,10 @@
 		MORGAN_TRANSFORM_ENTITY_WHITELIST = ["minecraft:wolf"]
 		#How much damage Morgan gains from killing children
 		#Range: 0.0 ~ 1.0E8
-		MORGAN_CHILD_INCREASE = 1.0
+		MORGAN_CHILD_INCREASE = 2.0
 		#How much damage Morgan gains from killing adult villagers
 		#Range: 0.0 ~ 1.0E8
-		MORGAN_ADULT_INCREASE = 0.2
+		MORGAN_ADULT_INCREASE = 1
 		#How much durability Morgan gains from killing villagers
 		#Range: 0 ~ 100000000
 		MORGAN_HEAL_FACTOR = 30
@@ -488,7 +488,7 @@
 	[projection.replica]
 		#Replica Shockwave Base Damage
 		#Range: 0.0 ~ 1.0E7
-		REPLICA_BASE_DAMAGE = 4.0
+		REPLICA_BASE_DAMAGE = 40.0
 		#Replica Friend Teleport Range
 		#Range: 0.0 ~ 1.0E7
 		REPLICA_TELEPORT_FRIEND_RANGE = 6.0
@@ -638,13 +638,13 @@
 	[mystic.spatial]
 		#This is the cost of using the scroll
 		#Range: 0 ~ 100000000
-		SPATIAL_DISORIENTATION_MANA_COST = 100
+		SPATIAL_DISORIENTATION_MANA_COST = 20000
 		#This is the cost of using the staff on a block (per second!)
 		#Range: 0 ~ 100000000
-		SPATIAL_DISORIENTATION_MANA_COST_AOE = 20
+		SPATIAL_DISORIENTATION_MANA_COST_AOE = 450
 		#This is a flat cost of using the staff on an entity
 		#Range: 0 ~ 100000000
-		SPATIAL_DISORIENTATION_MANA_COST_ST = 200
+		SPATIAL_DISORIENTATION_MANA_COST_ST = 600
 		#Spatial Disorientation Air Resistance
 		SPATIAL_DISORIENTATION_AIR_RESISTANCE = false
 		#Spatial Disorientation Launch Speed
@@ -657,15 +657,15 @@
 	[mystic."big explosion"]
 		#This is the cost of using the scroll
 		#Range: 0 ~ 100000000
-		MYSTIC_STAFF_SUMMON_MANA_COST = 100
+		MYSTIC_STAFF_SUMMON_MANA_COST = 60000
 		#This is the cost of using the giant explosion
 		#Range: 0 ~ 100000000
-		MYSTIC_STAFF_BIG_MANA_COST = 5000
+		MYSTIC_STAFF_BIG_MANA_COST = 10000
 		#Whether the damage is flat or scales with caster's 'level'
-		MYSTIC_STAFF_BIG_SCALES = true
+		MYSTIC_STAFF_BIG_SCALES = false
 		#Either a fraction of the max mana (if scaling) or a flat damage value
 		#Range: 0.0 ~ 1.0E8
-		MYSTIC_STAFF_BIG_FACTOR = 0.002
+		MYSTIC_STAFF_BIG_FACTOR = 3500
 		#Explosion Size for Big Explosion
 		#Range: 0 ~ 100000000
 		MYSTIC_STAFF_BIG_SIZE = 30
@@ -680,15 +680,15 @@
 	[mystic."aoe explosion"]
 		#This is the cost of using the multiple explosion mode
 		#Range: 0 ~ 100000000
-		MYSTIC_STAFF_AOE_MANA_COST = 600
+		MYSTIC_STAFF_AOE_MANA_COST = 2600
 		#Mystic Staff AOE Scaling Mana Factor
 		#Range: 0.0 ~ 1.0E7
 		MYSTIC_STAFF_AOE_SCALING_MANA = 0.0
 		#Whether the damage is flat or scales with caster's 'level'
-		MYSTIC_STAFF_AOE_SCALES = true
+		MYSTIC_STAFF_AOE_SCALES = false
 		#Either a fraction of the max mana (if scaling) or a flat damage value
 		#Range: 0.0 ~ 1.0E8
-		MYSTIC_STAFF_AOE_FACTOR = 0.001
+		MYSTIC_STAFF_AOE_FACTOR = 150
 		#Explosion Size for AOE Explosion
 		#Range: 0 ~ 100000000
 		MYSTIC_STAFF_AOE_SIZE = 4
@@ -699,15 +699,15 @@
 	[mystic.beam]
 		#Mystic Staff Beam Mana Per Tick
 		#Range: 0 ~ 100000000
-		MYSTIC_STAFF_BEAM_MANA_PER_TICK = 500
+		MYSTIC_STAFF_BEAM_MANA_PER_TICK = 3000
 		#Mystic Staff Beam Scaling Mana Factor
 		#Range: 0.0 ~ 1.0E7
 		MYSTIC_STAFF_BEAM_SCALING_MANA = 0.0
 		#Mystic Staff Beam Damage Factor
 		#Range: -1.0E7 ~ 1.0E8
-		MYSTIC_STAFF_BEAM_DAMAGE_FACTOR = 0.001
+		MYSTIC_STAFF_BEAM_DAMAGE_FACTOR = 380
 		#Whether the damage is flat or scales with caster's 'level'
-		MYSTIC_STAFF_BEAM_DAMAGE_SCALES = true
+		MYSTIC_STAFF_BEAM_DAMAGE_SCALES = false
 		#Mystic Staff Beam Damage Acceleration
 		#Range: 0.0 ~ 1.0E8
 		MYSTIC_STAFF_BEAM_DAMAGE_ACCELERATION = 1.5
@@ -1307,7 +1307,7 @@
 	MAGIC_DAMAGE_FLAT = true
 	#If damage is flat, this value is dealt to player's health. If not flat, this value is multiplied by mana used and rounded up.
 	#Range: 0.0 ~ 1.0E8
-	MAGIC_DAMAGE_VALUE = 1.0
+	MAGIC_DAMAGE_VALUE = 10
 	#What type of damage magic damage inflicts.
 	MAGIC_DAMAGE_GENERIC = true
 	#If true, only allow blood circles on solid blocks

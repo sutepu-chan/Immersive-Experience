@@ -32,7 +32,7 @@
                 "equipment": "majruszsdifficulty:undead_army/equipment_wave_1"
             }
         ],
-        "exp": 20
+        "exp": 100
     },
     {
         "mobs": [
@@ -55,16 +55,12 @@
                 "type": "enderzoology:infested_zombie",
                 "count": 3,
                 "equipment": "majruszsdifficulty:undead_army/equipment_wave_2"
-            },
-            {
-                "type": "enderzoology:fallen_knight",
-                "count": 2
             }
         ],
         "boss": {
             "type": "majruszsdifficulty:tank"
         },
-        "exp": 40
+        "exp": 300
     },
     {
         "mobs": [
@@ -89,15 +85,11 @@
                 "equipment": "majruszsdifficulty:undead_army/equipment_wave_3_skeleton"
             },
             {
-                "type": "enderzoology:fallen_knight",
-                "count": 2
-            },
-            {
                 "type": "bygonenether:wither_skeleton_knight",
                 "count": 1
             }
         ],
-        "exp": 60,
+        "exp": 800,
         "game_stage": "EXPERT"
     },
     {
@@ -118,10 +110,6 @@
                 "equipment": "majruszsdifficulty:undead_army/equipment_wave_4_skeleton"
             },
             {
-                "type": "enderzoology:fallen_knight",
-                "count": 5
-            },
-            {
                 "type": "bygonenether:wither_skeleton_knight",
                 "count": 3
             },
@@ -133,7 +121,7 @@
         "boss": {
             "type": "majruszsdifficulty:cerberus"
         },
-        "exp": 80,
+        "exp": 1000,
         "game_stage": "EXPERT"
     },
     {
@@ -170,7 +158,7 @@
             }
         ],
         
-        "exp": 100,
+        "exp": 1500,
         "game_stage": "MASTER"
     },
     {
@@ -185,17 +173,12 @@
                 "count": 2
             },
             {
-                "type": "mutantmonsters:mutant_zombie",
-                "count": 2
+                "type": "mutantmonsters:mutant_creeper",
+                "count": 1
             },
             {
                 "type": "majruszsdifficulty:cerberus",
                 "count": 3
-            },
-            {
-                "type": "enderzoology:fallen_knight",
-                "count": 5,
-                "equipment": "majruszsdifficulty:undead_army/equipment_wave_6"
             },
             {
                 "type": "bygonenether:wither_skeleton_knight",
@@ -206,7 +189,7 @@
         "boss": {
             "type": "cataclysm:ender_golem"
         },
-        "exp": 200,
+        "exp": 2000,
         "game_stage": "MASTER"
     }
 ]

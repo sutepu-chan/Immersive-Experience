@@ -176,7 +176,7 @@
 	[Wither.Health]
 		#Increase Wither's Health by this value at max difficulty (scales accordingly at lower difficulties)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Bonus per Difficulty" = 1000.0
+		"Health Bonus per Difficulty" = 1500.0
 		#Maximum bonus regeneration per second given by "Bonus Regeneration".
 		#Set to 0 to disable bonus health regeneration. This doesn't affect the natural regeneration of the Wither (1 Health per Second).
 		#Note that this bonus health regen is disabled when Wither's health is between 49% and 50% to prevent making it impossible to approach when reaches half health.
@@ -361,10 +361,10 @@
 	["Ender Dragon".Attack]
 		#How much more damage at max difficulty (percentage) does the Ender Dragon deal per difficulty?
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Direct Damage" = 5.0
+		"Bonus Direct Damage" = 1.8
 		#How much more damage at max difficulty (percentage) does the Ender Dragon's Acid fireball and pool deal per difficulty?
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Acid Pool Damage" = 4.8
+		"Bonus Acid Pool Damage" = 1.4
 		#Normally the Ender Dragon attacks only when leaving the center platform. With this active she has a chance when she has finished charging / fireballing or before checking if she should land in the center to charge the player.
 		#This is the chance to start a charge attack when the difficulty is at max. Otherwise it scales accordingly.
 		#The actual chance is: (this_value * (difficulty / max difficulty)).

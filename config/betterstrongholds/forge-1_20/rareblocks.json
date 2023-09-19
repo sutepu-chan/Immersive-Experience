@@ -1,0 +1,18 @@
+{
+  "blockChances": {
+    "entries": {
+      "minecraft:copper_block": 0.2,
+      "minecraft:gold_block": 0.12,
+      "minecraft:diamond_block": 0.02,
+      "minecraft:lapis_block": 0.12,
+      "epicsamurai:jade_block": 0.05,
+      "epicsamurai:aquamarine_block": 0.05,
+      "epicsamurai:onyx_block": 0.05,
+      "epicsamurai:silver_block": 0.05,
+      "epicsamurai:steel_block": 0.05,
+      "create:zinc_block": 0.12,
+      "minecraft:amethyst_block": 0.0
+    },
+    "defaultBlock": "minecraft:iron_block"
+  }
+}

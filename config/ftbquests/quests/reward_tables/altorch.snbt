@@ -1,0 +1,35 @@
+{
+	icon: "additional_lights:al_torch_oak_planks"
+	id: "35659883C14EE8EF"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 64, item: "additional_lights:al_torch_acacia_planks" }
+		{ count: 64, item: "additional_lights:al_torch_birch_planks" }
+		{ count: 64, item: "additional_lights:al_torch_oak_planks" }
+		{ count: 64, item: "additional_lights:al_torch_dark_oak_planks" }
+		{ count: 64, item: "additional_lights:al_torch_jungle_planks" }
+		{ count: 64, item: "additional_lights:al_torch_spruce_planks" }
+		{ count: 64, item: "additional_lights:al_torch_stone" }
+		{ count: 64, item: "additional_lights:al_torch_cobblestone" }
+		{ count: 64, item: "additional_lights:al_torch_mossy_cobblestone" }
+		{ count: 64, item: "additional_lights:al_torch_end_stone" }
+		{ count: 64, item: "additional_lights:al_torch_sandstone" }
+		{ count: 64, item: "additional_lights:al_torch_stone_bricks" }
+		{ count: 64, item: "additional_lights:al_torch_mossy_stone_bricks" }
+		{ count: 64, item: "additional_lights:al_torch_end_stone_bricks" }
+		{ count: 64, item: "additional_lights:al_torch_nether_bricks" }
+		{ count: 64, item: "additional_lights:al_torch_red_nether_bricks" }
+		{ count: 64, item: "additional_lights:al_torch_smooth_stone" }
+		{ count: 64, item: "additional_lights:al_torch_glass" }
+		{ count: 64, item: "additional_lights:al_torch_iron_block" }
+		{ count: 64, item: "additional_lights:al_torch_diamond_block" }
+		{ count: 64, item: "additional_lights:al_torch_packed_ice" }
+		{ count: 64, item: "additional_lights:al_torch_pink_wool" }
+		{ count: 64, item: "additional_lights:al_torch_magenta_wool" }
+		{ count: 64, item: "additional_lights:al_torch_crimson_planks" }
+		{ count: 64, item: "additional_lights:al_torch_warped_planks" }
+		{ count: 64, item: "additional_lights:al_torch_blackstone" }
+	]
+	title: "AlTorch"
+}

@@ -1,6 +1,6 @@
 REIEvents.hide('item', e => {
 
-    cataclysmItems = [
+    const cataclysmItems = [
         'cataclysm:the_incinerator',
         'cataclysm:gauntlet_of_bulwark',
         'cataclysm:tidal_claws',
@@ -10,7 +10,7 @@ REIEvents.hide('item', e => {
         e.hide(item);
     });
 
-    bowItems = [
+    const bowItems = [
         'nyfsarcheryplus:iron',
         'nyfsarcheryplus:golden',
         'nyfsarcheryplus:diamond',

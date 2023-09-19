@@ -5,5 +5,13 @@
 add enderman loot
 - chorus fruit
 
-iron spellbooks
-- configure weapon (still dk what value is ok)
+progressive boss
+- configure ender dragon and wither health
+- configure regeneration rate
+- update quest information
+
+armor
+- add durability
+
+mahou tsukai
+- check for the damage of weapons
