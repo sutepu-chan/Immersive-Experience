@@ -10,7 +10,7 @@ LootJS.modifiers(e => {
     e.addLootTypeModifier(LootType.CHEST)
         .removeLoot('endrem:corrupted_eye');
     e.addEntityLootModifier('minecraft:enderman')
-        .anyDimension("minecraft:the_end") 
+        .anyDimension("minecraft:the_end")
         .randomChance(0.05)
         .addLoot('endrem:corrupted_eye');
 
@@ -51,8 +51,13 @@ LootJS.modifiers(e => {
     e.addEntityLootModifier('minecraft:giant')
         .addLoot('endrem:black_eye');
 
+    e.addLootTypeModifier(LootType.CHEST)
+        .removeLoot('endrem:old_eyee');
+    e.addLootTableModifier('betterdeserttemples:chests/tomb_pharaoh')
+        .addLoot('endrem:old_eyee');
+
 });
 
 ServerEvents.recipes(e => {
-    e.remove({id: 'endrem:exotic_eye'});
+    e.remove({ id: 'endrem:exotic_eye' });
 })

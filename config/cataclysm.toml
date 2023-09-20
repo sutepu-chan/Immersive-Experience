@@ -96,7 +96,7 @@
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianHealthMultiplier = 24.0
+	EnderGuardianHealthMultiplier = 5.0
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageMultiplier = 2.5
@@ -148,7 +148,7 @@
 	Lavabombamount = 4
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 26.0
+	MonstrosityHealthMultiplier = 5.5
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityDamageMultiplier = 2.5
@@ -186,7 +186,7 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 29.8
+	IgnisHealthMultiplier = 4.8
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	IgnisDamageMultiplier = 2.0
@@ -208,7 +208,7 @@
 [revenant]
 	#Revenant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	RevenantHealthMultiplier = 8.0
+	RevenantHealthMultiplier = 3.5
 	#Revenant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	RevenantDamageMultiplier = 2.0
@@ -216,7 +216,7 @@
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 28.9
+	HarbingerHealthMultiplier = 5.2
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerDamageMultiplier = 2.0
@@ -241,7 +241,7 @@
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 31.2
+	LeviathanHealthMultiplier = 4.6
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	LeviathanDamageMultiplier = 2.0
@@ -274,7 +274,7 @@
 ["The Baby Leviathan"]
 	#BabyLeviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	BabyLeviathanHealthMultiplier = 6.2
+	BabyLeviathanHealthMultiplier = 3.1
 	#BabyLeviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	BabyLeviathanDamageMultiplier = 2.0
@@ -308,7 +308,7 @@
 ["Amethyst Crab"]
 	#Amethyst Crab's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AmethystCrabHealthMultiplier = 8.0
+	AmethystCrabHealthMultiplier = 3.2
 	#Amethyst Crab's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	AmethystCrabDamageMultiplier = 2.5

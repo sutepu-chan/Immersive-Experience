@@ -1,6 +1,20 @@
 LootJS.modifiers(e => {
-    e.addLootTableModifier('betterwitchhuts:chests/hut_0')
+    e.addLootTableModifier('betteroceanmonuments:chests/upper_side_chamber')
         .removeLoot(Ingredient.all)
+        .addLoot(LootEntry.of('simplyswords:runic_tablet').when(c => c.randomChance(0.3)))
+        .addAlternativesLoot(
+            LootEntry.of('irons_spellbooks:silver_ring').when(c => c.randomChance(0.1)),
+            LootEntry.of('irons_spellbooks:cooldown_ring').when(c => c.randomChance(0.1)),
+            LootEntry.of('irons_spellbooks:heavy_chain_necklace').when(c => c.randomChance(0.1)),
+            LootEntry.of('irons_spellbooks:emerald_stoneplate_ring').when(c => c.randomChance(0.1)),
+            LootEntry.of('irons_spellbooks:fireward_ring').when(c => c.randomChance(0.1)),
+            LootEntry.of('irons_spellbooks:frostward_ring').when(c => c.randomChance(0.1)),
+            LootEntry.of('irons_spellbooks:cast_time_ring').when(c => c.randomChance(0.1)),
+            LootEntry.of('irons_spellbooks:conjurers_talisman').when(c => c.randomChance(0.1)),
+            LootEntry.of('irons_spellbooks:poisonward_ring').when(c => c.randomChance(0.1)),
+            LootEntry.of('irons_spellbooks:concentration_amulet').when(c => c.randomChance(0.1)),
+            LootEntry.of('irons_spellbooks:affinity_ring').customFunction({ function: "irons_spellbooks:randomize_ring_enhancement" }).when(c => c.randomChance(0.1)),
+        )
         .addWeightedLoot(
             [4, 8],
             [
