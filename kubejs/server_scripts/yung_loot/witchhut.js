@@ -10,12 +10,12 @@ LootJS.modifiers(e => {
     e.addLootTableModifier('betterwitchhuts:chests/hut_0')
         .removeLoot(Ingredient.all)
         .addLoot('endrem:witch_pupil')
-        .addAlternativesLoot(
-            LootEntry.of('minecraft:carrot', 4).when(c => c.randomChance(0.3)),
-            LootEntry.of('minecraft:rabbit_foot', 2).when(c => c.randomChance(0.25)),
-            LootEntry.of('minecraft:pufferfish', 1).when(c => c.randomChance(0.15)),
+        .addAlternativesLoot([
             LootEntry.of('minecraft:phantom_membrane', 2).when(c => c.randomChance(0.15)),
-        )
+            LootEntry.of('minecraft:pufferfish', 1).when(c => c.randomChance(0.15)),
+            LootEntry.of('minecraft:rabbit_foot', 2).when(c => c.randomChance(0.25)),
+            LootEntry.of('minecraft:carrot', 4).when(c => c.randomChance(0.3)),
+        ])
         .addWeightedLoot(
             [6, 12],
             [
@@ -28,13 +28,13 @@ LootJS.modifiers(e => {
                 Item.of('minecraft:slime_ball', 6).withChance(0.30),
             ]
         )
-        .addAlternativesLoot(
+        .addAlternativesLoot([
             LootEntry.of('minecraft:potion', '{Potion:"irons_spellbooks:instant_mana_two"}').when(c => c.randomChance(0.10)),
             LootEntry.of('minecraft:potion', '{Potion:"fromtheshadows:bulldrogioth"}').when(c => c.randomChance(0.10)),
             LootEntry.of('minecraft:potion', '{Potion:"fromtheshadows:terrible_plague"}').when(c => c.randomChance(0.10)),
             LootEntry.of('minecraft:potion', '{Potion:"fromtheshadows:terrible_plague"}').when(c => c.randomChance(0.10)),
             LootEntry.of('minecraft:potion', '{Potion:"illagerinvasion:strong_berserking"}').when(c => c.randomChance(0.10)),
             LootEntry.of('minecraft:potion', '{Potion:"aquamirae:potion_of_tenacity"}').when(c => c.randomChance(0.10))
-        );
+        ]);
 
 });
