@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "journey_to_the_end"
+	group: "2567E5CB30369DC8"
+	icon: "minecraft:end_portal_frame"
+	id: "7F8A1DEA0A2B0373"
+	images: [{
+		alpha: 155
+		click: ""
+		color: 3245401
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "mahoutsukai:block/mahoujin_casting"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0DAC30C491B3A8A8"]
+			description: ["&2Rogue Eye&r is found in the &6treasure chest&r of &2Jungle Pyramids&r."]
+			hide: true
+			id: "101C669C8660AF72"
+			tasks: [{
+				id: "43F5E3297FEB54B9"
+				item: {
+					Count: 1b
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Rogue Eye&r"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4662D714D1FBEB68"]
+			description: ["&9Magical Eye&r is dropped by &5Illusioner&r."]
+			id: "3231A678E6DEAB49"
+			tasks: [{
+				id: "39B2AFD65169270B"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&9Magical Eye&r"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["406CAD16772E30AB"]
+			description: [
+				"&7Corrupted Eye&r is obtained as a reward for completing the quest of defeating the &5Corrupted Enderman&r."
+				""
+				"Additional &7Corrupted Eyes&r can be obtained by killing &5Enderman&r in the End dimension with a 5% chance."
+			]
+			hide: true
+			id: "1BA7D25E4F922F33"
+			tasks: [{
+				id: "594A57D9E474E9AE"
+				item: {
+					Count: 1b
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&7Corrupted Eye&r"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17BB368DB4FFFF9C"]
+			description: ["Wither Eye is dropped by defeating &dThe Wither&r."]
+			hide: true
+			id: "419260BFBC5BDC06"
+			tasks: [{
+				id: "2298F0D594F6A0EB"
+				item: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Wither Eye"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C20611CEF714552"]
+			description: ["&cGuardian Eye&r can be obtained by slaying the &3Elder Guardian&r."]
+			hide: true
+			id: "6CF0C386EBC0F44B"
+			tasks: [{
+				id: "700D114033F6CAF2"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&cGuardian Eye&r"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0ACB24DF06CBCB1B"]
+			description: ["&0Black Eye&r is obtained by defeating the &3Giant&r."]
+			hide: true
+			id: "22A01E0107674336"
+			tasks: [{
+				id: "3D564D3E127C0481"
+				item: {
+					Count: 1b
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&0Black Eye&r"
+			x: 1.02d
+			y: 3.4d
+		}
+		{
+			dependencies: ["26E16E1DBE091CB0"]
+			description: ["&eOld Eye&r can be found in chests of &eDesert Pyramids&r."]
+			hide: true
+			id: "54101CF83D7447BE"
+			tasks: [{
+				id: "378C9C789A797784"
+				item: {
+					Count: 1b
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&eOld Eye&r"
+			x: -3.4d
+			y: -1.02d
+		}
+		{
+			dependencies: ["4710915C2C2426D9"]
+			description: ["&bCold Eye&r is obtained by killing &6Maws&r with a 10% chance."]
+			hide: true
+			id: "71DFC9F0DBE1400E"
+			tasks: [{
+				id: "6380001B79A274B3"
+				item: {
+					Count: 1b
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bCold Eye"
+			x: -3.4d
+			y: 1.02d
+		}
+		{
+			dependencies: ["2AB58726C75A0AAE"]
+			description: ["&8Lost Eye&r can be found in chests inside &8Mineshafts&r."]
+			hide: true
+			id: "40A1E505AD8441DB"
+			tasks: [{
+				id: "23A97293A53F17E9"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&8Lost Eye&r"
+			x: 3.404761904761912d
+			y: 1.0238095238095184d
+		}
+		{
+			dependencies: ["485BE39EE6EAB4D2"]
+			description: ["&aCryptic Eye&r has a small chance to be obtained when &5enchanting items&r."]
+			hide: true
+			id: "77BF4794B3E320F9"
+			tasks: [{
+				id: "3E79A8A8A423321E"
+				item: {
+					Count: 1b
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&aCryptic Eye&r"
+			x: 1.02d
+			y: -3.4d
+		}
+		{
+			dependencies: ["37CD8B33B32C8A2A"]
+			description: ["The &8Undead Eye&r can be crafted using an &8Undead Soul&r, which is dropped by &6Mutant Zombies&r."]
+			hide: true
+			id: "10034630779157D9"
+			tasks: [{
+				id: "73A431DE9A4E07D6"
+				item: {
+					Count: 1b
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&8Undead Eye&r"
+			x: 3.4d
+			y: -1.02d
+		}
+		{
+			dependencies: ["0C20611CEF714552"]
+			description: ["&3Exotic Eye&r can be obtained from the chests in &3Ocean Monuments&r."]
+			hide: true
+			id: "58764B341F312277"
+			tasks: [{
+				id: "505BD6E3F9FEF1CA"
+				item: {
+					Count: 1b
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&3Exotic Eye&r"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["749C034674530750"]
+			description: ["&1Evil Eye&r can be purchased from a &9Master Cleric&r."]
+			hide: true
+			id: "6B1AB2F991C5DCB4"
+			tasks: [{
+				id: "607E2FEC701E592F"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&1Evil Eye&r"
+			x: -1.02d
+			y: 3.4d
+		}
+		{
+			dependencies: ["01F5EAE4BCB69B8B"]
+			description: ["&dWitch Eye&r can be crafted using the &2Witch Pupil&r, which is obtained from chests found in &2Witch Huts&r."]
+			hide: true
+			id: "6E0611B1C24B0887"
+			tasks: [{
+				id: "401BA1EABA8D82D9"
+				item: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&dWitch Eye&r"
+			x: -1.02d
+			y: -3.4d
+		}
+		{
+			dependencies: ["745CDCF61A86DCE7"]
+			description: ["&dCursed Eye&r can be obtained by killing &dCleric&r (a mob spawns naturally)."]
+			hide: true
+			id: "53B92A87872B31D5"
+			tasks: [{
+				id: "518607F15A1856C2"
+				item: {
+					Count: 1b
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&dCursed Eye&r"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7AA0A17A6B498823"]
+			description: [
+				"&4Nether Eye&r is obtained as a reward for completing the quest of defeating the &4Blaze King&r."
+				""
+				"Additional &4Nether Eyes&r can be obtained by killing &6Blazes&r while holding a &3Moonlight Gem&r in your left hand, with a 5% chance."
+			]
+			hide: true
+			id: "7275E1113FF94251"
+			tasks: [{
+				id: "065743A691016F9B"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&4Nether Eye&r"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"In this pack, you no longer need &2Eyes of Ender&r in order to go to the &5End dimension&r. Instead, you need to explore this world and find the &b12 unique eyes&r as the &ekey&r of the &5End portal&r."
+				""
+				"The information of the keys is still hidden until you have unlocked relevant quests in the &6Main Quest Line&r."
+				""
+				"&7Notes:"
+				"&7The ways of obtaining the eyes are modified and are a bit different from the original mod content. Don't waste time in killing &czombies, witches, etc.&r."
+			]
+			id: "4759E87D89591D59"
+			tasks: [{
+				id: "5E5D8BA6A187CD9B"
+				title: "What is this chapter?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Journey to the End"
+}

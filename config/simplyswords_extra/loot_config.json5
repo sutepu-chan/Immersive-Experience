@@ -33,5 +33,8 @@
   "minecraft:chests/village/village_tannery": 0.0,
   "minecraft:chests/village/village_temple": 0.0,
   "minecraft:chests/village/village_toolsmith": 0.0,
-  "minecraft:chests/village/village_weaponsmith": 0.0
+  "minecraft:chests/village/village_weaponsmith": 0.0,
+  "betterwitchhuts:chests/hut_0": 0.0,
+  "betterstronghold:chests/armoury": 0.0,
+  "betterstrongholds:chests/common": 0.0
 }

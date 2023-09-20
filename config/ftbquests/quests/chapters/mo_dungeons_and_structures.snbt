@@ -1,0 +1,92 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mo_dungeons_and_structures"
+	group: "2567E5CB30369DC8"
+	icon: "mcwwindows:stone_brick_gothic"
+	id: "5F64B4C6B7CD4C71"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: ["Finding a &2Village&r is undoubtedly an important thing to do in Minecraft. It is also an essential way to obtain various types of food and resources in the early game."]
+			id: "749C034674530750"
+			tasks: [{
+				icon: "minecraft:bell"
+				id: "70983CFAADB3A332"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			title: "Find a Village"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			id: "01F5EAE4BCB69B8B"
+			tasks: [{
+				icon: "minecraft:cauldron"
+				id: "78A3C01441CBF11B"
+				structure: "betterwitchhuts:witch_hut"
+				title: "Find a Witch Hut"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			id: "26E16E1DBE091CB0"
+			tasks: [{
+				icon: "minecraft:chiseled_sandstone"
+				id: "6242B301496E29A7"
+				structure: "betterdeserttemples:desert_temple"
+				title: "Find a Desert Temple"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			id: "0DAC30C491B3A8A8"
+			tasks: [{
+				icon: "minecraft:mossy_cobblestone"
+				id: "035AE10A91E73CBD"
+				structure: "betterjungletemples:jungle_temple"
+				title: "Find a Jungle Temple"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			id: "0C20611CEF714552"
+			tasks: [{
+				icon: "minecraft:prismarine_shard"
+				id: "362CFDD8A3B71871"
+				structure: "betteroceanmonuments:ocean_monument"
+				title: "Find an Ocean Monument"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			id: "2AB58726C75A0AAE"
+			tasks: [{
+				icon: "minecraft:rail"
+				id: "27A5200BD878DBB0"
+				structure: "#bettermineshafts:better_mineshafts"
+				title: "Find a Mineshaft"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+	]
+	title: "Mo' Dungeons and Structures"
+}

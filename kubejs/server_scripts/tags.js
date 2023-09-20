@@ -114,6 +114,8 @@ ServerEvents.tags('item', e => {
         'tofucraft:tofuhamburg',
         'tofucraft:raw_tofufish',
         'tofucraft:cooked_tofufish',
+        'cataclysm:amethyst_crab_meat',
+        'cataclysm:blessed_amethyst_crab_meat'
     ]);
     e.add('forge:carbs', [
         '#forge:crops/rice',

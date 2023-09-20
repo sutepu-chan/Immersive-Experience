@@ -406,6 +406,36 @@ ItemEvents.modification(e => {
             $AM$Operation.ADDITION
         );
     });
+    e.modify('cataclysm:bloom_stone_pauldrons', (item) => {
+        item.addAttribute(
+            'minecraft:generic.armor',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            5, //5
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.armor_toughness',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            2, //4
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.knockback_resistance',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            0.7,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.max_health',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            3,
+            $AM$Operation.ADDITION
+        );
+    });
     //crust 3, 7, 5 + 3, 4, 4
     e.modify('fromtheshadows:crust_helmet', (item) => {
         item.addAttribute(
@@ -799,7 +829,6 @@ ItemEvents.modification(e => {
             $AM$Operation.ADDITION
         );
     });
-    //#endregion
     e.modify('aquamirae:abyssal_tiara', (item) => {
         item.addAttribute(
             'minecraft:generic.armor',
@@ -831,4 +860,95 @@ ItemEvents.modification(e => {
         );
     });
 
+    e.modify('epicsamurai:mask_quartz_samurai_helmet', (item) => {
+        item.addAttribute(
+            'minecraft:generic.armor',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            2, //5
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.armor_toughness',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            0.5, //4
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.knockback_resistance',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            0.1,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.max_health',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            2,
+            $AM$Operation.ADDITION
+        );
+    });
+    e.modify('epicsamurai:mask_netherite_samurai_helmet', (item) => {
+        item.addAttribute(
+            'minecraft:generic.armor',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            2, //5
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.armor_toughness',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            0.5, //4
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.knockback_resistance',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            0.1,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.max_health',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            2,
+            $AM$Operation.ADDITION
+        );
+    });
+    e.modify('epicsamurai:mask_amethyst_samurai_helmet', (item) => {
+        item.addAttribute(
+            'minecraft:generic.armor',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            2, //5
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.armor_toughness',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            0.5, //4
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.knockback_resistance',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            0.1,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.max_health',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            2,
+            $AM$Operation.ADDITION
+        );
+    });
+    //#endregion
 });

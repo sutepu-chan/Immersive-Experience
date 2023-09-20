@@ -15,6 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6B8F7E9D7F8F3608"]
 			description: [
 				"Have you ever wondered why the &bdamage reduction&r of armor is &4inconsistent&r? The damage reduction doubles between iron and diamond armors!"
 				""
@@ -217,8 +218,8 @@
 				type: "checkmark"
 			}]
 			title: "&bDamage Reudction Formula"
-			x: -7.5d
-			y: -9.0d
+			x: -8.0d
+			y: -10.0d
 		}
 		{
 			description: [
@@ -256,15 +257,16 @@
 			}]
 			title: "&bNORMAL MODE"
 			x: 0.0d
-			y: -8.0d
+			y: -14.0d
 		}
 		{
-			dependencies: ["77F85B053BFFE8AD"]
+			dependencies: ["48393696FD0EEC07"]
 			description: [
-				"&4Nehemoth&r is a brutal monster that rarely appears in caves. They will use a very brutal attack to tear you apart. They also &6harden like stones&r when exposed to &6sunlight&r during the day. But when there is no light or night comes, they start moving again."
+				"&4Nehemoth&r is a brutal mob that rarely appears in caves. They will use a very brutal attack to tear you apart. They also &6harden like stones&r when exposed to &6sunlight&r during the day. But when there is no light or night comes, they start moving again."
 				""
 				"&bCrystallized blood&r is dropped as loot, which is used to make a special material called &6diabolium&r."
 			]
+			icon: "fromtheshadows:crystallized_blood"
 			id: "3C179B42EEBABCF3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -274,19 +276,23 @@
 			}]
 			tasks: [{
 				entity: "fromtheshadows:nehemoth"
-				icon: "fromtheshadows:nehemoth_spawn_egg"
+				icon: "fromtheshadows:crystallized_blood"
 				id: "2146068A4C010EBB"
 				type: "kill"
 				value: 1L
 			}]
 			title: "&4Nehemoth - the king of cave"
-			x: -2.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["72BFDC167B05BBE4"]
-			description: ["The og &bMinecraft Monsters&r is brought back to modern version of Minecraft. They are more &6formidable&r than ever. Prepare yourself for &6intense battles&r as they possess powerful abilities and are difficult to defeat"]
-			hide_dependency_lines: true
+			dependencies: ["352CE5900BAE3041"]
+			description: [
+				"&3Mutant Zombies &rspawn naturally with a &clow chance&r. Find one and try to defeat it!"
+				""
+				"Tips:"
+				"Bring a &eFlint and Steel&r with you."
+			]
 			id: "37CD8B33B32C8A2A"
 			rewards: [
 				{
@@ -296,65 +302,27 @@
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "3499A056F01B61C3"
-					table_id: 6225236626738686000L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4E5A8F8F48A9587E"
-					table_id: 6225236626738686000L
-					type: "random"
+					id: "73006EBF280C5571"
+					type: "xp"
+					xp: 500
 				}
 			]
-			tasks: [
-				{
-					entity: "mutantmonsters:mutant_creeper"
-					icon: "mutantmonsters:mutant_creeper_spawn_egg"
-					id: "17175108EC7B6ADC"
-					type: "kill"
-					value: 1L
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: {
+					Count: 1b
+					id: "mutantmonsters:hulk_hammer"
+					tag: {
+						Damage: 0
+					}
 				}
-				{
-					entity: "mutantmonsters:mutant_enderman"
-					icon: "mutantmonsters:mutant_enderman_spawn_egg"
-					id: "2B4A6F9AC7E24006"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "mutantmonsters:mutant_skeleton"
-					icon: "mutantmonsters:mutant_skeleton_spawn_egg"
-					id: "744017265735BD39"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "mutantmonsters:mutant_zombie"
-					icon: "mutantmonsters:mutant_zombie_spawn_egg"
-					id: "6E9E997CCADE0740"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "mutantmonsters:spider_pig"
-					icon: "mutantmonsters:spider_pig_spawn_egg"
-					id: "70E889CB3A78EC45"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "mutantmonsters:mutant_snow_golem"
-					icon: "mutantmonsters:mutant_snow_golem_spawn_egg"
-					id: "40E41E3D7CF3FCD9"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Kill all the types of Mutant Mobs"
-			x: -10.0d
-			y: 0.0d
+				id: "6E9E997CCADE0740"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill 1 &3Mutant Zombie"
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["028538773BBC64E9"]
@@ -515,7 +483,7 @@
 				value: 50L
 			}]
 			x: -4.0d
-			y: -12.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -535,9 +503,10 @@
 				value: 75L
 			}]
 			x: -2.0d
-			y: -10.0d
+			y: -16.0d
 		}
 		{
+			dependencies: ["1FC4A2B2BF2DAAA1"]
 			description: ["&bShulkers&r deals &6blindness effect&r by chance now. The amplifier and duration of poison increases difficulties with pack mode. Be aware while fighting them!"]
 			id: "285F67981081B670"
 			tasks: [{
@@ -547,7 +516,7 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: -10.0d
+			x: -2.0d
 			y: 12.0d
 		}
 		{
@@ -574,7 +543,7 @@
 				value: 1L
 			}]
 			x: -8.0d
-			y: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -600,8 +569,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -10.0d
-			y: 6.0d
+			x: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -628,7 +597,7 @@
 				value: 1L
 			}]
 			x: -8.0d
-			y: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -654,7 +623,7 @@
 				value: 1L
 			}]
 			x: -10.0d
-			y: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5063F43A5622FF09"]
@@ -673,8 +642,8 @@
 				type: "dimension"
 			}]
 			title: "Entering &8the Otherside&r"
-			x: -6.0d
-			y: 2.0d
+			x: -8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -700,8 +669,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -8.0d
-			y: 4.0d
+			x: -10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -727,7 +696,7 @@
 				value: 1L
 			}]
 			x: -10.0d
-			y: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -763,7 +732,7 @@
 			}]
 			title: "Stone Weapon"
 			x: 0.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["66DBD397DD7C86DC"]
@@ -806,7 +775,7 @@
 			}]
 			title: "Iron Weapons"
 			x: 0.0d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["77F85B053BFFE8AD"]
@@ -865,8 +834,8 @@
 				}
 			]
 			title: "Iron Armor"
-			x: -2.0d
-			y: -4.0d
+			x: -8.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["21586BF54F1F27AF"]
@@ -927,8 +896,8 @@
 				}
 			]
 			title: "Iron Samurai Armor"
-			x: -6.0d
-			y: -4.0d
+			x: -10.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["77F85B053BFFE8AD"]
@@ -979,7 +948,7 @@
 			]
 			title: "&bEpic Gems"
 			x: -2.0d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["77F85B053BFFE8AD"]
@@ -1033,7 +1002,7 @@
 				}
 			]
 			x: 0.0d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6B8F7E9D7F8F3608"]
@@ -1051,8 +1020,8 @@
 				item: "epicsamurai:steel_ingot"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -10.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["65233C0C2B6463E0"]
@@ -1114,8 +1083,8 @@
 				}
 			]
 			title: "&bSilver Samurai"
-			x: -4.0d
-			y: -2.0d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["65233C0C2B6463E0"]
@@ -1176,8 +1145,8 @@
 				}
 			]
 			title: "&bRuby Samurai"
-			x: -4.0d
-			y: 0.0d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2FC9B01A160A5C0E"]
@@ -1238,8 +1207,8 @@
 				}
 			]
 			title: "&bCryorium Samurai"
-			x: 8.0d
-			y: 6.0d
+			x: 14.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["65233C0C2B6463E0"]
@@ -1300,8 +1269,8 @@
 				}
 			]
 			title: "&bAquamarine Samurai"
-			x: -6.0d
-			y: 0.0d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["65233C0C2B6463E0"]
@@ -1363,7 +1332,7 @@
 			]
 			title: "&bOnyx Samurai"
 			x: -6.0d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2FC9B01A160A5C0E"]
@@ -1423,7 +1392,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 12.0d
 			y: 10.0d
 		}
 		{
@@ -1484,8 +1453,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 8.0d
+			x: 14.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["65233C0C2B6463E0"]
@@ -1546,8 +1515,8 @@
 				}
 			]
 			title: "&bJade Samurai"
-			x: -8.0d
-			y: 0.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["352CE5900BAE3041"]
@@ -1587,7 +1556,7 @@
 			}]
 			title: "&bDiamond Weapons"
 			x: 0.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0AE56FEBFA8C2394"]
@@ -1649,14 +1618,11 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: 14.0d
+			y: -10.0d
 		}
 		{
-			dependencies: [
-				"0957A4C6B76B3E0E"
-				"77F85B053BFFE8AD"
-			]
+			dependencies: ["0957A4C6B76B3E0E"]
 			description: ["&bNew tiers of bows&r have been introduced, with each tier has an increased &6durability&r and &6damaged&r."]
 			id: "042626B2E8D02BA6"
 			rewards: [{
@@ -1676,7 +1642,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 14.0d
 			y: -4.0d
 		}
 		{
@@ -1699,14 +1665,11 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 14.0d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"57AE08DD9801A6C9"
-				"5EA707E3BD07D43C"
-			]
+			dependencies: ["5EA707E3BD07D43C"]
 			description: ["&bNetherite Bow&r is the &6highest tier bow&r in this pack"]
 			id: "7FBFB9A326732529"
 			rewards: [{
@@ -1726,8 +1689,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["07EDA2391125BE20"]
@@ -1745,7 +1708,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4235649274A4E3EE"]
@@ -1762,8 +1725,8 @@
 				item: "nyfsarcheryplus:iron_arrowhead"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["07EDA2391125BE20"]
@@ -1779,8 +1742,8 @@
 				item: "nyfsarcheryplus:diamond_arrowhead"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3D3740EAFED9F41F"]
@@ -1797,7 +1760,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["603A3C6F6C1EF687"]
@@ -1817,10 +1780,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"3D3740EAFED9F41F"
-				"57AE08DD9801A6C9"
-			]
+			dependencies: ["3D3740EAFED9F41F"]
 			id: "603A3C6F6C1EF687"
 			rewards: [{
 				count: 4
@@ -1833,7 +1793,7 @@
 				item: "nyfsarcheryplus:netherite_arrowhead"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
@@ -1965,8 +1925,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.0d
+			x: 12.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0B97651D5151062D"]
@@ -2194,8 +2154,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 10.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -2535,8 +2495,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6F122767C280C787"]
@@ -2958,14 +2918,11 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"3B8132ABF9C1FA60"
-				"57AE08DD9801A6C9"
-			]
+			dependencies: ["3B8132ABF9C1FA60"]
 			id: "4C4FAB6FB75593E1"
 			rewards: [
 				{
@@ -3474,7 +3431,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 12.0d
 			y: 4.0d
 		}
 		{
@@ -3663,8 +3620,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0AE56FEBFA8C2394"]
@@ -3684,7 +3641,7 @@
 			}]
 			title: "&2Deep Dark Biome&r"
 			x: -2.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4D298AA0BA084E21"]
@@ -3729,7 +3686,7 @@
 			]
 			title: "Defeat the &3Warden"
 			x: -4.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["66D494BEBC50B231"]
@@ -3763,7 +3720,7 @@
 			}]
 			title: "Venturing into &4the Nether&r"
 			x: 0.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
@@ -3795,8 +3752,8 @@
 				}
 			]
 			title: "&6Netherites"
-			x: 2.0d
-			y: 8.0d
+			x: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -3844,7 +3801,7 @@
 			}]
 			title: "Find the Ice Maze Biome"
 			x: -12.0d
-			y: -8.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -3896,7 +3853,7 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
+			x: 18.0d
 			y: 6.0d
 		}
 		{
@@ -3950,7 +3907,7 @@
 				}
 			]
 			title: "&4Cultist"
-			x: 10.0d
+			x: 16.0d
 			y: 6.0d
 		}
 		{
@@ -4004,7 +3961,7 @@
 				}
 			]
 			title: "&cPyromancer"
-			x: 12.0d
+			x: 18.0d
 			y: 2.0d
 		}
 		{
@@ -4058,7 +4015,7 @@
 				}
 			]
 			title: "&eElectromancer"
-			x: 10.0d
+			x: 16.0d
 			y: 4.0d
 		}
 		{
@@ -4112,7 +4069,7 @@
 				}
 			]
 			title: "&aArchevoker"
-			x: 12.0d
+			x: 18.0d
 			y: 4.0d
 		}
 		{
@@ -4166,7 +4123,7 @@
 				}
 			]
 			title: "&6Priest"
-			x: 14.0d
+			x: 20.0d
 			y: 6.0d
 		}
 		{
@@ -4220,7 +4177,7 @@
 				}
 			]
 			title: "&3Shadow-Walker"
-			x: 14.0d
+			x: 20.0d
 			y: 2.0d
 		}
 		{
@@ -4274,7 +4231,7 @@
 				}
 			]
 			title: "&bCyromancer"
-			x: 14.0d
+			x: 20.0d
 			y: 4.0d
 		}
 		{
@@ -4327,7 +4284,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -4381,7 +4338,7 @@
 				}
 			]
 			title: "Wandering Magician"
-			x: 10.0d
+			x: 16.0d
 			y: -4.0d
 		}
 		{
@@ -4398,8 +4355,8 @@
 				title: "Magic Scroll"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -8.0d
+			x: 14.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["5E143D194DEC6161"]
@@ -4418,8 +4375,8 @@
 				item: "irons_spellbooks:arcane_anvil"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -8.0d
+			x: 16.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["5E143D194DEC6161"]
@@ -4430,7 +4387,7 @@
 				item: "irons_spellbooks:arcane_essence"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 16.0d
 			y: -6.0d
 		}
 		{
@@ -4441,7 +4398,7 @@
 				item: "irons_spellbooks:magic_cloth"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 16.0d
 			y: 2.0d
 		}
 		{
@@ -4452,7 +4409,7 @@
 				item: "irons_spellbooks:arcane_ingot"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 20.0d
 			y: -6.0d
 		}
 		{
@@ -4464,8 +4421,8 @@
 				item: "irons_spellbooks:inscription_table"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -10.0d
+			x: 12.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["5E143D194DEC6161"]
@@ -4476,8 +4433,8 @@
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -10.0d
+			x: 14.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["2369E08DA0CBB964"]
@@ -4517,8 +4474,8 @@
 				}
 			]
 			title: "Ink"
-			x: 8.0d
-			y: -12.0d
+			x: 14.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["1B269BD7FC7EFCA2"]
@@ -4529,8 +4486,8 @@
 				item: "irons_spellbooks:blank_rune"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -12.0d
+			x: 18.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["2369E08DA0CBB964"]
@@ -4596,8 +4553,8 @@
 				}
 			]
 			title: "Focuses"
-			x: 12.0d
-			y: -10.0d
+			x: 18.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["246A19339FC2A821"]
@@ -4615,7 +4572,7 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -4627,8 +4584,8 @@
 				item: "irons_spellbooks:cinder_essence"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -10.0d
+			x: 16.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["49C5F38620ED41FB"]
@@ -4639,8 +4596,8 @@
 				item: "irons_spellbooks:alchemist_cauldron"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -12.0d
+			x: 16.0d
+			y: -18.0d
 		}
 		{
 			dependencies: [
@@ -4654,7 +4611,7 @@
 				item: "irons_spellbooks:upgrade_orb"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 20.0d
 			y: 0.0d
 		}
 		{
@@ -4885,7 +4842,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["115B98781912E453"]
@@ -4947,7 +4904,7 @@
 			]
 			title: "&3Warden Armor"
 			x: -4.0d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["115B98781912E453"]
@@ -5009,7 +4966,7 @@
 			]
 			title: "&3Warden Samurai"
 			x: -6.0d
-			y: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2F4AE6CE2202BCA2"]
@@ -5074,8 +5031,8 @@
 				}
 			]
 			title: "Netherite-Iron Armor"
-			x: 4.0d
-			y: 10.0d
+			x: 12.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["57AE08DD9801A6C9"]
@@ -5092,8 +5049,8 @@
 				item: "advancednetherite:netherite_iron_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 10.0d
+			x: 10.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2F4AE6CE2202BCA2"]
@@ -5122,8 +5079,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 10.0d
+			x: 14.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6004A50560DE2AC6"]
@@ -5153,8 +5110,8 @@
 				type: "item"
 			}]
 			title: "&6Netherite-Gold Sword"
-			x: 6.0d
-			y: 12.0d
+			x: 14.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["2F4AE6CE2202BCA2"]
@@ -5167,8 +5124,8 @@
 				type: "item"
 			}]
 			title: "&6Netherite-Gold Ingot"
-			x: 2.0d
-			y: 12.0d
+			x: 10.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["6004A50560DE2AC6"]
@@ -5233,8 +5190,8 @@
 				}
 			]
 			title: "&6Netherite-Gold Armor"
-			x: 4.0d
-			y: 12.0d
+			x: 12.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["6249221DEA11AD4C"]
@@ -5299,8 +5256,8 @@
 				}
 			]
 			title: "&2Netherite_Emerald Armor"
-			x: 4.0d
-			y: 14.0d
+			x: 12.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6004A50560DE2AC6"]
@@ -5313,8 +5270,8 @@
 				type: "item"
 			}]
 			title: "&2Netherite_Emerald Ingot"
-			x: 2.0d
-			y: 14.0d
+			x: 10.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6249221DEA11AD4C"]
@@ -5344,8 +5301,8 @@
 				type: "item"
 			}]
 			title: "&2Netherite_Emerald Sword"
-			x: 6.0d
-			y: 14.0d
+			x: 14.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["47E3ADF179E2AF98"]
@@ -5375,8 +5332,8 @@
 				type: "item"
 			}]
 			title: "&bNetherite-Diamond Sword"
-			x: 6.0d
-			y: 16.0d
+			x: 14.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["6249221DEA11AD4C"]
@@ -5389,8 +5346,8 @@
 				type: "item"
 			}]
 			title: "&bNetherite-Diamond Ingot"
-			x: 2.0d
-			y: 16.0d
+			x: 10.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["47E3ADF179E2AF98"]
@@ -5455,8 +5412,8 @@
 				}
 			]
 			title: "&bNetherite-Diamond Armor"
-			x: 4.0d
-			y: 16.0d
+			x: 12.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["57AE08DD9801A6C9"]
@@ -5479,13 +5436,19 @@
 				type: "item"
 			}]
 			title: "&6Netherite Weapons"
-			x: 6.0d
+			x: 12.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
 			description: ["The &cFortress&r is undeniably one of the symbolic structures in Minecraft. Now, the fortress has returned, &6bigger than ever&r, and offers even better loot."]
 			id: "764C557A3C82FA84"
+			rewards: [{
+				count: 4
+				id: "6E2D44FAC655F8C8"
+				item: "majruszsdifficulty:bandage"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -5497,7 +5460,7 @@
 			}]
 			title: "Find &cthe Fortress"
 			x: 0.0d
-			y: 12.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
@@ -5510,7 +5473,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
@@ -5531,16 +5494,16 @@
 				value: 10L
 			}]
 			x: -2.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1B5E1F3844153536"]
 			description: [
 				"&dThe Wither &rhas been more deadly ever than before. The level increases every time you defeat one (&6max level 10&r).The tweaks are listed below."
 				""
-				"&c&nHealth:&r &6+150&r for each level."
+				"&c&nHealth:&r &6+900&r for each level."
 				""
-				"&c&nRegeneration:&r &6+0.8HP/s&r for each level (&6max 8HP/s&r) "
+				"&c&nRegeneration:&r &6+1HP/s&r for each level (&6max 10HP/s&r) "
 				""
 				"&c&nDamage Resistance:&r &6+4%&r resistance per level (&6max 40%&r) when HP>= 50% ,  and &6+6%&r per level (&6max 60%&r) when HP < 50%."
 				""
@@ -5571,8 +5534,8 @@
 				value: 1L
 			}]
 			title: "&dFirst Wither Fight&r"
-			x: -4.0d
-			y: 12.0d
+			x: -6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["17BB368DB4FFFF9C"]
@@ -5631,12 +5594,13 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["1FC4A2B2BF2DAAA1"]
 			description: [
 				"&5Ender Dragon &rhas been more deadly ever than before. The level increases every time you defeat one (&6max level 20&r).The tweaks are listed below."
 				""
-				"&c&nHealth:&r &6+50&r for each level."
+				"&c&nHealth:&r &6+300&r for each level."
 				""
-				"&c&nRegeneration:&r &6+0.1HP/s&r for each level (up to 2HP per second) "
+				"&c&nRegeneration:&r &6+0.2HP/s&r for each level (up to 4HP per second) "
 				""
 				"&c&nDamage Resistance:&r &6+2%&r resistance per level (max 40%) when at centre ,  and &6+1.4%&r per level (max 28%) when flying around."
 				""
@@ -5661,8 +5625,8 @@
 				value: 1L
 			}]
 			title: "&5Savage Ender Dragon"
-			x: -8.0d
-			y: 10.0d
+			x: -2.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["1FE458DD0531E608"]
@@ -5682,8 +5646,8 @@
 				value: 5L
 			}]
 			title: "&dEnder Dragon &clv.5"
-			x: -8.0d
-			y: 12.0d
+			x: -4.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["1BFFC00EF45D04E2"]
@@ -5703,8 +5667,8 @@
 				value: 10L
 			}]
 			title: "&dEnder Dragon &clv.10"
-			x: -8.0d
-			y: 14.0d
+			x: -4.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["75172170154E2990"]
@@ -5717,265 +5681,8 @@
 				title: "Defeat an &dEnder Dragon&r with&c max level"
 				type: "advancement"
 			}]
-			x: -8.0d
-			y: 16.0d
-		}
-		{
-			description: ["&bOld Eyes&r are found in &6Desert Pyramids&r."]
-			id: "54101CF83D7447BE"
-			tasks: [{
-				id: "378C9C789A797784"
-				item: {
-					Count: 1b
-					id: "endrem:old_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: 18.0d
-		}
-		{
-			description: ["&bCold Eye&r is found in &1Igloos&r."]
-			id: "71DFC9F0DBE1400E"
-			tasks: [{
-				id: "6380001B79A274B3"
-				item: {
-					Count: 1b
-					id: "endrem:cold_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: 18.0d
-		}
-		{
-			description: ["&bRogue Eye&r is found in &2Jungle Pyramids&r."]
-			id: "101C669C8660AF72"
-			tasks: [{
-				id: "43F5E3297FEB54B9"
-				item: {
-					Count: 1b
-					id: "endrem:rogue_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 18.0d
-		}
-		{
-			description: ["&bBlack Eye&r is found in &0Buried Chests&r."]
-			id: "22A01E0107674336"
-			tasks: [{
-				id: "3D564D3E127C0481"
-				item: {
-					Count: 1b
-					id: "endrem:black_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: 20.0d
-		}
-		{
-			description: ["&bMagical Eye&r is dropped by &5Illusioner&r."]
-			id: "3231A678E6DEAB49"
-			tasks: [{
-				id: "39B2AFD65169270B"
-				item: {
-					Count: 1b
-					id: "endrem:magical_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 20.0d
-		}
-		{
-			description: ["&bLost Eye&r can be found in &8Mineshafts&r."]
-			id: "40A1E505AD8441DB"
-			tasks: [{
-				id: "23A97293A53F17E9"
-				item: {
-					Count: 1b
-					id: "endrem:lost_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: 20.0d
-		}
-		{
-			description: ["&bCorrupted Eye&r can be found in &4Pillager Outposts&r."]
-			id: "1BA7D25E4F922F33"
-			tasks: [{
-				id: "594A57D9E474E9AE"
-				item: {
-					Count: 1b
-					id: "endrem:corrupted_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 22.0d
-		}
-		{
-			description: ["&bWither Eye&r is dropped by defeating &dThe Wither&r."]
-			id: "419260BFBC5BDC06"
-			tasks: [{
-				id: "2298F0D594F6A0EB"
-				item: {
-					Count: 1b
-					id: "endrem:wither_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 24.0d
-		}
-		{
-			description: ["&bGuardian Eye&r can be obtained by slaying the &3Elder Guardian&r."]
-			id: "6CF0C386EBC0F44B"
-			tasks: [{
-				id: "700D114033F6CAF2"
-				item: {
-					Count: 1b
-					id: "endrem:guardian_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: 24.0d
-		}
-		{
-			description: ["&bWitch Eye&r can be crafted using the &2Witch Pupil&r."]
-			id: "6E0611B1C24B0887"
-			tasks: [{
-				id: "401BA1EABA8D82D9"
-				item: {
-					Count: 1b
-					id: "endrem:witch_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: 18.0d
-		}
-		{
-			dependencies: ["11B85CF334FDECA2"]
-			dependency_requirement: "one_completed"
-			description: ["&bCursed Eye&r can be obtained by killing &6Pigling Brutes&r."]
-			id: "173B67293A245F60"
-			tasks: [{
-				id: "09456C50D46CAF70"
-				item: {
-					Count: 1b
-					id: "endrem:cursed_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			x: -4.0d
-			y: 10.0d
-		}
-		{
-			description: ["&bExotic Eye&r can be crafted using various &9aquatic items&r."]
-			id: "58764B341F312277"
-			tasks: [{
-				id: "505BD6E3F9FEF1CA"
-				item: {
-					Count: 1b
-					id: "endrem:exotic_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: 22.0d
-		}
-		{
-			description: ["&bEvil Eye&r can be purchased from a &9Master Cleric&r."]
-			id: "6B1AB2F991C5DCB4"
-			tasks: [{
-				id: "607E2FEC701E592F"
-				item: {
-					Count: 1b
-					id: "endrem:evil_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: 20.0d
-		}
-		{
-			description: ["The &bUndead Eye&r can be crafted using an &8Undead Soul&r, which is dropped by &6mutant zombies&r."]
-			id: "10034630779157D9"
-			tasks: [{
-				id: "73A431DE9A4E07D6"
-				item: {
-					Count: 1b
-					id: "endrem:undead_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: 24.0d
-		}
-		{
-			description: ["&bCryptic Eye&r has a small chance to be obtained when &5enchanting items&r."]
-			id: "77BF4794B3E320F9"
-			tasks: [{
-				id: "3E79A8A8A423321E"
-				item: {
-					Count: 1b
-					id: "endrem:cryptic_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: 24.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
@@ -5988,8 +5695,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -6020,8 +5727,8 @@
 				type: "item"
 			}]
 			title: "Light shields"
-			x: 8.0d
-			y: -6.0d
+			x: 2.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["0B1A02F83E069927"]
@@ -6058,21 +5765,8 @@
 				}
 			]
 			title: "Heavy Shields"
-			x: 8.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["3A88AAE96B6BB165"]
-			id: "11B85CF334FDECA2"
-			tasks: [{
-				icon: "minecraft:blackstone"
-				id: "1DAAED40795DCCE6"
-				structure: "minecraft:bastion_remnant"
-				title: "Find &6the Bastion"
-				type: "structure"
-			}]
-			x: -2.0d
-			y: 10.0d
+			x: 4.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["3E39DA90709263EE"]
@@ -6209,7 +5903,7 @@
 				value: 2L
 			}]
 			x: -14.0d
-			y: -8.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["155EE405522014B1"]
@@ -6391,8 +6085,8 @@
 				title: "&2Warden Sword&r"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.0d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -6435,8 +6129,8 @@
 				}
 			]
 			title: "&7Undead Army&r"
-			x: -4.0d
-			y: -10.0d
+			x: -2.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["745CDCF61A86DCE7"]
@@ -6459,8 +6153,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -10.0d
+			x: -4.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["31ECC4BAF3F524E0"]
@@ -6484,8 +6178,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 16.0d
+			x: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["275C3DA382B728BF"]
@@ -6509,8 +6203,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 18.0d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["66DBD397DD7C86DC"]
@@ -6539,7 +6233,7 @@
 			}]
 			title: "Bleed for the first time"
 			x: -2.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1C4AC82E0745A173"]
@@ -6558,7 +6252,7 @@
 			}]
 			title: "&eBandage&r"
 			x: -4.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["53961F0E80EE7AA1"]
@@ -6577,7 +6271,7 @@
 			}]
 			title: "&6Golden Bandage&r"
 			x: -6.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["57AE08DD9801A6C9"]
@@ -6635,13 +6329,19 @@
 				}
 			]
 			title: "&cNetherite Armor&r "
-			x: 6.0d
+			x: 12.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["764C557A3C82FA84"]
 			description: ["The &6Blaze King&r resides at the top of the &cBlaze King Tower&r. Your objective is to overcome the obstacles and reach the summit, where you will face and defeat the &6Blaze King&r!"]
 			id: "78EC8A11A4DD5406"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5507522B46839B04"
+				table_id: 2922747324652607733L
+				type: "loot"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				advancement: "1_splatus:ultris/blazepath/blazetower"
@@ -6652,10 +6352,9 @@
 			}]
 			title: "&cBlaze King Tower&r"
 			x: 0.0d
-			y: 14.0d
+			y: 10.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["78EC8A11A4DD5406"]
 			description: ["After defeating the &6Blaze King&r, you will be rewarded with a &bNether Eye&r, which is one of the key items required to access the End."]
 			id: "7AA0A17A6B498823"
@@ -6709,40 +6408,72 @@
 			}]
 			title: "&6Blaze King&r"
 			x: 0.0d
-			y: 16.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["764C557A3C82FA84"]
 			description: ["Get &63 Wither Skeleton Skulls&r in order to summon a Wither."]
 			id: "1B5E1F3844153536"
+			rewards: [{
+				id: "33CBC9DD4F78B04F"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:looting"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 3L
 				id: "38C91B518896D4EA"
 				item: { Count: 3b, id: "minecraft:wither_skeleton_skull" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 12.0d
+			x: -6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["764C557A3C82FA84"]
-			description: ["Find and kill &c12 Blaze&r. You will need some &6Blaze Rods&r and &6Blaze Powder&r for your journey."]
+			description: ["Find and kill &c6 Blaze&r. You will need some &6Blaze Rods&r and &6Blaze Powder&r for your journey."]
 			id: "31ECC4BAF3F524E0"
+			rewards: [{
+				count: 2
+				id: "351902A596E4F2C0"
+				item: "minecraft:blaze_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
 				id: "2B261FFE38CDB427"
 				type: "kill"
-				value: 12L
+				value: 6L
 			}]
-			x: -2.0d
-			y: 14.0d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
 			description: ["&4Corrupted Enderman&r is occasionally found in the Overworld. They are dangerous and require a &6special method to defeat&r. Take some time to observe their differences and find a way to tackle them!"]
 			hide_dependency_lines: true
 			id: "406CAD16772E30AB"
+			rewards: [{
+				id: "6C8882D0A4A3C5D5"
+				item: {
+					Count: 1b
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "1_splatus:ultris/enderkill"
 				criterion: ""
@@ -6750,8 +6481,8 @@
 				title: "Defeat &4Corrupted Enderman&r"
 				type: "advancement"
 			}]
-			x: -4.0d
-			y: 14.0d
+			x: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -6792,8 +6523,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 16.0d
+			x: 4.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3EC887C4B801537D"]
@@ -6806,8 +6537,670 @@
 				title: "Free the &5Sanctum&r"
 				type: "advancement"
 			}]
-			x: -4.0d
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["31ECC4BAF3F524E0"]
+			description: ["&bPotions&r are a crucial item in this pack, as they greatly aid in exploration. In this modified version, potions have been made &6stackable&r, allowing you to carry a &6larger quantity&r with ease."]
+			id: "4C5E484E77AA865B"
+			rewards: [{
+				count: 2
+				id: "402B2A3E304E47F5"
+				item: "minecraft:nether_wart_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0C0EA252874BCCC2"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["443E019BCCD859BF"]
+			description: [
+				"Throwing a &cStrength Potion&r at a &2Zombie&r will transform it into a &aGiant&r. Defeating the Giant rewards you with &aGiant Stompers&r, which enable you to jump on top of mobs to deal damage and grant an extra jump."
+				""
+				"The &aGiant Stompers&r also allow you to perform a charged high jump. Charge your jump by holding sneak and then jumping."
+				""
+				"Additionally, by defeating the Giant, you obtain a &bBlack Eye&r."
+			]
+			id: "0ACB24DF06CBCB1B"
+			rewards: [
+				{
+					id: "28E6DEFF91BB4397"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66A4D24BB1831D40"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "1_splatus:ultris/giantdefeat"
+				criterion: ""
+				id: "3F803F7305075448"
+				title: "Stronger than &aGiant&r"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4C5E484E77AA865B"]
+			description: ["Get a &6strength potion&r."]
+			id: "443E019BCCD859BF"
+			rewards: [{
+				count: 32
+				id: "3D6084E16E248C06"
+				item: "minecraft:glass"
+				random_bonus: 14
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "69F91CB59C909931"
+				item: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:strength"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["66D494BEBC50B231"]
+			description: [
+				"You definitely want to &eenchant your gear&r. To ease your enchanting process, new mechanics on &benchantments&r are introduced"
+				""
+				"- Lapis and items are now able to &6remain on the table&r."
+				"- Enchantments can be &6rerolled&r with the cost of lapis and a few xp"
+				"- Blocks between a bookshelf and an enchanting table are no longer forced to be air, anything without a collision box will work now such a torches or tall grass."
+			]
+			id: "485BE39EE6EAB4D2"
+			tasks: [{
+				id: "3EC50763D0B023E5"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66DBD397DD7C86DC"]
+			description: ["Have you ever seen a strange &9pig emitting blue particles&r in the Overworld?"]
+			id: "44501D68122D5718"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E3AB27DB7F6B326"
+				table_id: 3416584882695544973L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "1_splatus:ultris/illusioner"
+				criterion: ""
+				id: "30BA119976196643"
+				title: "Find a &9pig emitting blue particles&r"
+				type: "advancement"
+			}]
+			title: "&9Pig emitting blue particles&r"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["44501D68122D5718"]
+			description: [
+				"Upon attacking this pig, the &5Illusioner's disguise&r will be shed, and it will reveal itself for a fight."
+				""
+				"Defeat the &5Illusioner&r!"
+			]
+			hide: true
+			id: "4662D714D1FBEB68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65A49AA4815B2DF4"
+				table_id: 6225236626738686000L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "1_splatus:ultris/illusionerkill"
+				criterion: ""
+				id: "101CAE5A3770A330"
+				title: "Defeat the &5Illusioner&r!"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["37CD8B33B32C8A2A"]
+			description: ["Upon the death of a &aMutant Skeleton&r, it drops all its bones around. Try to collect them and make your own suit of armor!"]
+			id: "1FE19C71333357AB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "312EB6DA280B1C5C"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "53B3EE5D07B851FF"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: {
+					Count: 1b
+					id: "mutantmonsters:mutant_skeleton_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1FC3D728694AEC41"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a Mutant Skeleton"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37CD8B33B32C8A2A"]
+			description: ["Killing a &aMutant Creeper&r drops a &6Tiny Egg&r. Hatch it, and you will get your own little &aCreepling&r."]
+			id: "0A4E3A31DE645961"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "116F30026FE67A88"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "09C87A3A06900772"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: {
+					Count: 1b
+					id: "mutantmonsters:creeper_shard"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "031A531DCCA7493E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &aMutant Creeper&r"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["37CD8B33B32C8A2A"]
+			description: ["Killing a &5Mutant Enderman&r drops an &5Endersoul Hand&r, which allows you to project blocks out!"]
+			id: "2292129114D152C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DD9C91EB2DCC2D8"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "6C7CB66931EB86B5"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				icon: {
+					Count: 1b
+					id: "mutantmonsters:endersoul_hand"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "50513B9B42C5E864"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &5Mutant Enderman&r"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2292129114D152C4"
+				"1FE19C71333357AB"
+				"0A4E3A31DE645961"
+			]
+			dependency_requirement: "one_completed"
+			description: ["A bottle of &dChemical X&r can be brewed with loots from mutant creatures with a thick potion. Chemical X has the power to turn mobs into their corresponding Mutant Monsters."]
+			id: "347A0AC80E504DF0"
+			rewards: [{
+				count: 12
+				id: "56B0ACD9B4C202CE"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F3CDFCA97217D5B"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "mutantmonsters:chemical_x"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["347A0AC80E504DF0"]
+			description: ["Use your &dChemical X&r on a &fSnow Golem&r to turn it into a &aMutant Snow Golem&r."]
+			id: "7FBDE5B34E9495CF"
+			rewards: [{
+				id: "55D35877329C1B67"
+				item: "frosted_friends:fridge"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_snow_golem"
+				icon: "frosted_friends:snow_head_classic_3"
+				id: "7136943B15D4E702"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill 5 &aMutant Snow Golem&r"
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["347A0AC80E504DF0"]
+			description: ["Use your &dChemical X&r on a Pig to turn it into a &aMutant Spider-Pig&r."]
+			id: "7A4449AEE1DCC2BE"
+			rewards: [{
+				count: 14
+				id: "5396C819EAB92BF0"
+				item: "nourished_nether:polterpork"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:spider_pig"
+				icon: "minecraft:porkchop"
+				id: "77EB1F58ED410230"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill 5 &aMutant Spider-Pig&r"
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3A88AAE96B6BB165"]
+			description: [
+				"Craft an &5Eye of Ender&r... Wait! This pack is not simple Minecraft. Crafting an ender pearl &6doesn't help you find a stronghold&r. However, you can still complete this quest for a reward :)"
+				""
+				"Check &6\"Journey to the End\"&r for more info."
+			]
+			id: "6014A874E4ABD24C"
+			rewards: [{
+				count: 24
+				id: "4C56A8C6A5B9D778"
+				item: "bygonenether:netherite_scrap_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12CA0A0DD5D0ABAA"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0AE56FEBFA8C2394"]
+			description: ["Froglins spawn rarely in &8Mineshafts&r. Explore the world and find a &2Froglin&r, then kill it."]
+			id: "48393696FD0EEC07"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00D90A754DE1E591"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "2F17E69533F1E65E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				entity: "fromtheshadows:froglin"
+				icon: "fromtheshadows:froglin_leg"
+				id: "2A5133458ED6A82C"
+				title: "Kill a &2Froglin&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48393696FD0EEC07"]
+			id: "691B87423B72FD93"
+			tasks: [{
+				entity: "fromtheshadows:bulldrogioth"
+				icon: "fromtheshadows:crimson_shell"
+				id: "5027A8AC3F5CAC59"
+				title: "Kill a Bulldrogioth"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7AA0A17A6B498823"
+				"0ACB24DF06CBCB1B"
+			]
+			description: ["Collect at least &b12 eyes&r out of the &b16 unique eyes&r. Place them into the End portal and get ready for your fight against the &5Ender Dragon&r!"]
+			id: "1FC4A2B2BF2DAAA1"
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "0D849AC48508CD7F"
+				title: "Deep to the End"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["691B87423B72FD93"]
+			description: ["&eCrust Armor&r is the armor set with a high value of &6toughness and knockback resistance&r. Make good use of this!"]
+			id: "6A0197BAF9363BB3"
+			tasks: [
+				{
+					id: "5897B8CDA09DC331"
+					item: {
+						Count: 1b
+						id: "fromtheshadows:crust_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46426B8ED010E77D"
+					item: {
+						Count: 1b
+						id: "fromtheshadows:crust_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67C26A7C80DD69A8"
+					item: {
+						Count: 1b
+						id: "fromtheshadows:crust_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eCrust Armor"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C179B42EEBABCF3"]
+			description: ["&eDiabolium Armor &ris a strong armor set that &6heals you&r with the amount of damage dealt."]
+			id: "70C34A2C8976F012"
+			tasks: [
+				{
+					id: "775F56A401E5C4FD"
+					item: {
+						Count: 1b
+						id: "fromtheshadows:diabolium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61FEF9F7EDF8D261"
+					item: {
+						Count: 1b
+						id: "fromtheshadows:diabolium_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EC03718971008ED"
+					item: {
+						Count: 1b
+						id: "fromtheshadows:diabolium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDiabolium Armor"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FE458DD0531E608"]
+			description: [
+				"Killing the &bEnder Dragons&r brings you to the &cEXPERT MODE&r. In this mode, the overall difficulty increases, with features including,"
+				""
+				"- &62x&r spawn rate"
+				"- &6More mob types&r are possible to spawn"
+				"- &6Explosions&r (creepers, ghast ball etc.) becomes more deadly"
+				"- &6Health and Damage bonus&r for mobs"
+				"- &6+40% xp&r gained"
+				"- 10% chance of &6double loot&r"
+				"- &6Killer Bunny&r spawns naturally"
+				"- Creepers are &6immune to explosion&r"
+				"- Creepers explode &6behind wall&r"
+				"- Creepers &6ignite&r when any other Creeper &6explodes nearby&r"
+			]
+			id: "113B1FA9ECCF4319"
+			tasks: [{
+				id: "2FB0677E7F468442"
+				title: "&cEXPERT MODE"
+				type: "checkmark"
+			}]
+			title: "&cEXPERT MODE"
+			x: -2.0d
 			y: 18.0d
+		}
+		{
+			dependencies: ["6F4DB0C5351F9116"]
+			description: [
+				"Killing the &bEnder Guardian&r brings you to the &2MASTER MODE&r. In this mode, the overall difficulty increases, with features including,"
+				""
+				"- &63x&r spawn rate"
+				"- &6More mob types&r are possible to spawn"
+				"- &6Explosions&r (creepers, ghast ball etc.) becomes more deadly"
+				"- &6Health and Damage bonus&r for mobs"
+				"- &6+40% xp&r gained"
+				"- 20% chance of &6double loot&r"
+				"- &6Zombies&r spawn upon players dying from zombie or bleeding"
+				"- More &6creeperlings&r are spawned at once"
+			]
+			id: "22DE8D94F09C2C37"
+			tasks: [{
+				id: "3D8CA132B81848A5"
+				title: "&2MASTER MODE"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["113B1FA9ECCF4319"]
+			description: ["In &cEXPERT MODE&r, &6zombies&r spawn in &6group&r by chances.  Be aware while fighting them!"]
+			id: "6878984CD7ECEBC5"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "4B6F429D212CD87A"
+				title: "Zombie Group"
+				type: "kill"
+				value: 120L
+			}]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["113B1FA9ECCF4319"]
+			description: ["In &cEXPERT MODE&r, &6skeletons&r spawn in &6group&r by chances.  Be aware while fighting them!"]
+			id: "7DB5C93DA6CB91F3"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "70FD94D7BEF168BE"
+				title: "Skeleton Group"
+				type: "kill"
+				value: 120L
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["113B1FA9ECCF4319"]
+			description: ["In &cEXPERT MODE&r, &6piglins&r spawn in &6group&r by chances.  Be aware while fighting them!"]
+			id: "37270857457427FF"
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "78E761B798E63DE4"
+				title: "Piglin Group"
+				type: "kill"
+				value: 120L
+			}]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["22DE8D94F09C2C37"]
+			description: ["In &2MASTER MODE&r, &bPhantom&r deals &6levitation effect&r by chance now. Be aware while fighting them!"]
+			id: "161D7CC8088938C5"
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "3247BA0A1066A4D0"
+				title: "Levitating Phantom"
+				type: "kill"
+				value: 20L
+			}]
+			x: 7.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["113B1FA9ECCF4319"]
+			description: ["In &cEXPERT MODE&r, &6evokers&r spawn with &6totem&r by chances.  Be aware while fighting them!"]
+			id: "55528E599F097E10"
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "39C0E752063EE394"
+				title: "Undying Evoker"
+				type: "kill"
+				value: 40L
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["22DE8D94F09C2C37"]
+			description: ["In &2MASTER MODE&r, &bEnderman&r attack may &6teleport&r the player somewhere nearby. Be aware while fighting them!"]
+			id: "01450E3274F6D1CD"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "7925957E975CA40A"
+				title: "Teleportation Enderman"
+				type: "kill"
+				value: 30L
+			}]
+			x: 9.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["113B1FA9ECCF4319"]
+			description: ["In &cEXPERT MODE&r, &bDrowned&r trident throw may spawn a &6lightning bolt &rwhen it rains."]
+			id: "4126A9695F805070"
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "62C7C86F0ACB8F49"
+				title: "Lightning Drown"
+				type: "kill"
+				value: 50L
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["113B1FA9ECCF4319"]
+			description: ["In &cEXPERT MODE&r, &bCreeperlings&r can be spawned when &6creeper explodes&r."]
+			id: "6D7909219AB147BF"
+			tasks: [{
+				entity: "majruszsdifficulty:creeperling"
+				icon: "majruszsdifficulty:creeperling_spawn_egg"
+				id: "67F76FAC0C1FC1E1"
+				title: "Splitted Creepers"
+				type: "kill"
+				value: 20L
+			}]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["113B1FA9ECCF4319"]
+			description: ["&9Ender Guardian&r is the &6most difficult&r mob to defeat in this pack (V1.0). Defeating the Ender Guardian brings you to the &2MASTER MODE&r."]
+			id: "6F4DB0C5351F9116"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:altar_of_void"
+				id: "5E628F0EE997D5DF"
+				title: "Defeat the Ender Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&9Ender Guardian"
+			x: -2.0d
+			y: 22.5d
 		}
 	]
 	title: "Adventure"

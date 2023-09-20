@@ -176,15 +176,15 @@
 	[Wither.Health]
 		#Increase Wither's Health by this value at max difficulty (scales accordingly at lower difficulties)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Bonus per Difficulty" = 1500.0
+		"Health Bonus per Difficulty" = 9000.0
 		#Maximum bonus regeneration per second given by "Bonus Regeneration".
 		#Set to 0 to disable bonus health regeneration. This doesn't affect the natural regeneration of the Wither (1 Health per Second).
 		#Note that this bonus health regen is disabled when Wither's health is between 49% and 50% to prevent making it impossible to approach when reaches half health.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Maximum Bonus Regeneration" = 8.0
+		"Maximum Bonus Regeneration" = 10.0
 		#How many half hearts will the Wither regen at max difficulty. This is added to the natural regeneration of the Wither (1 Health per Second).
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Regeneration" = 8.0
+		"Bonus Regeneration" = 10.0
 		#Bonus regeneration will be multiplied by this ratio when the Wither has been hit in the last 'Bonus Regeneration When Hit Duration' ticks.
 		#Range: 0.0 ~ 2.0
 		"Bonus Regeneration Ratio When Hit" = 0.5
@@ -392,13 +392,13 @@
 	["Ender Dragon".Health]
 		#Ender Dragon health will be increased by this value at max difficulty (scaling accordingly at lower difficulties)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Bonus at Max Difficulty" = 1000.0
+		"Health Bonus at Max Difficulty" = 6000.0
 		#How much health will the Ender Dragon regen at max difficulty (scaling accordingly at lower difficulties). This doesn't affect the health regen given by crystals.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Regeneration" = 2.0
+		"Bonus Regeneration" = 4.0
 		#Maximum bonus regeneration per second given by "Bonus Regeneration". Set to 0 to disable bonus health regeneration. Can be lower than "Bonus Regeneration". This doesn't affect the health regen given by crystals.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Maximum Bonus Regeneration" = 2.0
+		"Maximum Bonus Regeneration" = 4.0
 		#How much health (when missing 100% health) will the Ender Dragon regen at max difficulty each second whenever she's attached to a Crystal. So if she's missing 30% health, this will be 30% effective. This is added to the normal Crystal regen.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Crystal Regeneration" = 0.0
