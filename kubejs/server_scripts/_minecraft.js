@@ -16,11 +16,7 @@ ServerEvents.recipes(e => {
         L: '#minecraft:logs',
         I: '#forge:ingots/iron'
     });
-    e.remove({ output: 'minecraft:trident' });
-    e.shaped('minecraft:trident', [' SS', ' FS', 'F  '], {
-        F: 'bettertridents:trident_fragment',
-        S: 'progressivebosses:elder_guardian_spike'
-    });
+
     e.shapeless('4x minecraft:clay_ball', 'minecraft:clay').id(`kubejs:minecraft/decompress/clay`);
     e.shapeless('4x minecraft:quartz', 'minecraft:quartz_block').id(`kubejs:minecraft/decompress/quartz`);
     e.shapeless('9x minecraft:melon_slice', 'minecraft:melon').id(`kubejs:minecraft/decompress/melon`);

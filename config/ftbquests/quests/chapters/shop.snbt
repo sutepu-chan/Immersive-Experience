@@ -10,27 +10,6 @@
 	quests: [
 		{
 			can_repeat: true
-			description: ["&3Dimensional Shards&r are ore resources that can occasionally be found in caves."]
-			id: "0F5AC435A34CC503"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0B227A0B65FEEC83"
-				table_id: 1613080448957740991L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "664EF31BD62DAB64"
-				item: "rftoolsbase:dimensionalshard"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
 			id: "0A36D1A4428FB5EE"
 			optional: true
 			rewards: [{

@@ -212,59 +212,6 @@
 			x: -10.0d
 			y: 0.0d
 		}
-		{
-			description: ["&2Soy Sculk Bone&r is harder than turtle shell!"]
-			id: "73BC3A1C269E32AE"
-			tasks: [
-				{
-					id: "23F0EC92B686C36F"
-					item: {
-						Count: 1b
-						id: "tofucraft:sculk_bone_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "55B2EBC01B7B63DC"
-					item: {
-						Count: 1b
-						id: "tofucraft:sculk_bone_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2ABC793E6329BA78"
-					item: {
-						Count: 1b
-						id: "tofucraft:sculk_bone_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "616115462D21DB51"
-					item: {
-						Count: 1b
-						id: "tofucraft:sculk_bone_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&2Soy Sculk Bone Armor&r"
-			x: -8.0d
-			y: -8.0d
-		}
 	]
 	title: "Weaponry"
 }

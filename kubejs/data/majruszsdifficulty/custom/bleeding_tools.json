@@ -2476,5 +2476,125 @@
                 "extra_chance": 0.01
             }
         ]
+    },
+    {
+        "id": "aether:phoenix_bow",
+        "chance": 0.33,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "minecraft:bow",
+        "chance": 0.05,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:iron_bow",
+        "chance": 0.1,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:golden_bow",
+        "chance": 0.1,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:diamond_bow",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:netherite_bow",
+        "chance": 0.3,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "enderzoology:hunting_bow",
+        "chance": 0.08,
+        "enchantments": [
+            {
+                "id": "minecraft:power",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "minecraft:crossbow",
+        "chance": 0.1,
+        "enchantments": [
+            {
+                "id": "minecraft:piercing",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:iron_crossbow",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:piercing",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:golden_crossbow",
+        "chance": 0.2,
+        "enchantments": [
+            {
+                "id": "minecraft:piercing",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:diamond_crossbow",
+        "chance": 0.3,
+        "enchantments": [
+            {
+                "id": "minecraft:piercing",
+                "extra_chance": 0.02
+            }
+        ]
+    },
+    {
+        "id": "nyfsarcheryplus:netherite_crossbow",
+        "chance": 0.4,
+        "enchantments": [
+            {
+                "id": "minecraft:piercing",
+                "extra_chance": 0.02
+            }
+        ]
     }
 ]

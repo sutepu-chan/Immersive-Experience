@@ -61,23 +61,6 @@
 		}
 		{
 			description: [
-				"The &barcheology system&r in 1.20 is fun but the contents are still few. This pack expands the contents of the system."
-				""
-				"Some ancient &6enchantments&r can be found in archeology which may assists you in adventuring."
-				""
-				"You may also find some &6fossils&r and ancient items for &6decorations&r!"
-			]
-			id: "149FF01038E48603"
-			tasks: [{
-				id: "5F2C6FE3799219C2"
-				item: "betterarcheology:archeology_table"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			description: [
 				"You can now craft an &6aircraft&r that helps you travel across long distance!"
 				"Collect the following &bingredient&r first!"
 				""
@@ -182,5 +165,5 @@
 			y: -2.0d
 		}
 	]
-	title: "Tools"
+	title: "Travelling"
 }

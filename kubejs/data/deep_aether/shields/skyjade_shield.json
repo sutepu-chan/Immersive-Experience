@@ -1,0 +1,9 @@
+{
+    "cooldownTicks": 15,
+    "speedFactor": 0.90,
+    "parryDamage": 0.30,
+    "parryTicks": 3,
+    "stamina": 4,
+    "blastResistance": 0.30,
+    "flatDamage": 3
+}

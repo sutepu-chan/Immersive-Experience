@@ -140,6 +140,30 @@ ItemEvents.modification(e => {
             name: 'epicsamurai:netherite',
             durability: 492
         },
+        {
+            name: 'aether:valkyrie',
+            durability: 438
+        },
+        {
+            name: 'aether:neptune',
+            durability: 342
+        },
+        {
+            name: 'aether:phoenix',
+            durability: 604
+        },
+        {
+            name: 'aether:obsidian',
+            durability: 812
+        },
+        {
+            name: 'deep_aether:stratus',
+            durability: 543
+        },
+        {
+            name: 'deep_aether:skyjade',
+            durability: 64
+        },
     ];
     for (const set of armorSets) {
         e.modify(`${set.name}_helmet`, item => {

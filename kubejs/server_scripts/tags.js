@@ -49,8 +49,6 @@ ServerEvents.tags('item', e => {
         'regions_unexplored:salmonberry',
         'regions_unexplored:duskmelon_slice',
         'regions_unexplored:hanging_earlight_fruit',
-        'tofucraft:edamame_boild',
-        'tofucraft:chili',
         'vinery:red_grape',
         'vinery:white_grape',
         'vinery:savanna_grapes_red',
@@ -77,8 +75,11 @@ ServerEvents.tags('item', e => {
         'enlightened_end:bubble_jelly_bottle',
         'enlightened_end:azure_berries',
     ]);
-    // e.add('forge:sugars', [
-    // ]);
+    e.add('forge:sugars', [
+        'aether:enchanted_berry',
+        'aether:blue_berry',
+        'aether:gingerbread_man'
+    ]);
     e.add('forge:protein', [
         'ends_delight:dragon_leg_with_sauce',
         'aquamirae:esca',
@@ -109,6 +110,7 @@ ServerEvents.tags('item', e => {
         'maturidelight:okonomiyaki_raw',
         'maturidelight:okonomiyaki',
         'maturidelight:okonomiyaki_soysauce',
+        'aether:gingerbread_man'
     ]);
     e.add('forge:vegetables', [
         'ends_delight:chorus_succulent',

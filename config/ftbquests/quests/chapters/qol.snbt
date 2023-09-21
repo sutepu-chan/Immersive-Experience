@@ -198,6 +198,41 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			description: [
+				"&0 black"
+				"&4 dark red"
+				"&8 dark gray"
+				"&c red"
+				"&1 dark blue"
+				"&5 dark purple"
+				"&9 blue"
+				"&d light purple"
+				"&2 dark green"
+				"&6 gold"
+				"&a green"
+				"&e yellow"
+				"&3 cyan"
+				"&7 gray"
+				"&b aqua"
+				"&f light gray"
+				"&l bold"
+				"&o italic"
+				"&n underline"
+				"&m  Strikethrough"
+				"&r reset format"
+				""
+				"{@pagebreak}"
+			]
+			id: "729DB0F0BF1540BF"
+			tasks: [{
+				id: "6D1D77D26E1948A3"
+				title: "dev"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
 	]
 	title: "QoL"
 }

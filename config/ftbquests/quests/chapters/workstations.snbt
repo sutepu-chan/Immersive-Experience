@@ -5,7 +5,7 @@
 	group: "00E9424D6B3ED400"
 	icon: "minecraft:crafting_table"
 	id: "551CF625A1B5E66B"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

@@ -12,7 +12,7 @@
 		}
 	}
 	id: "760BA30BB7A3E4C3"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -314,32 +314,6 @@
 			}]
 			x: -6.0d
 			y: 0.0d
-		}
-		{
-			description: [
-				"&bHole Filler&r is a powerful mod that &6fills any hole automatically&r in a fast speed, including those &6natural hole&r and holes created by &6creepers&r."
-				"Check the tooltip for more info."
-			]
-			id: "342E4B9BC2C9A759"
-			tasks: [{
-				id: "5BB38132C210E5F9"
-				item: "hole_filler_mod:throwable_hole_filler"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["342E4B9BC2C9A759"]
-			description: ["&bSmart Hole Filler&r is a useful item that fills the holes automatically with &6corresponding blocks&r thatmaakes the appearance &6natural&r."]
-			id: "07E04667ED7EABB6"
-			tasks: [{
-				id: "0E82770CB683D858"
-				item: "hole_filler_mod:throwable_hole_filler_smart"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 2.0d
 		}
 	]
 	title: "Tools"

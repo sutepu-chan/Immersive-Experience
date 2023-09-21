@@ -287,6 +287,62 @@ ItemEvents.modification(e => {
                 knockback_resistance: 0.1,
             }
         },
+        {
+            name: 'aether:gravitie',
+            attributes: {
+                knockback_resistance: 0.1,
+            }
+        },
+        {
+            name: 'aether:valkyrie',
+            attributes: {
+                armor: [2, 2, 2, 2], //5 10 8 5
+                armor_toughness: 0.5,
+                knockback_resistance: 0.1,
+                max_health: 2
+            }
+        },
+        {
+            name: 'aether:neptune',
+            attributes: {
+                armor: [3, 3, 3, 3], //6 11 9 6
+                knockback_resistance: 0.2,
+                max_health: 2
+            }
+        },
+        {
+            name: 'aether:phoenix',
+            attributes: {
+                armor: [4, 4, 4, 4], //7 12 10 7
+                armor_toughness: 1.0,
+                knockback_resistance: 0.2,
+                max_health: 8
+            }
+        },
+        {
+            name: 'aether:obsidian',
+            attributes: {
+                armor: [6, 6, 6, 6], //9 14 12 9
+                armor_toughness: 2.0,
+                knockback_resistance: 0.25,
+                max_health: 3
+            }
+        },
+        {
+            name: 'deep_aether:stratus',
+            attributes: {
+                armor: [2, 2, 2, 2], //5 10 8 5
+                knockback_resistance: 0.1,
+                max_health: 1
+            }
+        },
+        {
+            name: 'deep_aether:skyjade',
+            attributes: {
+                armor_toughness: 1.0,
+                knockback_resistance: 0.05,
+            }
+        },
     ];
 
     const armorType = [

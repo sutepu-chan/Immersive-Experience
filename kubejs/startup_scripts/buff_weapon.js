@@ -215,7 +215,77 @@ ItemEvents.modification(e => {
 				critical_damage: 1.2,
             }
         },
-
+		{
+			name: 'deep_aether:skyjade',
+            attributes: {
+				critical_hit: 0.1,
+				critical_damage: 0.5,
+            }
+		},
+		{
+			name: 'deep_aether:stratus',
+            attributes: {
+				attack_damage: 3, //11
+				attack_speed: 0.2,
+				critical_hit: 0.2,
+				critical_damage: 1.3,
+            }
+		},
+		{
+			name: 'aether_redux:veridium',
+            attributes: {
+				attack_damage: 2, //5
+				critical_hit: 0.1,
+				critical_damage: 0.6,
+            }
+		},
+		{
+			name: 'aether_redux:infused_veridium',
+            attributes: {
+				attack_damage: 2,
+				critical_hit: 0.15,
+				critical_damage: 1.0,
+            }
+		},
+		{
+			name: 'aether:skyroot',
+            attributes: {
+				critical_hit: 0.05,
+				critical_damage: 0.2,
+            }
+		},
+		{
+			name: 'aether:zanite',
+            attributes: {
+				attack_damage: 1, //7
+				critical_hit: 0.1,
+				critical_damage: 0.75,
+            }
+		},
+		{
+			name: 'aether:gravitite',
+            attributes: {
+				attack_damage: 1, //7
+				critical_hit: 0.1,
+				critical_damage: 1.0,
+            }
+		},
+		{
+			name: 'aether:holystone',
+            attributes: {
+				critical_hit: 0.05,
+				critical_damage: 0.2,
+            }
+		},
+		{
+			name: 'lost_aether_content:phoenix',
+            attributes: {
+				attack_damage: 5, //5
+				attack_speed: 0.2,
+				critical_hit: 0.23,
+				critical_damage: 1.65,
+            }
+		},
 	];
 
 	for (const set of weaponSets) {
@@ -916,5 +986,132 @@ ItemEvents.modification(e => {
 			$AM$Operation.ADDITION
 		);	
 	}))
+
+	e.modify('aether:valkyrie_axe', (item) => {
+		item.addAttribute(
+			'minecraft:generic.attack_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			5, //14
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'minecraft:generic.attack_speed',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			0.3,
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_hit',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			0.22,
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			1.4,
+			$AM$Operation.ADDITION
+		);
+	});
+	
+	e.modify('aether:vampire_blade', (item) => {
+		item.addAttribute(
+			'minecraft:generic.attack_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			5, //12
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_hit',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			0.2,
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			1.25,
+			$AM$Operation.ADDITION
+		);
+	});
+	
+	e.modify('aether:holy_sword', (item) => {
+		item.addAttribute(
+			'minecraft:generic.attack_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			5, //12
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_hit',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			0.2,
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			1.25,
+			$AM$Operation.ADDITION
+		);
+	});
+	
+	e.modify('aether:lightning_sword', (item) => {
+		item.addAttribute(
+			'minecraft:generic.attack_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			5, //12
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_hit',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			0.2,
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			1.25,
+			$AM$Operation.ADDITION
+		);
+	});
+	
+	e.modify('aether:flaming_sword', (item) => {
+		item.addAttribute(
+			'minecraft:generic.attack_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			5, //12
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_hit',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			0.2,
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			1.25,
+			$AM$Operation.ADDITION
+		);
+	});
 	//#endregion
 });

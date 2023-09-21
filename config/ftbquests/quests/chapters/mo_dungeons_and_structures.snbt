@@ -18,12 +18,13 @@
 				structure: "#minecraft:village"
 				type: "structure"
 			}]
-			title: "Find a Village"
+			title: "Find a &6Village"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
+			description: ["Finding a &5Witch Hut&r is a must-have step in your journey. Take a look at your quest book and try to figure out the reason"]
 			id: "01F5EAE4BCB69B8B"
 			tasks: [{
 				icon: "minecraft:cauldron"
@@ -32,11 +33,13 @@
 				title: "Find a Witch Hut"
 				type: "structure"
 			}]
+			title: "Seek the &5Witch Hut"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
+			description: ["The &eDesert Temple&r has been overhauled. There are &cpuzzles, mazes and traps&r. Beware of these! At the same time, there are much better loot and you may even find &9Runic Weapons&r inside!"]
 			id: "26E16E1DBE091CB0"
 			tasks: [{
 				icon: "minecraft:chiseled_sandstone"
@@ -45,11 +48,13 @@
 				title: "Find a Desert Temple"
 				type: "structure"
 			}]
+			title: "Overhauled &eDesert Temple"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
+			description: ["The &2Jungle Temple&r has been overhauled. There are &cpuzzles, mazes and traps&r. Beware of these! At the same time, there are much better loot and you may even find &9Runic Weapons&r inside"]
 			id: "0DAC30C491B3A8A8"
 			tasks: [{
 				icon: "minecraft:mossy_cobblestone"
@@ -58,11 +63,13 @@
 				title: "Find a Jungle Temple"
 				type: "structure"
 			}]
+			title: "Overhauled &2Jungle Temple&r"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
+			description: ["The &bOcean Monument&r is much bigger... with more &4Guardian&r spawns, but definitely better loot!"]
 			id: "0C20611CEF714552"
 			tasks: [{
 				icon: "minecraft:prismarine_shard"
@@ -71,11 +78,13 @@
 				title: "Find an Ocean Monument"
 				type: "structure"
 			}]
+			title: "&bOcean Monument"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
+			description: ["The &6Mineshaft&r is much bigger than before. There are many more ores stored and can be discovered on your journey inside the mineshaft."]
 			id: "2AB58726C75A0AAE"
 			tasks: [{
 				icon: "minecraft:rail"
@@ -84,8 +93,29 @@
 				title: "Find a Mineshaft"
 				type: "structure"
 			}]
+			title: "Expanded &6Mineshaft"
 			x: 2.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["72BFDC167B05BBE4"]
+			description: ["A &2Mansion&r is undoubtedly an attractive place due to its loot. However, this place is even more &4dangerous&r than in vanilla Minecraft. Get your &6weapons and armos&r ready!"]
+			id: "2D1DF4BA848DD4FD"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "17868FC130B85322"
+				structure: "minecraft:mansion"
+				title: "Find a &2Mansion"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 	title: "Mo' Dungeons and Structures"

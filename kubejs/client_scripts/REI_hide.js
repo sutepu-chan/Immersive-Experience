@@ -1,6 +1,5 @@
 REIEvents.hide('item', e => {
     e.hide(global.recipe_disable);
-    e.hide('@rftoolsbase');
     e.hide('@ftbquests');
     e.hide('@itemfilters');
     e.hide('@structure_gel');

@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "food"
-	group: "00E9424D6B3ED400"
+	group: "2567E5CB30369DC8"
 	icon: "farmersdelight:roast_chicken_block"
 	id: "5AB6F9E8A39AF912"
-	order_index: 3
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -102,123 +102,8 @@
 				item: "ends_delight:end_stove"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["63976D3D56F0CC0E"]
-			description: ["Before making tofu, some preparations are needed."]
-			id: "66A9F948F6FBA5CA"
-			rewards: [{
-				id: "0AB3BEAE25BB422E"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "tofucraft:tofu_book"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "5CB25E1193F1595F"
-					item: "tofucraft:seeds_soybeans"
-					type: "item"
-				}
-				{
-					id: "5A545C29A62CC54E"
-					item: "tofucraft:bucket_soymilk"
-					type: "item"
-				}
-			]
 			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["66A9F948F6FBA5CA"]
-			description: [
-				"To prepare &6tofu&r, you need some &6salt&r. Salt can be obtained with &bsalt pan&r or &bsalt furnace&r."
-				""
-				"Insert &6fuel&r, a bucket of &6water&r and an empty &6glass bottle&r into the salt furnace. Youw ill obtain &6salt&r and a bottle of &6bittern&r."
-			]
-			id: "7467FE33F7088698"
-			tasks: [
-				{
-					id: "41559B7AB3BEE2E6"
-					item: "tofucraft:salt_furnace"
-					type: "item"
-				}
-				{
-					id: "63D910A2422F1EF8"
-					item: "tofucraft:blocksaltpan"
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7467FE33F7088698"]
-			id: "6DB549C371CDBED6"
-			tasks: [
-				{
-					id: "6ED44A2D14E4770D"
-					item: "tofucraft:salt"
-					type: "item"
-				}
-				{
-					id: "7A1F8E46BFD6D3C7"
-					item: "tofucraft:bittern_bottle"
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"66A9F948F6FBA5CA"
-				"6DB549C371CDBED6"
-			]
-			description: ["Place a bucket of &6soybean&r onto the ground and &dRC&r with &6bittern bottle&r. The soybean will then turns into tofu."]
-			id: "5522F377DDC6E67E"
-			tasks: [{
-				count: 4L
-				id: "72F02E81639BCE74"
-				item: { Count: 4b, id: "tofucraft:tofukinu" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["5522F377DDC6E67E"]
-			description: [
-				"Craft the broken &bKinuTofu&r into &bMomenTofu&r. MomenTofu can be hardened when placed between 2 rocks, to produce &bIshiTofu&r and &bMetalTofu&r. The hardened Tofu can be used as &6building blocks&r or &6crafting materials&r."
-				""
-				"&7FYI: Ishi in IshiTofu means \"rock 石\" in Japanese&r"
-			]
-			id: "18789BF4268433C0"
-			tasks: [
-				{
-					id: "07F2F0493521BCCB"
-					item: "tofucraft:blocktofumomen"
-					type: "item"
-				}
-				{
-					id: "7D996839944B28A8"
-					item: "tofucraft:blocktofuishi"
-					type: "item"
-				}
-				{
-					id: "64A4385B5C79D0A6"
-					item: "tofucraft:blocktofumetal"
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 6.0d
+			y: -2.0d
 		}
 		{
 			description: [
@@ -266,8 +151,8 @@
 				}
 			]
 			title: "Vinery"
-			x: -2.0d
-			y: 2.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1D89AEC45F5CC452"]
@@ -315,8 +200,8 @@
 				}
 			]
 			title: "Vinery decorations"
-			x: -2.0d
-			y: 4.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1D89AEC45F5CC452"]
@@ -328,7 +213,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 4.0d
+			y: 2.0d
 		}
 	]
 	title: "Food"

@@ -268,12 +268,19 @@
 			]
 			icon: "fromtheshadows:crystallized_blood"
 			id: "3C179B42EEBABCF3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2067F5CC6ADFB34E"
-				table_id: 6225236626738686000L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2067F5CC6ADFB34E"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "3A3C4A939F08F154"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
 			tasks: [{
 				entity: "fromtheshadows:nehemoth"
 				icon: "fromtheshadows:crystallized_blood"
@@ -5466,6 +5473,19 @@
 			dependencies: ["3A88AAE96B6BB165"]
 			description: ["&4Gigantic Lava Squid&r"]
 			id: "3A9570A6B719E2BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "006FAB08006E12D2"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "43621A0773DD9251"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				entity: "monsterplus:mother_lava_squid"
 				icon: "monsterplus:mother_lava_squid_spawn_egg"
@@ -5480,12 +5500,19 @@
 			dependencies: ["3A88AAE96B6BB165"]
 			description: ["Lava Squid is a &ccommon mob&r found in the &cNether&r. Try to eliminate &610 of them&r!"]
 			id: "72F650C78FD30081"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "300915E52EE4D533"
-				table_id: 1613080448957740991L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "300915E52EE4D533"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "1C80DDA409E9094B"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				entity: "monsterplus:lava_squid"
 				icon: "monsterplus:lava_squid_spawn_egg"
@@ -5501,7 +5528,7 @@
 			description: [
 				"&dThe Wither &rhas been more deadly ever than before. The level increases every time you defeat one (&6max level 10&r).The tweaks are listed below."
 				""
-				"&c&nHealth:&r &6+900&r for each level."
+				"&c&nHealth:&r &6+150&r for each level."
 				""
 				"&c&nRegeneration:&r &6+1HP/s&r for each level (&6max 10HP/s&r) "
 				""
@@ -5598,7 +5625,7 @@
 			description: [
 				"&5Ender Dragon &rhas been more deadly ever than before. The level increases every time you defeat one (&6max level 20&r).The tweaks are listed below."
 				""
-				"&c&nHealth:&r &6+300&r for each level."
+				"&c&nHealth:&r &6+50&r for each level."
 				""
 				"&c&nRegeneration:&r &6+0.2HP/s&r for each level (up to 4HP per second) "
 				""
@@ -5688,6 +5715,19 @@
 			dependencies: ["3A88AAE96B6BB165"]
 			description: ["The &5Akaname&r spawns occasionally in the Nether."]
 			id: "70413C6C3E56A79D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CBDA1476BD2533C"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "0F6754543033E133"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				entity: "epicsamurai:akaname"
 				icon: "epicsamurai:akaname_spawn_egg"
@@ -6496,13 +6536,24 @@
 				"&7Click to submit this item."
 			]
 			id: "3EC887C4B801537D"
-			rewards: [{
-				command: "/locate structure 1_splatus:sanctum"
-				icon: "minecraft:oxidized_cut_copper_slab"
-				id: "57249F104DDFBA21"
-				title: "Get the location of Sanctum"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/locate structure 1_splatus:sanctum"
+					icon: "minecraft:oxidized_cut_copper_slab"
+					id: "57249F104DDFBA21"
+					title: "Get the location of Sanctum"
+					type: "command"
+				}
+				{
+					id: "7D42B67EDD6D945E"
+					item: {
+						Count: 1b
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				id: "5BB6BD4179DD199B"
@@ -6904,11 +6955,24 @@
 				value: 1L
 			}]
 			x: 2.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["48393696FD0EEC07"]
 			id: "691B87423B72FD93"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34E9953542376957"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "309B8B6102A069F4"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				entity: "fromtheshadows:bulldrogioth"
 				icon: "fromtheshadows:crimson_shell"
@@ -6918,7 +6982,7 @@
 				value: 1L
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -6978,7 +7042,7 @@
 				}
 			]
 			title: "&eCrust Armor"
-			x: 2.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -7021,8 +7085,8 @@
 				}
 			]
 			title: "&eDiabolium Armor"
-			x: 4.0d
-			y: 2.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1FE458DD0531E608"]
@@ -7201,6 +7265,194 @@
 			title: "&9Ender Guardian"
 			x: -2.0d
 			y: 22.5d
+		}
+		{
+			dependencies: ["0AE56FEBFA8C2394"]
+			description: [
+				"&6Totem of Undying&r is more useful than ever. There are &5five new features&r being added into this pack."
+				""
+				"&b&nVoid Protection&r"
+				"You will be teleported to the nearest land if you fall into the void."
+				""
+				"&b&nTotem Knockback&r"
+				"When a swarm of mobs approaches and you can't escape, the totem will knockback the mobs away, allowing you to run and escape from the danger."
+				""
+				"&b&nSuffocation Protection&r"
+				"The totem will destroy the blocks causing you to suffocate."
+				""
+				"&b&nFood Increment&r"
+				"The Totem will grant you an increment in your hunger level, just enough to energize you for a short run."
+				""
+				"&b&nEffects Rework&r"
+				"The effects are only granted when you need them. This only affects the Water Breathing effect and the Fire Resistance effect. They will be granted when you're drowning or on fire, respectively.\""
+			]
+			id: "588AE39D356CCA95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FAF54C446E641FA"
+				table_id: 5877745173198024707L
+				type: "random"
+			}]
+			tasks: [{
+				id: "364A232D58587455"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			title: "&6Totem of Undying&r"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["352CE5900BAE3041"]
+			description: [
+				"It's definitely a good time to get your &6backpack&r now. Having a backpack is akin to extending your inventory slots, enabling you to bring more loot back to your sweet home in one trip."
+				""
+				"This backpack also allows for &acrafting&r and &astoring liquid&r."
+			]
+			id: "7AB8DD89291E9B29"
+			rewards: [{
+				count: 2
+				id: "4EC225C7FF506A03"
+				item: "minecraft:cow_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "163CA4C2949E8AFC"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Secure Your &6Backpack"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7AB8DD89291E9B29"]
+			description: ["Your &6backpack&r also allows you to upgrade to a higher tier, providing even more inventory spaces."]
+			id: "4F0D4F6AC65C79B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D3EB2E4D2718988"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4C141A9DC75AA75C"
+					item: "travelersbackpack:iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "333EB2CE014C71F7"
+					item: {
+						Count: 1b
+						id: "travelersbackpack:standard"
+						tag: {
+							Tier: 1
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Backpack"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4F0D4F6AC65C79B6"]
+			id: "2E2635A92A1C6E08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F9CC5DB0290EE7C"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1AAEDAF5CC15AE74"
+					item: "travelersbackpack:gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "400ADFF3F9DB421C"
+					item: {
+						Count: 1b
+						id: "travelersbackpack:standard"
+						tag: {
+							Tier: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Gold Backpack"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E2635A92A1C6E08"]
+			id: "5D764899FFE3B308"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B7B21DC4C31CC23"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "54D5D6E97C91306A"
+					item: "travelersbackpack:diamond_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "47F6D213B5379256"
+					item: {
+						Count: 1b
+						id: "travelersbackpack:standard"
+						tag: {
+							Tier: 3
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bDiamond Backpack"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D764899FFE3B308"]
+			id: "4D2B7830914B121A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E22E2C58BBA91BD"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "20A88E823EE00E72"
+					item: "travelersbackpack:netherite_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "0F478AC3498E0BE6"
+					item: {
+						Count: 1b
+						id: "travelersbackpack:standard"
+						tag: {
+							Tier: 4
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&8Netherite Backpack"
+			x: 8.0d
+			y: -2.0d
 		}
 	]
 	title: "Adventure"

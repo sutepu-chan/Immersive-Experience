@@ -193,7 +193,7 @@ ItemEvents.tooltip(e => {
         [Text.of('I ').red(), Text.of('a').gold(), Text.of('m ').yellow(), Text.of('s').green(), Text.of('p').darkGreen(), Text.of('e').aqua(), Text.of('e').blue(), Text.of('d').lightPurple(), Text.of('.').gray()]
     ])
     //#endregion
-    
+
     //#region archeology
     tooltips.yellow('betterarcheology:bomb', 'RC to throw the bomb');
     tooltips.yellow('betterarcheology:unidentified_artifact', 'To be identitied in Arrcheology Table');
@@ -202,13 +202,37 @@ ItemEvents.tooltip(e => {
     //#region maid
     tooltips.white('touhou_little_maid:ultramarine_orb_elixir', 'Avoid death of maid up to 6 times');
     tooltips.white('touhou_little_maid:nimble_fabric', 'When being attacked by projectile entities, the maid will act likes an Enderman');
-    tooltips.white('touhou_little_maid:explosion_protect_bauble', 'Immune to blast damage'),
-    tooltips.white('touhou_little_maid:fire_protect_bauble', 'Immune to fire'),
-    tooltips.white('touhou_little_maid:projectile_protect_bauble', 'Immune to projectile damage')
-    tooltips.white('touhou_little_maid:magic_protect_bauble', 'Immune to potion damage'),
-    tooltips.white('touhou_little_maid:fall_protect_bauble', 'Immune to fall damage'),
-    tooltips.white('touhou_little_maid:drown_protect_bauble', 'Immune to drowning')
+    tooltips.white('touhou_little_maid:explosion_protect_bauble', 'Immune to blast damage');
+    tooltips.white('touhou_little_maid:fire_protect_bauble', 'Immune to fire');
+    tooltips.white('touhou_little_maid:projectile_protect_bauble', 'Immune to projectile damage');
+    tooltips.white('touhou_little_maid:magic_protect_bauble', 'Immune to potion damage');
+    tooltips.white('touhou_little_maid:fall_protect_bauble', 'Immune to fall damage');
+    tooltips.white('touhou_little_maid:drown_protect_bauble', 'Immune to drowning');
     //#endregion
+
+    //#region aether
+    tooltips.gold('aether:iron_ring', 'An aesthetic accessory');
+    tooltips.gold('aether:golden_ring', 'An aesthetic accessory');
+    tooltips.gold('aether:zanite_ring', 'Increase mining speed');
+    tooltips.gold('aether:ice_ring', 'Freezes water and lava when walked on');
+    tooltips.gold('aether:iron_pendant', 'An aesthetic accessory');
+    tooltips.gold('aether:golden_pendant', 'An aesthetic accessory');
+    tooltips.gold('aether:zanite_pendant', 'Increase mining speed');
+    tooltips.gold('aether:ice_pendant', 'Freezes water and lava when walked on');
+    tooltips.gold('lost_aether_content:phoenix_cape', 'Give second chance of life when fall in void');
+    tooltips.gold('aether:neptune_gloves', 'Allows underwater walking');
+    tooltips.gold('aether:agility_cape', 'Grant step assists');
+    tooltips.gold('aether:invisibility_cloak', 'Grant complete invisibility');
+    tooltips.gold('aether:valkyrie_cape', 'Grant slow falling');
+    tooltips.gold('aether:golden_feather', 'Grant slow falling');
+    tooltips.gold('aether:regeneration_stone', 'Grant stacklable regeneration effect');
+    tooltips.gold('aether:iron_bubble', 'Grant water breathing');
+    tooltips.gold('aether:shield_of_repulsion', 'Projectile Immunity');
+    tooltips.gold('aether:swet_cape', 'Allow you to ride swet');
+    tooltips.gold('aether:swet_cape', 'Increase mining speed');
+    tooltips.gold('deep_aether:gravitite_ring', 'Boost of Stratus Armor dash and Gravitite Armor boosted jump');
+    tooltips.gold('deep_aether:stratus_ring', 'Upgraded boost the Stratus Armor dash and Gravitite Armor boosted jump');
+
 
     //#region miscellaneous
     tooltips.darkPurple('manyideas_core:end_block', 'Just a decorative block')
@@ -220,5 +244,5 @@ ItemEvents.tooltip(e => {
     tooltips.darkRed('cataclysm:final_fractal', 'W.I.P.');
     tooltips.darkRed('cataclysm:zweiender', 'W.I.P.');
     //#endregion
-    
+
 })
