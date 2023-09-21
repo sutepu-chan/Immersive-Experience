@@ -126,38 +126,6 @@ ItemEvents.modification(e => {
             }
         },
         {
-            name: 'tofucraft:tofu_solid',
-            attributes: {
-                armor: [1, 1, 1, 1], //3 5 4 2
-            }
-        },
-        {
-            name: 'tofucraft:tofu_metal',
-            attributes: {
-                armor: [1, 1, 1, 1], //3 7 6 2
-                armor_toughness: 1,
-                max_health: 1
-            }
-        },
-        {
-            name: 'tofucraft:tofu_diamond',
-            attributes: {
-                armor: [1, 2, 1, 2], //5 11 8 5
-                armor_toughness: 0.5, //3.75
-                knockback_resistance: 0.1, //0.15
-                max_health: 1
-            }
-        },
-        {
-            name: 'tofucraft:sculk_bone',
-            attributes: {
-                armor: [2, 3, 3, 2], //6 12 10 5
-                armor_toughness: 0.5, //4
-                knockback_resistance: 0.1, //0.2
-                max_health: 2
-            }
-        },
-        {
             name: 'aquamirae:terrible',
             attributes: {
                 armor: [1, 2, 4, 2], //6 9 7 4

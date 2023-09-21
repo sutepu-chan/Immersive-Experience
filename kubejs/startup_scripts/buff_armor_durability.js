@@ -53,22 +53,6 @@ ItemEvents.modification(e => {
             durability: 912
         },
         {
-            name: 'tofucraft:tofu_solid',
-            durability: 100
-        },
-        {
-            name: 'tofucraft:tofu_metal',
-            durability: 204
-        },
-        {
-            name: 'tofucraft:tofu_diamond',
-            durability: 567
-        },
-        {
-            name: 'tofucraft:sculk_bone',
-            durability: 719
-        },
-        {
             name: 'aquamirae:terrible',
             durability: 275
         },

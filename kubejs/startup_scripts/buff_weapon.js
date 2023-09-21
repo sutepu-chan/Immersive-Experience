@@ -191,31 +191,6 @@ ItemEvents.modification(e => {
 			}
 		},
 		{
-            name: 'tofucraft:tofu_solid',
-            attributes: {
-				critical_hit: 0.05,
-				critical_damage: 0.1,
-            }
-        },
-        {
-            name: 'tofucraft:tofu_metal',
-            attributes: {
-                attack_damage: 2, //8
-				attack_speed: 0.2,
-				critical_hit: 0.1,
-				critical_damage: 0.5,
-            }
-        },
-        {
-            name: 'tofucraft:tofu_diamond',
-            attributes: {
-                attack_damage: 2, //11
-				attack_speed: 0.3,
-				critical_hit: 0.15,
-				critical_damage: 0.8,
-            }
-        },
-		{
             name: 'enlightened_end:adamantite',
             attributes: {
 				critical_hit: 0.1,

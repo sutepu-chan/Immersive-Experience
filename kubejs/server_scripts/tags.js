@@ -80,14 +80,6 @@ ServerEvents.tags('item', e => {
     // e.add('forge:sugars', [
     // ]);
     e.add('forge:protein', [
-        'tofucraft:tofukinu',
-        'tofucraft:tofumomen',
-        'tofucraft:tofuishi',
-        'tofucraft:tofuhell',
-        'tofucraft:tofusoul',
-        'tofucraft:tofugrilled',
-        'tofucraft:tofumiso',
-        'tofucraft:tofudried',
         'ends_delight:dragon_leg_with_sauce',
         'aquamirae:esca',
         'aquamirae:sweet_lance',
@@ -105,15 +97,6 @@ ServerEvents.tags('item', e => {
         'nethersdelight:plate_of_stuffed_hoglin_snout',
         'nethersdelight:plate_of_stuffed_hoglin_ham',
         'nethersdelight:plate_of_stuffed_hoglin_roast',
-        'tofucraft:shudofu',
-        'tofucraft:tofusesame',
-        'tofucraft:soy_cheese',
-        'tofucraft:soy_nether_cheese',
-        'tofucraft:soy_soul_cheese',
-        'tofucraft:yuba',
-        'tofucraft:tofuhamburg',
-        'tofucraft:raw_tofufish',
-        'tofucraft:cooked_tofufish',
         'cataclysm:amethyst_crab_meat',
         'cataclysm:blessed_amethyst_crab_meat'
     ]);
@@ -126,11 +109,6 @@ ServerEvents.tags('item', e => {
         'maturidelight:okonomiyaki_raw',
         'maturidelight:okonomiyaki',
         'maturidelight:okonomiyaki_soysauce',
-        'tofucraft:natto',
-        'tofucraft:nether_natto',
-        'tofucraft:soy_cheese',
-        'tofucraft:soy_nether_cheese',
-        'tofucraft:soy_soul_cheese',
     ]);
     e.add('forge:vegetables', [
         'ends_delight:chorus_succulent',
@@ -141,8 +119,6 @@ ServerEvents.tags('item', e => {
         'nethersdelight:plate_of_stuffed_hoglin_ham',
         'nethersdelight:plate_of_stuffed_hoglin_roast',
         'regions_unexplored:meadow_sage',
-        'tofucraft:sprouts',
-        'tofucraft:apricot',
     ]);
     //#endregion
 
