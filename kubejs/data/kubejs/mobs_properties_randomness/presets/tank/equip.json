@@ -1,0 +1,56 @@
+{
+    "equipment": {
+        "head": {
+            "items": [
+                {
+                    "id": "minecraft:chainmail_helmet",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.1
+                        }
+                    ],
+                    "weight": 10,
+                    "condition_modifier": {
+                        "operation": "add",
+                        "condition": {
+                            "advancements_unlocked": [
+                                {
+                                    "advancements": [
+                                        "minecraft:end/kill_dragon"
+                                    ],
+                                    "player_mode": "any"
+                                }
+                            ]
+                        },
+                        "amount": -2
+                    }
+                },
+                {
+                    "id": "minecraft:iron_helmet",
+                    "drop_chance": 0.0,
+                    "weight": 10,
+                    "conditions": {
+                        "advancements_unlocked": [
+                            {
+                                "advancements": [
+                                    "minecraft:end/kill_dragon"
+                                ],
+                                "player_mode": "any"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "minecraft:diamond_helmet",
+                    "drop_chance": 0.0,
+                    "weight": 10
+                }
+            ]
+        }
+    }
+}

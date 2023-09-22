@@ -192,10 +192,10 @@
 		normal = 1.0
 		#Expert Mode
 		#Range: 0.0 ~ 10.0
-		expert = 2.0
+		expert = 3.0
 		#Master Mode
 		#Range: 0.0 ~ 10.0
-		master = 3.0
+		master = 6.0
 
 	#If the player dies from a zombie or bleeding, then a zombie with player's name spawns in the same place.
 	[Features.SpawnPlayerZombie]

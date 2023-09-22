@@ -4,5 +4,7 @@ ServerEvents.recipes(e => {
         e.remove({ mod: 'ftbquests' });
         e.remove({ mod: 'itemfilters' });
         e.remove({ mod: 'libraryferret' });
+        e.remove({ mod: 'moonlight' });
+        e.remove({ mod: 'citadel' });
     })
 })

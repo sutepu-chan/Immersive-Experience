@@ -243,6 +243,7 @@ ItemEvents.tooltip(e => {
     tooltips.darkRed('aquamirae:maze_rose', 'W.I.P.');
     tooltips.darkRed('cataclysm:final_fractal', 'W.I.P.');
     tooltips.darkRed('cataclysm:zweiender', 'W.I.P.');
+    tooltips.darkPurple('explorerscompass:explorerscompass', 'Obtain by completing certain quest');
     //#endregion
 
 })

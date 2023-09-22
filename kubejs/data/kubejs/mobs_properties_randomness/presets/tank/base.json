@@ -1,0 +1,27 @@
+{
+    "custom_name": {
+        "prefixes": [
+            "Tank "
+        ]
+    },
+    "scale_pehkui": [
+        {
+            "scale": 1.5,
+            "scale_types": [
+                "pehkui:hitbox_width",
+                "pehkui:hitbox_height",
+                "pehkui:eye_height"
+            ],
+            "operation": "set"
+        },
+        {
+            "scale": 1.5,
+            "scale_types": [
+                "pehkui:model_width",
+                "pehkui:model_height"
+            ],
+            "operation": "set"
+        }
+    ],
+    "experience_multiplier": 1.2
+}

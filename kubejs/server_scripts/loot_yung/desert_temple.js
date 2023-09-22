@@ -206,10 +206,10 @@ LootJS.modifiers(e => {
             ]
         )
         .addAlternativesLoot(
-            LootEntry.of('minecraft:diamond_horse_armor').when(c => c.randomChance(0.1)),
-            LootEntry.of('minecraft:golden_horse_armor').when(c => c.randomChance(0.3)),
-            LootEntry.of('minecraft:iron_horse_armor').when(c => c.randomChance(0.4)),
-            LootEntry.of('minecraft:saddle').when(c => c.randomChance(0.5)),
+            LootEntry.of('minecraft:diamond_horse_armor').when(c => c.randomChance(0.02)),
+            LootEntry.of('minecraft:golden_horse_armor').when(c => c.randomChance(0.05)),
+            LootEntry.of('minecraft:iron_horse_armor').when(c => c.randomChance(0.1)),
+            LootEntry.of('minecraft:saddle').when(c => c.randomChance(0.2)),
         )
 
 

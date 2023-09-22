@@ -4,10 +4,10 @@ LootJS.modifiers(e => {
         .addWeightedLoot([0, 5], [LootEntry.of('irons_spellbooks:arcane_essence').when(c => c.randomChance(0.4))])
         .addWeightedLoot([0, 2], [LootEntry.of('touhou_little_maid:power_point', 2).when(c => c.randomChance(0.4))])
         .addAlternativesLoot(
-            LootEntry.of('minecraft:diamond_horse_armor').when(c => c.randomChance(0.1)),
-            LootEntry.of('minecraft:golden_horse_armor').when(c => c.randomChance(0.2)),
-            LootEntry.of('minecraft:iron_horse_armor').when(c => c.randomChance(0.3)),
-            LootEntry.of('minecraft:saddle').when(c => c.randomChance(0.3)),
+            LootEntry.of('minecraft:diamond_horse_armor').when(c => c.randomChance(0.02)),
+            LootEntry.of('minecraft:golden_horse_armor').when(c => c.randomChance(0.05)),
+            LootEntry.of('minecraft:iron_horse_armor').when(c => c.randomChance(0.1)),
+            LootEntry.of('minecraft:saddle').when(c => c.randomChance(0.2)),
         )
         .addWeightedLoot(
             [2, 5],

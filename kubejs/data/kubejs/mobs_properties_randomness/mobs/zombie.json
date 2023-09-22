@@ -1,0 +1,20 @@
+{
+    "target": "minecraft:zombie",
+    "presets": {
+        "chance": 0.1,
+        "list": [
+            {
+                "id": "kubejs:tank/base"
+            },
+            {
+                "id": "kubejs:tank/potion"
+            },
+            {
+                "id": "kubejs:tank/attribute"
+            },
+            {
+                "id": "kubejs:tank/equip"
+            }
+        ]
+    }
+}

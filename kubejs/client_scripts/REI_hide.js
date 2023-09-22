@@ -4,6 +4,8 @@ REIEvents.hide('item', e => {
     e.hide('@itemfilters');
     e.hide('@structure_gel');
     e.hide('@libraryferret');
+    e.hide('@moonlight');
+    e.hide('@citadel');
     let unifiedItems = [
         'epicpaladins:jade_ore',
         'epicpaladins:jade_block',
