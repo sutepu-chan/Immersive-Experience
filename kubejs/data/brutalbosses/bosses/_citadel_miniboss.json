@@ -1,0 +1,51 @@
+{
+    "entity": "bygonenether:warped_enderman",
+    "name": "§2Citadel Watcher",
+    "showbossbar": false,
+    "visualscale": 1.0,
+    "experience": 50,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:strength": 1,
+        "minecraft:resistance": 1
+    },
+    "attributes": {
+        "generic.max_health": 200,
+        "generic.follow_range": 40,
+        "generic.attack_damage": 8,
+        "generic.armor": 5
+    },
+    "customattributes": {
+        "dropgear": 2
+    },
+    "gear": {
+        "offhand": "{id: \"minecraft:netherite_scrap\", Count: 4b}"
+    },
+    "ai-goals": {
+        "minecraft:target": {},
+        "brutalbosses:itemshootgoal": {
+            "projectile_count": 1,
+            "projectile_interval": 60,
+            "projectile_distance": 10,
+            "projectile_speed": 1.0,
+            "projectile_aoe": true,
+            "projectilesize": 1.2,
+            "item": "{id: \"bygonenether:warped_ender_pearl\", Count: 1b}",
+            "damage": 5
+        },
+        "brutalbosses:whirldwind": {
+            "healthinterval": "50-0",
+            "attackdist": 6,
+            "extradamage": 5,
+            "potiononhit": "minecraft:poison",
+            "potionlevel": 1,
+            "potionduration": 60,
+            "knockback": 3,
+            "cooldown": 100,
+            "knockup": true
+        }
+    },
+    "spawnatchest": {
+        "bygonenether:chests/citadel": 1
+    }
+}

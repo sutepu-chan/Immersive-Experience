@@ -16,10 +16,11 @@
         "generic.armor": 15
     },
     "customattributes": {
-        "dropgear": 2
+        "dropgear": 2,
+        "attack_speed": 1.2
     },
     "gear": {
-        "offhand": "{id: \"simplyswords:netherite_glaive\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I; -123823, 44102, 34910, -88204], Amount: 15, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123823, 44202, 34910, -88404], Amount: -2.6d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I; -123823, 44302, 34910, -88604], Amount: 0.2d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I; -123823, 44402, 34910, -88804], Amount: 1.8d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"Nightfall Blade\",\"italic\":false,\"color\":\"light_purple\"}]'}}}"
+        "offhand": "{id: \"simplyswords:netherite_glaive\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I; -123823, 44102, 34910, -88204], Amount: 20, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123823, 44202, 34910, -88404], Amount: -2.6d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I; -123823, 44302, 34910, -88604], Amount: 0.35d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I; -123823, 44402, 34910, -88804], Amount: 2.1d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"Nightfall Blade\",\"italic\":false,\"color\":\"light_purple\"}]'}}}"
     },
     "ai-goals": {
         "brutalbosses:aftercombatregen": {

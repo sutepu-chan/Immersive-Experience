@@ -206,10 +206,10 @@ LootJS.modifiers(e => {
             ]
         )
         .addAlternativesLoot(
-            LootEntry.of('minecraft:diamond_horse_armor').when(c => c.randomChance(0.02)),
-            LootEntry.of('minecraft:golden_horse_armor').when(c => c.randomChance(0.05)),
-            LootEntry.of('minecraft:iron_horse_armor').when(c => c.randomChance(0.1)),
-            LootEntry.of('minecraft:saddle').when(c => c.randomChance(0.2)),
+            LootEntry.of('minecraft:diamond_horse_armor').when(c => c.randomChance(0.005)),
+            LootEntry.of('minecraft:golden_horse_armor').when(c => c.randomChance(0.005)),
+            LootEntry.of('minecraft:iron_horse_armor').when(c => c.randomChance(0.005)),
+            LootEntry.of('minecraft:saddle').when(c => c.randomChance(0.05)),
         )
 
 
@@ -260,21 +260,21 @@ LootJS.modifiers(e => {
             ]
         )
         .addAlternativesLoot(
-            LootEntry.of('simplyswords:runic_longsword').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_twinblade').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_rapier').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_katana').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_sai').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_spear').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_glaive').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_cutlass').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_claymore').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_chakram').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_greataxe').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_greathammer').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_warglaive').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_scythe').when(c => c.randomChance(0.01)),
-            LootEntry.of('simplyswords:runic_halberd').when(c => c.randomChance(0.01))
+            LootEntry.of('simplyswords:runic_longsword').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_twinblade').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_rapier').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_katana').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_sai').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_spear').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_glaive').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_cutlass').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_claymore').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_chakram').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_greataxe').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_greathammer').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_warglaive').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_scythe').when(c => c.randomChance(0.05)),
+            LootEntry.of('simplyswords:runic_halberd').when(c => c.randomChance(0.05))
         )
         .addAlternativesLoot(
             LootEntry.of('irons_spellbooks:silver_ring').when(c => c.randomChance(0.1)),

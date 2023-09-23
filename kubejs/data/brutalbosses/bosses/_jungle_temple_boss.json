@@ -12,7 +12,8 @@
         "generic.attack_damage": 4
     },
     "customattributes": {
-        "dropgear": 1
+        "dropgear": 1,
+        "attack_speed": 0.8
     },
     "gear": {
         "mainhand": "{id: \"endrem:rogue_eye\", Count: 1b}",
@@ -60,6 +61,6 @@
         }
     },
     "spawnatchest": {
-        "betterjungletemple:chests/treasure": 1
+        "betterjungletemples:chests/treasure": 1
     }
 }
