@@ -111,7 +111,6 @@ LootJS.modifiers(e => {
             [1, 3],
             [
                 LootEntry.of('minecraft:diamond', 1).when(c => c.randomChance(0.05)),
-                LootEntry.of('epicsamurai:ruby', 1).when(c => c.randomChance(0.05)),
                 LootEntry.of('minecraft:emerald', 3).when(c => c.randomChance(0.2)),
                 LootEntry.of('epicsamurai:silver_ingot', 2).when(c => c.randomChance(0.1)),
                 LootEntry.of('epicsamurai:amethyst_ingot', 2).when(c => c.randomChance(0.1)),
@@ -119,7 +118,8 @@ LootJS.modifiers(e => {
                 LootEntry.of('epicsamurai:jade', 2).when(c => c.randomChance(0.1)),
                 LootEntry.of('epicsamurai:aquamarine', 2).when(c => c.randomChance(0.1)),
                 LootEntry.of('epicsamurai:onyx', 2).when(c => c.randomChance(0.1)),
-
+                
+                LootEntry.of('epicsamurai:ruby', 2).when(c => c.randomChance(0.1)),
                 LootEntry.of('epicpaladins:arclight_gem', 2).when(c => c.randomChance(0.1)),
                 LootEntry.of('epicpaladins:bloodstone_gem', 2).when(c => c.randomChance(0.1)),
                 LootEntry.of('epicpaladins:cryorium_gem', 2).when(c => c.randomChance(0.1)),
@@ -264,7 +264,6 @@ LootJS.modifiers(e => {
                 LootEntry.of('minecraft:iron_nugget', 6).when(c => c.randomChance(0.3)),
                 LootEntry.of('minecraft:copper_ingot', 4).when(c => c.randomChance(0.2)),
                 LootEntry.of('minecraft:diamond', 1).when(c => c.randomChance(0.05)),
-                LootEntry.of('epicsamurai:ruby', 1).when(c => c.randomChance(0.05)),
                 LootEntry.of('minecraft:emerald', 3).when(c => c.randomChance(0.2)),
             ]
 

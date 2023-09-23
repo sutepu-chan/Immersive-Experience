@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:emerald_block"
 	id: "5C292DD6FF9F914D"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -49,6 +49,71 @@
 			title: "Skeledie"
 			x: 5.0d
 			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3EC887C4B801537D"]
+			description: ["The &6Explorer's Compass&r allows you to locate a structure instantly. "]
+			hide: true
+			id: "33697085BC501FC2"
+			optional: true
+			rewards: [{
+				id: "77BF56F70359E363"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "40A12CA084E54DD8"
+				item: { Count: 3b, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "&6Explorer's Compass"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6D4B60D596DD990C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7614D47F6AAFE041"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_powder"
+				id: "375B685450837E13"
+				type: "kill"
+				value: 50L
+			}]
+			title: "I need &6blaze rod!"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "72F573F9D32539FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "370166A51E923CB6"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "6EA2BC1A1AB29ED2"
+				type: "kill"
+				value: 30L
+			}]
+			title: "More &8Wither Skull"
+			x: 2.5d
+			y: 2.0d
 		}
 	]
 	title: "Shop"

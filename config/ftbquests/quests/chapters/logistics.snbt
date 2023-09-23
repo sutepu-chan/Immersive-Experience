@@ -4,28 +4,28 @@
 	filename: "logistics"
 	group: "39486328CD6C133C"
 	icon: "create:cogwheel"
-	id: "02ED5D0145E809ED"
-	order_index: 1
+	id: "59BEA8067373646A"
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["&bPretty Pipes&r are fancy and efficient ways to move items and fluids. Many modules can be installed to facilitate logistic process."]
-			id: "73D72F9BECCCC670"
+			id: "1E0190EA218D83BD"
 			tasks: [
 				{
-					id: "315BCA5CBB58EE56"
+					id: "30990371D3338CDC"
 					item: "prettypipes:wrench"
 					type: "item"
 				}
 				{
 					count: 16L
-					id: "29A43E3A508AF89E"
+					id: "50C12CDD15C48DD1"
 					item: { Count: 16b, id: "prettypipes:pipe" }
 					type: "item"
 				}
 				{
 					count: 16L
-					id: "6F61C5256CA53D82"
+					id: "7BD7F5170A71E531"
 					item: { Count: 16b, id: "ppfluids:fluid_pipe" }
 					type: "item"
 				}
@@ -36,9 +36,9 @@
 		}
 		{
 			description: ["Basic Minecraft furnaces"]
-			id: "3EE19171E1FA060E"
+			id: "3ED2C996CEF724EC"
 			tasks: [{
-				id: "4652F155B672DCA9"
+				id: "68B23245FC881A81"
 				item: "minecraft:furnace"
 				type: "item"
 			}]
@@ -49,50 +49,50 @@
 		{
 			dependencies: ["3EE19171E1FA060E"]
 			description: ["&bFurnace&r are &6upgradable&r which can smelt items faster and accept new upgrades."]
-			id: "097AB62233F6AC49"
+			id: "6D034A0E6D073322"
 			tasks: [
 				{
-					id: "2216E39E7EA23400"
+					id: "3C247A246CC6F7E6"
 					item: "ironfurnaces:iron_furnace"
 					type: "item"
 				}
 				{
-					id: "1B2B9DC81805955E"
+					id: "175BFB1FBA231E51"
 					item: "ironfurnaces:gold_furnace"
 					type: "item"
 				}
 				{
-					id: "4F3FD545A9906DF6"
+					id: "023034C68DA91BB4"
 					item: "ironfurnaces:copper_furnace"
 					type: "item"
 				}
 				{
-					id: "2DC460E8BAEE6526"
+					id: "5AF1D03A060D2979"
 					item: "ironfurnaces:silver_furnace"
 					type: "item"
 				}
 				{
-					id: "5A2ED30748D7A36D"
+					id: "1113A6C7D0FC48E8"
 					item: "ironfurnaces:diamond_furnace"
 					type: "item"
 				}
 				{
-					id: "2317847C648ACFE4"
+					id: "5178293AE2C6F68B"
 					item: "ironfurnaces:emerald_furnace"
 					type: "item"
 				}
 				{
-					id: "504B15C01B41C468"
+					id: "6B0A577A241B3FE3"
 					item: "ironfurnaces:crystal_furnace"
 					type: "item"
 				}
 				{
-					id: "2E259CD74467BC35"
+					id: "6932CFCE590B0E92"
 					item: "ironfurnaces:obsidian_furnace"
 					type: "item"
 				}
 				{
-					id: "512C343A84B396D4"
+					id: "20ECAC6E15F724AA"
 					item: "ironfurnaces:netherite_furnace"
 					type: "item"
 				}
@@ -103,21 +103,21 @@
 		{
 			dependencies: ["097AB62233F6AC49"]
 			description: ["The &cultimate furnace&r, smelting &664 items per operation&r."]
-			id: "31DE0766A5447988"
+			id: "58DCEE8A597740A0"
 			tasks: [
 				{
-					id: "568F6A20FD786200"
+					id: "26C5C666874BF9B0"
 					item: "ironfurnaces:rainbow_core"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "0D698408B3D14DED"
+					id: "7B7D223601D97C85"
 					item: { Count: 8b, id: "ironfurnaces:rainbow_plating" }
 					type: "item"
 				}
 				{
-					id: "238B112ACDDC5028"
+					id: "7B84A44B197ECA71"
 					item: {
 						Count: 1b
 						id: "ironfurnaces:million_furnace"
@@ -136,25 +136,25 @@
 		{
 			dependencies: ["3EE19171E1FA060E"]
 			description: ["Some misc upgrades applicable to the furnaces. Read the tooltip for more info"]
-			id: "5193EE322A17080A"
+			id: "03319DB341C839FC"
 			tasks: [
 				{
-					id: "074EA83E4A4983BE"
+					id: "17E786630694CE8D"
 					item: "ironfurnaces:augment_blasting"
 					type: "item"
 				}
 				{
-					id: "2B8183667DF5D20E"
+					id: "0522B98DE7A9DA6C"
 					item: "ironfurnaces:augment_smoking"
 					type: "item"
 				}
 				{
-					id: "39E44A98C36F790F"
+					id: "7D706910F9F0954C"
 					item: "ironfurnaces:augment_fuel"
 					type: "item"
 				}
 				{
-					id: "62C55F75F4E5551D"
+					id: "47DF8FE132CB6815"
 					item: "ironfurnaces:augment_speed"
 					type: "item"
 				}
@@ -166,15 +166,15 @@
 		{
 			dependencies: ["3EE19171E1FA060E"]
 			description: ["Furnaces can be turnt into a &6power generator&r or accept power to undergo &6multiple operations&r at the same time."]
-			id: "5A83792B070CF045"
+			id: "41B2CE53DA27384A"
 			tasks: [
 				{
-					id: "2AE6AB7E6647379A"
+					id: "78F7BC5360009049"
 					item: "ironfurnaces:augment_generator"
 					type: "item"
 				}
 				{
-					id: "3CE2A0AC0849EF5E"
+					id: "7671D63AD967AAA6"
 					item: "ironfurnaces:augment_factory"
 					type: "item"
 				}
@@ -186,9 +186,9 @@
 		{
 			dependencies: ["31DE0766A5447988"]
 			description: ["&6Rainbow furnace&r can also act as a generator, via a &brainbow linker&r. Link the rainbow furnace with all types of furnace. When all the linked furnaces are generating power at the same time,  rainbow furnace will then generate a large amount of energy."]
-			id: "0DB55D600D92B243"
+			id: "6085A1C1B4714E63"
 			tasks: [{
-				id: "776B1D8040814D44"
+				id: "077A84293DCFE7B7"
 				item: "ironfurnaces:item_linker"
 				type: "item"
 			}]
@@ -198,9 +198,9 @@
 		{
 			dependencies: ["3EE19171E1FA060E"]
 			description: ["&bFurnace Setting Linker&r allows you to &6copy settings&r of a furnace, such as input and output port, from one furnace to another."]
-			id: "4BBE716DB79C0CD0"
+			id: "747AB8ADA6397623"
 			tasks: [{
-				id: "1872F0FC5D71C1C9"
+				id: "5E05260212C66DF7"
 				item: "ironfurnaces:item_copy"
 				type: "item"
 			}]
@@ -214,15 +214,15 @@
 				""
 				"Then, &dRC&r the &6transmitter&r with your &bWireless Heat Receiver&r and put it into the &6fuel slot&r of a furnace. Your furnace will be directly powered from your energy source now."
 			]
-			id: "556121AA6C526AF7"
+			id: "32ACE77763831852"
 			tasks: [
 				{
-					id: "59F01D35077B89B1"
+					id: "28DEF82D7F3A29E9"
 					item: "ironfurnaces:heater"
 					type: "item"
 				}
 				{
-					id: "08A9119117275CF3"
+					id: "542CB5ED8DEB754A"
 					item: "ironfurnaces:item_heater"
 					type: "item"
 				}
@@ -232,9 +232,9 @@
 		}
 		{
 			description: ["WIP"]
-			id: "34826D070531E19F"
+			id: "00AF8CDC7DE3B642"
 			tasks: [{
-				id: "7B1D56DA3BEABD93"
+				id: "0E85BFC4990F11A9"
 				item: "create:cogwheel"
 				type: "item"
 			}]

@@ -30,8 +30,6 @@ LootJS.modifiers(e => {
 
     e.addLootTypeModifier(LootType.CHEST)
         .removeLoot('endrem:rogue_eye');
-    e.addLootTableModifier('betterjungletemples:chests/treasure')
-        .addLoot('endrem:rogue_eye');
 
     e.addLootTypeModifier(LootType.ENTITY)
         .removeLoot('endrem:witch_pupil');
@@ -52,9 +50,7 @@ LootJS.modifiers(e => {
         .addLoot('endrem:black_eye');
 
     e.addLootTypeModifier(LootType.CHEST)
-        .removeLoot('endrem:old_eyee');
-    e.addLootTableModifier('betterdeserttemples:chests/tomb_pharaoh')
-        .addLoot('endrem:old_eyee');
+        .removeLoot('endrem:old_eye');
 
 });
 

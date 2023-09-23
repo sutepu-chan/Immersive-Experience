@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "prettypipes:wrench",
+    "buildinggadgets2:gadget_exchanging"
+  ],
+  "incompatible": [
+    "minecraft:fortune"
+  ]
+}

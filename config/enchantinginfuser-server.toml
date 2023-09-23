@@ -13,7 +13,7 @@
 	#Range: > 0
 	maximum_bookshelves = 15
 	#Allow books to be enchanted in an infuser.
-	allow_books = true
+	allow_books = false
 
 	[advanced_infuser.types]
 		#Allow curses (e.g. curse of vanishing) to be applied using the enchanting infuser.

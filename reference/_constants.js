@@ -108,10 +108,10 @@ LootJS.modifiers(e => {
         LootEntry.of('epicpaladins:arclight_gem', 2).when(c => c.randomChance(0.1)),
         LootEntry.of('epicpaladins:bloodstone_gem', 2).when(c => c.randomChance(0.1)),
         LootEntry.of('epicpaladins:cryorium_gem', 2).when(c => c.randomChance(0.1)),
+        LootEntry.of('epicsamurai:ruby', 2).when(c => c.randomChance(0.1)),
     ]
     const rareOre = [
         LootEntry.of('minecraft:diamond', 1).when(c => c.randomChance(0.05)),
-        LootEntry.of('epicsamurai:ruby', 1).when(c => c.randomChance(0.05)),
         LootEntry.of('minecraft:emerald', 3).when(c => c.randomChance(0.2)),
     ]
     const netherOre = [

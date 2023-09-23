@@ -1,0 +1,78 @@
+{
+    "entity": "minecraft:husk",
+    "name": "§ePharaoh the Undying",
+    "visualscale": 1.2,
+    "experience": 600,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:resistance": 2
+    },
+    "attributes": {
+        "generic.max_health": 250,
+        "generic.follow_range": 30,
+        "generic.attack_damage": 8
+    },
+    "customattributes": {
+        "dropgear": 2
+    },
+    "gear": {
+        "mainhand": "{id: \"minecraft:golden_sword\", Count: 1b, tag: {Damage: 0, Unbreakable: 1b, Enchantments: [{id: \"minecraft:fire_aspect\", lvl: 1}]}}",
+        "offhand": "{id: \"endrem:old_eye\", Count: 1b}",
+        "head": "{id: \"minecraft:sand\", Count: 1b}",
+        "chest": "{id: \"minecraft:golden_chestplate\", Count: 1b, tag: {Damage: 0, Unbreakable: 1b, Enchantments: [{id: \"minecraft:protection\", lvl: 5}]}}",
+        "legs": "{id: \"minecraft:netherite_leggings\", Count: 1b, tag: {Damage: 0, Enchantments: [{id: \"minecraft:protection\", lvl: 1}]}}",
+        "feet": "{id: \"minecraft:diamond_boots\", Count: 1b, tag: {Damage: 0, Enchantments: [{id: \"minecraft:protection\", lvl: 1}]}}"
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 3
+        },
+        "brutalbosses:whirldwind": {
+            "healthinterval": "100-30",
+            "attackdist": 8,
+            "extradamage": 4,
+            "potiononhit": "minecraft:wither",
+            "potionduration": 200,
+            "knockback": 4,
+            "cooldown": 200
+        },
+        "brutalbosses:charge": {},
+        "brutalbosses:shootwitherskulls": {
+            "healthinterval": "30-0",
+            "projectile_count": 3,
+            "projectile_interval": 60,
+            "projectile_distance": 25,
+            "projectile_speed": 1.0,
+            "projectile_aoe": true,
+            "dangerous": true
+        },
+        "brutalbosses:shootfireballs": {
+            "healthinterval": "100-50",
+            "projectile_count": 3,
+            "projectile_interval": 60,
+            "projectile_distance": 25,
+            "projectile_speed": 1.0,
+            "projectile_aoe": true,
+            "dangerous": true
+        },
+        "brutalbosses:summonmobs": {
+            "interval": 600,
+            "maxcount": 6,
+            "count": 2,
+            "entities": [
+                {
+                    "entityid": "minecraft:husk"
+                },
+                {
+                    "entityid": "monsterplus:crystal_zombie"
+                },
+                {
+                    "entityid": "monsterplus:swamp_zombie"
+                }
+            ]
+        }
+    },
+    "spawnatchest": {
+        "betterdeserttemples:chests/tomb_pharaoh": 1
+    }
+}

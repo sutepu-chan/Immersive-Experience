@@ -12,7 +12,6 @@ LootJS.modifiers(e => {
             [5, 8],
             [
                 LootEntry.of('minecraft:diamond', 1).when(c => c.randomChance(0.4)),
-                LootEntry.of('epicsamurai:ruby', 1).when(c => c.randomChance(0.4)),
                 LootEntry.of('minecraft:emerald', 3).when(c => c.randomChance(0.6)),
             ]
         )
@@ -53,7 +52,6 @@ LootJS.modifiers(e => {
             [5, 8],
             [
                 LootEntry.of('minecraft:diamond', 1).when(c => c.randomChance(0.4)),
-                LootEntry.of('epicsamurai:ruby', 1).when(c => c.randomChance(0.4)),
                 LootEntry.of('minecraft:emerald', 3).when(c => c.randomChance(0.6)),
             ]
         )

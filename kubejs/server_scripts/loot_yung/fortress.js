@@ -150,7 +150,6 @@ LootJS.modifiers(e => {
             [4, 4],
             [
                 LootEntry.of('minecraft:diamond', 1).when(c => c.randomChance(0.15)),
-                LootEntry.of('epicsamurai:ruby', 1).when(c => c.randomChance(0.15)),
             ]
         )
 
@@ -161,7 +160,6 @@ LootJS.modifiers(e => {
             [4, 4],
             [
                 LootEntry.of('minecraft:diamond', 1).when(c => c.randomChance(0.18)),
-                LootEntry.of('epicsamurai:ruby', 1).when(c => c.randomChance(0.18)),
             ]
         )
         .addLoot(LootEntry.of("irons_spellbooks:scroll", 1)
@@ -212,7 +210,6 @@ LootJS.modifiers(e => {
             [4, 4],
             [
                 LootEntry.of('minecraft:diamond', 1).when(c => c.randomChance(0.18)),
-                LootEntry.of('epicsamurai:ruby', 1).when(c => c.randomChance(0.18)),
             ]
         )
         .addLoot(LootEntry.of("irons_spellbooks:scroll", 1)
@@ -247,7 +244,6 @@ LootJS.modifiers(e => {
             [8, 8],
             [
                 LootEntry.of('minecraft:diamond', 1).when(c => c.randomChance(0.18)),
-                LootEntry.of('epicsamurai:ruby', 1).when(c => c.randomChance(0.18)),
             ]
         )
 
@@ -258,7 +254,6 @@ LootJS.modifiers(e => {
             [3, 6],
             [
                 LootEntry.of('minecraft:diamond', 1).when(c => c.randomChance(0.4)),
-                LootEntry.of('epicsamurai:ruby', 1).when(c => c.randomChance(0.4)),
 
             ]
         )

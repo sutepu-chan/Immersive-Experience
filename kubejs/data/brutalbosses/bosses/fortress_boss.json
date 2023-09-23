@@ -1,0 +1,64 @@
+{
+    "entity": "minecraft:wither_skeleton",
+    "name": "§6Shadowflame Wraith",
+    "visualscale": 0.8,
+    "experience": 900,
+    "effects": {
+        "minecraft:fire_resistance": 1
+    },
+    "attributes": {
+        "generic.max_health": 400,
+        "generic.follow_range": 40,
+        "generic.attack_damage": 8,
+        "generic.armor": 10
+    },
+    "customattributes": {
+        "dropgear": 1
+    },
+    "gear": {
+        "mainhand": "{id: \"epicpaladins:moonlight_sword\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I; -123823, 41686, 145614, -83372], Amount: 15, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123823, 41786, 145614, -83572], Amount: -2.2d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I; -123823, 41786, 145614, -83772], Amount: 0.4d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I; -123823, 41786, 145614, -83972], Amount: 1.5d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"Embrace of Death\",\"italic\":false,\"color\":\"red\"}]'}}}",
+        "head": "{id: \"epicpaladins:moonlight_helmet\", Count: 1b}",
+        "chest": "{id: \"epicpaladins:moonlight_chestplate\", Count: 1b}",
+        "legs": "{id: \"epicpaladins:moonlight_leggings\", Count: 1b}",
+        "feet": "{id: \"epicpaladins:moonlight_boots\", Count: 1b}"
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 3
+        },
+        "brutalbosses:lavarescue": {},
+        "brutalbosses:shootwitherskulls": {
+            "healthinterval": "100-40",
+            "projectile_count": 3,
+            "projectile_interval": 100,
+            "projectile_distance": 8,
+            "projectile_speed": 0.6,
+            "projectile_aoe": true,
+            "dangerous": true
+        },
+        "brutalbosses:summonmobs": {
+            "interval": 600,
+            "maxcount": 9,
+            "count": 3,
+            "entities": [
+                {
+                    "entityid": "minecraft:blaze"
+                }
+            ]
+        },
+        "brutalbosses:whirldwind": {
+            "healthinterval": "60-0",
+            "attackdist": 4,
+            "extradamage": 3,
+            "potiononhit": "minecraft:slowness",
+            "potionlevel": 3,
+            "potionduration": 40,
+            "knockback": 4,
+            "cooldown": 100,
+            "knockup": true
+        }
+    },
+    "spawnatchest": {
+        "betterfortresses:chests/hall": 1
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "entity": "minecraft:blaze",
+    "name": "§6Fortress Keeper",
+    "showbossbar": false,
+    "visualscale": 1.0,
+    "experience": 20,
+    "effects": {
+        "minecraft:regeneration": 1,
+        "minecraft:resistance": 1
+    },
+    "attributes": {
+        "generic.max_health": 150,
+        "generic.follow_range": 40,
+        "generic.attack_damage": 10,
+        "generic.armor": 6
+    },
+    "ai-goals": {
+        "brutalbosses:lavarescue": {},
+        "brutalbosses:whirldwind": {
+            "healthinterval": "60-0",
+            "attackdist": 4,
+            "extradamage": 3,
+            "potiononhit": "minecraft:slowness",
+            "potionlevel": 3,
+            "potionduration": 40,
+            "knockback": 4,
+            "cooldown": 100,
+            "knockup": true
+        },
+        "brutalbosses:shootfireballs": {
+            "healthinterval": "100-0",
+            "projectile_count": 3,
+            "projectile_interval": 60,
+            "projectile_distance": 25,
+            "projectile_speed": 1.5,
+            "projectile_aoe": false
+        }
+    },
+    "spawnatchest": {
+        "betterfortresses:chests/obsidian": 1,
+        "betterfortresses:chests/storage": 1,
+        "betterfortresses:chests/worship": 1
+    }
+}

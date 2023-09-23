@@ -1,0 +1,16 @@
+{
+    "target": "minecraft:zombie",
+    "presets": {
+        "chance": 0.1,
+        "list": [
+            {
+                "id": "varied_mobs:tank",
+                "weight": 1
+            },
+            {
+                "id": "varied_mobs:assassin",
+                "weight": 1
+            }
+        ]
+    }
+}

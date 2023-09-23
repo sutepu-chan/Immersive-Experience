@@ -513,7 +513,7 @@
 			y: -16.0d
 		}
 		{
-			dependencies: ["1FC4A2B2BF2DAAA1"]
+			dependencies: ["7D237EDAA683540E"]
 			description: ["&bShulkers&r deals &6blindness effect&r by chance now. The amplifier and duration of poison increases difficulties with pack mode. Be aware while fighting them!"]
 			id: "285F67981081B670"
 			tasks: [{
@@ -523,8 +523,8 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: -2.0d
-			y: 12.0d
+			x: 0.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -643,6 +643,12 @@
 			]
 			icon: "minecraft:sculk_catalyst"
 			id: "1177EE213831E998"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CCC5EBE874F3AAE"
+				table_id: 5877745173198024707L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				id: "5A34F3D393C1D6B7"
@@ -1577,11 +1583,6 @@
 					type: "random"
 				}
 				{
-					id: "242D7ECA19C3BAF2"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
 					id: "3C824DD071CA4590"
 					item: {
 						Count: 1b
@@ -1591,6 +1592,11 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					id: "12ADE20C26A11A9C"
+					type: "xp"
+					xp: 350
 				}
 			]
 			shape: "rsquare"
@@ -4682,10 +4688,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"677481B5BE285E23"
-				"028538773BBC64E9"
-			]
+			dependencies: ["028538773BBC64E9"]
 			description: [
 				"&dThe Blinding Abyss set&r is a very powerful armor set which is obtained from &6the mother of the maze&r. It also gives useful set bonuses and has a good armor value."
 				""
@@ -4767,10 +4770,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"3AC3E0534B8BF826"
-				"3E39DA90709263EE"
-			]
+			dependencies: ["3E39DA90709263EE"]
 			description: [
 				"&6Three-Bolt Armor&r is obtained from defeating the &5AquaMirae Boss&r. It has very useful abilities and a powerful armor value."
 				""
@@ -5528,7 +5528,7 @@
 			description: [
 				"&dThe Wither &rhas been more deadly ever than before. The level increases every time you defeat one (&6max level 10&r).The tweaks are listed below."
 				""
-				"&c&nHealth:&r &6+150&r for each level."
+				"&c&nHealth:&r &6+900&r for each level."
 				""
 				"&c&nRegeneration:&r &6+1HP/s&r for each level (&6max 10HP/s&r) "
 				""
@@ -5625,7 +5625,7 @@
 			description: [
 				"&5Ender Dragon &rhas been more deadly ever than before. The level increases every time you defeat one (&6max level 20&r).The tweaks are listed below."
 				""
-				"&c&nHealth:&r &6+50&r for each level."
+				"&c&nHealth:&r &6+300&r for each level."
 				""
 				"&c&nRegeneration:&r &6+0.2HP/s&r for each level (up to 4HP per second) "
 				""
@@ -5652,8 +5652,8 @@
 				value: 1L
 			}]
 			title: "&5Savage Ender Dragon"
-			x: -2.0d
-			y: 14.0d
+			x: 0.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1FE458DD0531E608"]
@@ -5673,8 +5673,8 @@
 				value: 5L
 			}]
 			title: "&dEnder Dragon &clv.5"
-			x: -4.0d
-			y: 14.0d
+			x: -6.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1BFFC00EF45D04E2"]
@@ -5694,8 +5694,8 @@
 				value: 10L
 			}]
 			title: "&dEnder Dragon &clv.10"
-			x: -4.0d
-			y: 16.0d
+			x: -6.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["75172170154E2990"]
@@ -5708,8 +5708,8 @@
 				title: "Defeat an &dEnder Dragon&r with&c max level"
 				type: "advancement"
 			}]
-			x: -4.0d
-			y: 18.0d
+			x: -6.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
@@ -6536,24 +6536,13 @@
 				"&7Click to submit this item."
 			]
 			id: "3EC887C4B801537D"
-			rewards: [
-				{
-					command: "/locate structure 1_splatus:sanctum"
-					icon: "minecraft:oxidized_cut_copper_slab"
-					id: "57249F104DDFBA21"
-					title: "Get the location of Sanctum"
-					type: "command"
-				}
-				{
-					id: "7D42B67EDD6D945E"
-					item: {
-						Count: 1b
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				command: "/locate structure 1_splatus:sanctum"
+				icon: "minecraft:oxidized_cut_copper_slab"
+				id: "57249F104DDFBA21"
+				title: "Click to get the location of Sanctum, which appear in the chat box"
+				type: "command"
+			}]
 			tasks: [{
 				consume_items: true
 				id: "5BB6BD4179DD199B"
@@ -6680,6 +6669,24 @@
 				"- Blocks between a bookshelf and an enchanting table are no longer forced to be air, anything without a collision box will work now such a torches or tall grass."
 			]
 			id: "485BE39EE6EAB4D2"
+			rewards: [
+				{
+					id: "209C1F721CD370B7"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45449C1B0D3D0C5C"
+					table_id: 1613080448957740991L
+					type: "choice"
+				}
+				{
+					id: "2F47D61250BFE704"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
 			tasks: [{
 				id: "3EC50763D0B023E5"
 				item: "minecraft:enchanting_table"
@@ -7006,6 +7013,25 @@
 			dependencies: ["691B87423B72FD93"]
 			description: ["&eCrust Armor&r is the armor set with a high value of &6toughness and knockback resistance&r. Make good use of this!"]
 			id: "6A0197BAF9363BB3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "641FE07D7E00A987"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3924F1CC5382E9CA"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "0067A0926688F2D1"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [
 				{
 					id: "5897B8CDA09DC331"
@@ -7049,6 +7075,25 @@
 			dependencies: ["3C179B42EEBABCF3"]
 			description: ["&eDiabolium Armor &ris a strong armor set that &6heals you&r with the amount of damage dealt."]
 			id: "70C34A2C8976F012"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FFB80C2C9D8C720"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CD56A96FB0338D8"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+				{
+					id: "26ED164E095BA259"
+					type: "xp"
+					xp: 350
+				}
+			]
 			tasks: [
 				{
 					id: "775F56A401E5C4FD"
@@ -7111,7 +7156,7 @@
 				type: "checkmark"
 			}]
 			title: "&cEXPERT MODE"
-			x: -2.0d
+			x: 2.0d
 			y: 18.0d
 		}
 		{
@@ -7134,7 +7179,7 @@
 				title: "&2MASTER MODE"
 				type: "checkmark"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: 22.5d
 		}
 		{
@@ -7148,7 +7193,7 @@
 				type: "kill"
 				value: 120L
 			}]
-			x: 2.0d
+			x: 6.0d
 			y: 18.0d
 		}
 		{
@@ -7162,7 +7207,7 @@
 				type: "kill"
 				value: 120L
 			}]
-			x: 0.0d
+			x: 4.0d
 			y: 18.0d
 		}
 		{
@@ -7177,7 +7222,7 @@
 				value: 120L
 			}]
 			x: 4.0d
-			y: 18.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["22DE8D94F09C2C37"]
@@ -7190,7 +7235,7 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: 22.5d
 		}
 		{
@@ -7204,7 +7249,7 @@
 				type: "kill"
 				value: 40L
 			}]
-			x: 0.0d
+			x: 6.0d
 			y: 16.0d
 		}
 		{
@@ -7218,7 +7263,7 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: 22.5d
 		}
 		{
@@ -7232,7 +7277,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 16.0d
 		}
 		{
@@ -7247,11 +7292,10 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 4.0d
-			y: 16.0d
+			x: 6.0d
+			y: 20.0d
 		}
 		{
-			dependencies: ["113B1FA9ECCF4319"]
 			description: ["&9Ender Guardian&r is the &6most difficult&r mob to defeat in this pack (V1.0). Defeating the Ender Guardian brings you to the &2MASTER MODE&r."]
 			id: "6F4DB0C5351F9116"
 			tasks: [{
@@ -7263,7 +7307,7 @@
 				value: 1L
 			}]
 			title: "&9Ender Guardian"
-			x: -2.0d
+			x: 4.0d
 			y: 22.5d
 		}
 		{
@@ -7453,6 +7497,21 @@
 			title: "&8Netherite Backpack"
 			x: 8.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["113B1FA9ECCF4319"]
+			description: ["After defeating the &5Ender Dragon&r, it's time to venture to the &7outer end&r to look for better loot."]
+			id: "7D237EDAA683540E"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				icon: "minecraft:bedrock"
+				id: "113DCF6D0FF51AA5"
+				title: "Go to the OuterEnd"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 22.5d
 		}
 	]
 	title: "Adventure"

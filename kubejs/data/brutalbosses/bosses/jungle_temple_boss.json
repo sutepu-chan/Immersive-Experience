@@ -1,0 +1,65 @@
+{
+    "entity": "minecraft:spider",
+    "name": "§2Corvin the Temple Webweaver",
+    "visualscale": 1.4,
+    "experience": 800,
+    "effects": {
+        "minecraft:regeneration": 1
+    },
+    "attributes": {
+        "generic.max_health": 250,
+        "generic.follow_range": 30,
+        "generic.attack_damage": 4
+    },
+    "customattributes": {
+        "dropgear": 1
+    },
+    "gear": {
+        "mainhand": "{id: \"endrem:rogue_eye\", Count: 1b}",
+        "head": "{id: \"minecraft:diamond_helmet\", Count: 1b, tag: {Damage: 0, Enchantments: [{id: \"minecraft:protection\", lvl: 2}]}}",
+        "chest": "{id: \"minecraft:diamond_chestplate\", Count: 1b, tag: {Damage: 0, Enchantments: [{id: \"minecraft:protection\", lvl: 2}]}}",
+        "legs": "{id: \"minecraft:diamond_leggings\", Count: 1b, tag: {Damage: 0, Enchantments: [{id: \"minecraft:protection\", lvl: 2}]}}",
+        "feet": "{id: \"minecraft:diamond_boots\", Count: 1b, tag: {Damage: 0, Enchantments: [{id: \"minecraft:protection\", lvl: 2}]}}"
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 2
+        },
+        "brutalbosses:spitcobweb": {
+            "healthinterval": "100-50",
+            "projectile_count": 3,
+            "projectile_interval": 200
+        },
+        "brutalbosses:whirldwind": {
+            "healthinterval": "50-0",
+            "potiononhit": "minecraft:poison",
+            "potionduration": 200,
+            "knockback": 4,
+            "cooldown": 100
+        },
+        "brutalbosses:itemshootgoal": {
+            "projectile_count": 3,
+            "projectile_interval": 60,
+            "projectile_distance": 6,
+            "projectile_speed": 1.2,
+            "projectile_aoe": true,
+            "projectilesize": 1.0,
+            "item": "{id: \"minecraft:string\", Count: 1b}",
+            "damage": 2
+        },
+        "brutalbosses:summonmobs": {
+            "healthinterval": "75-25",
+            "interval": 600,
+            "maxcount": 10,
+            "count": 2,
+            "entities": [
+                {
+                    "entityid": "minecraft:cave_spider"
+                }
+            ]
+        }
+    },
+    "spawnatchest": {
+        "betterjungletemple:chests/treasure": 1
+    }
+}

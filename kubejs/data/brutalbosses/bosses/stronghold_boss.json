@@ -1,0 +1,57 @@
+{
+    "entity": "minecraft:enderman",
+    "name": "§5Ender Overlord",
+    "visualscale": 1.5,
+    "experience": 1000,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:speed": 1,
+        "minecraft:strength": 1,
+        "minecraft:resistance": 1
+    },
+    "attributes": {
+        "generic.max_health": 350,
+        "generic.follow_range": 40,
+        "generic.attack_damage": 12,
+        "generic.armor": 15
+    },
+    "customattributes": {
+        "dropgear": 2
+    },
+    "gear": {
+        "offhand": "{id: \"simplyswords:netherite_glaive\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I; -123823, 44102, 34910, -88204], Amount: 15, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123823, 44202, 34910, -88404], Amount: -2.6d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I; -123823, 44302, 34910, -88604], Amount: 0.2d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I; -123823, 44402, 34910, -88804], Amount: 1.8d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"Nightfall Blade\",\"italic\":false,\"color\":\"light_purple\"}]'}}}"
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 2
+        },
+        "brutalbosses:target": {},
+        "minecraft:meleeattack": {},
+        "brutalbosses:itemshootgoal": {
+            "projectile_count": 2,
+            "projectile_interval": 60,
+            "projectile_distance": 8,
+            "projectile_speed": 1.8,
+            "projectile_aoe": false,
+            "projectilesize": 1.4,
+            "item": "{id: \"minecraft:ender_pearl\", Count: 1b}",
+            "damage": 5
+        },
+        "brutalbosses:summonmobs": {
+            "interval": 600,
+            "maxcount": 6,
+            "count": 2,
+            "entities": [
+                {
+                    "entityid": "farlanders:ender_guardian"
+                },
+                {
+                    "entityid": "farlanders:rebel"
+                }
+            ]
+        }
+    },
+    "spawnatchest": {
+        "betterstrongholds:chests/treasure": 1
+    }
+}

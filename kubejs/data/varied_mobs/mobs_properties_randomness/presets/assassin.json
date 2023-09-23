@@ -1,0 +1,156 @@
+{
+    "custom_name": {
+        "overrides": [
+            "§9Shadowmancer 7(Assassin)§f"
+        ]
+    },
+    "scale_pehkui": [
+        {
+            "scale": {
+                "min": 0.7,
+                "max": 0.8
+            },
+            "scale_types": [
+                "pehkui:hitbox_width",
+                "pehkui:hitbox_height",
+                "pehkui:eye_height",
+                "pehkui:model_width",
+                "pehkui:model_height"
+            ],
+            "operation": "set"
+        }
+    ],
+    "experience_multiplier": 1.2,
+    "attributes": [
+        {
+            "id": "minecraft:generic.movement_speed",
+            "modifier_name": "Assassin Speed",
+            "amount": {
+                "min": 0.2,
+                "max": 0.5
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Assassin Health",
+            "amount": {
+                "min": -0.5,
+                "max": -0.4
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.attack_damage",
+            "modifier_name": "Assassin Attack Damage",
+            "amount": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "operation": "multiply_base"
+        }
+    ],
+    "potion_effects": [
+        {
+            "id": "minecraft:strength",
+            "chance": 0.2,
+            "amplifier": {
+                "min": 1,
+                "max": 2
+            },
+            "hide_particles": true
+        }
+    ],
+    "equipment": {
+        "head": {
+            "items": [
+                {
+                    "id": "epicsamurai:gold_ninja_helmet",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        "chest": {
+            "items": [
+                {
+                    "id": "epicsamurai:gold_ninja_chestplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        "legs": {
+            "items": [
+                {
+                    "id": "epicsamurai:gold_ninja_leggings",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        "feet": {
+            "items": [
+                {
+                    "id": "epicsamurai:gold_ninja_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        "main_hand": {
+            "items": [
+                {
+                    "id": "simplyswords:gold_cutlass",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        }
+    }
+}

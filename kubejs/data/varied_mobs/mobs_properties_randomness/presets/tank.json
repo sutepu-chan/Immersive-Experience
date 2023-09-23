@@ -1,0 +1,177 @@
+{
+    "custom_name": {
+        "overrides": [
+            "§2Bulwark Zombie §7(Tank)§f"
+        ]
+    },
+    "scale_pehkui": [
+        {
+            "scale": {
+                "min": 1.3,
+                "max": 1.7
+            },
+            "scale_types": [
+                "pehkui:hitbox_width",
+                "pehkui:hitbox_height",
+                "pehkui:eye_height",
+                "pehkui:model_width",
+                "pehkui:model_height"
+            ],
+            "operation": "set"
+        }
+    ],
+    "experience_multiplier": 1.2,
+    "attributes": [
+        {
+            "id": "minecraft:generic.movement_speed",
+            "modifier_name": "Tank Speed",
+            "amount": {
+                "min": -0.4,
+                "max": -0.2
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Tank Health",
+            "amount": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.armor",
+            "modifier_name": "Tank Armor",
+            "amount": {
+                "min": 5,
+                "max": 10
+            },
+            "operation": "addition"
+        },
+        {
+            "id": "minecraft:generic.knockback_resistance",
+            "modifier_name": "Tank Knockback Resistance",
+            "amount": {
+                "min": 0.1,
+                "max": 0.4
+            },
+            "operation": "addition"
+        },
+        {
+            "id": "minecraft:generic.attack_damage",
+            "modifier_name": "Tank Attack Damage",
+            "amount": {
+                "min": -4.0,
+                "max": -1.0
+            },
+            "operation": "addition"
+        }
+    ],
+    "potion_effects": [
+        {
+            "id": "minecraft:regeneration",
+            "chance": 0.2,
+            "amplifier": {
+                "min": 0,
+                "max": 2
+            },
+            "hide_particles": true
+        },
+        {
+            "id": "minecraft:resistance",
+            "amplifier": {
+                "min": 0,
+                "max": 1
+            },
+            "hide_particles": true
+        },
+        {
+            "id": "minecraft:fire_resistance",
+            "amplifier": 0,
+            "hide_particles": true
+        }
+    ],
+    "equipment": {
+        "head": {
+            "items": [
+                {
+                    "id": "minecraft:diamond_helmet",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ]
+                }
+            ]
+        },
+        "chest": {
+            "items": [
+                {
+                    "id": "minecraft:diamond_chestplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        "legs": {
+            "items": [
+                {
+                    "id": "minecraft:diamond_leggings",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        "feet": {
+            "items": [
+                {
+                    "id": "minecraft:diamond_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        "main_hand": {
+            "items": [
+                {
+                    "id": "shieldexp:iron_shield",
+                    "drop_chance": 0.0,
+                    "weight": 1
+                }
+            ]
+        }
+    }
+}

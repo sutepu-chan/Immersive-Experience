@@ -3,26 +3,242 @@
 	default_quest_shape: ""
 	filename: "welcome"
 	group: ""
+	icon: "create:experience_nugget"
 	id: "2AEFDDA74C4B8A23"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"Welcome to Immersive Experience!"
-			""
-			"Note:"
-			"Quest are still under active developments."
-		]
-		id: "78F05417D0BED1E4"
-		tasks: [{
-			dimension: "minecraft:overworld"
-			icon: "ftbquests:book"
-			id: "32884C36D6538176"
-			title: "Press \"L\" to open quest"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: [
+				"Welcome to Immersive Experience!"
+				""
+				"Note:"
+				"Quest are still under active developments."
+			]
+			id: "78F05417D0BED1E4"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "ftbquests:book"
+				id: "32884C36D6538176"
+				title: "Press \"L\" to open quest"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You definitely have noticed the difference of your camera angle. This provides additionally immersive feel to minecraft."
+				""
+				"I understand that not everybody like this. You may turn off 1st person camera by pressing &dF8&r"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-375519035
+							-1975500603
+							-1903724788
+							1345288620
+						]
+						Name: "sutepu_chan"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5NDMyOTI0NTkxMywKICAicHJvZmlsZUlkIiA6ICJlOTllMDhjNThhNDA0MGM1OGU4Nzc3MGM1MDJmNzlhYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzdXRlcHVfY2hhbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MmIyNjI3NTliMGY3MzJjOWQ4MGQ0OTMxMGY5OTkwMDljZjM4NTI5MTM3OTQxZTFkYjY3ZWVmOTNlMjViYTRmIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+			id: "5B882C0BC20E625A"
+			rewards: [
+				{
+					id: "704147619F1BA9B8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B1A6FA8FD0BE900"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "54F9CB749272159C"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "First Person Model"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["Now you can &bimport custom pictures&r to replace the dull and boring vanilla minecraft paints!"]
+			id: "2BA1038B8676718A"
+			rewards: [
+				{
+					id: "3C93EE414B60BBBC"
+					item: "immersive_paintings:glow_painting"
+					type: "item"
+				}
+				{
+					id: "78D547328338D0D7"
+					item: "immersive_paintings:glow_graffiti"
+					type: "item"
+				}
+				{
+					id: "12EFFB471073ABC3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26E0FCF5E009A748"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3031A0BCB4B71DAA"
+					item: "immersive_paintings:painting"
+					type: "item"
+				}
+				{
+					id: "42D61DFBF50AC995"
+					item: "immersive_paintings:graffiti"
+					type: "item"
+				}
+			]
+			title: ".png in Minecraft"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			description: ["&bBlaze Rods&r are now &6placeable&r on ground, like end rods. It becomes new items for decoration."]
+			id: "74141897684DD802"
+			rewards: [{
+				id: "5958E16A2E9F43BD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26AA43C868A7F039"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The updates in 1.20 are great but dull at the same time. The &btrim&r should be able to add some &6special effects&r instead of just for decorations."
+				""
+				"In this pack, &6every material of trims&r are capable of bringing new effects. The list of effects are listed in the next few pages."
+				"{@pagebreak}"
+				"&n&bLapis&r: Increases &6XP&r gained by 10%."
+				""
+				"&n&bCopper&r: Adds 10% &6swimming speed&r."
+				""
+				"&n&bIron&r: Adds 2 &6armor points&r."
+				""
+				"&n&bRedstone&r: Adds 10% &6speed&r and increases &6step height &rby 1, full set is equivalent to Speed 2 potion."
+				""
+				"&n&bGold&r: Makes &6piglins&r neutral."
+				""
+				"&n&bDiamond&r: Adds 2 &6armor points&r and 2 &6armor toughness&r."
+				"{@pagebreak}"
+				"&n&bEmerald&r: Boosts &6villager reputation&r by 10% per piece, has no effect if reputation is negative."
+				""
+				"&n&bAmethyst&r: Adds 25% &6night vision&r, full set is equivalent to night vision effect."
+				""
+				"&n&bNether Quartz&r: Adds one point of &6thorn&r damage, requires direct melee contact, but does not damage armor."
+				""
+				"&n&bNetherite&r: Makes item &6fire proof&r and reduces fire damage by 25%, full set is equivalent to &6fire resistance&r potion."
+			]
+			id: "63B436A27C71A5FF"
+			rewards: [
+				{
+					id: "166D2819B44965DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "439373EE429AAE18"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "49E4660586ED566E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:trim_templates"
+					}
+				}
+				title: "Any #minecraft:trim_templates"
+				type: "item"
+			}]
+			title: "Trim Effects"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&0 black"
+				"&4 dark red"
+				"&8 dark gray"
+				"&c red"
+				"&1 dark blue"
+				"&5 dark purple"
+				"&9 blue"
+				"&d light purple"
+				"&2 dark green"
+				"&6 gold"
+				"&a green"
+				"&e yellow"
+				"&3 cyan"
+				"&7 gray"
+				"&b aqua"
+				"&f light gray"
+				"&l bold"
+				"&o italic"
+				"&n underline"
+				"&m  Strikethrough"
+				"&r reset format"
+				""
+				"{@pagebreak}"
+			]
+			id: "729DB0F0BF1540BF"
+			tasks: [{
+				id: "6D1D77D26E1948A3"
+				title: "dev"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"All the keybinds mentioned in quests are set to default. Remember to check your &6keybind settings&r if you find certain keys don't work."
+				""
+				"1.20 is peculiar... Sometimes your keybind is not set as default. Remember to click '&6reset to default&r' if needed."
+			]
+			id: "7DF42CB6DF98E97B"
+			tasks: [{
+				id: "4926074067B37880"
+				title: "Check your &6Keybinds"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
 	title: "Welcome"
 }
