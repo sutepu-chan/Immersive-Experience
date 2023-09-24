@@ -1,12 +1,8 @@
 {
-    "target": "minecraft:zombie",
+    "target": "monsterplus:glow_skeleton",
     "presets": {
-        "chance": 0.25,
+        "chance": 0.2,
         "list": [
-            {
-                "id": "varied_mobs:tank",
-                "weight": 10
-            },
             {
                 "id": "varied_mobs:assassin",
                 "weight": 10

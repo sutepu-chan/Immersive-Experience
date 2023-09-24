@@ -1,0 +1,40 @@
+{
+    "target": "aquamirae:captain_cornelia",
+    "chance": 1.0,
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Captain Cornelia Health",
+            "amount": {
+                "min": 4.0,
+                "max": 5.0
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.armor",
+            "modifier_name": "Captain Cornelia Armor",
+            "amount": {
+                "min": 4,
+                "max": 6
+            },
+            "operation": "addition"
+        },
+        {
+            "id": "minecraft:generic.attack_damage",
+            "modifier_name": "Captain Cornelia Attack Damage",
+            "amount": {
+                "min": 0.4,
+                "max": 0.6
+            },
+            "operation": "multiply_base"
+        }
+    ],
+    "potion_effects": [
+        {
+            "id": "minecraft:fire_resistance",
+            "amplifier": 0,
+            "hide_particles": true
+        }
+    ]
+}

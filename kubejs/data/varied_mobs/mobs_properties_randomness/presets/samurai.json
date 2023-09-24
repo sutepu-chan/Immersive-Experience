@@ -1,0 +1,519 @@
+{
+    "custom_name": {
+        "overrides": [
+            "§6Tempestblade §7(Samurai)§f"
+        ]
+    },
+    "scale_pehkui": [
+        {
+            "scale": {
+                "min": 0.8,
+                "max": 1.0
+            },
+            "scale_types": [
+                "pehkui:hitbox_width",
+                "pehkui:hitbox_height",
+                "pehkui:eye_height",
+                "pehkui:model_width",
+                "pehkui:model_height"
+            ],
+            "operation": "set"
+        }
+    ],
+    "experience_multiplier": 1.2,
+    "attributes": [
+        {
+            "id": "minecraft:generic.movement_speed",
+            "modifier_name": "Samurai Speed",
+            "amount": {
+                "min": -0.3,
+                "max": 0.1
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Samurai Health",
+            "amount": {
+                "min": -0.4,
+                "max": 0.4
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.attack_damage",
+            "modifier_name": "Samurai Attack Damage",
+            "amount": {
+                "min": 1.1,
+                "max": 1.4
+            },
+            "operation": "multiply_base"
+        }
+    ],
+    "potion_effects": [
+        {
+            "id": "minecraft:regeneration",
+            "chance": 0.4,
+            "amplifier": {
+                "min": 0,
+                "max": 1
+            },
+            "hide_particles": true
+        },
+        {
+            "id": "minecraft:resistance",
+            "amplifier": {
+                "min": 0,
+                "max": 1
+            },
+            "hide_particles": true
+        },
+        {
+            "id": "minecraft:fire_resistance",
+            "amplifier": 0,
+            "hide_particles": true
+        }
+    ],
+    "equipment": {
+        "head": {
+            "items": [
+                {
+                    "id": "epicsamurai:brass_samurai_helmet",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:gray_samurai_helmet",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:green_samurai_helmet",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:blue_samurai_helmet",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:red_samurai_helmet",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:diamond_samurai_helmet",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                }
+            ]
+        },
+        "chest": {
+            "items": [
+                {
+                    "id": "epicsamurai:brass_samurai_chestplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:gray_samurai_chestplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:green_samurai_chestplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:blue_samurai_chestplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:red_samurai_chestplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:diamond_samurai_chestplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                }
+            ]
+        },
+        "legs": {
+            "items": [
+                {
+                    "id": "epicsamurai:brass_samurai_leggings",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:gray_samurai_leggings",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:green_samurai_leggings",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:blue_samurai_leggings",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:red_samurai_leggings",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:diamond_samurai_leggings",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                }
+            ]
+        },
+        "feet": {
+            "items": [
+                {
+                    "id": "epicsamurai:brass_samurai_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:gray_samurai_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:green_samurai_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:blue_samurai_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:red_samurai_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "epicsamurai:diamond_samurai_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 20
+                }
+            ]
+        },
+        "main_hand": {
+            "items": [
+                {
+                    "id": "epicsamurai:katana",
+                    "drop_chance": 0.3,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 20
+                            },
+                            "chance": 0.5
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "epicsamurai:naginata",
+                    "drop_chance": 0.3,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 20
+                            },
+                            "chance": 0.5
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "epicsamurai:nagamaki",
+                    "drop_chance": 0.3,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 20
+                            },
+                            "chance": 0.5
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "epicsamurai:shuko",
+                    "drop_chance": 0.3,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 20
+                            },
+                            "chance": 0.5
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "epicsamurai:tetsubo",
+                    "drop_chance": 0.3,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 20
+                            },
+                            "chance": 0.5
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "epicsamurai:sai",
+                    "drop_chance": 0.3,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 20
+                            },
+                            "chance": 0.5
+                        }
+                    ],
+                    "weight": 10
+                }
+            ]
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
     "custom_name": {
         "overrides": [
-            "§2Bulwark Zombie §7(Tank)§f"
+            "§2Bulwark §7(Tank)§f"
         ]
     },
     "scale_pehkui": [
@@ -106,7 +106,36 @@
                             },
                             "chance": 0.33
                         }
-                    ]
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "minecraft:netherite_helmet",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "advancednetherite:netherite_iron_helmet",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 3
                 }
             ]
         },
@@ -124,7 +153,35 @@
                             "chance": 0.33
                         }
                     ],
-                    "weight": 1
+                    "weight": 10
+                },
+                {
+                    "id": "minecraft:netherite_chestplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "advancednetherite:netherite_iron_chestplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 3
                 }
             ]
         },
@@ -142,7 +199,35 @@
                             "chance": 0.33
                         }
                     ],
-                    "weight": 1
+                    "weight": 10
+                },
+                {
+                    "id": "minecraft:netherite_leggings",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "advancednetherite:netherite_iron_leggings",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 3
                 }
             ]
         },
@@ -160,7 +245,35 @@
                             "chance": 0.33
                         }
                     ],
-                    "weight": 1
+                    "weight": 10
+                },
+                {
+                    "id": "minecraft:netherite_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "advancednetherite:netherite_iron_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 3
                 }
             ]
         },
@@ -168,6 +281,15 @@
             "items": [
                 {
                     "id": "shieldexp:iron_shield",
+                    "drop_chance": 0.0,
+                    "weight": 16
+                },
+                {
+                    "id": "shieldexp:diamond_shield",
+                    "drop_chance": 0.0,
+                    "weight": 8
+                },{
+                    "id": "shieldexp:netherite_shield",
                     "drop_chance": 0.0,
                     "weight": 1
                 }

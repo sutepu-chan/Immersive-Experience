@@ -1,5 +1,5 @@
 {
-    "target": "minecraft:zombie",
+    "target": "monsterplus:swamp_zombie",
     "presets": {
         "chance": 0.25,
         "list": [

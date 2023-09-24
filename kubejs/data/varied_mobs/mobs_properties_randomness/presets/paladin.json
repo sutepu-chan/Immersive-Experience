@@ -1,0 +1,235 @@
+{
+    "custom_name": {
+        "overrides": [
+            "§9Hallowed Knight §7(Paladin)§f"
+        ]
+    },
+    "scale_pehkui": [
+        {
+            "scale": {
+                "min": 0.8,
+                "max": 1.2
+            },
+            "scale_types": [
+                "pehkui:hitbox_width",
+                "pehkui:hitbox_height",
+                "pehkui:eye_height",
+                "pehkui:model_width",
+                "pehkui:model_height"
+            ],
+            "operation": "set"
+        }
+    ],
+    "experience_multiplier": 2.0,
+    "attributes": [
+        {
+            "id": "minecraft:generic.movement_speed",
+            "modifier_name": "Paladin Speed",
+            "amount": {
+                "min": -0.2,
+                "max": 0.0
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Paladin Health",
+            "amount": {
+                "min": 0.6,
+                "max": 0.9
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.armor",
+            "modifier_name": "Paladin Armor",
+            "amount": {
+                "min": 4,
+                "max": 6
+            },
+            "operation": "addition"
+        },
+        {
+            "id": "minecraft:generic.knockback_resistance",
+            "modifier_name": "Paladin Knockback Resistance",
+            "amount": {
+                "min": 0.1,
+                "max": 0.2
+            },
+            "operation": "addition"
+        },
+        {
+            "id": "minecraft:generic.attack_damage",
+            "modifier_name": "Paladin Attack Damage",
+            "amount": {
+                "min": 0.6,
+                "max": 0.9
+            },
+            "operation": "multiply_base"
+        }
+    ],
+    "potion_effects": [
+        {
+            "id": "minecraft:resistance",
+            "amplifier": 0,
+            "hide_particles": true
+        },
+        {
+            "id": "minecraft:fire_resistance",
+            "amplifier": 0,
+            "hide_particles": true
+        },
+        {
+            "id": "minecraft:strength",
+            "amplifier": 1,
+            "hide_particles": true
+        }
+    ],
+    "equipment": {
+        "head": {
+            "items": [
+                {
+                    "id": "epicpaladins:knight_helmet",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 20
+                            },
+                            "chance": 0.8
+                        }
+                    ]
+                }
+            ]
+        },
+        "chest": {
+            "items": [
+                {
+                    "id": "epicpaladins:knight_chestplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 20
+                            },
+                            "chance": 0.8
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        "legs": {
+            "items": [
+                {
+                    "id": "epicpaladins:knight_leggings",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 20
+                            },
+                            "chance": 0.8
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        "feet": {
+            "items": [
+                {
+                    "id": "epicpaladins:knight_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 20
+                            },
+                            "chance": 0.8
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        "main_hand": {
+            "items": [
+                {
+                    "id": "epicpaladins:arclight_sword",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 15
+                            },
+                            "chance": 0.4
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "epicpaladins:jade_sword",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 15
+                            },
+                            "chance": 0.4
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "epicpaladins:bloodstone_sword",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 15
+                            },
+                            "chance": 0.4
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "epicpaladins:cryorium_sword",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 15
+                            },
+                            "chance": 0.4
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "epicpaladins:angel_sword",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 15
+                            },
+                            "chance": 0.4
+                        }
+                    ],
+                    "weight": 2
+                }
+            ]
+        }
+    }
+}

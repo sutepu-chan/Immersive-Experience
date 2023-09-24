@@ -1,0 +1,24 @@
+{
+    "target": "aquamirae:maze_mother",
+    "chance": 1.0,
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Maze Mother Health",
+            "amount": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.armor",
+            "modifier_name": "Maze Mother Armor",
+            "amount": {
+                "min": 4,
+                "max": 6
+            },
+            "operation": "addition"
+        }
+    ]
+}

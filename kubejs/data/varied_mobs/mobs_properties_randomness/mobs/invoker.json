@@ -1,0 +1,107 @@
+{
+    "target": "illagerinvasion:invoker",
+    "custom_name": {
+        "overrides": [
+            "Invoker the Mansion Keeper"
+        ]
+    },
+    "chance": 1.0,
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Conjurer Health",
+            "amount": {
+                "min": 3.0,
+                "max": 4.0
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.knockback_resistance",
+            "modifier_name": "Conjurer Knockback Resistance",
+            "amount": {
+                "min": 0.2,
+                "max": 0.3
+            },
+            "operation": "addition"
+        },
+        {
+            "id": "minecraft:generic.attack_damage",
+            "modifier_name": "Conjurer Attack Damage",
+            "amount": {
+                "min": 8,
+                "max": 10
+            },
+            "operation": "addition"
+        }
+    ],
+    "potion_effects": [
+        {
+            "id": "minecraft:regeneration",
+            "amplifier": 0,
+            "hide_particles": true
+        },
+        {
+            "id": "minecraft:strength",
+            "amplifier": 1,
+            "hide_particles": true
+        }
+    ],
+    "equipment": {
+        "head": {
+            "items": [
+                {
+                    "id": "irons_spellbooks:archevoker_helmet",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        "chest": {
+            "items": [
+                {
+                    "id": "irons_spellbooks:archevoker_chestplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": 30
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        "legs": {
+            "items": [
+                {
+                    "id": "irons_spellbooks:archevoker_leggings",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": 30
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        "feet": {
+            "items": [
+                {
+                    "id": "irons_spellbooks:archevoker_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": 30
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        }
+    }
+}

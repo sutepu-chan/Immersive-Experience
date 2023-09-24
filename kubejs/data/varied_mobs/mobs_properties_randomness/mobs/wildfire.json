@@ -1,0 +1,38 @@
+{
+    "target": "friendsandfoes:wildfire",
+    "custom_name": {
+        "overrides": [
+            "§6Wildfire"
+        ]
+    },
+    "chance": 1.0,
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Tank Health",
+            "amount": {
+                "min": 600.0,
+                "max": 800.0
+            },
+            "operation": "addition"
+        },
+        {
+            "id": "minecraft:generic.armor",
+            "modifier_name": "Tank Armor",
+            "amount": {
+                "min": 10,
+                "max": 15
+            },
+            "operation": "addition"
+        },
+        {
+            "id": "minecraft:generic.attack_damage",
+            "modifier_name": "Tank Attack Damage",
+            "amount": {
+                "min": 6,
+                "max": 8
+            },
+            "operation": "addition"
+        }
+    ]
+}

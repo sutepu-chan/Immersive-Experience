@@ -1,7 +1,7 @@
 {
-    "target": "minecraft:zombie",
+    "target": "monsterplus:crystal_zombie",
     "presets": {
-        "chance": 0.25,
+        "chance": 0.1,
         "list": [
             {
                 "id": "varied_mobs:tank",

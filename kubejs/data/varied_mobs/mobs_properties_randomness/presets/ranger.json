@@ -1,0 +1,189 @@
+{
+    "custom_name": {
+        "overrides": [
+            "§8Windrunner §7(Ranger)§f"
+        ]
+    },
+    "scale_pehkui": [
+        {
+            "scale": {
+                "min": 0.8,
+                "max": 1.1
+            },
+            "scale_types": [
+                "pehkui:hitbox_width",
+                "pehkui:hitbox_height",
+                "pehkui:eye_height",
+                "pehkui:model_width",
+                "pehkui:model_height"
+            ],
+            "operation": "set"
+        }
+    ],
+    "experience_multiplier": 1.2,
+    "attributes": [
+        {
+            "id": "minecraft:generic.movement_speed",
+            "modifier_name": "Ranger Speed",
+            "amount": {
+                "min": 0.5,
+                "max": 0.7
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Ranger Health",
+            "amount": {
+                "min": -0.3,
+                "max": -0.2
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.attack_damage",
+            "modifier_name": "Ranger Attack Damage",
+            "amount": {
+                "min": 0.2,
+                "max": 0.4
+            },
+            "operation": "multiply_base"
+        }
+    ],
+    "potion_effects": [
+        {
+            "id": "minecraft:speed",
+            "amplifier": {
+                "min": 1,
+                "max": 2
+            },
+            "hide_particles": true
+        }
+    ],
+    "equipment": {
+        "chest": {
+            "items": [
+                {
+                    "id": "minecraft:golden_chesplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 20
+                            },
+                            "chance": 1.0
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "minecraft:diamond_chesplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 10,
+                                "max": 15
+                            },
+                            "chance": 0.6
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "minecraft:netherite_chesplate",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 15
+                            },
+                            "chance": 0.2
+                        }
+                    ],
+                    "weight": 3
+                }
+            ]
+        },
+        "feet": {
+            "items": [
+                {
+                    "id": "minecraft:golden_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.4
+                        }
+                    ],
+                    "weight": 4
+                },
+                {
+                    "id": "minecraft:diamond_boots",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 10
+                            },
+                            "chance": 0.1
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        "main_hand": {
+            "items": [
+                {
+                    "id": "nyfsarcheryplus:iron_bow",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 15
+                            },
+                            "chance": 0.66
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "id": "nyfsarcheryplus:golden_bow",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 15
+                            },
+                            "chance": 0.33
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "id": "nyfsarcheryplus:diamond_bow",
+                    "drop_chance": 0.0,
+                    "enchantments": [
+                        {
+                            "with_levels": {
+                                "min": 5,
+                                "max": 15
+                            },
+                            "chance": 0.1
+                        }
+                    ],
+                    "weight": 3
+                }
+            ]
+        }
+    }
+}

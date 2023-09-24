@@ -1,0 +1,63 @@
+{
+    "entity": "minecraft:evoker",
+    "name": "Rumak the Miner Manager",
+    "visualscale": 1.1,
+    "experience": 500,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:fire_resistance": 1,
+        "minecraft:speed": 2,
+        "minecraft:resistance": 0
+    },
+    "attributes": {
+        "generic.max_health": 600,
+        "generic.follow_range": 25,
+        "generic.attack_damage": 12,
+        "generic.armor": 12
+    },
+    "customattributes": {
+        "projectile_damage_bonus": 2,
+        "dropgear": 6
+    },
+    "gear": {
+        "mainhand": "{id: \"minecraft:enchanted_book\", Count: 1b, tag: {StoredEnchantments: [{lvl: 1s, id: \"minecraft:silk_touch\"}]}}",
+        "offhand": "{id: \"minecraft:enchanted_book\", Count: 1b, tag: {StoredEnchantments: [{lvl: 3s, id: \"minecraft:fortune\"}]}}"
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 3
+        },
+        "brutalbosses:lavarescue": {},
+        "brutalbosses:shootbigfireballs": {
+            "healthinterval": "50-0",
+            "projectile_count": 3,
+            "projectile_interval": 100,
+            "projectile_distance": 16,
+            "projectile_speed": 1.6,
+            "projectile_aoe": true
+        },
+        "brutalbosses:summonmobs": {
+            "healthinterval": "100-50",
+            "interval": 900,
+            "maxcount": 12,
+            "count": 4,
+            "entities": [
+                {
+                    "entityid": "minecraft:vindicator"
+                },
+                {
+                    "entityid": "illagerinvasion:necromancer"
+                },
+                {
+                    "entityid": "illagerinvasion:marauder"
+                },
+                {
+                    "entityid": "illagerinvasion:inquisitor"
+                }
+            ]
+        }
+    },
+    "spawnatchest": {
+        "nova_structures:chests/badland_miner_outpost_towers": 1
+    }
+}

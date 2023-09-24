@@ -1,6 +1,28 @@
 #When infested with a Mutant X potion, what mutant mob should the target transform into. Otherwise the target will ony explode and take damage.
 #Format for every entry is "<namespace>:<path>,<namespace>:<path>" with the second id representing the mutant. Namespace may be omitted to use "minecraft" by default.
-mutant_x_conversions = ["minecraft:creeper,mutantmonsters:mutant_creeper", "minecraft:enderman,mutantmonsters:mutant_enderman", "minecraft:skeleton,mutantmonsters:mutant_skeleton", "minecraft:snow_golem,mutantmonsters:mutant_snow_golem", "minecraft:zombie,mutantmonsters:mutant_zombie", "minecraft:pig,mutantmonsters:spider_pig"]
+mutant_x_conversions = [
+    "creeperoverhaul:badlands_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:bamboo_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:beach_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:cave_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:dark_oak_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:desert_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:dripstone_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:hills_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:jungle_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:mushroom_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:ocean_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:savannah_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:snowy_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:spruce_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:swamp_creeper,mutantmonsters:mutant_creeper",
+    "creeperoverhaul:bamboo_creeper,mutantmonsters:mutant_creeper",
+    "minecraft:enderman,mutantmonsters:mutant_enderman",
+    "minecraft:skeleton,mutantmonsters:mutant_skeleton",
+    "minecraft:snow_golem,mutantmonsters:mutant_snow_golem",
+    "minecraft:zombie,mutantmonsters:mutant_zombie",
+    "minecraft:pig,mutantmonsters:spider_pig"
+    ]
 #Weight for mutant creeper spawns as a percentage of the vanilla creeper spawn weight. Mutants can spawn in every biome and dimension where their vanilla counterparts can be found.
 #Range: 0.0 ~ 20.0
 mutant_creeper_spawn_weight = 0.05

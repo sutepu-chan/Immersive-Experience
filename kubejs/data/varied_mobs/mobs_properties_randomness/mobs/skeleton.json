@@ -1,0 +1,16 @@
+{
+    "target": "minecraft:skeleton",
+    "presets": {
+        "chance": 0.25,
+        "list": [
+            {
+                "id": "varied_mobs:ranger",
+                "weight": 10
+            },
+            {
+                "id": "varied_mobs:archer",
+                "weight": 10
+            }
+        ]
+    }
+}
