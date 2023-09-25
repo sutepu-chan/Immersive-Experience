@@ -5,7 +5,7 @@
 	group: "2567E5CB30369DC8"
 	icon: "farmersdelight:roast_chicken_block"
 	id: "5AB6F9E8A39AF912"
-	order_index: 7
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

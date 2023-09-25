@@ -24,7 +24,7 @@ ServerEvents.recipes(e => {
         B: 'minecraft:bow',
         C: 'minecraft:crying_obsidian',
         M: 'minecraft:iron_ingot'
-    });
+    }).id(`kubejs:nyfsarcheryplus/iron_bow`);
     e.shaped(Item.of('nyfsarcheryplus:iron_crossbow', `{
         AttributeModifiers:[
             {
@@ -39,7 +39,7 @@ ServerEvents.recipes(e => {
         B: 'minecraft:crossbow',
         C: 'minecraft:crying_obsidian',
         M: 'minecraft:iron_ingot'
-    });
+    }).id(`kubejs:nyfsarcheryplus/iron_crossbow`);
     //gold
     e.shaped(Item.of('nyfsarcheryplus:golden_bow', `{
         AttributeModifiers:[
@@ -55,7 +55,7 @@ ServerEvents.recipes(e => {
         B: 'nyfsarcheryplus:iron_bow',
         C: 'endrem:nether_eye',
         M: 'minecraft:gold_ingot'
-    });
+    }).id(`kubejs:nyfsarcheryplus/golden_bow`);
     e.shaped(Item.of('nyfsarcheryplus:golden_crossbow', `{
         AttributeModifiers:[
             {
@@ -70,7 +70,7 @@ ServerEvents.recipes(e => {
         B: 'nyfsarcheryplus:iron_crossbow',
         C: 'endrem:nether_eye',
         M: 'minecraft:gold_ingot'
-    });
+    }).id(`kubejs:nyfsarcheryplus/golden_crossbow`);
     //diamond
     e.shaped(Item.of('nyfsarcheryplus:diamond_bow', `{
         AttributeModifiers:[
@@ -86,7 +86,7 @@ ServerEvents.recipes(e => {
         B: 'nyfsarcheryplus:golden_bow',
         C: 'deeperdarker:warden_carapace',
         M: 'minecraft:diamond'
-    });
+    }).id(`kubejs:nyfsarcheryplus/diamond_bow`);
     e.shaped(Item.of('nyfsarcheryplus:diamond_crossbow', `{
         AttributeModifiers:[
             {
@@ -101,7 +101,7 @@ ServerEvents.recipes(e => {
         B: 'nyfsarcheryplus:golden_crossbow',
         C: 'deeperdarker:warden_carapace',
         M: 'minecraft:diamond'
-    });
+    }).id(`kubejs:nyfsarcheryplus/diamond_crossbow`);
     //netherite
     e.shaped(Item.of('nyfsarcheryplus:netherite_bow', `{
         AttributeModifiers:[
@@ -117,7 +117,7 @@ ServerEvents.recipes(e => {
         B: 'nyfsarcheryplus:diamond_bow',
         C: 'obscure_api:astral_dust',
         M: 'minecraft:netherite_ingot'
-    });
+    }).id(`kubejs:nyfsarcheryplus/netherite_bow`);
     e.shaped(Item.of('nyfsarcheryplus:netherite_crossbow', `{
         AttributeModifiers:[
             {
@@ -132,5 +132,5 @@ ServerEvents.recipes(e => {
         B: 'nyfsarcheryplus:diamond_crossbow',
         C: 'obscure_api:astral_dust',
         M: 'minecraft:netherite_ingot'
-    });
+    }).id(`kubejs:nyfsarcheryplus/netherite_crossbow`);
 })

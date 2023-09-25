@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
-			description: ["A &2Mansion&r is undoubtedly an attractive place due to its loot. However, this place is even more &4dangerous&r than in vanilla Minecraft. Get your &6weapons and armos&r ready!"]
+			description: ["A &2Mansion&r is undoubtedly an attractive place due to its &6loot&r. However, this place is even more &4dangerous&r than in vanilla Minecraft. You might even encounter a &cboss&r in the mansion. Conversely, due to the increased danger, the loot is &afurther enhanced&r"]
 			id: "2D1DF4BA848DD4FD"
 			tasks: [{
 				icon: {
@@ -116,6 +116,91 @@
 			}]
 			x: -2.0d
 			y: 0.0d
+		}
+		{
+			description: ["A &9Catacomb&r is a very &4dangerous&r ball-like structure. The &6loot&r is fantastic but is protected by a &cboss&r"]
+			id: "36FEA7EF8B07D0E8"
+			tasks: [{
+				icon: "bygonenether:withered_blackstone_stairs"
+				id: "38247522A8817BFC"
+				structure: "bygonenether:catacomb"
+				title: "Find a &9Catacomb"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			description: ["A &2Citadel&r is a green tower where the warped enderman resides. There is &6good loot&r at the top of the tower, but the treasure is guarded by an &4elite warped enderman&r."]
+			id: "55E79DFE74A0ABF2"
+			tasks: [{
+				icon: "minecraft:warped_nylium"
+				id: "216CEBE6D59731C1"
+				structure: "bygonenether:citadel"
+				title: "Find a &2Citadel"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			description: ["&4Badland Miner Outpost&r is a dangerous place where the pillagers, evokers, and their friends reside. Watch out for the &cdangerous mobs&r!"]
+			id: "6B38105BF598E2ED"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:white_banner"
+					tag: {
+						BlockEntityTag: {
+							Patterns: [
+								{
+									Color: 9
+									Pattern: "mr"
+								}
+								{
+									Color: 8
+									Pattern: "bs"
+								}
+								{
+									Color: 7
+									Pattern: "cs"
+								}
+								{
+									Color: 8
+									Pattern: "bo"
+								}
+								{
+									Color: 15
+									Pattern: "ms"
+								}
+								{
+									Color: 8
+									Pattern: "hh"
+								}
+								{
+									Color: 8
+									Pattern: "mc"
+								}
+								{
+									Color: 15
+									Pattern: "bo"
+								}
+							]
+							id: "minecraft:banner"
+						}
+						HideFlags: 32
+						display: {
+							Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+						}
+					}
+				}
+				id: "20A4041701DBAFB9"
+				structure: "nova_structures:badlands_miner_outpost"
+				title: "Find a &4Badland Miner Outpost"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 6.0d
 		}
 	]
 	title: "Mo' Dungeons and Structures"

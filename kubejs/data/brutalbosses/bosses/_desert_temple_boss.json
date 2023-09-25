@@ -32,6 +32,7 @@
             "attackdist": 8,
             "extradamage": 4,
             "potiononhit": "minecraft:wither",
+            "potionlevel": 1,
             "potionduration": 200,
             "knockback": 4,
             "cooldown": 200

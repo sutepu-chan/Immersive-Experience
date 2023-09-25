@@ -15,6 +15,11 @@
 // Items can also be injected into entity loot tables, as seen in the Wither example below.
 // ---------------------------------------------------------------------------------------------------------------------------------- 
 
-  "minecraft:entities/wither": 0.01,
-  "minecraft:entities/ender_dragon": 0.01
+  "minecraft:entities/wither": 0.05,
+  "minecraft:entities/ender_dragon": 0.05,
+  "cataclysm:entities/ender_guardian": 1.0,
+  "cataclysm:entities/ignis": 1.0,
+  "cataclysm:entities/netherite_monstrosity": 1.0,
+  "cataclysm:entities/the_harbinger": 1.0,
+  "cataclysm:entities/the_leviathan": 1.0
 }

@@ -58,10 +58,6 @@
 		{ item: "nethersdelight:plate_of_stuffed_hoglin_roast" }
 		{ item: "ends_delight:smoked_dragon_leg" }
 		{ item: "ends_delight:fried_dragon_egg" }
-		{ item: "tofucraft:riceburger" }
-		{ item: "tofucraft:tastystew" }
-		{ item: "tofucraft:tttburger" }
-		{ item: "tofucraft:tastybeefstew" }
 	]
 	title: "Grand Food Delight"
 }

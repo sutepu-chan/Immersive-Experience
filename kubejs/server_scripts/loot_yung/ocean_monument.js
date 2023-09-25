@@ -1,6 +1,7 @@
 LootJS.modifiers(e => {
     e.addLootTableModifier('betteroceanmonuments:chests/upper_side_chamber')
         .removeLoot(Ingredient.all)
+        .addLoot('endrem:exotic_eye')
         .addLoot(LootEntry.of('simplyswords:runic_tablet').when(c => c.randomChance(0.3)))
         .addAlternativesLoot(
             LootEntry.of('irons_spellbooks:silver_ring').when(c => c.randomChance(0.1)),

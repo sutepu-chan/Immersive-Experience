@@ -5,7 +5,7 @@
 	allow_repairing = "TOOLS_AND_ARMOR"
 	#Allow enchantments on an already enchanted item to be increased / removed.
 	#Allowed Values: ALL, FULL_DURABILITY, UNENCHANTED
-	allow_modifying_enchantments = "ALL"
+	allow_modifying_enchantments = "FULL_DURABILITY"
 	#How many bookshelves you need around the infuser to be able to apply maximum level enchantments.
 	#Filling in corners is important to reach higher values.
 	#Setting very high values may require modded bookshelves that provide more than one enchanting power per block (such as Apotheosis' bookshelves).
@@ -20,10 +20,10 @@
 		#This option takes precedence over option for treasure enchantments (as curses are also treasure enchantments internally).
 		allow_curses_enchantments = false
 		#Allow treasure enchantments (e.g. mending) to be applied using the enchanting infuser.
-		allow_treasure_enchantments = false
+		allow_treasure_enchantments = true
 		#Allow untradeable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
 		#This option takes precedence over other options for treasure and curse enchantments.
-		allow_untradeable_enchantments = false
+		allow_untradeable_enchantments = true
 		#Allow enchantments that can normally not be obtained from an enchanting table, but can be put on the item in an anvil (e.g. sharpness on an axe).
 		allow_anvil_enchantments = true
 		#Allow undiscoverable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
@@ -33,10 +33,10 @@
 	[advanced_infuser.repair]
 		#Cost multiplier in levels for each repair step, result will be rounded up.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		repair_step_multiplier = 2.0
+		repair_step_multiplier = 3.0
 		#How many percentage points of an items total durability a single repair will restore.
 		#Range: 0.1 ~ 1.0
-		repair_percentage_step = 0.25
+		repair_percentage_step = 0.2
 
 	#The main option in this section is "maximum_cost" as it determines how many levels you'll have to pay for fully enchanting an item with all possible enchantments it can have.
 	#Cost multipliers mainly control how this maximum cost will be spread out between enchantments of different rarities.
@@ -51,7 +51,7 @@
 		rare_cost_multiplier = 4
 		#Cost level to scale prices by. This is not a strict value, meaning it can be exceeded (e.g. when applying treasure enchantments).
 		#Range: > 1
-		maximum_cost = 20
+		maximum_cost = 100
 		#When scaling costs, only account for vanilla enchantments. Otherwise enchanting costs will become ludicrously cheap with many modded enchantments present.
 		scale_costs_by_vanilla_only = true
 		#Base cost multiplier for each level for uncommon enchantments.
@@ -148,7 +148,7 @@
 		rare_cost_multiplier = 4
 		#Cost level to scale prices by. This is not a strict value, meaning it can be exceeded (e.g. when applying treasure enchantments).
 		#Range: > 1
-		maximum_cost = 30
+		maximum_cost = 100
 		#When scaling costs, only account for vanilla enchantments. Otherwise enchanting costs will become ludicrously cheap with many modded enchantments present.
 		scale_costs_by_vanilla_only = true
 		#Base cost multiplier for each level for uncommon enchantments.

@@ -9,7 +9,7 @@
     "attributes": {
         "generic.max_health": 400,
         "generic.follow_range": 40,
-        "generic.attack_damage": 8,
+        "generic.attack_damage": 4,
         "generic.armor": 10
     },
     "customattributes": {

@@ -401,8 +401,8 @@ ItemEvents.modification(e => {
 		{
 			name: 'simplyswords:runic',
 			attributes: {
-				critical_hit: 0.2,
-				critical_damage: 1.25,
+				critical_hit: 0.28,
+				critical_damage: 2.0,
 			}
 		},
 	]

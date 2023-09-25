@@ -11,7 +11,7 @@
 		}
 	}
 	id: "7A9D6FA0147551DE"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -317,8 +317,17 @@
 			]
 			id: "0B3684BC88B70BEE"
 			tasks: [{
-				id: "62047277B3F1F60C"
-				item: "minecraft:dragon_egg"
+				id: "5E80834E75602C1B"
+				item: {
+					Count: 1b
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:end"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
 				type: "item"
 			}]
 			x: 2.0d

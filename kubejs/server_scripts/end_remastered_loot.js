@@ -11,7 +11,7 @@ LootJS.modifiers(e => {
         .removeLoot('endrem:corrupted_eye');
     e.addEntityLootModifier('minecraft:enderman')
         .anyDimension("minecraft:the_end")
-        .randomChance(0.05)
+        .randomChance(0.1)
         .addLoot('endrem:corrupted_eye');
 
     e.addLootTypeModifier(LootType.ENTITY)
@@ -36,12 +36,10 @@ LootJS.modifiers(e => {
     e.addEntityLootModifier('betterwitchhuts:chests/hut_0')
         .addLoot('endrem:witch_pupil');
 
-    e.addLootTableModifier('betteroceanmonuments:chests/upper_side_chamber')
-        .addLoot('endrem:exotic_eye');
-
     e.addLootTypeModifier(LootType.CHEST)
         .removeLoot('endrem:cursed_eye');
     e.addEntityLootModifier('fromtheshadows:cleric')
+        .randomChance(0.1)
         .addLoot('endrem:cursed_eye');
 
     e.addLootTypeModifier(LootType.CHEST)

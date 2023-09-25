@@ -9,7 +9,7 @@
     "attributes": {
         "generic.max_health": 250,
         "generic.follow_range": 30,
-        "generic.attack_damage": 4
+        "generic.attack_damage": 7
     },
     "customattributes": {
         "dropgear": 1,
@@ -34,6 +34,7 @@
         "brutalbosses:whirldwind": {
             "healthinterval": "50-0",
             "potiononhit": "minecraft:poison",
+            "potionlevel": 1,
             "potionduration": 200,
             "knockback": 4,
             "cooldown": 100
