@@ -1,0 +1,65 @@
+{
+    "entity": "deeperdarker:sculk_centipede",
+    "name": "§3Deep Dark Wardenior",
+    "visualscale": 2.0,
+    "experience": 1000,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:fire_resistance": 0,
+        "minecraft:speed": 2,
+        "minecraft:glowing": 0
+    },
+    "attributes": {
+        "generic.max_health": 1400,
+        "generic.follow_range": 40,
+        "generic.attack_damage": 20,
+        "generic.armor": 15
+    },
+    "customattributes": {
+        "dropgear": 2,
+        "attack_speed": 1.5
+    },
+    "gear": {
+        "offhand": "{id: \"deeperdarker:warden_sword\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I;-123827,9118,195040,-18236], Amount: 26, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123827,9218,195040,-18436], Amount: -2.4d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I;-123827,9318,195040,-18636], Amount: 0.25d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I; -123827,9418,195040,-18836], Amount: 2.2d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"Blade from the Deeper Dark\",\"italic\":false,\"color\":\"dark_aqua\"}]'}}}"
+    },
+    "ai-goals": {
+        "brutalbosses:target": {},
+        "brutalbosses:aftercombatregen": {
+            "amount": 5
+        },
+        "brutalbosses:summonmobs": {
+            "healthinterval": "50-0",
+            "interval": 600,
+            "maxcount": 12,
+            "count": 3,
+            "entities": [
+                {
+                    "entityid": "monsterplus:opalescent_eye"
+                }
+            ]
+        },
+        "brutalbosses:meleehit": {
+            "healthinterval": "40-0",
+            "attackdist": 2,
+            "damage": 10,
+            "potiononhit": "minecraft:slowness",
+            "potionlevel": 1,
+            "potionduration": 60,
+            "knockback": 6,
+            "cooldown": 200
+        },
+        "brutalbosses:itemshootgoal": {
+            "healthinterval": "100-40",
+            "projectile_count": 5,
+            "projectile_interval": 100,
+            "projectile_distance": 10,
+            "projectile_speed": 1.6,
+            "projectilesize": 2.0,
+            "item": "{id: \"minecraft:echo_shard\", Count: 1b}",
+            "damage": 8
+        }
+    },
+    "spawnatchest": {
+        "minecraft:chests/ancient_city_centre": 1
+    }
+}

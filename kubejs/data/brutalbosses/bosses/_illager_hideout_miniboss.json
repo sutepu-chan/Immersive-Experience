@@ -1,0 +1,38 @@
+{
+    "entity": "minecraft:vindicator",
+    "name": "Guardian",
+    "experience": 20,
+    "showbossbar": false,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:speed": 1
+    },
+    "attributes": {
+        "generic.max_health": 30,
+        "generic.follow_range": 40,
+        "generic.attack_damage": 8
+    },
+    "gear": {
+        "mainhand": "{id: \"epixpaladins:moonlight_axe\", Count: 1b, tag: {Damage: 0, Enchantments: [{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
+        "offhand": "{id: \"shieldexp:iron_shield\", Count: 1b, tag: {Damage: 0}}",
+        "head": "{id: \"epixsamurai:gray_samurai_helmet\", Count: 1b, tag: {Damage: 0, Enchantments: [{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
+        "chest": "{id: \"epixsamurai:gray_samurai_chestplate\", Count: 1b, tag: {Damage: 0, Enchantments: [{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
+        "legs": "{id: \"epixsamurai:gray_samurai_leggings\", Count: 1b, tag: {Damage: 0, Enchantments: [{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}",
+        "feet": "{id: \"epixsamurai:gray_samurai_boots\", Count: 1b, tag: {Damage: 0, Enchantments: [{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
+    },
+    "ai-goals": {
+        "brutalbosses:shieldmelee": {},
+        "brutalbosses:meleehit": {
+            "healthinterval": "100-0",
+            "attackdist": 2,
+            "damage": 8, 
+            "potiononhit": "minecraft:nausea",
+            "potionlevel": 2,
+            "potionduration": 80,
+            "cooldown": 240
+        }
+    },
+    "spawnatchest": {
+        "nova_structures:chests/illager_hideout_tresure": 1
+    }
+}

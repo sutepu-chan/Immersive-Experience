@@ -1,9 +1,9 @@
 {
   "enableDropsForNonPlayer": true,
-  "enableCrashExplosion": false,
+  "enableCrashExplosion": true,
   "enableCrashBlockDestruction": true,
   "enableCrashFire": true,
-  "crashExplosionRadius": 2.0,
+  "crashExplosionRadius": 5.0,
   "separateCamera": true,
   "useThirdPersonByDefault": true,
   "enableTrails": true,

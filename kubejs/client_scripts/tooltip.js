@@ -194,11 +194,6 @@ ItemEvents.tooltip(e => {
     ])
     //#endregion
 
-    //#region archeology
-    tooltips.yellow('betterarcheology:bomb', 'RC to throw the bomb');
-    tooltips.yellow('betterarcheology:unidentified_artifact', 'To be identitied in Arrcheology Table');
-    //#endregion
-
     //#region maid
     tooltips.white('touhou_little_maid:ultramarine_orb_elixir', 'Avoid death of maid up to 6 times');
     tooltips.white('touhou_little_maid:nimble_fabric', 'When being attacked by projectile entities, the maid will act likes an Enderman');
@@ -232,7 +227,26 @@ ItemEvents.tooltip(e => {
     tooltips.gold('aether:swet_cape', 'Increase mining speed');
     tooltips.gold('deep_aether:gravitite_ring', 'Boost of Stratus Armor dash and Gravitite Armor boosted jump');
     tooltips.gold('deep_aether:stratus_ring', 'Upgraded boost the Stratus Armor dash and Gravitite Armor boosted jump');
+    //#endregion
 
+    //#region deeperdark
+    e.add('deeperdarker:warden_helmet', [
+        Text.of('Grant Darkness Immunity').gold(),
+        Text.of('Speed Boost').gold()
+    ]);
+    e.add('deeperdarker:warden_chestplate', [
+        Text.of('Grant Darkness Immunity').gold(),
+        Text.of('Speed Boost').gold()
+    ]);
+    e.add('deeperdarker:warden_leggings', [
+        Text.of('Grant Darkness Immunity').gold(),
+        Text.of('Speed Boost').gold()
+    ]);
+    e.add('deeperdarker:warden_boots', [
+        Text.of('Grant Darkness Immunity').gold(),
+        Text.of('Speed Boost').gold()
+    ]);
+    //#endregion
 
     //#region miscellaneous
     tooltips.darkPurple('manyideas_core:end_block', 'Just a decorative block')

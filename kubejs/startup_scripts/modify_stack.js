@@ -22,6 +22,7 @@ ItemEvents.modification(e => {
 		'minecraft:dark_oak_sign',
 		'minecraft:crimson_sign',
 		'minecraft:warped_sign',
+		/endrem:.+/
 	], 64);
 	colors.forEach(color => {
 		e.modify(`minecraft:${color}_banner`, item => item.maxStackSize = 64);

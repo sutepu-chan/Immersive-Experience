@@ -1,0 +1,64 @@
+{
+    "entity": "minecraft:piglin_brute",
+    "name": "§6Elite Brute",
+    "visualscale": 1.1,
+    "experience": 300,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:fire_resistance": 1,
+        "minecraft:speed": 2,
+        "minecraft:resistance": 0
+    },
+    "attributes": {
+        "generic.max_health": 600,
+        "generic.follow_range": 40,
+        "generic.attack_damage": 12,
+        "generic.armor": 20
+    },
+    "customattributes": {
+        "dropgear": 2,
+        "attack_speed": 1.2
+    },
+    "gear": {
+        "offhand": "{id: \"advancednetherite:netherite_gold_axe\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I;-123827,18906,231242,-37812], Amount: 19, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123827,19206,231242,-38412], Amount: -2.9d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I;-123827,19306,231242,-38612], Amount: 0.35d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I;-123827,19406,231242,-38812], Amount: 2.1d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"Brutal Axe\",\"italic\":true,\"color\":\"gold\"}]'}}}"
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 3
+        },
+        "brutalbosses:lavarescue": {},
+        "brutalbosses:summonmobs": {
+            "healthinterval": "60-0",
+            "interval": 900,
+            "maxcount": 8,
+            "count": 3,
+            "entities": [
+                {
+                    "entityid": "minecraft:piglin"
+                },
+                {
+                    "entityid": "minecraft:blaze"
+                }
+            ]
+        },
+        "brutalbosses:shootbigfireballs": {
+            "healthinterval": "100-0",
+            "projectile_interval": 100,
+            "projectile_speed": 1.2,
+            "projectile_aoe": true 
+        },
+        "brutalbosses:meleehit": {
+            "healthinterval": "100-0",
+            "attackdist": 3,
+            "damage": 10,
+            "potiononhit": "minecraft:darkness",
+            "potionlevel": 2,
+            "potionduration": 40,
+            "knockback": 3,
+            "cooldown": 200
+        }
+    },
+    "spawnatchest": {
+        "nova_structures:chests/hamlet/hamlet_tresure": 1
+    }
+}

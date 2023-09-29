@@ -24,9 +24,9 @@
 				id: "3DCB546410F418AE"
 				title: "Zombie Slayer"
 				type: "kill"
-				value: 50L
+				value: 100L
 			}]
-			x: 2.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -44,10 +44,10 @@
 				icon: "minecraft:bone"
 				id: "151BE2CE9980EAE5"
 				type: "kill"
-				value: 50L
+				value: 100L
 			}]
 			title: "Skeledie"
-			x: 5.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -75,10 +75,12 @@
 			}]
 			title: "&6Explorer's Compass"
 			x: 0.0d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
+			can_repeat: true
 			id: "6D4B60D596DD990C"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7614D47F6AAFE041"
@@ -93,11 +95,13 @@
 				value: 50L
 			}]
 			title: "I need &6blaze rod!"
-			x: 0.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			id: "72F573F9D32539FD"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "370166A51E923CB6"
@@ -109,10 +113,381 @@
 				icon: "minecraft:wither_skeleton_skull"
 				id: "6EA2BC1A1AB29ED2"
 				type: "kill"
-				value: 30L
+				value: 50L
 			}]
 			title: "More &8Wither Skull"
-			x: 2.5d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7CC2FC597B533D43"]
+			description: ["You can purchase one &bUnique Weapon&r on your own with 5 &6Empowered Remnant&r."]
+			hide: true
+			id: "6C9343CD9D4A7DB9"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59C9AEE8E219BA44"
+				table_id: 4125960065121793971L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "677C00E8F5924350"
+				item: { Count: 5b, id: "simplyswords:empowered_remnant" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["22DE8D94F09C2C37"]
+			description: ["&4Netherite Monstrosity&r is a bulky and slow boss, likely fitting to be the second boss you challenge."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "cataclysm:infernal_forge"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7A6AE222E6C26AEE"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0468D0B0F925EA7D"
+				table_id: 4125960065121793971L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "582374C7170D7F86"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill &4Netherite Monstrosity&r "
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["113B1FA9ECCF4319"]
+			description: ["&dEnder Guardian&r is the first End-game boss you encounter, and it can be found in the &6Ruined Citadel&r. Be vigilant of the &cdifferent deadly attack modes&r."]
+			hide: true
+			icon: "cataclysm:altar_of_void"
+			id: "5C2A36B92660307C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E50143976138300"
+				table_id: 4125960065121793971L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "farlanders:ender_guardian"
+				id: "122DC4556609484F"
+				title: "Kill &dEnder Guardian&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["22DE8D94F09C2C37"]
+			description: [
+				"&9Harbinger&r, developed from advanced technology, has unfortunately gone wrong. Make wise use of the surrounding facilities."
+				""
+				"&7&nNote:&r "
+				"&7Harbinger is not Hamberger.&r"
+			]
+			hide: true
+			icon: "cataclysm:emp"
+			id: "6A190A22933C165E"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "407FB64C407089C3"
+				table_id: 4125960065121793971L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "132CDF816064711E"
+				title: "Kill &9Harbinger&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["22DE8D94F09C2C37"]
+			description: ["&5Leviathan&r, the overlord of the sea, can be found in &6Sunken City&r. Be wary of the &4fatal laser&r."]
+			hide: true
+			icon: "cataclysm:abyssal_egg"
+			id: "7D18717545BBB198"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "670F1C85650AA6B6"
+				table_id: 4125960065121793971L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "4AE76ECCC7E034BA"
+				title: "Kill &5Leviathan&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["22DE8D94F09C2C37"]
+			description: ["&cIgnis&r, one of the most &4dangerous bosses&r, resides in the &6Burning Arena&r. Do not attempt to challenge him until you are fully prepared for a &4deadly fight&r."]
+			hide: true
+			icon: "cataclysm:bulwark_of_the_flame"
+			id: "5BBFB4E8CD21F7C5"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F5AC2ED2DE55F61"
+				table_id: 4125960065121793971L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "710896054B2657D8"
+				title: "Kill &cIgnis&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "7B7537A0C135B366"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "033728D241E2932F"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "monsterplus:overgrown_skeleton"
+				icon: {
+					Count: 1b
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+				id: "289BE4EEDF9B28A9"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Bone Overgrown"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "57353EA94BB19922"
+			optional: true
+			tasks: [{
+				entity: "monsterplus:glow_skeleton"
+				icon: "minecraft:glow_ink_sac"
+				id: "66BE890EDAC1527A"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Glowing Corpse"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:gold_nugget"
+			id: "2F477F19E1626D18"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77970F299CDE928D"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "7D80487F33C51288"
+				type: "kill"
+				value: 70L
+			}]
+			title: "Pork Chop"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "40D528A9CF4A60F5"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "030275E37D5ACE03"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C0B5C2F7A222B84"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				icon: {
+					Count: 1b
+					id: "minecraft:golden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3766E1A1C9809FA0"
+				type: "kill"
+				value: 30L
+			}]
+			title: "Bigger Pork Chop"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "53FFAA6DB037AE36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AF075FAB61F4D95"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: {
+					Count: 1b
+					id: "mutantmonsters:creeper_shard"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0AD0C1609C6A4D96"
+				type: "kill"
+				value: 10L
+			}]
+			title: "No more creeps"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "656A226B2205A429"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06D44456D62608A6"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				icon: {
+					Count: 1b
+					id: "mutantmonsters:endersoul_hand"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3B951B4BF8947162"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Ender-enderman"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "4EDC666CDF4A0E9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37847FC34A812AE1"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: {
+					Count: 1b
+					id: "mutantmonsters:mutant_skeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "50E1F9EF78F98695"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Meatless, Boneful"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "412B92A9ECA58DBF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1225E48BC9054798"
+				table_id: 6225236626738686000L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: {
+					Count: 1b
+					id: "mutantmonsters:hulk_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "72EE816129F74747"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Fat Boi"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "753ECA6208547469"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CFD0D0544AE5320"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "minecraft:ender_pearl"
+				id: "5B6F1661B194D66B"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Enderdeadman"
+			x: -4.0d
 			y: 2.0d
 		}
 	]

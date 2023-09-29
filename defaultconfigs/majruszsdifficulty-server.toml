@@ -282,7 +282,7 @@
 	[Features.ShulkerBlindnessAttack]
 		#Determines during which game stages it can happen.
 		#Supports 'regular expressions' when text starts with {regex} prefix.
-		game_stages = ["NORMAL", "EXPERT", "MASTER"]
+		game_stages = ["EXPERT", "MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
 		chance = 0.1
@@ -658,7 +658,7 @@
 	army_radius = 50
 	#Required amount of killed undead to start the Undead Army. (set to 0 if you want to disable this)
 	#Range: 0 ~ 1000
-	kill_requirement = 150
+	kill_requirement = 200
 	#Required amount of killed undead to start the first Undead Army.
 	#Range: 0 ~ 1000
 	kill_requirement_first = 50

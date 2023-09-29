@@ -1,8 +1,0 @@
-[
-    {
-        "block": "minecraft:dirt",
-        "gamestage":"dirt",
-        "command": "function firstload:skill_locked",
-        "result": "deny"
-      }
-]

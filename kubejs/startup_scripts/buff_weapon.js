@@ -175,10 +175,10 @@ ItemEvents.modification(e => {
 		{
 			name: 'deeperdarker:warden',
 			attributes: {
-				attack_damage: 4, //13
+				attack_damage: 8, //17
 				attack_speed: 0.2,
-				critical_hit: 0.25,
-				critical_damage: 1.4,
+				critical_hit: 0.28,
+				critical_damage: 1.8,
 			}
 		},
 		{

@@ -1,0 +1,70 @@
+{
+    "entity": "illagerinvasion:inquisitor",
+    "name": "§4Illagitor",
+    "experience": 800,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:speed": 1
+    },
+    "attributes": {
+        "generic.max_health": 960,
+        "generic.follow_range": 40,
+        "generic.attack_damage": 8,
+        "generic.armor": 24
+    },
+    "customattributes": {
+        "dropgear": 1
+    },
+    "gear": {
+        "mainhand": "{id: \"simplyswords:runic_halberd\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I;-123828,18178,145641,-36356], Amount: 26, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123828,18278,145641,-36556], Amount: -2.8d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I;-123828,18378,145641,-36756], Amount: 0.32d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I;-123828,18478,145641,-36956], Amount: 2.4d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"Runic Arclight of the Illagers\",\"italic\":true,\"color\":\"aqua\"}]'}}}",
+        "offhand": "{id: \"shieldexp:netherite_shield\", Count: 1b, tag: {Damage: 0}}"
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 2
+        },
+        "brutalbosses:shieldmelee": {},
+        "brutalbosses:itemshootgoal": {
+            "healthinterval": "100-0",
+            "projectile_count": 2,
+            "projectile_interval": 60,
+            "projectile_distance": 10,
+            "projectile_speed": 1.5,
+            "projectile_aoe": false,
+            "projectilesize": 1.0,
+            "item": "{id: \"minecraft:iron_axe\", Count: 1b}",
+            "damage": 16
+        },
+        "brutalbosses:summonmobs": {
+            "interval": 600,
+            "maxcount": 8,
+            "count": 4,
+            "entities": [
+                {
+                    "entityid": "illagerinvasion:necromancer"
+                },
+                {
+                    "entityid": "illagerinvasion:sorcerer"
+                }
+            ]
+        },
+        "brutalbosses:spitcobweb": {
+            "healthinterval": "50-0",
+            "projectile_count": 3,
+            "projectile_interval": 200
+        },
+        "brutalbosses:whirldwind": {
+            "attackdist": 5,
+            "extradamage": 2,
+            "potiononhit": "minecraft:slowness",
+            "potionlevel": 1,
+            "potionduration": 80,
+            "cooldown": 200, 
+            "knockback": 4,
+            "knockup": true 
+        }
+    },
+    "spawnatchest": {
+        "nova_structures:chests/illager_hideout_tresure": 1
+    }
+}

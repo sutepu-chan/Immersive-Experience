@@ -62,7 +62,7 @@ ItemEvents.modification(e => {
         },
         {
             name: 'deeperdarker:warden',
-            durability: 912
+            durability: 2004
         },
         {
             name: 'epicsamurai:gold_samurai',

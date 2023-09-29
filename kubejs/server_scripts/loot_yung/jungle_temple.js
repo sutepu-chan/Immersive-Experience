@@ -74,20 +74,20 @@ LootJS.modifiers(e => {
         .pool(p => {
             p.addAlternativesLoot(
                 LootEntry.of('simplyswords:runic_longsword').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_twinblade').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_rapier').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_katana').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_sai').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_spear').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_glaive').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_cutlass').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_claymore').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_chakram').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_greataxe').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_greathammer').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_warglaive').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_scythe').when(c => c.randomChance(0.05)),
-            LootEntry.of('simplyswords:runic_halberd').when(c => c.randomChance(0.05))
+                LootEntry.of('simplyswords:runic_twinblade').when(c => c.randomChance(0.05)),
+                LootEntry.of('simplyswords:runic_rapier').when(c => c.randomChance(0.05)),
+                LootEntry.of('simplyswords:runic_katana').when(c => c.randomChance(0.05)),
+                LootEntry.of('simplyswords:runic_sai').when(c => c.randomChance(0.05)),
+                LootEntry.of('simplyswords:runic_spear').when(c => c.randomChance(0.05)),
+                LootEntry.of('simplyswords:runic_glaive').when(c => c.randomChance(0.05)),
+                LootEntry.of('simplyswords:runic_cutlass').when(c => c.randomChance(0.05)),
+                LootEntry.of('simplyswords:runic_claymore').when(c => c.randomChance(0.05)),
+                LootEntry.of('simplyswords:runic_chakram').when(c => c.randomChance(0.05)),
+                LootEntry.of('simplyswords:runic_greataxe').when(c => c.randomChance(0.05)),
+                LootEntry.of('simplyswords:runic_greathammer').when(c => c.randomChance(0.05)),
+                LootEntry.of('simplyswords:runic_warglaive').when(c => c.randomChance(0.05)),
+                LootEntry.of('simplyswords:runic_scythe').when(c => c.randomChance(0.05)),
+                LootEntry.of('simplyswords:runic_halberd').when(c => c.randomChance(0.05))
 
             )
             p.enchantWithLevels(30);

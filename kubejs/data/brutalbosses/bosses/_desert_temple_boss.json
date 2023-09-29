@@ -1,7 +1,7 @@
 {
     "entity": "minecraft:husk",
     "name": "§ePharaoh the Undying",
-    "visualscale": 1.2,
+    "visualscale": 0.8,
     "experience": 600,
     "protect_treasure": true,
     "effects": {

@@ -89,7 +89,7 @@ LootJS.modifiers(e => {
                 LootEntry.of('simplyswords:runic_scythe').when(c => c.randomChance(0.1)),
                 LootEntry.of('simplyswords:runic_halberd').when(c => c.randomChance(0.1))
             );
-            p.enchantWithLevels(30);
+            p.enchantWithLevels(30, true);
         })
         .addAlternativesLoot(
             LootEntry.of('irons_spellbooks:silver_ring').when(c => c.randomChance(0.1)),

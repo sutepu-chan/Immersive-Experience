@@ -142,9 +142,10 @@ ItemEvents.modification(e => {
         {
             name: 'deeperdarker:warden',
             attributes: {
-                armor: [2, 3, 2, 2], //6 12 9 6
-                knockback_resistance: 0.05, //0.15
-                max_health: 2
+                armor: [6, 5, 5, 6], //10 14 12 10
+                armor_toughness: 1,
+                knockback_resistance: 0.2, //0.3
+                max_health: 3
             }
         },
         {
@@ -738,7 +739,7 @@ ItemEvents.modification(e => {
             'minecraft:generic.armor',
             $UUID.randomUUID(),
             "Armor modifier",
-            6,
+            8,
             $AM$Operation.ADDITION
         );
         item.addAttribute(
@@ -768,7 +769,7 @@ ItemEvents.modification(e => {
             'minecraft:generic.armor',
             $UUID.randomUUID(),
             "Armor modifier",
-            4,
+            6,
             $AM$Operation.ADDITION
         );
         item.addAttribute(
@@ -798,7 +799,7 @@ ItemEvents.modification(e => {
             'minecraft:generic.armor',
             $UUID.randomUUID(),
             "Armor modifier",
-            4,
+            6,
             $AM$Operation.ADDITION
         );
         item.addAttribute(
@@ -828,7 +829,7 @@ ItemEvents.modification(e => {
             'minecraft:generic.armor',
             $UUID.randomUUID(),
             "Armor modifier",
-            4,
+            6,
             $AM$Operation.ADDITION
         );
         item.addAttribute(
@@ -971,6 +972,36 @@ ItemEvents.modification(e => {
             $UUID.randomUUID(),
             "Armor modifier",
             2,
+            $AM$Operation.ADDITION
+        );
+    });
+    e.modify('cataclysm:monstrous_helm', (item) => {
+        item.addAttribute(
+            'minecraft:generic.armor',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            10, //13
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.armor_toughness',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            0.2, //5
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.knockback_resistance',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            0.2,
+            $AM$Operation.ADDITION
+        );
+        item.addAttribute(
+            'minecraft:generic.max_health',
+            $UUID.randomUUID(),
+            "Armor modifier",
+            4,
             $AM$Operation.ADDITION
         );
     });

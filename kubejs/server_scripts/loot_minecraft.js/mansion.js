@@ -321,7 +321,7 @@ LootJS.modifiers(e => {
                 LootEntry.of('simplyswords:iron_cutlass').when(c => c.randomChance(0.08)),
                 LootEntry.of('simplyswords:iron_warglaive').when(c => c.randomChance(0.08)),
             )
-            p.enchantWithLevels([5, 20]);
+            p.enchantWithLevels([10, 20]);
         });
 
     e.addLootTableModifier('minecraft:chests/illager_mansion/vindicator_chest')

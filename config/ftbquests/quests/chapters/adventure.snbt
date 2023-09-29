@@ -513,9 +513,22 @@
 			y: -16.0d
 		}
 		{
-			dependencies: ["7D237EDAA683540E"]
+			dependencies: ["113B1FA9ECCF4319"]
 			description: ["&bShulkers&r deals &6blindness effect&r by chance now. The amplifier and duration of poison increases difficulties with pack mode. Be aware while fighting them!"]
 			id: "285F67981081B670"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "588BF29FFEDD355C"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "3ECD154DF3957CFE"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "1BF19A1D3FE123F6"
@@ -523,8 +536,8 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: 0.0d
-			y: 22.5d
+			x: 2.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -1660,6 +1673,11 @@
 		}
 		{
 			dependencies: ["383BC32C482768EE"]
+			description: [
+				"The recipe in REI is currently bugged. The recipe is shown below."
+				""
+				"{image:kubejs:textures/quest/exploration/adventure/diamond_bow.png width:175 height:100 align:1}"
+			]
 			id: "5EA707E3BD07D43C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1683,7 +1701,13 @@
 		}
 		{
 			dependencies: ["5EA707E3BD07D43C"]
-			description: ["&bNetherite Bow&r is the &6highest tier bow&r in this pack"]
+			description: [
+				"&bNetherite Bow&r is the &6highest tier bow&r in this pack."
+				""
+				"The recipe in REI is currently bugged. The recipe is shown below."
+				""
+				"{image:kubejs:textures/quest/exploration/adventure/netherite_bow.png width:175 height:100 align:1}"
+			]
 			id: "7FBFB9A326732529"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -5279,6 +5303,11 @@
 				"Each tier also gives &6extra effects&r. Read the tooltip for more info."
 			]
 			id: "2F4AE6CE2202BCA2"
+			rewards: [{
+				id: "78BAA9705FA401F8"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -5353,6 +5382,11 @@
 		{
 			dependencies: ["2F4AE6CE2202BCA2"]
 			id: "6004A50560DE2AC6"
+			rewards: [{
+				id: "5CCEBF6FB60F2275"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -5499,6 +5533,11 @@
 		{
 			dependencies: ["6004A50560DE2AC6"]
 			id: "6249221DEA11AD4C"
+			rewards: [{
+				id: "19740A71AAC8C8B5"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -5575,6 +5614,11 @@
 		{
 			dependencies: ["6249221DEA11AD4C"]
 			id: "47E3ADF179E2AF98"
+			rewards: [{
+				id: "7FB1C518555DFC3E"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -5791,8 +5835,8 @@
 				value: 1L
 			}]
 			title: "&dFirst Wither Fight&r"
-			x: -6.0d
-			y: 10.0d
+			x: -4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["17BB368DB4FFFF9C"]
@@ -5815,7 +5859,7 @@
 			}]
 			title: "&dWither &clv.3"
 			x: -6.0d
-			y: 12.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1DA6CDC69A9143C2"]
@@ -5833,7 +5877,7 @@
 			}]
 			title: "&dWither &clv.7"
 			x: -6.0d
-			y: 14.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["51D68E3A0054D994"]
@@ -5848,7 +5892,7 @@
 				type: "advancement"
 			}]
 			x: -6.0d
-			y: 16.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1FC4A2B2BF2DAAA1"]
@@ -5897,6 +5941,7 @@
 					type: "command"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_breath"
@@ -5906,10 +5951,10 @@
 			}]
 			title: "&5Savage Ender Dragon"
 			x: 0.0d
-			y: 18.0d
+			y: 16.0d
 		}
 		{
-			dependencies: ["1FE458DD0531E608"]
+			dependencies: ["0A1CC5A6A873E3CA"]
 			description: [
 				"After defeating your &55th dragon,&r Ender Dragon reaches &clv.5&r. "
 				""
@@ -5926,8 +5971,8 @@
 				value: 5L
 			}]
 			title: "&dEnder Dragon &clv.5"
-			x: -6.0d
-			y: 18.0d
+			x: -4.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["1BFFC00EF45D04E2"]
@@ -5948,7 +5993,7 @@
 			}]
 			title: "&dEnder Dragon &clv.10"
 			x: -6.0d
-			y: 20.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["75172170154E2990"]
@@ -5962,7 +6007,7 @@
 				type: "advancement"
 			}]
 			x: -6.0d
-			y: 22.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
@@ -6727,7 +6772,7 @@
 				item: { Count: 3b, id: "minecraft:wither_skeleton_skull" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -2.0d
 			y: 8.0d
 		}
 		{
@@ -6774,13 +6819,13 @@
 				title: "Defeat &4Corrupted Enderman&r"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 10.0d
+			x: -4.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
-				"31ECC4BAF3F524E0"
 				"406CAD16772E30AB"
+				"1FE458DD0531E608"
 			]
 			description: [
 				"Use an &bOminous Eye&r along with &6Blaze Powder&r to craft an &bOminous Pearl&r, which can be exchaned with the location of Sanctum."
@@ -6817,8 +6862,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.0d
+			x: -2.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["3EC887C4B801537D"]
@@ -6837,8 +6882,8 @@
 				title: "Free the &5Sanctum&r"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: -2.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["31ECC4BAF3F524E0"]
@@ -7438,13 +7483,14 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "2FB0677E7F468442"
 				title: "&cEXPERT MODE"
 				type: "checkmark"
 			}]
 			title: "&cEXPERT MODE"
-			x: 2.0d
+			x: 0.0d
 			y: 18.0d
 		}
 		{
@@ -7462,18 +7508,46 @@
 				"- More &6creeperlings&r are spawned at once"
 			]
 			id: "22DE8D94F09C2C37"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11BEED5B7FAC3D6D"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33FBA97378EA6683"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
 			tasks: [{
 				id: "3D8CA132B81848A5"
 				title: "&2MASTER MODE"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: 22.5d
+			x: 0.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["113B1FA9ECCF4319"]
 			description: ["In &cEXPERT MODE&r, &6zombies&r spawn in &6group&r by chances.  Be aware while fighting them!"]
 			id: "6878984CD7ECEBC5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DAE2B36C10F3C9E"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "00FB218DAA78CD92"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				entity: "minecraft:zombie"
 				id: "4B6F429D212CD87A"
@@ -7481,13 +7555,26 @@
 				type: "kill"
 				value: 120L
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 18.0d
 		}
 		{
 			dependencies: ["113B1FA9ECCF4319"]
 			description: ["In &cEXPERT MODE&r, &6skeletons&r spawn in &6group&r by chances.  Be aware while fighting them!"]
 			id: "7DB5C93DA6CB91F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A1D35F3364FD139"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "7BF7EB419AD0774B"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				entity: "minecraft:skeleton"
 				id: "70FD94D7BEF168BE"
@@ -7495,13 +7582,26 @@
 				type: "kill"
 				value: 120L
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 18.0d
 		}
 		{
 			dependencies: ["113B1FA9ECCF4319"]
 			description: ["In &cEXPERT MODE&r, &6piglins&r spawn in &6group&r by chances.  Be aware while fighting them!"]
 			id: "37270857457427FF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76C2A91E87C18A3A"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "71F0F15E9C142D02"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				entity: "minecraft:piglin"
 				id: "78E761B798E63DE4"
@@ -7509,13 +7609,26 @@
 				type: "kill"
 				value: 120L
 			}]
-			x: 4.0d
-			y: 20.0d
+			x: 2.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["22DE8D94F09C2C37"]
 			description: ["In &2MASTER MODE&r, &bPhantom&r deals &6levitation effect&r by chance now. Be aware while fighting them!"]
 			id: "161D7CC8088938C5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06AA532CA2BB414A"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "161626FC0F8E76C4"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				entity: "minecraft:phantom"
 				id: "3247BA0A1066A4D0"
@@ -7523,13 +7636,26 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 8.0d
-			y: 22.5d
+			x: 2.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["113B1FA9ECCF4319"]
 			description: ["In &cEXPERT MODE&r, &6evokers&r spawn with &6totem&r by chances.  Be aware while fighting them!"]
 			id: "55528E599F097E10"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "027FD45ABB2E2E40"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "7473B7C6B5DD0B0A"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				entity: "minecraft:evoker"
 				id: "39C0E752063EE394"
@@ -7537,13 +7663,26 @@
 				type: "kill"
 				value: 40L
 			}]
-			x: 6.0d
+			x: 2.0d
 			y: 16.0d
 		}
 		{
 			dependencies: ["22DE8D94F09C2C37"]
 			description: ["In &2MASTER MODE&r, &bEnderman&r attack may &6teleport&r the player somewhere nearby. Be aware while fighting them!"]
 			id: "01450E3274F6D1CD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00FBBA5F94F6640E"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "690B7815CE31311C"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "7925957E975CA40A"
@@ -7551,13 +7690,26 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: 10.0d
-			y: 22.5d
+			x: 2.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["113B1FA9ECCF4319"]
 			description: ["In &cEXPERT MODE&r, &bDrowned&r trident throw may spawn a &6lightning bolt &rwhen it rains."]
 			id: "4126A9695F805070"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77EABB2AB12A3490"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "36AC0219D044C696"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				entity: "minecraft:drowned"
 				id: "62C7C86F0ACB8F49"
@@ -7572,6 +7724,19 @@
 			dependencies: ["113B1FA9ECCF4319"]
 			description: ["In &cEXPERT MODE&r, &bCreeperlings&r can be spawned when &6creeper explodes&r."]
 			id: "6D7909219AB147BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "470BECEA9E1E6CE5"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "5DA2BD19A7136840"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				entity: "majruszsdifficulty:creeperling"
 				icon: "majruszsdifficulty:creeperling_spawn_egg"
@@ -7580,10 +7745,11 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 20.0d
 		}
 		{
+			dependencies: ["7D237EDAA683540E"]
 			description: ["&9Ender Guardian&r is the &6most difficult&r mob to defeat in this pack (V1.0). Defeating the Ender Guardian brings you to the &2MASTER MODE&r."]
 			id: "6F4DB0C5351F9116"
 			rewards: [{
@@ -7592,6 +7758,7 @@
 				id: "0EA8EBC86B924E45"
 				type: "command"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				icon: "cataclysm:altar_of_void"
@@ -7601,8 +7768,8 @@
 				value: 1L
 			}]
 			title: "&9Ender Guardian"
-			x: 4.0d
-			y: 22.5d
+			x: 0.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["0AE56FEBFA8C2394"]
@@ -7794,8 +7961,22 @@
 		}
 		{
 			dependencies: ["113B1FA9ECCF4319"]
-			description: ["After defeating the &5Ender Dragon&r, it's time to venture to the &7outer end&r to look for better loot."]
+			description: ["After defeating the &5Ender Dragon&r, it's time to venture to the &7outer end&r to look for more dangersou dungeons but better loot."]
 			id: "7D237EDAA683540E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69C1C36A868CC3BF"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "09637A127F5AB5D2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
 			tasks: [{
 				advancement: "minecraft:end/enter_end_gateway"
 				criterion: ""
@@ -7804,8 +7985,8 @@
 				title: "Go to the OuterEnd"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 22.5d
+			x: 0.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
@@ -7864,14 +8045,12 @@
 				}
 			]
 			title: "&5Gems"
-			x: -12.5d
-			y: 16.0d
+			x: -2.0d
+			y: 28.0d
 		}
 		{
-			description: [
-				"&bUnique weapons&r are &6rare&r and &6powerful&r weapons which can be found in loot chests in dungeons."
-				"Each of them carries an &6ability&r that helps you fight mobs."
-			]
+			dependencies: ["6F4DB0C5351F9116"]
+			description: ["&bUnique weapons&r are &6powerful&r weapons that can be obtained by defeating cataclysm bosses, or with a 20% chance while slaying the Wither or Ender Dragon. Each of them carries a &cunique ability&r to help you combat those fierce enemies."]
 			id: "7CC2FC597B533D43"
 			tasks: [{
 				id: "6AF1B38D96F8A763"
@@ -7882,12 +8061,12 @@
 						value: "simplyswords:uniques"
 					}
 				}
-				title: "Any #simplyswords:uniques"
+				title: "Any unique weapons"
 				type: "item"
 			}]
-			title: "Unique weapons"
-			x: -8.5d
-			y: 16.0d
+			title: "&bUnique weapons&r"
+			x: -2.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["7CC2FC597B533D43"]
@@ -7898,8 +8077,8 @@
 				item: "simplyswords:empowered_remnant"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 16.0d
+			x: -2.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["47E3ADF179E2AF98"]
@@ -7913,15 +8092,30 @@
 				"The enchantments available &4excludes&r curses, treasure and untradeable enchantments."
 			]
 			id: "05512920E69B5314"
+			rewards: [
+				{
+					count: 4
+					id: "2F7426A37C565CF5"
+					item: "minecraft:diamond"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "22CB3D81D7B74E57"
+					type: "xp"
+					xp: 225
+				}
+			]
 			tasks: [{
 				id: "7437EC90CD742BA6"
 				item: "enchantinginfuser:enchanting_infuser"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 20.0d
+			x: 8.0d
+			y: 18.0d
 		}
 		{
+			dependencies: ["7CC2FC597B533D43"]
 			description: [
 				"&bAdvanced Enchanting Infuser&r allows you to &6select&r which enchantments you want to put onto your item."
 				"It also allows &6modify&r enchantments on enchanted items."
@@ -7933,8 +8127,8 @@
 				item: "enchantinginfuser:advanced_enchanting_infuser"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 22.0d
+			x: -4.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["60E3408C2A029064"]
@@ -7980,8 +8174,8 @@
 				type: "advancement"
 			}]
 			title: "&9liberate all the souls&r"
-			x: 6.0d
-			y: 12.0d
+			x: -4.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["53E1E3EED607FD91"]
@@ -8001,12 +8195,16 @@
 				type: "advancement"
 			}]
 			title: "Deliver &9Sanctum Keeper's Soul!"
-			x: 4.0d
-			y: 14.0d
+			x: -2.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["042626B2E8D02BA6"]
-			description: ["The recipe in REI is currently bugged. The recipe is shown below."]
+			description: [
+				"The recipe in REI is currently bugged. The recipe is shown below."
+				""
+				"{image:kubejs:textures/quest/exploration/adventure/golden_bow.png width:175 height:100 align:1}"
+			]
 			id: "383BC32C482768EE"
 			tasks: [{
 				id: "71B6D1C5E9AC1720"
@@ -8033,6 +8231,230 @@
 			}]
 			x: 14.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["1FE458DD0531E608"]
+			description: ["Acquire &64 End Crystals&r and prepare for your next fight."]
+			id: "0A1CC5A6A873E3CA"
+			rewards: [{
+				count: 4
+				id: "106C99745FE3D596"
+				item: "minecraft:ghast_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3F2B96722831D429"
+				item: { Count: 4b, id: "minecraft:end_crystal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7D237EDAA683540E"]
+			description: ["&aEnnegel&r is a fun block that bounces you up in the sky. You can even increase the bouncing power by adding ennegel blob by &dRC&r."]
+			id: "5F13651CD707C522"
+			rewards: [
+				{
+					count: 4
+					id: "33FE046BD05B65AC"
+					item: "enlightened_end:hanging_ennegel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2BB1219BB96F677C"
+					item: "enlightened_end:ennegel_splat"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CBFFA66C1286AA6"
+				item: "enlightened_end:ennegel_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7D237EDAA683540E"]
+			description: ["Defeating the &5Ender Dragon&r opens the way to find the most powerful material in this pack, the &6Enderium&r. It spawns very rarely in the End dimension. You can find this ore through digging, or via an &9Enderium Shard Locator&r, which can be obtained from the Ender Dragon Treasure Bag."]
+			id: "49968CDAE01E8A84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14478EFB7B9F986C"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [{
+				id: "365CF4BF2CA21507"
+				item: "majruszsdifficulty:enderium_shard"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["49968CDAE01E8A84"]
+			id: "51398545773B95E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D6417651840AEAD"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40609B8535420277"
+				item: "majruszsdifficulty:enderium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["51398545773B95E0"]
+			description: ["The &6Smithing Template for Enderium&r has a small chance to be found in the loot of the &dEnd City&r."]
+			id: "3E58435292CC7B0B"
+			rewards: [{
+				count: 2
+				id: "60A10C15B594A6F4"
+				item: "minecraft:diamond"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "61DB81F0D363B135"
+				item: "majruszsdifficulty:enderium_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "&6Smithing Template for Enderium&r"
+			x: 6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"3E58435292CC7B0B"
+				"47E3ADF179E2AF98"
+			]
+			description: ["With the acquired materials, upgrade your armor into the &6Enderium Armor&r, in order to be prepared for the next fight."]
+			id: "630636E28FBEEA1E"
+			rewards: [
+				{
+					id: "057927367A38F20A"
+					item: "majruszsdifficulty:enderium_shard"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7796173B426CE921"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4310DA798C4795BD"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+				{
+					id: "424F764FBAF581AB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "59576F084F3D1E9C"
+					item: {
+						Count: 1b
+						id: "majruszsdifficulty:enderium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "084C9B7584A956DC"
+					item: {
+						Count: 1b
+						id: "majruszsdifficulty:enderium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E560C16122A985E"
+					item: {
+						Count: 1b
+						id: "majruszsdifficulty:enderium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1197660E78BF0EA3"
+					item: {
+						Count: 1b
+						id: "majruszsdifficulty:enderium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Endrium Armor"
+			x: 10.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3E58435292CC7B0B"]
+			description: ["The &6Enderium Sword&r has the highest attack damage among craftable weapons."]
+			id: "2DDF45ADCA94CB74"
+			rewards: [
+				{
+					id: "6F28CB0A486ECBE3"
+					item: "majruszsdifficulty:enderium_shard"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2370845877D99163"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A81EBE7AFEED4A5"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+				{
+					id: "4FE0E48746B120CF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "4E19D5D92D4E56D0"
+				item: {
+					Count: 1b
+					id: "majruszsdifficulty:enderium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Enderium Sword&r"
+			x: 6.0d
+			y: 20.0d
 		}
 	]
 	title: "Adventure"

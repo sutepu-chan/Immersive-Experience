@@ -1,5 +1,7 @@
 LootJS.modifiers(e => {
     e.addLootTableModifier('illagerinvasion:chests/illusioner_tower_entrance')
+    .addWeightedLoot([0, 2], [LootEntry.of('touhou_little_maid:power_point', 2).when(c => c.randomChance(0.2))])
+        .addWeightedLoot([0, 5], [LootEntry.of('irons_spellbooks:arcane_essence').when(c => c.randomChance(0.2))])
         .addWeightedLoot(
             [2, 4],
             [

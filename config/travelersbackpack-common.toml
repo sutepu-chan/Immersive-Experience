@@ -30,9 +30,9 @@
 
 	[common.world]
 		#Enables backpacks spawning in loot chests
-		enableLoot = true
+		enableLoot = false
 		#Enables chance to spawn Zombie, Skeleton, Wither Skeleton, Piglin or Enderman with random backpack equipped
-		spawnEntitiesWithBackpack = true
+		spawnEntitiesWithBackpack = false
 		#List of overworld entity types that can spawn with equipped backpack. DO NOT ADD anything to this list, because the game will crash, remove entries if mob should not spawn with backpack
 		possibleOverworldEntityTypes = ["minecraft:zombie", "minecraft:skeleton", "minecraft:enderman"]
 		#List of nether entity types that can spawn with equipped backpack. DO NOT ADD anything to this list, because the game will crash, remove entries if mob should not spawn with backpack
@@ -45,7 +45,7 @@
 		#List of backpacks that can spawn on nether mobs
 		netherBackpacks = ["travelersbackpack:quartz", "travelersbackpack:nether", "travelersbackpack:blaze", "travelersbackpack:ghast", "travelersbackpack:magma_cube", "travelersbackpack:wither"]
 		#Enables trade for Villager Backpack in Librarian villager trades
-		enableVillagerTrade = true
+		enableVillagerTrade = false
 
 	[common.backpackAbilities]
 		enableBackpackAbilities = true
@@ -55,7 +55,7 @@
 
 	[common.slownessDebuff]
 		#Player gets slowness effect, if carries too many backpacks in inventory
-		tooManyBackpacksSlowness = false
+		tooManyBackpacksSlowness = true
 		#Maximum number of backpacks, which can be carried in inventory, without slowness effect
 		#Range: 1 ~ 37
 		maxNumberOfBackpacks = 2

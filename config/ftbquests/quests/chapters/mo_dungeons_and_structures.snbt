@@ -9,7 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["72BFDC167B05BBE4"]
 			description: ["Finding a &2Village&r is undoubtedly an important thing to do in Minecraft. It is also an essential way to obtain various types of food and resources in the early game."]
 			id: "749C034674530750"
 			tasks: [{
@@ -23,7 +22,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["72BFDC167B05BBE4"]
 			description: ["Finding a &5Witch Hut&r is a must-have step in your journey. Take a look at your quest book and try to figure out the reason"]
 			id: "01F5EAE4BCB69B8B"
 			tasks: [{
@@ -34,11 +32,10 @@
 				type: "structure"
 			}]
 			title: "Seek the &5Witch Hut"
-			x: 0.0d
-			y: 2.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["72BFDC167B05BBE4"]
 			description: ["The &eDesert Temple&r has been overhauled. There are &cpuzzles, mazes and traps&r. Beware of these! At the same time, there are much better loot and you may even find &9Runic Weapons&r inside!"]
 			id: "26E16E1DBE091CB0"
 			tasks: [{
@@ -49,11 +46,10 @@
 				type: "structure"
 			}]
 			title: "Overhauled &eDesert Temple"
-			x: 2.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["72BFDC167B05BBE4"]
 			description: ["The &2Jungle Temple&r has been overhauled. There are &cpuzzles, mazes and traps&r. Beware of these! At the same time, there are much better loot and you may even find &9Runic Weapons&r inside"]
 			id: "0DAC30C491B3A8A8"
 			tasks: [{
@@ -65,10 +61,9 @@
 			}]
 			title: "Overhauled &2Jungle Temple&r"
 			x: 2.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["72BFDC167B05BBE4"]
 			description: ["The &bOcean Monument&r is much bigger... with more &4Guardian&r spawns, but definitely better loot!"]
 			id: "0C20611CEF714552"
 			tasks: [{
@@ -79,11 +74,10 @@
 				type: "structure"
 			}]
 			title: "&bOcean Monument"
-			x: 0.0d
-			y: 4.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["72BFDC167B05BBE4"]
 			description: ["The &6Mineshaft&r is much bigger than before. There are many more ores stored and can be discovered on your journey inside the mineshaft."]
 			id: "2AB58726C75A0AAE"
 			tasks: [{
@@ -94,11 +88,10 @@
 				type: "structure"
 			}]
 			title: "Expanded &6Mineshaft"
-			x: 2.0d
-			y: 4.0d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["72BFDC167B05BBE4"]
 			description: ["A &2Mansion&r is undoubtedly an attractive place due to its &6loot&r. However, this place is even more &4dangerous&r than in vanilla Minecraft. You might even encounter a &cboss&r in the mansion. Conversely, due to the increased danger, the loot is &afurther enhanced&r"]
 			id: "2D1DF4BA848DD4FD"
 			tasks: [{
@@ -127,7 +120,7 @@
 				title: "Find a &9Catacomb"
 				type: "structure"
 			}]
-			x: -2.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -140,8 +133,8 @@
 				title: "Find a &2Citadel"
 				type: "structure"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			description: ["&4Badland Miner Outpost&r is a dangerous place where the pillagers, evokers, and their friends reside. Watch out for the &cdangerous mobs&r!"]
@@ -199,8 +192,117 @@
 				title: "Find a &4Badland Miner Outpost"
 				type: "structure"
 			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: ["The &9Ancient City&r is more dangerous than ever! DO NOT go there until you have &6good gear&r."]
+			id: "48BCB719C9B83DA3"
+			tasks: [{
+				icon: "minecraft:sculk_shrieker"
+				id: "5D9032F95703A0AC"
+				structure: "minecraft:ancient_city"
+				title: "Deep into &9Ancient City&r"
+				type: "structure"
+			}]
+			title: "Deep into &9Ancient City&r"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			description: ["There are &6good loots&r in the &aAncient Temple&r. Try to defeat the &9Warden&r and get the key to it."]
+			id: "0CBD4E9D49F9E6B9"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "33B7DC8B2236FB63"
+				structure: "deeperdarker:ancient_temple"
+				title: "Find a &aAncient Temple&r"
+				type: "structure"
+			}]
+			title: "&aAncient Temple&r"
 			x: -2.0d
-			y: 6.0d
+			y: 4.0d
+		}
+		{
+			description: ["There is more than a simple tower in an &5Illusioner Tower&r. Try to look down instead of looking up."]
+			id: "50A9CBF150741C9C"
+			tasks: [{
+				icon: "friendsandfoes:totem_of_illusion"
+				id: "55ECA28AC6208118"
+				structure: "illagerinvasion:illusioner_tower"
+				title: "Find a  &5Illusioner Tower&r"
+				type: "structure"
+			}]
+			title: "Down and Up the &5Illusioner Tower&r"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: ["&4Labyrinth&r is the palace of Illagers. Defeat the boss and obtain all the &6loots&r."]
+			id: "44D87AE638012E97"
+			tasks: [{
+				icon: "illagerinvasion:horn_of_sight"
+				id: "2907C4B7063DB820"
+				structure: "illagerinvasion:labyrinth"
+				title: "Find a &4Labyrinth&r"
+				type: "structure"
+			}]
+			title: "&4Labyrinth&r"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: ["Looking for magic in Minecraft? This &6Theatre&r suits you."]
+			id: "1EAC2E059675B6D3"
+			tasks: [{
+				icon: "conjurer_illager:throwing_card"
+				id: "4EEE6C3792E09E00"
+				structure: "conjurer_illager:theatre"
+				title: "Find a &6Theatre&r"
+				type: "structure"
+			}]
+			title: "The magic of Danger in &6Theatre&r"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: ["The &dEnd City&r is now much more dangerous than before. There are guards and warriors protecting all the treasures. In order to obtain the &9Elytra&r, you must also defeat their leader. Remember to &6make good use of the terrain advantage&r!"]
+			id: "25674A86CE9CA068"
+			tasks: [{
+				icon: "minecraft:purpur_block"
+				id: "0AC931170A29FA16"
+				structure: "minecraft:end_city"
+				title: "Find an &dEnd City&r "
+				type: "structure"
+			}]
+			title: "Fxxking difficult &dEnd City&r "
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6Hamlet&r is the place where the Piglins reside, and their leader - the &4Elite Brute&r - lives there. Find this structure and defeat the &4Elite Brute&r!"]
+			id: "2A1637722697A419"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "advancednetherite:netherite_gold_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "02ACCB71EC978608"
+				structure: "nova_structures:hamlet"
+				title: "Find a &6Hamlet&r"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -2.0d
 		}
 	]
 	title: "Mo' Dungeons and Structures"

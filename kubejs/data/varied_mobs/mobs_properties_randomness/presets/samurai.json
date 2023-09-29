@@ -82,6 +82,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -96,6 +97,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -110,6 +112,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -124,6 +127,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -138,6 +142,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -152,6 +157,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -170,6 +176,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -184,6 +191,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -198,6 +206,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -212,6 +221,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -226,6 +236,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -240,6 +251,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -258,6 +270,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -272,6 +285,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -286,6 +300,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -300,6 +315,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -314,6 +330,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -328,6 +345,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -346,6 +364,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -360,6 +379,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -374,6 +394,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -388,6 +409,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -402,6 +424,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -416,6 +439,7 @@
                     "drop_chance": 0.0,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 5,
                                 "max": 10
@@ -434,6 +458,7 @@
                     "drop_chance": 0.3,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 10,
                                 "max": 20
@@ -448,6 +473,7 @@
                     "drop_chance": 0.3,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 10,
                                 "max": 20
@@ -462,6 +488,7 @@
                     "drop_chance": 0.3,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 10,
                                 "max": 20
@@ -476,6 +503,7 @@
                     "drop_chance": 0.3,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 10,
                                 "max": 20
@@ -490,6 +518,7 @@
                     "drop_chance": 0.3,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 10,
                                 "max": 20
@@ -504,6 +533,7 @@
                     "drop_chance": 0.3,
                     "enchantments": [
                         {
+                            "id": "minecraft:vanishing_curse",
                             "with_levels": {
                                 "min": 10,
                                 "max": 20

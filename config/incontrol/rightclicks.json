@@ -1,8 +1,0 @@
-[
-    {
-        "playerhelditem": "minecraft:iron_hoe",
-        "gamestage": "iron_tools",
-        "command": "function firstload:skill_locked",
-        "result": "deny"
-    }
-]

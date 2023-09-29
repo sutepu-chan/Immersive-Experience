@@ -54,7 +54,7 @@ LootJS.modifiers(e => {
                 LootEntry.of('simplyswords:runic_scythe').when(c => c.randomChance(0.05)),
                 LootEntry.of('simplyswords:runic_halberd').when(c => c.randomChance(0.05))
             )
-            p.enchantWithLevels(30);
+            p.enchantWithLevels(30, true);
         })
         .addLoot(LootEntry.of("irons_spellbooks:scroll", 1)
             .customFunction({

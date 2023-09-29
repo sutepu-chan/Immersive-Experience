@@ -28,7 +28,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -47,10 +47,11 @@
 				type: "item"
 			}]
 			title: "Additional Lights"
-			x: 4.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["6389CE0B6A274DAB"]
 			description: ["There are &6modern cars&r available in this pack. However, &6energy&r is required to initiate the progress of crafting your car. Energy can be easily produced by a &bdynamo&r and &bcrank&r."]
 			id: "371D05F13A5E5480"
 			tasks: [
@@ -66,10 +67,11 @@
 				}
 			]
 			title: "Modern Cars"
-			x: 6.0d
-			y: 4.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["3A226597FB53BABA"]
 			description: ["&bCanola&r is the most fundamental material to &6prepare your fuel&r for cars."]
 			id: "6389CE0B6A274DAB"
 			tasks: [
@@ -84,14 +86,11 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"6389CE0B6A274DAB"
-				"371D05F13A5E5480"
-			]
+			dependencies: ["371D05F13A5E5480"]
 			description: ["Put your &6canola&r into the &boil mill&r to obtain &bcanola oil&r. To power the oili mil, simply place the &6dynamo&r next to the oil mill and hold &dRC&r on the crank."]
 			id: "6DEF8CD63A93F3DF"
 			tasks: [
@@ -144,7 +143,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -168,7 +167,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -180,7 +179,7 @@
 				item: "car:generator"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
@@ -192,7 +191,7 @@
 				item: "car:cable"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 4.0d
 			y: 8.0d
 		}
 		{
@@ -264,8 +263,8 @@
 				}
 			]
 			title: "Decorations!"
-			x: -4.0d
-			y: 6.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["59CA437DD525107D"]
@@ -304,7 +303,7 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
@@ -316,7 +315,7 @@
 				item: "car:key"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 10.0d
 			y: 8.0d
 		}
 		{
@@ -328,7 +327,7 @@
 				item: "car:gas_station"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 8.0d
 			y: 6.0d
 		}
 		{
@@ -340,8 +339,8 @@
 				item: "car:canister"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7A43FD3944EE59E8"]
@@ -358,8 +357,8 @@
 				item: "car:repair_kit"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4DA70E578178DA70"]
@@ -377,8 +376,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6DEF8CD63A93F3DF"]
@@ -389,10 +388,11 @@
 				item: "car:tank"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
+			dependencies: ["3A226597FB53BABA"]
 			description: ["&bPedestal&r is useful in &6displaying&r items."]
 			id: "52C7CB499CFD7B5D"
 			tasks: [{
@@ -400,8 +400,177 @@
 				item: "irons_spellbooks:pedestal"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["3A226597FB53BABA"]
+			description: [
+				"You can now craft an &6aircraft&r that helps you travel across long distance!"
+				"Collect the following &bingredient&r first!"
+				""
+				"There are&6 4 types of plane&r, choose the one you like!"
+			]
+			id: "4DC669FBB3F255B0"
+			tasks: [
+				{
+					id: "72F9844E6A6F5A76"
+					item: "immersive_aircraft:boiler"
+					type: "item"
+				}
+				{
+					id: "3BD386D38F13034F"
+					item: "immersive_aircraft:propeller"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DC669FBB3F255B0"]
+			description: [
+				"&bBiplane&r is the most &6advanced Aircraft&r. It is &6fast and reliable&r. However, it also requires a &4long runway&r."
+				""
+				"Note:"
+				"You need to press &dS &rto &6launch off&r."
+			]
+			id: "7C4092BAD06B289B"
+			tasks: [{
+				id: "4742310BC790D3BB"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4DC669FBB3F255B0"]
+			id: "6DF891C7FD6BC680"
+			tasks: [
+				{
+					id: "614F07DA1768B879"
+					item: "immersive_aircraft:sail"
+					type: "item"
+				}
+				{
+					id: "2DFA3F52615186E8"
+					item: "immersive_aircraft:engine"
+					type: "item"
+				}
+				{
+					id: "11C641BF46527437"
+					item: "immersive_aircraft:hull"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6DF891C7FD6BC680"]
+			description: ["&bAirship&r requires &6fuels&r and can &6take off immediately&r. It also &6travel fast&r."]
+			id: "0EDD7A1EC1366109"
+			tasks: [{
+				id: "6788931E57B92013"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0EDD7A1EC1366109"]
+			description: ["&bCargo Airship&r provides more&6 storage slots&r, which is suitable for moving items for long distance."]
+			id: "3FF0479C3F2E0B15"
+			tasks: [{
+				id: "0A0493157916CD0B"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6DF891C7FD6BC680"]
+			description: [
+				"&bDyrodyne&r is the &6simplest&r aircraft which does not require any fuels."
+				"However, it is &6slow&r and require a &6distance for taking off&r."
+			]
+			id: "38087F0DBD5B1DFE"
+			tasks: [{
+				id: "5E64124509B5A249"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CF8993D0576384F"]
+			description: ["&bWarp Scroll&r is a &6portable&r version of waystone. &dRC&r to &6open waystone menu&r to teleport."]
+			id: "214BA74E51510831"
+			tasks: [{
+				id: "2C323C512500ED79"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3A226597FB53BABA"]
+			description: ["Why not connect your distant bases and access them within a short time via &6Waystone&r?"]
+			id: "2CF8993D0576384F"
+			tasks: [
+				{
+					id: "618BD00CEFC53D8D"
+					item: {
+						Count: 1b
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31332A3C745C02B4"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			title: "&6Waystone&r"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CF8993D0576384F"]
+			description: [
+				"&bWarp Plate&r is another version of &6waystone.&r It teleports you when &dcrouching&r."
+				"Link the warp plate by putting the &6attuned stone&r generated into another plate."
+			]
+			id: "703AED1CDAB93020"
+			tasks: [{
+				id: "0695D39F4E818D33"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2CF8993D0576384F"]
+			description: ["&bPortstone&r is a type of Waystone that allows you to teleport to other places, but not to teleport back."]
+			id: "6AE2B9581EF0C939"
+			tasks: [{
+				id: "1F96FB0C9259086B"
+				item: "waystones:portstone"
+				type: "item"
+			}]
+			title: "&bPortstone&r"
+			x: -2.0d
+			y: -4.0d
 		}
 	]
 	title: "Projects"

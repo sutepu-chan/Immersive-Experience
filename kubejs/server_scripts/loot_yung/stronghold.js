@@ -72,7 +72,7 @@ LootJS.modifiers(e => {
                 LootEntry.of('epicsamurai:diamond_samurai_boots').when(c => c.randomChance(0.05)),
                 LootEntry.of('irons_spellbooks:pumpkin_boots').when(c => c.randomChance(0.05)),
             )
-            p.enchantWithLevels([20, 30]);
+            p.enchantWithLevels(30, true);
         });
 
     e.addLootTableModifier('betterstrongholds:chests/common')
@@ -191,7 +191,7 @@ LootJS.modifiers(e => {
                 LootEntry.of('simplyswords:iron_cutlass').when(c => c.randomChance(0.08)),
                 LootEntry.of('simplyswords:iron_warglaive').when(c => c.randomChance(0.08)),
             )
-            p.enchantWithLevels([5, 20]);
+            p.enchantWithLevels([10, 20]);
         });
 
     e.addLootTableModifier('betterstrongholds:chests/crypt')
@@ -235,7 +235,7 @@ LootJS.modifiers(e => {
         )
         .pool(p => {
             p.addLoot(LootEntry.of('minecraft:book').when(c => c.randomChance(0.4)));
-            p.enchantWithLevels(30);
+            p.enchantWithLevels(30, true);
         })
         .pool(p => {
             p.addLoot(LootEntry.of('minecraft:book').when(c => c.randomChance(0.6)));
@@ -270,7 +270,7 @@ LootJS.modifiers(e => {
         )
         .pool(p => {
             p.addLoot(LootEntry.of('minecraft:book').when(c => c.randomChance(0.4)));
-            p.enchantWithLevels(30);
+            p.enchantWithLevels(30, true);
         })
         .pool(p => {
             p.addLoot(LootEntry.of('minecraft:book').when(c => c.randomChance(0.6)));
@@ -396,7 +396,7 @@ LootJS.modifiers(e => {
                 LootEntry.of('simplyswords:runic_scythe').when(c => c.randomChance(0.1)),
                 LootEntry.of('simplyswords:runic_halberd').when(c => c.randomChance(0.1))
             )
-            p.enchantWithLevels(30);
+            p.enchantWithLevels(50, true);
         })
         .addLoot('simplyswords:empowered_remnant')
 

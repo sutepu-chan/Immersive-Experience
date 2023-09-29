@@ -273,24 +273,13 @@
 				item: "mutantmonsters:creeper_minion_tracker"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
-			description: ["Ender dragon can be &6tamed&r in this pack. Before taming, you definitely need to defeat the &5ender dragon&r!"]
-			id: "3042BB8D927A6F8C"
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "077475EE95C563D4"
-				type: "kill"
-				value: 1L
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3042BB8D927A6F8C"]
 			description: [
+				"Ender dragon can be &6tamed&r in this pack. Before taming, you definitely need to defeat the &5ender dragon&r!"
+				""
 				"After obtaining the dragon egg, you can now start your &6hatching process&r."
 				""
 				"You have &b2 options&r:"
@@ -331,7 +320,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0B3684BC88B70BEE"]
@@ -379,7 +368,7 @@
 			]
 			title: "Time to go Fishing"
 			x: 2.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["133FF7B1D2380DC9"]
@@ -394,7 +383,7 @@
 				type: "item"
 			}]
 			title: "Riding the dragon"
-			x: 0.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{

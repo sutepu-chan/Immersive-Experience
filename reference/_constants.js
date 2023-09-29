@@ -100,7 +100,6 @@ LootJS.modifiers(e => {
     const mediumRareOre = [
         LootEntry.of('epicsamurai:silver_ingot', 2).when(c => c.randomChance(0.1)),
         LootEntry.of('epicsamurai:amethyst_ingot', 2).when(c => c.randomChance(0.1)),
-        LootEntry.of('epicsamurai:quartz_ingot', 2).when(c => c.randomChance(0.1)),
         LootEntry.of('epicsamurai:jade', 2).when(c => c.randomChance(0.1)),
         LootEntry.of('epicsamurai:aquamarine', 2).when(c => c.randomChance(0.1)),
         LootEntry.of('epicsamurai:onyx', 2).when(c => c.randomChance(0.1)),
@@ -117,6 +116,7 @@ LootJS.modifiers(e => {
     const netherOre = [
         LootEntry.of('minecraft:quartz', 3).when(c => c.randomChance(0.2)),
         LootEntry.of('epicpaladins:moonlight_gem', 2).when(c => c.randomChance(0.1)),
+        LootEntry.of('epicsamurai:quartz_ingot', 2).when(c => c.randomChance(0.1)),
 
     ]
     const rareNetherOre = [
