@@ -304,6 +304,19 @@
 			x: 2.0d
 			y: -2.0d
 		}
+		{
+			description: ["\"The &5Shiraz Palace&r is an incredibly large palace for you to explore. However, a terrible creature lives on top of the palace, protecting the treasures. It has a ridiculously high armor value. Try to make wise use of &dmagic&r to deal damage to it!"]
+			id: "68A42D4D95031142"
+			tasks: [{
+				icon: "minecraft:brown_glazed_terracotta"
+				id: "0F480012A98B407B"
+				structure: "dungeons_arise:shiraz_palace"
+				title: "Find a &5Shiraz Palace&r"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
 	]
 	title: "Mo' Dungeons and Structures"
 }

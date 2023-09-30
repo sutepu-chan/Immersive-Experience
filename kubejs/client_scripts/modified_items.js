@@ -1,10 +1,11 @@
 REIEvents.hide('item', e => {
 
-    const cataclysmItems = [
+    const buffedItems = [
         'cataclysm:the_incinerator',
         'cataclysm:gauntlet_of_bulwark',
         'cataclysm:tidal_claws',
         'cataclysm:gauntlet_of_guard',
+        'fromtheshadows:thirst_for_blood'
     ];
     cataclysmItems.forEach(item => {
         e.hide(item);
@@ -157,6 +158,39 @@ REIEvents.add('item', e => {
                 Name:"Weapon modifier",
                 Slot:mainhand,
                 UUID:[I;-123816,24513,35530,-49626]
+            }
+        ]
+    }`));
+
+    e.add(Item.of('fromtheshadows:thirst_for_blood', `{
+        AttributeModifiers:[
+            {
+                Amount:20,
+                AttributeName:"minecraft:generic.attack_damage",
+                Name:"Weapon modifier",
+                Slot:mainhand,
+                UUID:[I;-123830,20909,1600,-41818]
+            },
+            {
+                Amount:-2.6,
+                AttributeName:"minecraft:generic.attack_speed",
+                Name:"Weapon modifier",
+                Slot:mainhand,
+                UUID:[I;-123830,20909,1600,-42018]
+            },
+            {
+                AttributeName:"obscure_api:critical_hit",
+                Amount:0.23,
+                Name:"Weapon modifier",
+                Slot:mainhand,
+                UUID:[I;-123830,20909,1600,-42218]
+            },
+            {
+                AttributeName:"obscure_api:critical_damage",
+                Amount:1.35,
+                Name:"Weapon modifier",
+                Slot:mainhand,
+                UUID:[I;-123830,20909,1600,-42418]
             }
         ]
     }`));

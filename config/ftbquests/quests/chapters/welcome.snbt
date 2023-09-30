@@ -126,9 +126,10 @@
 			description: ["&bBlaze Rods&r are now &6placeable&r on ground, like end rods. It becomes new items for decoration."]
 			id: "74141897684DD802"
 			rewards: [{
-				id: "5958E16A2E9F43BD"
-				type: "xp"
-				xp: 100
+				exclude_from_claim_all: true
+				id: "7758283BDB7A284C"
+				table_id: 3416584882695544973L
+				type: "random"
 			}]
 			tasks: [{
 				id: "26AA43C868A7F039"
@@ -198,9 +199,15 @@
 			description: [
 				"All the keybinds mentioned in quests are set to default. Remember to check your &6keybind settings&r if you find certain keys don't work."
 				""
-				"1.20 is weird... Sometimes your keybind is not set as default. Remember to click '&6reset to default&r' if needed."
+				"1.20 is weird... Sometimes your keybind is not set as default. Remember to click &6\"reset to default\"&r if needed."
 			]
 			id: "7DF42CB6DF98E97B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C06DB7691E94714"
+				table_id: 3416584882695544973L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4926074067B37880"
 				title: "Check your &6Keybinds"
@@ -208,6 +215,63 @@
 			}]
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			description: [
+				"&6&nAttack Damage&r:"
+				"This is the &bdamage&r you deal to mobs without armor."
+				""
+				"&6&nAttack Speed&r:"
+				"This is the &bnumber of attacks&r performed per second."
+				"e.g., 1.5 attack speed = you perform 1.5 attacks per sec = 3 attacks per 2 sec"
+				""
+				"&6&nCrit Hit&r:"
+				"This is the &bprobability&r of scoring a critical hit."
+				"e.g., 0.35 crit hit = you have a 35% chance to deal a critical hit to mobs"
+				""
+				"&6&nCrit Damage&r:"
+				"This is the &bextra amount of damage &rdealt by a critical hit (a critical hit in Minecraft already carries 2x the amount of damage)."
+				"e.g., 0.5 crit damage = you deal an extra 50% damage under a critical hit"
+				""
+				"{@pagebreak}"
+				"Due to modpack limitations, I cannot change the original base attribute values of armors and gears. Therefore, my approach is to add extra values onto the base value, which is why you will see two descriptions for these attributes."
+				""
+				"All you have to do is simply add the attributes together. Using the following weapon as an example,"
+				"Attack Damage = 8 + 1 = 9"
+				"Attack Speed = 1.6 + 0.1 = 1.7"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B8D7F9E106EEF64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "468A6A4528AAE343"
+				table_id: 3416584882695544973L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55A53F4339C30E8E"
+				title: "Understeanding attributes"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Not all &bquests&r are unlocked and visible at first. With your &aprogress&r, more quests will be unlocked. Remember to check the quests and look for &6updates&r!"]
+			id: "7910A1F28670C97E"
+			tasks: [{
+				id: "1F908D28D458FB73"
+				title: "Progress Forward"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "Welcome"

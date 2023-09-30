@@ -43,7 +43,7 @@ ItemEvents.tooltip(e => {
     //#endregion
 
     //#region creative
-    let creative = [
+    let creativeItems = [
         'ironfurnaces:rainbow_coal',
         'mtr:resource_pack_creator',
         'mtr:bridge_creator_3',
@@ -76,8 +76,8 @@ ItemEvents.tooltip(e => {
         'mtr:tunnel_wall_creator_6_9',
         'mtr:cable_car_node_station',
     ];
-    creative.forEach(items => {
-        tooltips.gray(items, 'Creative, unobtainable!');
+    creativeItems.forEach(creativeItem => {
+        tooltips.gray(creativeItem, 'Creative Item, unobtainable!');
     });
     //#endregion
 

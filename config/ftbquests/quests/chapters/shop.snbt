@@ -74,7 +74,7 @@
 				type: "item"
 			}]
 			title: "&6Explorer's Compass"
-			x: 0.0d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
@@ -156,12 +156,24 @@
 			}
 			id: "7A6AE222E6C26AEE"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0468D0B0F925EA7D"
-				table_id: 4125960065121793971L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0468D0B0F925EA7D"
+					table_id: 4125960065121793971L
+					type: "loot"
+				}
+				{
+					id: "6C6BD355646F12C0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "14C7BAC8964CFF69"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				id: "582374C7170D7F86"
@@ -180,12 +192,24 @@
 			icon: "cataclysm:altar_of_void"
 			id: "5C2A36B92660307C"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7E50143976138300"
-				table_id: 4125960065121793971L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E50143976138300"
+					table_id: 4125960065121793971L
+					type: "loot"
+				}
+				{
+					id: "12834A08BF037A36"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1154EE8016D3D2EF"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "farlanders:ender_guardian"
 				id: "122DC4556609484F"
@@ -209,12 +233,24 @@
 			icon: "cataclysm:emp"
 			id: "6A190A22933C165E"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "407FB64C407089C3"
-				table_id: 4125960065121793971L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "407FB64C407089C3"
+					table_id: 4125960065121793971L
+					type: "loot"
+				}
+				{
+					id: "1564D418B4602D66"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5B6336D02CE83311"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				id: "132CDF816064711E"
@@ -233,12 +269,24 @@
 			icon: "cataclysm:abyssal_egg"
 			id: "7D18717545BBB198"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "670F1C85650AA6B6"
-				table_id: 4125960065121793971L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "670F1C85650AA6B6"
+					table_id: 4125960065121793971L
+					type: "loot"
+				}
+				{
+					id: "1240BB9B65BEF5B9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "68D745BF155DE4DD"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				id: "4AE76ECCC7E034BA"
@@ -257,12 +305,24 @@
 			icon: "cataclysm:bulwark_of_the_flame"
 			id: "5BBFB4E8CD21F7C5"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6F5AC2ED2DE55F61"
-				table_id: 4125960065121793971L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F5AC2ED2DE55F61"
+					table_id: 4125960065121793971L
+					type: "random"
+				}
+				{
+					id: "6D7C5E85F4A8AEED"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7C5BE50AEB20A237"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:ignis"
 				id: "710896054B2657D8"
@@ -489,6 +549,72 @@
 			title: "Enderdeadman"
 			x: -4.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["1F19B83479B02347"]
+			description: ["After defeating the LV.20 &5Ender Dragon&r, you can obtain one unique weapon in every defeat."]
+			id: "18AA7D01C07AFF95"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15A8E3831FA2F35F"
+					table_id: 4125960065121793971L
+					type: "random"
+				}
+				{
+					id: "74641706F179C8D9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "39E7B1B7F1071321"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "083FF2F98E2B0D10"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5MX Ender Dragon&r"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39F1C572E332B440"]
+			description: ["After defeating the LV.10 &5Wither&r, you can obtain one unique weapon in every defeat."]
+			id: "3580877F040B049C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A725B7EC1C7B7CC"
+					table_id: 4125960065121793971L
+					type: "random"
+				}
+				{
+					id: "7468C26A6B98BD7A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "21B57CF1231D56BC"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:nether_star"
+				id: "738E9EE2236D79EF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5MX Wither&r"
+			x: 2.0d
+			y: 4.0d
 		}
 	]
 	title: "Shop"

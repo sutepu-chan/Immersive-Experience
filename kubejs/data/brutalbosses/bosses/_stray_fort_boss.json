@@ -1,0 +1,76 @@
+{
+    "entity": "minecraft:stray",
+    "name": "§3Snowdrift Overlord",
+    "visualscale": 1.2,
+    "experience": 900,
+    "effects": {
+        "minecraft:regeneration": 0,
+        "minecraft:strength": 0,
+        "minecraft:glowing": 0
+    },
+    "attributes": {
+        "generic.max_health": 1000,
+        "generic.follow_range": 40,
+        "generic.attack_damage": 8,
+        "generic.armor": 24
+    },
+    "customattributes": {
+        "dropgear": 1
+    },
+    "gear": {
+        "mainhand": "{id: \"nyfsarcheryplus:netherite_bow\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"projectile_damage:generic\", UUID: [I;-123830,22302,2645,-44604], Amount: 30, Name: \"Bow Modifier\"}], display: {Name: '[{\"text\":\"Bow of Blizz\",\"italic\":true,\"color\":\"aqua\"}]'}}}"
+    },
+    "ai-goals": {
+        "brutalbosses:itemshootgoal": {
+            "projectile_count": 5,
+            "projectile_interval": 30,
+            "projectile_distance": 25,
+            "projectile_speed": 1.4,
+            "projectile_aoe": true,
+            "projectilesize": 2.5,
+            "item": "{id: \"minecraft:snowball\", Count: 1b}",
+            "damage": 10
+        },
+        "brutalbosses:summonmobs": {
+            "interval": 600,
+            "maxcount": 9,
+            "count": 3,
+            "entities": [
+                {
+                    "entityid": "minecraft:stray"
+                },
+                {
+                    "entityid": "minecraft:vindicator"
+                },
+                {
+                    "entityid": "minecraft:evoker"
+                }
+            ]
+        },
+        "brutalbosses:whirldwind": {
+            "healthinterval": "75-0",
+            "attackdist": 5,
+            "extradamage": 3,
+            "potiononhit": "minecraft:weakness",
+            "potionlevel": 1,
+            "potionduration": 80,
+            "knockback": 8,
+            "cooldown": 200,
+            "knockup": true
+        },
+        "brutalbosses:whirldwind1": {
+            "healthinterval": "75-0",
+            "attackdist": 5,
+            "extradamage": 3,
+            "potiononhit": "minecraft:slowness",
+            "potionlevel": 2,
+            "potionduration": 120,
+            "knockback": 8,
+            "cooldown": 140,
+            "knockup": true
+        }
+    },
+    "spawnatchest": {
+        "nova_structures:chests/stray_fort_tresure": 1
+    }
+}

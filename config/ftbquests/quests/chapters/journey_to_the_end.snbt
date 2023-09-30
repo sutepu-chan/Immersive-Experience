@@ -44,7 +44,7 @@
 		}
 		{
 			dependencies: ["4662D714D1FBEB68"]
-			description: ["&9Magical Eye&r is dropped by &5Illusioner&r."]
+			description: ["&9Magical Eye&r is dropped by &5Illusioner&r, which can be spawned naturally or via special in-game events."]
 			id: "3231A678E6DEAB49"
 			tasks: [{
 				id: "39B2AFD65169270B"
@@ -307,7 +307,7 @@
 		}
 		{
 			dependencies: ["745CDCF61A86DCE7"]
-			description: ["&dCursed Eye&r can be obtained by killing &dCleric&r (a mob spawns naturally)."]
+			description: ["&dCursed Eye&r can be obtained by killing &dCleric&r (a mob spawns in raids)."]
 			hide: true
 			id: "53B92A87872B31D5"
 			tasks: [{
@@ -359,6 +359,19 @@
 				"&7The ways of obtaining the eyes are modified and are a bit different from the original mod content. Don't waste time in killing &czombies, witches, etc.&r."
 			]
 			id: "4759E87D89591D59"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C1F91EC23F75B15"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+				{
+					id: "078AEF4CFBC8C4CE"
+					type: "xp"
+					xp: 25
+				}
+			]
 			tasks: [{
 				id: "5E5D8BA6A187CD9B"
 				title: "What is this chapter?"

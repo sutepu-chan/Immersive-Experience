@@ -289,8 +289,8 @@
 				value: 1L
 			}]
 			title: "&4Nehemoth - the king of cave"
-			x: 4.0d
-			y: 0.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["352CE5900BAE3041"]
@@ -537,7 +537,7 @@
 				value: 30L
 			}]
 			x: 2.0d
-			y: 20.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -562,8 +562,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -8.0d
-			y: -4.0d
+			x: -26.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -589,8 +589,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -8.0d
-			y: -6.0d
+			x: -28.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -616,8 +616,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -8.0d
-			y: 0.0d
+			x: -28.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -642,8 +642,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -10.0d
-			y: -4.0d
+			x: -26.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["5063F43A5622FF09"]
@@ -668,8 +668,8 @@
 				type: "dimension"
 			}]
 			title: "Entering &8the Otherside&r"
-			x: -8.0d
-			y: -2.0d
+			x: -24.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -695,8 +695,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -10.0d
-			y: 0.0d
+			x: -28.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1177EE213831E998"]
@@ -721,8 +721,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -10.0d
-			y: -2.0d
+			x: -26.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -1233,8 +1233,8 @@
 				}
 			]
 			title: "&bCryorium Samurai"
-			x: 14.0d
-			y: 8.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["65233C0C2B6463E0"]
@@ -1418,8 +1418,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 10.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2FC9B01A160A5C0E"]
@@ -1479,8 +1479,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 10.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["65233C0C2B6463E0"]
@@ -1621,7 +1621,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["66DBD397DD7C86DC"]
@@ -1780,7 +1780,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3D3740EAFED9F41F"]
@@ -1797,7 +1797,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["603A3C6F6C1EF687"]
@@ -1814,7 +1814,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3D3740EAFED9F41F"]
@@ -1831,7 +1831,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0957A4C6B76B3E0E"]
@@ -2956,7 +2956,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3B8132ABF9C1FA60"]
@@ -3469,7 +3469,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0B97651D5151062D"]
@@ -3661,7 +3661,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["0AE56FEBFA8C2394"]
+			dependencies: ["72BFDC167B05BBE4"]
 			description: ["Find the &2Deep Dark Biome&r."]
 			id: "4D298AA0BA084E21"
 			rewards: [{
@@ -3677,12 +3677,12 @@
 				type: "biome"
 			}]
 			title: "&2Deep Dark Biome&r"
-			x: -2.0d
-			y: -2.0d
+			x: -22.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["4D298AA0BA084E21"]
-			description: ["Find the Kill the &3Warden&r."]
+			description: ["The &3Warden&r is much stronger than in vanilla Minecraft. Don't challenge it until you have &6good gear&r."]
 			id: "5063F43A5622FF09"
 			rewards: [
 				{
@@ -3722,8 +3722,8 @@
 				}
 			]
 			title: "Defeat the &3Warden"
-			x: -4.0d
-			y: -2.0d
+			x: -22.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["66D494BEBC50B231"]
@@ -3747,7 +3747,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:netherrack"
@@ -3757,7 +3757,7 @@
 			}]
 			title: "Venturing into &4the Nether&r"
 			x: 0.0d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
@@ -3770,7 +3770,7 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			size: 1.0d
+			size: 1.5d
 			tasks: [
 				{
 					id: "69FBD9053F257557"
@@ -3789,8 +3789,8 @@
 				}
 			]
 			title: "&6Netherites"
-			x: 10.0d
-			y: 6.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -3906,7 +3906,7 @@
 				}
 			]
 			x: 18.0d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -3974,8 +3974,8 @@
 				}
 			]
 			title: "&4Cultist"
-			x: 16.0d
-			y: 6.0d
+			x: 20.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -4044,7 +4044,7 @@
 			]
 			title: "&cPyromancer"
 			x: 18.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -4112,8 +4112,8 @@
 				}
 			]
 			title: "&eElectromancer"
-			x: 16.0d
-			y: 4.0d
+			x: 18.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -4182,7 +4182,7 @@
 			]
 			title: "&aArchevoker"
 			x: 18.0d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -4251,7 +4251,7 @@
 			]
 			title: "&6Priest"
 			x: 20.0d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -4320,7 +4320,7 @@
 			]
 			title: "&3Shadow-Walker"
 			x: 20.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -4389,7 +4389,7 @@
 			]
 			title: "&bCyromancer"
 			x: 20.0d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0148948D87C2AD46"]
@@ -4456,7 +4456,7 @@
 				}
 			]
 			x: 16.0d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["246A19339FC2A821"]
@@ -4516,7 +4516,7 @@
 			]
 			title: "Wandering Magician"
 			x: 16.0d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -4583,7 +4583,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["246A19339FC2A821"]
@@ -4600,7 +4600,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["246A19339FC2A821"]
@@ -4617,7 +4617,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["5E143D194DEC6161"]
@@ -4829,7 +4829,7 @@
 				}
 			]
 			x: 18.0d
-			y: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2369E08DA0CBB964"]
@@ -4879,7 +4879,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["58DEC07517992391"]
@@ -5102,12 +5102,16 @@
 				item: "deeperdarker:reinforced_echo_shard"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -22.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["115B98781912E453"]
-			description: ["The &bWarden Armor&r is a powerful armor set obtained in the Overworld, surpassing even the strength of &6netherite armors&r."]
+			description: [
+				"The &bWarden Armor&r is a powerful armor set obtained in the Overworld, surpassing even the strength of &6netherite armors&r."
+				""
+				"This set also &6grants you extra effect&r, easing your exploration in the Ancient City and the Otherside."
+			]
 			id: "5AE9A6F198433A50"
 			optional: true
 			rewards: [{
@@ -5164,8 +5168,8 @@
 				}
 			]
 			title: "&3Warden Armor"
-			x: -4.0d
-			y: 2.0d
+			x: -20.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["115B98781912E453"]
@@ -5226,8 +5230,8 @@
 				}
 			]
 			title: "&3Warden Samurai"
-			x: -6.0d
-			y: 0.0d
+			x: -22.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2F4AE6CE2202BCA2"]
@@ -5292,8 +5296,8 @@
 				}
 			]
 			title: "Netherite-Iron Armor"
-			x: 12.0d
-			y: 12.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["57AE08DD9801A6C9"]
@@ -5309,14 +5313,14 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "537F2510582B3C93"
 				item: "advancednetherite:netherite_iron_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 12.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2F4AE6CE2202BCA2"]
@@ -5345,8 +5349,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: 12.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6004A50560DE2AC6"]
@@ -5376,8 +5380,8 @@
 				type: "item"
 			}]
 			title: "&6Netherite-Gold Sword"
-			x: 14.0d
-			y: 14.0d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2F4AE6CE2202BCA2"]
@@ -5388,15 +5392,15 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "4EC43B7192A64073"
 				item: "advancednetherite:netherite_gold_ingot"
 				type: "item"
 			}]
 			title: "&6Netherite-Gold Ingot"
-			x: 10.0d
-			y: 14.0d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6004A50560DE2AC6"]
@@ -5461,8 +5465,8 @@
 				}
 			]
 			title: "&6Netherite-Gold Armor"
-			x: 12.0d
-			y: 14.0d
+			x: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6249221DEA11AD4C"]
@@ -5527,8 +5531,8 @@
 				}
 			]
 			title: "&2Netherite_Emerald Armor"
-			x: 12.0d
-			y: 16.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6004A50560DE2AC6"]
@@ -5539,15 +5543,15 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "1B64EE97DB08FC71"
 				item: "advancednetherite:netherite_emerald_ingot"
 				type: "item"
 			}]
 			title: "&2Netherite_Emerald Ingot"
-			x: 10.0d
-			y: 16.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6249221DEA11AD4C"]
@@ -5577,8 +5581,8 @@
 				type: "item"
 			}]
 			title: "&2Netherite_Emerald Sword"
-			x: 14.0d
-			y: 16.0d
+			x: 12.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["47E3ADF179E2AF98"]
@@ -5608,8 +5612,8 @@
 				type: "item"
 			}]
 			title: "&bNetherite-Diamond Sword"
-			x: 14.0d
-			y: 18.0d
+			x: 12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["6249221DEA11AD4C"]
@@ -5620,15 +5624,15 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "1896F101279A2251"
 				item: "advancednetherite:netherite_diamond_ingot"
 				type: "item"
 			}]
 			title: "&bNetherite-Diamond Ingot"
-			x: 10.0d
-			y: 18.0d
+			x: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["47E3ADF179E2AF98"]
@@ -5693,8 +5697,8 @@
 				}
 			]
 			title: "&bNetherite-Diamond Armor"
-			x: 12.0d
-			y: 18.0d
+			x: 10.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["57AE08DD9801A6C9"]
@@ -5717,8 +5721,8 @@
 				type: "item"
 			}]
 			title: "&6Netherite Weapons"
-			x: 12.0d
-			y: 6.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
@@ -5731,7 +5735,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				icon: "minecraft:nether_bricks"
 				id: "7990817C5AE9178A"
@@ -5740,8 +5744,8 @@
 				type: "structure"
 			}]
 			title: "Find &cthe Fortress"
-			x: 0.0d
-			y: 8.0d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
@@ -5768,7 +5772,7 @@
 				value: 1L
 			}]
 			x: -6.0d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
@@ -5795,7 +5799,7 @@
 				value: 10L
 			}]
 			x: -4.0d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1B5E1F3844153536"]
@@ -5827,6 +5831,20 @@
 				"- Wither will start shoting skulls to &6random targets&r nearby at rate of 5 skulls/1-10s"
 			]
 			id: "17BB368DB4FFFF9C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C28241230AC81D1"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A3928499791EB6A"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_rose"
@@ -5835,8 +5853,8 @@
 				value: 1L
 			}]
 			title: "&dFirst Wither Fight&r"
-			x: -4.0d
-			y: 8.0d
+			x: -6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["17BB368DB4FFFF9C"]
@@ -5850,6 +5868,21 @@
 				"Minions are also buffed in higher difficulties. They will be able to walk faster, have higher chance to wield an &6enchanted Bow/Sword&r with higher level of &6sharpness / power&r."
 			]
 			id: "1DA6CDC69A9143C2"
+			rewards: [
+				{
+					id: "19D9584777CB2A82"
+					item: "minecraft:diamond_block"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "20064EBEEC351F22"
+					item: "minecraft:netherite_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "majruszsdifficulty:wither_treasure_bag"
@@ -5868,6 +5901,21 @@
 				"Now, &6Wither Explosion&r causes &6fire&r."
 			]
 			id: "51D68E3A0054D994"
+			rewards: [
+				{
+					count: 2
+					id: "44CC398942628EBB"
+					item: "advancednetherite:netherite_gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FC582F98819EE7B"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "progressivebosses:nether_star_shard"
@@ -5883,6 +5931,25 @@
 			dependencies: ["51D68E3A0054D994"]
 			description: ["Prepare this fight with the &6best possible weapon and armor&r, and of course some potion for &6magic damage&r."]
 			id: "39F1C572E332B440"
+			rewards: [
+				{
+					id: "15967CFD0201F3DA"
+					item: "majruszsdifficulty:enderium_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "23352CF3C5A0B3C4"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37C6A825D9B13B98"
+					table_id: 4125960065121793971L
+					type: "random"
+				}
+			]
 			tasks: [{
 				advancement: "progressivebosses:max_diff_wither"
 				criterion: ""
@@ -5942,6 +6009,7 @@
 				}
 			]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_breath"
@@ -5950,8 +6018,8 @@
 				value: 1L
 			}]
 			title: "&5Savage Ender Dragon"
-			x: 0.0d
-			y: 16.0d
+			x: -2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0A1CC5A6A873E3CA"]
@@ -5963,6 +6031,21 @@
 				"Besides, &5Ender Dragon&r may starts &6summonning Larvae&r every 2 minutes, which brings additional challenges to you."
 			]
 			id: "1BFFC00EF45D04E2"
+			rewards: [
+				{
+					count: 2
+					id: "06EEEBD9B6F6F6C0"
+					item: "advancednetherite:netherite_emerald_ingot"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64991CF95023EB47"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_egg"
@@ -5984,6 +6067,21 @@
 				"&5Ender Dragon&r may starts &6summonning Minions&r every 2-3 minutes."
 			]
 			id: "75172170154E2990"
+			rewards: [
+				{
+					count: 2
+					id: "4B7DE21FAF4ADADB"
+					item: "advancednetherite:netherite_diamond_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0691910FE3F4074B"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "majruszsdifficulty:ender_dragon_treasure_bag"
@@ -5999,6 +6097,25 @@
 			dependencies: ["75172170154E2990"]
 			description: ["Prepare this fight with the &6best possible weapon and armor&r."]
 			id: "1F19B83479B02347"
+			rewards: [
+				{
+					id: "7B76DC2D1D482955"
+					item: "majruszsdifficulty:enderium_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "58B420129B0696E6"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EFE09CD615BDF7B"
+					table_id: 4125960065121793971L
+					type: "random"
+				}
+			]
 			tasks: [{
 				advancement: "progressivebosses:max_diff_dragon"
 				criterion: ""
@@ -6034,7 +6151,7 @@
 				value: 10L
 			}]
 			x: -2.0d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -6423,8 +6540,8 @@
 				title: "&2Warden Sword&r"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -20.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -6516,8 +6633,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 8.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["275C3DA382B728BF"]
@@ -6541,8 +6658,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["66DBD397DD7C86DC"]
@@ -6667,8 +6784,8 @@
 				}
 			]
 			title: "&cNetherite Armor&r "
-			x: 12.0d
-			y: 8.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["764C557A3C82FA84"]
@@ -6681,6 +6798,7 @@
 				type: "loot"
 			}]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				advancement: "1_splatus:ultris/blazepath/blazetower"
 				criterion: ""
@@ -6689,8 +6807,8 @@
 				type: "advancement"
 			}]
 			title: "&cBlaze King Tower&r"
-			x: 0.0d
-			y: 10.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["78EC8A11A4DD5406"]
@@ -6708,6 +6826,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				advancement: "1_splatus:ultris/blazepath/kingblazekill"
 				criterion: ""
@@ -6745,8 +6864,8 @@
 				type: "advancement"
 			}]
 			title: "&6Blaze King&r"
-			x: 0.0d
-			y: 12.0d
+			x: -2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["764C557A3C82FA84"]
@@ -6772,12 +6891,12 @@
 				item: { Count: 3b, id: "minecraft:wither_skeleton_skull" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: -6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["764C557A3C82FA84"]
-			description: ["Find and kill &c6 Blaze&r. You will need some &6Blaze Rods&r and &6Blaze Powder&r for your journey."]
+			description: ["Find and kill &c3 Blaze&r. You will need some &6Blaze Rods&r and &6Blaze Powder&r for your journey."]
 			id: "31ECC4BAF3F524E0"
 			rewards: [{
 				count: 2
@@ -6786,15 +6905,16 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
 				id: "2B261FFE38CDB427"
 				type: "kill"
-				value: 6L
+				value: 3L
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -6896,13 +7016,14 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "0C0EA252874BCCC2"
 				item: "minecraft:brewing_stand"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 10.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["443E019BCCD859BF"]
@@ -6928,6 +7049,7 @@
 				}
 			]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				advancement: "1_splatus:ultris/giantdefeat"
 				criterion: ""
@@ -6935,8 +7057,8 @@
 				title: "Stronger than &aGiant&r"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 14.0d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4C5E484E77AA865B"]
@@ -6950,6 +7072,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "69F91CB59C909931"
 				item: {
@@ -6961,8 +7084,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 12.0d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["66D494BEBC50B231"]
@@ -6997,8 +7120,8 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["66DBD397DD7C86DC"]
@@ -7220,7 +7343,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["3A88AAE96B6BB165"]
+			dependencies: ["764C557A3C82FA84"]
 			description: [
 				"Craft an &5Eye of Ender&r... Wait! This pack is not simple Minecraft. Crafting an ender pearl &6doesn't help you find a stronghold&r. However, you can still complete this quest for a reward :)"
 				""
@@ -7238,8 +7361,8 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: -4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0AE56FEBFA8C2394"]
@@ -7266,8 +7389,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["48393696FD0EEC07"]
@@ -7293,8 +7416,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -7318,6 +7441,7 @@
 				}
 			]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				dimension: "minecraft:the_end"
 				icon: "minecraft:end_portal_frame"
@@ -7325,8 +7449,8 @@
 				title: "Deep to the End"
 				type: "dimension"
 			}]
-			x: 0.0d
-			y: 14.0d
+			x: -2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["691B87423B72FD93"]
@@ -7387,8 +7511,8 @@
 				}
 			]
 			title: "&eCrust Armor"
-			x: 4.0d
-			y: 2.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3C179B42EEBABCF3"]
@@ -7449,8 +7573,8 @@
 				}
 			]
 			title: "&eDiabolium Armor"
-			x: 6.0d
-			y: 0.0d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1FE458DD0531E608"]
@@ -7484,6 +7608,7 @@
 				}
 			]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "2FB0677E7F468442"
 				title: "&cEXPERT MODE"
@@ -7491,7 +7616,7 @@
 			}]
 			title: "&cEXPERT MODE"
 			x: 0.0d
-			y: 18.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6F4DB0C5351F9116"]
@@ -7523,6 +7648,7 @@
 				}
 			]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "3D8CA132B81848A5"
 				title: "&2MASTER MODE"
@@ -7556,7 +7682,7 @@
 				value: 120L
 			}]
 			x: 4.0d
-			y: 18.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["113B1FA9ECCF4319"]
@@ -7583,7 +7709,7 @@
 				value: 120L
 			}]
 			x: 6.0d
-			y: 18.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["113B1FA9ECCF4319"]
@@ -7610,7 +7736,7 @@
 				value: 120L
 			}]
 			x: 2.0d
-			y: 18.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["22DE8D94F09C2C37"]
@@ -7664,7 +7790,7 @@
 				value: 40L
 			}]
 			x: 2.0d
-			y: 16.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["22DE8D94F09C2C37"]
@@ -7718,7 +7844,7 @@
 				value: 50L
 			}]
 			x: 4.0d
-			y: 16.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["113B1FA9ECCF4319"]
@@ -7746,7 +7872,7 @@
 				value: 20L
 			}]
 			x: 4.0d
-			y: 20.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7D237EDAA683540E"]
@@ -7759,6 +7885,7 @@
 				type: "command"
 			}]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				icon: "cataclysm:altar_of_void"
@@ -7977,6 +8104,7 @@
 				}
 			]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				advancement: "minecraft:end/enter_end_gateway"
 				criterion: ""
@@ -7986,7 +8114,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 22.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["3A88AAE96B6BB165"]
@@ -8011,8 +8139,8 @@
 				title: "Get a &9Runic Weapon&r"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3227DC29012D2428"]
@@ -8111,8 +8239,8 @@
 				item: "enchantinginfuser:enchanting_infuser"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 18.0d
+			x: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7CC2FC597B533D43"]
@@ -8144,8 +8272,8 @@
 				item: "simplyswords:runic_tablet"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["53E1E3EED607FD91"]
@@ -8274,8 +8402,8 @@
 				item: "enlightened_end:ennegel_block"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 22.0d
+			x: 2.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["7D237EDAA683540E"]
@@ -8293,7 +8421,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 22.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["49968CDAE01E8A84"]
@@ -8310,7 +8438,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 22.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["51398545773B95E0"]
@@ -8330,7 +8458,7 @@
 			}]
 			title: "&6Smithing Template for Enderium&r"
 			x: 6.0d
-			y: 22.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -8410,8 +8538,8 @@
 				}
 			]
 			title: "&6Endrium Armor"
-			x: 10.0d
-			y: 22.0d
+			x: 8.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["3E58435292CC7B0B"]
@@ -8454,7 +8582,29 @@
 			}]
 			title: "&6Enderium Sword&r"
 			x: 6.0d
-			y: 20.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7C8E51BC42921CD8"]
+			description: ["&aAcid Split&r is able to reduce the armor value of mobs... It is incredibly useful in specific situations. Prepare one now!"]
+			id: "66D3C423529E64CE"
+			tasks: [{
+				id: "5D2A528EE969C0B6"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_spell: {
+							id: "irons_spellbooks:acid_orb"
+							level: 10
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&aAcid Split&r - Scroll of armor reduction"
+			x: 16.0d
+			y: 2.0d
 		}
 	]
 	title: "Adventure"

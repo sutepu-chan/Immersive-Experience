@@ -1,0 +1,42 @@
+{
+    "entity": "cataclysm:amethyst_crab",
+    "name": "§dAmethylene Crabyst",
+    "visualscale": 1.2,
+    "experience": 1500,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:fire_resistance": 0,
+        "minecraft:speed": 2
+    },
+    "attributes": {
+        "generic.max_health": 1500,
+        "generic.follow_range": 25,
+        "generic.attack_damage": 20,
+        "generic.armor": 100
+    },
+    "customattributes": {
+        "projectile_damage_bonus": 5
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 3
+        },
+        "brutalbosses:summonmobs": {
+            "healthinterval": "100-50",
+            "interval": 900,
+            "maxcount": 8,
+            "count": 4,
+            "entities": [
+                {
+                    "entityid": "cataclysm:deepling_brute"
+                },
+                {
+                    "entityid": "cataclysm:deepling_priest"
+                }
+            ]
+        }
+    },
+    "spawnatchest": {
+        "dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure": 1
+    }
+}

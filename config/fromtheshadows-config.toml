@@ -34,11 +34,11 @@
 [SpawnRate]
 	#Changed Nehemoth SpawnRate. [0 ~ 100]
 	#Range: 0 ~ 100
-	"Nehemoth SpawnRate" = 3
+	"Nehemoth SpawnRate" = 10
 	#Changed Bulldrogioth SpawnRate. [0 ~ 100]
 	#Range: 0 ~ 100
-	"Bulldrogioth SpawnRate" = 5
+	"Bulldrogioth SpawnRate" = 15
 	#Changed Froglin SpawnRate. [0 ~ 100]
 	#Range: 0 ~ 100
-	"Froglin SpawnRate" = 15
+	"Froglin SpawnRate" = 25
 

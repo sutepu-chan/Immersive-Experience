@@ -25,7 +25,7 @@
 	#Determines the default Minecraft menu style to switch to with the menu theme button
 	"Default Minecraft menu style" = "cumulus_menus:minecraft"
 	#Adds random trivia and tips to the bottom of loading screens
-	"Enables random trivia" = true
+	"Enables random trivia" = false
 	#Makes the extra hearts given by life shards display as silver colored
 	"Enables silver life shard hearts" = false
 	#Disables the Aether's accessories button from appearing in GUIs
@@ -65,5 +65,7 @@
 
 [Miscellaneous]
 	#Disables the Cumulus menu selection screen button on launch
-	"Disable Cumulus button" = false
+	"Disable Cumulus button" = true
+	#Enables a direct join button for the official server
+	"Enables server button" = true
 

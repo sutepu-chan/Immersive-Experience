@@ -11,7 +11,7 @@ LootJS.modifiers(e => {
         .removeLoot('endrem:corrupted_eye');
     e.addEntityLootModifier('minecraft:enderman')
         .anyDimension("minecraft:the_end")
-        .randomChance(0.1)
+        .randomChance(0.05)
         .addLoot('endrem:corrupted_eye');
 
     e.addLootTypeModifier(LootType.ENTITY)

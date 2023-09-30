@@ -1113,5 +1113,29 @@ ItemEvents.modification(e => {
 			$AM$Operation.ADDITION
 		);
 	});
+
+	e.modify('fromtheshadows:thirst_for_blood', (item) => {
+		item.addAttribute(
+			'minecraft:generic.attack_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			9, //18
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_hit',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			0.23,
+			$AM$Operation.ADDITION
+		);
+		item.addAttribute(
+			'obscure_api:critical_damage',
+			$UUID.randomUUID(),
+			"Weapon modifier",
+			1.3,
+			$AM$Operation.ADDITION
+		);
+	})
 	//#endregion
 });
