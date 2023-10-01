@@ -61,6 +61,7 @@
       {
           "type": "effect",
           "name": "minecraft:speed",
+          "description": "Speed I",
           "value": 0.0,
           "hideBonusDescription": true
       }
