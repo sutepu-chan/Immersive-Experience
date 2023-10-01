@@ -50,7 +50,7 @@
       },
       {
         "type": "attribute",
-        "name": "emeralds_spellbooks:max_mana",
+        "name": "irons_spellbooks:max_mana",
         "modifierUUID": "81344a6c-70f8-4c53-8d59-8c19a1259588",
         "value": 40,
         "description": "+40 Max Mana",

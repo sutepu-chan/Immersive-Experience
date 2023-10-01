@@ -50,7 +50,7 @@
       },
       {
         "type": "attribute",
-        "name": "golds_spellbooks:max_mana",
+        "name": "irons_spellbooks:max_mana",
         "modifierUUID": "19517431-f4fa-43f7-a199-b4b8b6319cdb",
         "value": 30,
         "description": "+30 Max Mana",

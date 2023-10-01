@@ -50,7 +50,7 @@
       },
       {
         "type": "attribute",
-        "name": "diamonds_spellbooks:max_mana",
+        "name": "irons_spellbooks:max_mana",
         "modifierUUID": "7e67d23b-16ee-4d75-881a-7d6806e08d4d",
         "value": 50,
         "description": "+50 Max Mana",
