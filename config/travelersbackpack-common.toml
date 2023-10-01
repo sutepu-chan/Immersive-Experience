@@ -11,7 +11,18 @@
 		invulnerableBackpack = true
 		toolSlotsAcceptSwords = true
 		#List of items that can be put in tool slots (Use registry names, for example: minecraft:apple)
-		toolSlotsAcceptableItems = []
+		toolSlotsAcceptableItems = [
+			"cataclysm:the_incinerator",
+			"cataclysm:gauntlet_of_guard",
+			"cataclysm:gauntlet_of_bulwark",
+			"cataclysm:tidal_claws",
+			"cataclysm:coral_spear",
+			"cataclysm:coral_bardiche",
+			"cataclysm:coral_bardiche",
+			"cataclysm:wither_assault_shoulder_weapon",
+			"cataclysm:void_assault_shoulder_weapon",
+			"minecraft:trident"
+		]
 		#List of items that can't be put in backpack inventory (Use registry names, for example: minecraft:apple)
 		blacklistedItems = []
 		allowShulkerBoxes = false
@@ -20,13 +31,13 @@
 		#Prevents backpack disappearing in void
 		voidProtection = true
 		#Places backpack at place where player died
-		backpackDeathPlace = true
+		backpackDeathPlace = false
 		#Places backpack at place where player died, replacing all blocks that are breakable and do not have inventory (backpackDeathPlace must be true in order to work)
 		backpackForceDeathPlace = false
 		enableSleepingBagSpawnPoint = false
 		#If true, backpack can only be worn by placing it in curios 'Back' slot
 		#WARNING - Remember to TAKE OFF BACKPACK BEFORE enabling or disabling this integration!! - if not you'll lose your backpack
-		curiosIntegration = false
+		curiosIntegration = true
 
 	[common.world]
 		#Enables backpacks spawning in loot chests

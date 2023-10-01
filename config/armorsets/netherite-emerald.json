@@ -1,0 +1,69 @@
+{
+    "armorSetName": "netherite-emerald",
+    "performanceMode": true,
+    "head": {
+      "itemKey": "advancednetherite:netherite_emerald_helmet",
+      "mustBeEmpty": false
+    },
+    "chest": {
+      "itemKey": "advancednetherite:netherite_emerald_chestplate",
+      "mustBeEmpty": false
+    },
+    "legs": {
+      "itemKey": "advancednetherite:netherite_emerald_leggings",
+      "mustBeEmpty": false
+    },
+    "boots": {
+      "itemKey": "advancednetherite:netherite_emerald_boots",
+      "mustBeEmpty": false
+    },
+    "fullSetBonuses": [
+      {
+        "type": "attribute",
+        "name": "minecraft:generic.max_health",
+        "modifierUUID": "916f1c1d-4895-4424-9c17-0eb6b7a57b02",
+        "value": 4.0,
+        "description": "+4 Health",
+        "attributeOperation": 0,
+        "interactionType": "self",
+        "hideBonusDescription": false
+      },
+      {
+        "type": "attribute",
+        "name": "minecraft:generic.attack_damage",
+        "modifierUUID": "a8a0792e-c175-408f-90cd-53b8a6d70d86",
+        "value": 0.07,
+        "description": "+7% Attack Damage",
+        "attributeOperation": 2,
+        "interactionType": "self",
+        "hideBonusDescription": false
+      },
+      {
+        "type": "attribute",
+        "name": "minecraft:generic.armor",
+        "modifierUUID": "9ebca5b3-180a-405c-8c08-5947e0d6ff64",
+        "value": 6.0,
+        "description": "+6 Armor",
+        "attributeOperation": 0,
+        "interactionType": "self",
+        "hideBonusDescription": false
+      },
+      {
+        "type": "attribute",
+        "name": "emeralds_spellbooks:max_mana",
+        "modifierUUID": "81344a6c-70f8-4c53-8d59-8c19a1259588",
+        "value": 40,
+        "description": "+40 Max Mana",
+        "attributeOperation": 0,
+        "interactionType": "self",
+        "hideBonusDescription": false
+      },
+      {
+        "type": "effect",
+        "name": "minecraft:poison",
+        "interactionType": "immunity",
+        "description": "Poison immunity"
+      }
+    ],
+    "hideGeneratedTooltip": false
+  }

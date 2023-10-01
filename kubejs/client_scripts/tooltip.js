@@ -248,6 +248,10 @@ ItemEvents.tooltip(e => {
     ]);
     //#endregion
 
+    //#region mahoutsukai
+    tooltips.blue('mahoutsukai:staff_emrys', 'Hold RC while holding in offhand to summon zap')
+    //#endregion
+    
     //#region miscellaneous
     tooltips.darkPurple('manyideas_core:end_block', 'Just a decorative block')
     tooltips.blue('dragonmounts:dragon_egg', 'Dragon eggs will adapt to surrounding environment and change the breed.')

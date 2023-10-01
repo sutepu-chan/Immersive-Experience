@@ -1,0 +1,72 @@
+{
+  "armorSetName": "ignitium",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "cataclysm:ignitium_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "cataclysm:ignitium_chestplate",
+    "mustBeEmpty": false,
+    "mixAndMatch": [
+      "cataclysm:ignitium_elytra_chestplate"
+    ]
+  },
+  "legs": {
+    "itemKey": "cataclysm:ignitium_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "cataclysm:ignitium_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "modifierUUID": "5d22b467-48a0-4ebc-a27c-8d6d83bbf43d",
+      "value": 10.0,
+      "description": "+10 Health",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "modifierUUID": "6554c963-3691-4e40-8b1d-b3fc45033fa2",
+      "value": 0.3,
+      "description": "+3% Attack Damage",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "modifierUUID": "08a18601-b74c-4d2d-bd94-133bac3b7cca",
+      "value": 12.0,
+      "description": "+12 Armor",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "diamonds_spellbooks:max_mana",
+      "modifierUUID": "f53e68dd-beb4-4742-8985-b7be74c77fc1",
+      "value": 80,
+      "description": "+80 Max Mana",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:wither",
+      "interactionType": "immunity",
+      "description": "Wither immunity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

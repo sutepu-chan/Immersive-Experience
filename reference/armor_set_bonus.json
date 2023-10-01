@@ -1,0 +1,91 @@
+{ 
+    // String
+    "armorSetName": "diamond",
+    // Set to true to make the set only apply to players (and therefore reduce entity processing). Default = true
+    // optional
+    "performanceMode": true,
+    // SetPiece Object
+    // optional
+    // itemKey (STRING) mandatory
+    // mixAndMatch (STRING ARRAY) optional
+    // mustBeEmpty (BOOLEAN) Set to true to require that slot to be empty for the armor set to be valid
+    "head": {
+        "itemKey": "minecraft:diamond_helmet",
+        "mustBeEmpty": false
+    },
+    "chest": {
+        "itemKey": "minecraft:diamond_chestplate",
+        "mustBeEmpty": false
+    },
+    "legs": {
+        "itemKey": "minecraft:diamond_leggings",
+        "mustBeEmpty": false
+    },
+    "boots": {
+        "itemKey": "minecraft:diamond_boots",
+        "mustBeEmpty": false
+    },
+    "mainHand": {},
+    "offHand": {},
+    // no mixAndMatch, for curios
+    // optional
+    "additionalSetPieces": {},
+    // (INTEGER: Can only be 2 or 3.)
+    // optional
+    "partialBonusRequiredAmount": 2,
+    // (OBJECT ARRAY)
+    // Optional
+    "partialSetBonuses": [
+        {}
+    ],
+    // (OBJECT ARRAY) mandatory
+    "fullSetBonuses": [
+        {
+            "type": "attribute",
+            "name": "minecraft:generic.max_health",
+            // Level of the effect. Attribute: Amount to add (can be negative or decimal)
+            "value": 4.0,
+            // https://www.uuidtools.com/minecraft for attribute only
+            "modifierUUID": "f17372f3-a0ba-41a3-87d4-fd47eb1bb627",
+            // optional
+            "description": "+2 hearts",
+            // 0 = "ADDITION", 1 = "MULTIPLY_BASE", 2 = "MULTIPLY_TOTAL". Default = ADDITION
+            "attributeOperation": 0,
+            // "self", "attack", "interact", "immunity"
+            "interactionType": "self",
+            // intended for use when the interactionType is not "self"
+            // If undeclared, default is 300 (ticks).
+            "interactionDuration": 300,
+            // Hides this bonus entry from the tootip. Useful for secret effects
+            "hideBonusDescription": false,
+            // If set to true, the armor will only stop new effects applying to the character (meaning you can't remove effects by swapping armor).
+            "onlyImmuneToNewEffects": false,
+            // optional
+            "conditions": {
+                // "inLava", "inRain", "inWater", "onBlock", "isUsingMainHand", "isUsingOffHand"
+                "type": "",
+                // only used for the "onBlock" condition - you must specify the block key (eg. minecraft:dirt)
+                "extra": ""
+            }
+        },
+        {
+            "type": "effect",
+            "name": "minecraft:poison",
+            "interactionType": "immunity",
+            "description": "Poison immunity"
+        },
+        {
+            "type": "effect",
+            "name": "minecraft:strength",
+            "value": 0.0,
+            "hideBonusDescription": true
+        }
+    ],
+    "hideGeneratedTooltip": false,
+    // (STRING ARRAY) Adds custom lines to the tooltips (each new entry is a new line)
+    // Can be used alongside "hideGeneratedTooltip"
+    // optional
+    "customTooltips": [
+        ""
+    ]
+}

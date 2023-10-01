@@ -1,0 +1,69 @@
+{
+    "armorSetName": "netherite-diamond",
+    "performanceMode": true,
+    "head": {
+      "itemKey": "advancednetherite:netherite_diamond_helmet",
+      "mustBeEmpty": false
+    },
+    "chest": {
+      "itemKey": "advancednetherite:netherite_diamond_chestplate",
+      "mustBeEmpty": false
+    },
+    "legs": {
+      "itemKey": "advancednetherite:netherite_diamond_leggings",
+      "mustBeEmpty": false
+    },
+    "boots": {
+      "itemKey": "advancednetherite:netherite_diamond_boots",
+      "mustBeEmpty": false
+    },
+    "fullSetBonuses": [
+      {
+        "type": "attribute",
+        "name": "minecraft:generic.max_health",
+        "modifierUUID": "7d6679f6-769a-4e08-8be1-0c21b31b3807",
+        "value": 6.0,
+        "description": "+6 Health",
+        "attributeOperation": 0,
+        "interactionType": "self",
+        "hideBonusDescription": false
+      },
+      {
+        "type": "attribute",
+        "name": "minecraft:generic.attack_damage",
+        "modifierUUID": "589c084e-a62c-4240-afe2-03e54366ee67",
+        "value": 0.15,
+        "description": "+15% Attack Damage",
+        "attributeOperation": 2,
+        "interactionType": "self",
+        "hideBonusDescription": false
+      },
+      {
+        "type": "attribute",
+        "name": "minecraft:generic.armor",
+        "modifierUUID": "58790243-ce06-475b-9223-192e80e09b55",
+        "value": 8.0,
+        "description": "+8 Armor",
+        "attributeOperation": 0,
+        "interactionType": "self",
+        "hideBonusDescription": false
+      },
+      {
+        "type": "attribute",
+        "name": "diamonds_spellbooks:max_mana",
+        "modifierUUID": "7e67d23b-16ee-4d75-881a-7d6806e08d4d",
+        "value": 50,
+        "description": "+50 Max Mana",
+        "attributeOperation": 0,
+        "interactionType": "self",
+        "hideBonusDescription": false
+      },
+      {
+        "type": "effect",
+        "name": "minecraft:levitation",
+        "interactionType": "immunity",
+        "description": "Levitation immunity"
+      }
+    ],
+    "hideGeneratedTooltip": false
+  }
