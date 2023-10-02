@@ -1,11 +1,19 @@
 {
     "target": "monsterplus:glow_skeleton",
     "presets": {
-        "chance": 0.2,
+        "chance": 0.25,
         "list": [
             {
-                "id": "varied_mobs:assassin",
+                "id": "varied_mobs:tank",
                 "weight": 10
+            },
+            {
+                "id": "varied_mobs:titan",
+                "weight": 6
+            },
+            {
+                "id": "varied_mobs:assassin",
+                "weight": 8
             },
             {
                 "id": "varied_mobs:paladin",

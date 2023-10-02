@@ -532,7 +532,9 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			id: "753ECA6208547469"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2CFD0D0544AE5320"
@@ -580,7 +582,7 @@
 				value: 1L
 			}]
 			title: "&5MX Ender Dragon&r"
-			x: 0.0d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -613,7 +615,25 @@
 				value: 1L
 			}]
 			title: "&5MX Wither&r"
-			x: 2.0d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1FE458DD0531E608"]
+			description: ["You get an extra dragon egg every time you slain an Ender Dragon."]
+			hide: true
+			id: "3E8046F93033B406"
+			optional: true
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_egg"
+				id: "355B779FB9CE5E03"
+				title: "Dragon Egg"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
 			y: 4.0d
 		}
 	]

@@ -5,15 +5,15 @@
         "list": [
             {
                 "id": "varied_mobs:tank",
-                "weight": 8
+                "weight": 10
             },
             {
                 "id": "varied_mobs:titan",
-                "weight": 2
+                "weight": 6
             },
             {
                 "id": "varied_mobs:assassin",
-                "weight": 10
+                "weight": 8
             },
             {
                 "id": "varied_mobs:paladin",

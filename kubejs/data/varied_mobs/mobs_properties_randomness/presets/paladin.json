@@ -27,7 +27,7 @@
             "modifier_name": "Paladin Speed",
             "amount": {
                 "min": -0.2,
-                "max": 0.0
+                "max": 0.1
             },
             "operation": "multiply_base"
         },

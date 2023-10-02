@@ -26,8 +26,8 @@
             "id": "minecraft:generic.movement_speed",
             "modifier_name": "Samurai Speed",
             "amount": {
-                "min": -0.3,
-                "max": 0.1
+                "min": -0.2,
+                "max": 0.2
             },
             "operation": "multiply_base"
         },

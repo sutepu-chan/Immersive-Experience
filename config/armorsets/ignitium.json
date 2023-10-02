@@ -62,6 +62,16 @@
       "hideBonusDescription": false
     },
     {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "modifierUUID": "0f3d9393-00fa-4ce3-8711-d1e7f6798e6a",
+      "value": 100,
+      "description": "+100% spell power",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false
+    },
+    {
       "type": "effect",
       "name": "minecraft:wither",
       "interactionType": "immunity",

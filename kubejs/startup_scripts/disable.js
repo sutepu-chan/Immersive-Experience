@@ -19,5 +19,6 @@ global.recipe_disable = [
     'ironfurnaces:upgrade_allthemodium',
     'ironfurnaces:upgrade_vibranium',
     'ironfurnaces:upgrade_unobtainium',
-    'ironfurnaces:rainbow_coal'
+    'ironfurnaces:rainbow_coal',
+    'mahoutsukai:hammer'
 ]

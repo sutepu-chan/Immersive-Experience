@@ -5804,13 +5804,13 @@
 		{
 			dependencies: ["1B5E1F3844153536"]
 			description: [
-				"&dThe Wither &rhas been more deadly ever than before. The level increases every time you defeat one (&6max level 10&r).The tweaks are listed below."
+				"&dThe Wither &rhas been more deadly ever than before. The level increases every time you defeat one (&6max level 20&r).The tweaks are listed below."
 				""
-				"&c&nHealth:&r &6+900&r for each level."
+				"&c&nHealth:&r &6+450&r for each level."
 				""
-				"&c&nRegeneration:&r &6+1HP/s&r for each level (&6max 10HP/s&r) "
+				"&c&nRegeneration:&r &6+0.5HP/s&r for each level (&6max 10HP/s&r) "
 				""
-				"&c&nDamage Resistance:&r &6+4%&r resistance per level (&6max 40%&r) when HP>= 50% ,  and &6+6%&r per level (&6max 60%&r) when HP < 50%."
+				"&c&nDamage Resistance:&r &6+2%&r resistance per level (&6max 40%&r) when HP>= 50% ,  and &6+3%&r per level (&6max 60%&r) when HP < 50%."
 				""
 				"&c&nMagic Vulnerability:&r &6+100%&r more magic damage every 100 hp missing."
 				""
@@ -5859,7 +5859,7 @@
 		{
 			dependencies: ["17BB368DB4FFFF9C"]
 			description: [
-				"After defeating your 3rd Wither, &dWither&r reaches &clv.3&r"
+				"After defeating your 6th Wither, &dWither&r reaches &clv.6&r"
 				""
 				"&6Minions&r are spawned every 30-60 seconds. The amount of spawned Minions increases by 2 in every level. When the hp belows 50%, the Minions are spawned more frequently."
 				""
@@ -5887,17 +5887,18 @@
 				entity: "minecraft:wither"
 				icon: "majruszsdifficulty:wither_treasure_bag"
 				id: "27E119D89EBE83BB"
+				title: "Reach LV.6 Wither"
 				type: "kill"
-				value: 3L
+				value: 5L
 			}]
-			title: "&dWither &clv.3"
+			title: "&dWither &clv.6"
 			x: -6.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["1DA6CDC69A9143C2"]
 			description: [
-				"After defeating your 7th Wither, &dWither&r reaches &clv.7&r"
+				"After defeating your 14th Wither, &dWither&r reaches &clv.14&r"
 				"Now, &6Wither Explosion&r causes &6fire&r."
 			]
 			id: "51D68E3A0054D994"
@@ -5920,10 +5921,11 @@
 				entity: "minecraft:wither"
 				icon: "progressivebosses:nether_star_shard"
 				id: "5A794786B58241E8"
+				title: "Reach LV.14 Wither"
 				type: "kill"
-				value: 7L
+				value: 8L
 			}]
-			title: "&dWither &clv.7"
+			title: "&dWither &clv.14"
 			x: -6.0d
 			y: 10.0d
 		}
@@ -5951,12 +5953,18 @@
 				}
 			]
 			tasks: [{
-				advancement: "progressivebosses:max_diff_wither"
-				criterion: ""
-				icon: "minecraft:nether_star"
-				id: "20EAA2C9B84ACFB8"
+				entity: "minecraft:wither"
+				icon: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3CEDC7717E1DCCAB"
 				title: "Defeat a &dWither&r with&c max level"
-				type: "advancement"
+				type: "kill"
+				value: 6L
 			}]
 			x: -6.0d
 			y: 12.0d
@@ -6050,8 +6058,9 @@
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_egg"
 				id: "4D633BBB59EBA3ED"
+				title: "Reach LV.5 Ender Dragon"
 				type: "kill"
-				value: 5L
+				value: 4L
 			}]
 			title: "&dEnder Dragon &clv.5"
 			x: -4.0d
@@ -6086,8 +6095,9 @@
 				entity: "minecraft:ender_dragon"
 				icon: "majruszsdifficulty:ender_dragon_treasure_bag"
 				id: "0DA16F523250F072"
+				title: "Reach LV.10 Ender Dragon"
 				type: "kill"
-				value: 10L
+				value: 5L
 			}]
 			title: "&dEnder Dragon &clv.10"
 			x: -6.0d
@@ -6117,11 +6127,12 @@
 				}
 			]
 			tasks: [{
-				advancement: "progressivebosses:max_diff_dragon"
-				criterion: ""
-				id: "0ADEF152E2D4BC13"
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "27F179BD5BA41994"
 				title: "Defeat an &dEnder Dragon&r with&c max level"
-				type: "advancement"
+				type: "kill"
+				value: 10L
 			}]
 			x: -6.0d
 			y: 16.0d
@@ -8600,6 +8611,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "&aAcid Split&r - Scroll of armor reduction"

@@ -16,32 +16,7 @@ REIEvents.information(e => {
 
         return formattedSentence;
     };
-    /*
-    //#region archery plus
-    const arrowheads = [
-        'stone',
-        'iron',
-        'gold',
-        'diamond',
-        'netherite'
-    ];
-    arrowheads.forEach(material => {
-        if (material != 'gold') {
-            e.addItem(`nyfsarcheryplus:${material}_arrowhead`,
-                `${material}_arrowhead`.format(),
-                [
-                    `Crafted by a piece of §l${material}§r and a piece of §lflint§r in §lsmithing table§r`
-                ])
-        } else {
-            e.addItem(`nyfsarcheryplus:${material}en_arrowhead`,
-                `${material}en_arrowhead`.format(),
-                [
-                    `Crafted by a piece of §l${material}§r and a piece of §lflint§r in §lsmithing table§r`
-                ])
-        }
-    });
-    //#endregion
-    */
+    
     //#region car
     e.addItem('car:canola_cake', 'canola_cake'.format(), [
         'A side product obtained from putting Canola into Oil Mill.'

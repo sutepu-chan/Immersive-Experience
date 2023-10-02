@@ -143,55 +143,6 @@
                     "weight": 1
                 }
             ]
-        },
-        "main_hand": {
-            "items": [
-                {
-                    "id": "nyfsarcheryplus:iron_bow",
-                    "drop_chance": 0.0,
-                    "enchantments": [
-                        {
-                            "id": "minecraft:vanishing_curse",
-                            "with_levels": {
-                                "min": 5,
-                                "max": 15
-                            },
-                            "chance": 0.66
-                        }
-                    ],
-                    "weight": 20
-                },
-                {
-                    "id": "nyfsarcheryplus:golden_bow",
-                    "drop_chance": 0.0,
-                    "enchantments": [
-                        {
-                            "id": "minecraft:vanishing_curse",
-                            "with_levels": {
-                                "min": 5,
-                                "max": 15
-                            },
-                            "chance": 0.33
-                        }
-                    ],
-                    "weight": 10
-                },
-                {
-                    "id": "nyfsarcheryplus:diamond_bow",
-                    "drop_chance": 0.0,
-                    "enchantments": [
-                        {
-                            "id": "minecraft:vanishing_curse",
-                            "with_levels": {
-                                "min": 5,
-                                "max": 15
-                            },
-                            "chance": 0.1
-                        }
-                    ],
-                    "weight": 3
-                }
-            ]
         }
     }
 }

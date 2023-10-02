@@ -22,7 +22,7 @@
 	[Wither.Minions]
 		#At which difficulty the Wither starts spawning Minions
 		#Range: > 0
-		"Minion at Difficulty" = 3
+		"Minion at Difficulty" = 6
 		#As the Wither starts spawning Minions, every how much difficulty the Wither will spawn one more Minion
 		#Range: > 0
 		"Bonus Minion Every Difficulty" = 2
@@ -76,7 +76,7 @@
 	[Wither."Difficulty Settings"]
 		#The Maximum difficulty (times spawned) reachable by Wither.
 		#Range: > 1
-		"Max Difficulty" = 10
+		"Max Difficulty" = 20
 		#How much difficulty will players start with when joining a world? Note that this will apply when the first Wither is spawned so if the player has already spawned one this will not apply.
 		#Range: > 0
 		"Starting Difficulty" = 0
@@ -160,7 +160,7 @@
 		"Explosion Power Bonus" = 8.0
 		#At this difficulty the Wither Explosion will cause fire. Set to -1 to disable.
 		#Range: > -1
-		"Explosion Causes Fire at Difficulty" = 7
+		"Explosion Causes Fire at Difficulty" = 14
 		#The Wither will no longer wait 1.0 seconds before breaking blocks when he's hit, instead just 0.5s
 		"Faster Breaking Blocks" = true
 		#The Wither will break even blocks below him when hit.

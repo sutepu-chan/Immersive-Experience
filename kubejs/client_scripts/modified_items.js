@@ -7,7 +7,7 @@ REIEvents.hide('item', e => {
         'cataclysm:gauntlet_of_guard',
         'fromtheshadows:thirst_for_blood'
     ];
-    cataclysmItems.forEach(item => {
+    buffedItems.forEach(item => {
         e.hide(item);
     });
 
