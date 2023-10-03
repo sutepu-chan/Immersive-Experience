@@ -1,5 +1,5 @@
 {
-    "armorSetName": "netherite-gold",
+    "armorSetName": "Netherite-Gold",
     "performanceMode": true,
     "head": {
       "itemKey": "advancednetherite:netherite_gold_helmet",
@@ -44,16 +44,6 @@
         "modifierUUID": "5b016021-f884-4f36-ac66-4960862a09f0",
         "value": 4.0,
         "description": "+4 Armor",
-        "attributeOperation": 0,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      },
-      {
-        "type": "attribute",
-        "name": "irons_spellbooks:max_mana",
-        "modifierUUID": "19517431-f4fa-43f7-a199-b4b8b6319cdb",
-        "value": 30,
-        "description": "+30 Max Mana",
         "attributeOperation": 0,
         "interactionType": "self",
         "hideBonusDescription": false

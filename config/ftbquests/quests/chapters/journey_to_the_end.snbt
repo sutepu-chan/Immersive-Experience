@@ -27,6 +27,19 @@
 			description: ["&2Rogue Eye&r is found in the &6treasure chest&r of &2Jungle Pyramids&r."]
 			hide: true
 			id: "101C669C8660AF72"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07513C7314E700FB"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "26D0BCD146C3FF4F"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "43F5E3297FEB54B9"
 				item: {
@@ -46,6 +59,19 @@
 			dependencies: ["4662D714D1FBEB68"]
 			description: ["&9Magical Eye&r is dropped by &5Illusioner&r, which can be spawned naturally or via special in-game events."]
 			id: "3231A678E6DEAB49"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A9C02FED40A28FA"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "04FDDE7831DD8782"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "39B2AFD65169270B"
 				item: {
@@ -70,6 +96,19 @@
 			]
 			hide: true
 			id: "1BA7D25E4F922F33"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A445BF0159C2BFD"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "407941B06C18A19E"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "594A57D9E474E9AE"
 				item: {
@@ -90,6 +129,19 @@
 			description: ["Wither Eye is dropped by defeating &dThe Wither&r."]
 			hide: true
 			id: "419260BFBC5BDC06"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5459E7A907728703"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "01B7DC23E856B911"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "2298F0D594F6A0EB"
 				item: {
@@ -110,6 +162,19 @@
 			description: ["&cGuardian Eye&r can be obtained by slaying the &3Elder Guardian&r."]
 			hide: true
 			id: "6CF0C386EBC0F44B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4FA9A22E62A8AF0D"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "11A70F99BD3BC968"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "700D114033F6CAF2"
 				item: {
@@ -130,6 +195,19 @@
 			description: ["&0Black Eye&r is obtained by defeating the &3Giant&r."]
 			hide: true
 			id: "22A01E0107674336"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B6175501925CB18"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "27837C436B807D09"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "3D564D3E127C0481"
 				item: {
@@ -150,6 +228,19 @@
 			description: ["&eOld Eye&r can be found in chests of &eDesert Pyramids&r."]
 			hide: true
 			id: "54101CF83D7447BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "346F7E75DF23BBE6"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "749868360DD2848A"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "378C9C789A797784"
 				item: {
@@ -170,6 +261,19 @@
 			description: ["&bCold Eye&r is obtained by killing &6Maws&r with a 10% chance."]
 			hide: true
 			id: "71DFC9F0DBE1400E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D5B04491D6DA62A"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "10FFB7387C7E3F77"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "6380001B79A274B3"
 				item: {
@@ -190,6 +294,19 @@
 			description: ["&8Lost Eye&r can be found in chests inside &8Mineshafts&r."]
 			hide: true
 			id: "40A1E505AD8441DB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23967A1A03912C21"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "68814D59C030A848"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "23A97293A53F17E9"
 				item: {
@@ -210,6 +327,19 @@
 			description: ["&aCryptic Eye&r has a small chance to be obtained when &5enchanting items&r."]
 			hide: true
 			id: "77BF4794B3E320F9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40D64AB9584CB9F9"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "73E471DED91C6325"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "3E79A8A8A423321E"
 				item: {
@@ -230,6 +360,19 @@
 			description: ["The &8Undead Eye&r can be crafted using an &8Undead Soul&r, which is dropped by &6Mutant Zombies&r."]
 			hide: true
 			id: "10034630779157D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C6E052D9E9C68EF"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "21D72051F21D978A"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "73A431DE9A4E07D6"
 				item: {
@@ -250,6 +393,19 @@
 			description: ["&3Exotic Eye&r can be obtained from the chests in &3Ocean Monuments&r."]
 			hide: true
 			id: "58764B341F312277"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03E4A6BB62D3EBB0"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "43F8A3A353A1FB42"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "505BD6E3F9FEF1CA"
 				item: {
@@ -270,6 +426,19 @@
 			description: ["&1Evil Eye&r can be purchased from a &9Master Cleric&r."]
 			hide: true
 			id: "6B1AB2F991C5DCB4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6AE8DDC965F4573B"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "710AB3E5EAFE86E5"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "607E2FEC701E592F"
 				item: {
@@ -290,6 +459,19 @@
 			description: ["&dWitch Eye&r can be crafted using the &2Witch Pupil&r, which is obtained from chests found in &2Witch Huts&r."]
 			hide: true
 			id: "6E0611B1C24B0887"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1ED159C3FA3E347B"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "15378B48644D936E"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "401BA1EABA8D82D9"
 				item: {
@@ -310,6 +492,19 @@
 			description: ["&dCursed Eye&r can be obtained by killing &dCleric&r (a mob spawns in raids)."]
 			hide: true
 			id: "53B92A87872B31D5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57556B8AE43BF156"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "325B90839FD2F656"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "518607F15A1856C2"
 				item: {
@@ -334,6 +529,19 @@
 			]
 			hide: true
 			id: "7275E1113FF94251"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0891DB3D5F0D5B5D"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "5A4E9B6FA180E062"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "065743A691016F9B"
 				item: {

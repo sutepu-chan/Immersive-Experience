@@ -24,6 +24,12 @@
 				"&6&nSwap theme:&r Allows &6changing the theme&r of the storage container, this only works for themes in the same tier."
 			]
 			id: "14D4A5E90EA351AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B27D80D3D635C86"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6F752E9A7D5C98AD"
 				item: {
@@ -46,6 +52,12 @@
 				"&7Now chests can be crafted directly with logs&r"
 			]
 			id: "78D38E5A67EF0C1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D2A9F957E9751C3"
+				table_id: 3416584882695544973L
+				type: "random"
+			}]
 			tasks: [{
 				id: "22AD84F9BFC6A5DA"
 				item: "minecraft:chest"
@@ -57,6 +69,12 @@
 		{
 			description: ["Basic Minecraft barrels"]
 			id: "3DC3B1A9B2D69708"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D1CB0E977227DCF"
+				table_id: 3416584882695544973L
+				type: "random"
+			}]
 			tasks: [{
 				id: "039A7C15941AC9D8"
 				item: "minecraft:barrel"
@@ -73,6 +91,12 @@
 				"They can also &6merge vertically and horizontally&r in the long direction to form tall and long chests in addition to vanilla's double chest (wide chest) and single chest."
 			]
 			id: "314A2A51411E55D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "181306F0ED3105EB"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0EAFB24E70587323"
 				item: "expandedstorage:wood_chest"
@@ -246,6 +270,12 @@
 			dependencies: ["7793421AFB8B68A7"]
 			description: ["A &6fun&r item (but &4expensive&r) for &6decorative&r purpose."]
 			id: "7A961068B99C37DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26BCFF1028E18337"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			tasks: [{
 				id: "043550365B82B18A"
 				item: "expandedstorage:netherite_mini_chest"
@@ -258,6 +288,12 @@
 			dependencies: ["70B680770E94DEDF"]
 			description: ["A &6fun&r item (but &4expensive&r) for &6decorative&r purpose."]
 			id: "55EB50097B91B466"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AE224B184A1B6B8"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1F2F3CF7DE399C74"
 				item: "expandedstorage:netherite_mini_barrel"
@@ -270,6 +306,12 @@
 			dependencies: ["314A2A51411E55D4"]
 			description: ["Try to collect all of them!"]
 			id: "4C3FA276BCCBD3AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C6A66F9C3A6CFCE"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "79CB5E6D90B008DE"
@@ -299,6 +341,11 @@
 		{
 			description: ["&bEnder Pouch&r is a &6movable ender chest&r. You don't need to carry an ender chest with silk touch pickaxe with your anymore."]
 			id: "77DA0B27F0930729"
+			rewards: [{
+				id: "08B86D383E1EA359"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D06546D541CE731"
 				item: {
@@ -326,6 +373,12 @@
 				"&a&nEmerald:&r make the chest accessible in FTB &6team&r network"
 			]
 			id: "45E35A9CCB50483D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41E55B6F37456DBE"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2764E28E5593E0DA"
 				item: {
@@ -348,6 +401,12 @@
 				"&dShift+RC&r to &6link&r to the  ender chest with designated colour code."
 			]
 			id: "6E0E13AF9B9DC445"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DF7A92B7E9C3A88"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "41D69BBA8A54E00F"
 				item: {
@@ -378,6 +437,12 @@
 				"&a&nEmerald:&r make the chest accessible in FTB &6team&r network"
 			]
 			id: "36D206E37DC8A6AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A7CCD01341C987B"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3DC4F4C2AFEF7821"
 				item: {
@@ -400,6 +465,12 @@
 				"&dShift+RC&r to &6link&r to the  ender chest with designated colour code."
 			]
 			id: "4735FC2F30F3D4B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34FC1B0D961DD7C6"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6CB671C5757302B0"
 				item: {
@@ -419,6 +490,12 @@
 		{
 			description: ["&bFunctional Storage&r is the elegant solutions for &6storing items or fluids in bulk&r. Every single drawers are able to store a large amount of items, up to millions with full upgrade."]
 			id: "4907DC827432E250"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "407BD80127AC30BE"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "25BD7D5E4E05DDEC"
@@ -449,6 +526,12 @@
 				"Drawers can be &6linked&r to controller with the help of a &blinking tool&r."
 			]
 			id: "4DE57464140B7833"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "400E9A4A95AB0564"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "1658355F094E4199"
@@ -473,6 +556,12 @@
 			dependencies: ["4907DC827432E250"]
 			description: ["&bConfiguration Tool&r configures the &6display&r of a drawer, or &6locking&r the drawer."]
 			id: "3D13F90B4C69235E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09A3EF441E092E8F"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "61CA8C968A6957AE"
 				item: {
@@ -491,6 +580,12 @@
 			dependencies: ["4DE57464140B7833"]
 			description: ["&bController Extension&r act as a &6storage controller&r when linked, allowing you have intputs or outputs at &6multiple&r locations."]
 			id: "667FCCD8D9F4EF3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "697CB9A86AF8683C"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5408C7B337118AF9"
 				item: "functionalstorage:controller_extension"
@@ -503,6 +598,12 @@
 			dependencies: ["4907DC827432E250"]
 			description: ["&bCompacting Drawer&r are suitable for storing items like ingots. All the nugget and block forms are accessible at the same time."]
 			id: "4B21111D0874BA0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E96FC49FCACA13D"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "4BA4954F021ED4E9"
@@ -522,6 +623,12 @@
 			dependencies: ["4907DC827432E250"]
 			description: ["Drawers supports different &bupgrades&r. Read the &6tooltip &rfor more info."]
 			id: "4569549231D57928"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39EAF6CC29D68720"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "2DC5A95E613574F9"
@@ -571,6 +678,11 @@
 		{
 			description: ["&bExperience Obelisk&r allows you to &6store and share&r your xp. No need to worry about losing all your experience!"]
 			id: "2E5265F43F1454D0"
+			rewards: [{
+				id: "1735F57EEAD68160"
+				type: "xp"
+				xp: 350
+			}]
 			tasks: [{
 				id: "1726206D7400DF2E"
 				item: {

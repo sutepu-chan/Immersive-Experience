@@ -12,10 +12,10 @@
 	FAE_NOISE = true
 	#X value of Mahou value on screen
 	#Range: 0 ~ 100000000
-	CLIENT_GUI_MAHOU_PLACEMENT_X = 20
+	CLIENT_GUI_MAHOU_PLACEMENT_X = 30
 	#Y value of Mahou value on screen
 	#Range: 0 ~ 100000000
-	CLIENT_GUI_MAHOU_PLACEMENT_Y = 10
+	CLIENT_GUI_MAHOU_PLACEMENT_Y = 5
 	#Ring speed for the Mystic Code
 	#Range: 0.0 ~ 1.0E8
 	MYSTIC_CODE_RING_SPEED = 1.0
@@ -47,7 +47,7 @@
 	INSIGHT_BOTTOM_Y = 0
 	#Quality of links of the chain, reducing can improve FPS
 	#Range: 3 ~ 10000
-	CHAIN_QUALITY = 11
+	CHAIN_QUALITY = 5
 	#How loud the chains are
 	#Range: 0.0 ~ 10.0
 	CHAIN_VOLUME = 0.01

@@ -973,7 +973,7 @@
 				}
 			]
 			title: "&bEpic Gems"
-			x: -2.0d
+			x: -4.0d
 			y: -6.0d
 		}
 		{
@@ -1109,7 +1109,7 @@
 				}
 			]
 			title: "&bSilver Samurai"
-			x: -2.0d
+			x: -4.0d
 			y: -4.0d
 		}
 		{
@@ -1171,7 +1171,7 @@
 				}
 			]
 			title: "&bRuby Samurai"
-			x: -6.0d
+			x: -8.0d
 			y: -4.0d
 		}
 		{
@@ -1295,7 +1295,7 @@
 				}
 			]
 			title: "&bAquamarine Samurai"
-			x: -4.0d
+			x: -6.0d
 			y: -6.0d
 		}
 		{
@@ -1357,7 +1357,7 @@
 				}
 			]
 			title: "&bOnyx Samurai"
-			x: -6.0d
+			x: -8.0d
 			y: -6.0d
 		}
 		{
@@ -1541,7 +1541,7 @@
 				}
 			]
 			title: "&bJade Samurai"
-			x: -4.0d
+			x: -6.0d
 			y: -4.0d
 		}
 		{
@@ -3906,7 +3906,7 @@
 				}
 			]
 			x: 18.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -3975,7 +3975,7 @@
 			]
 			title: "&4Cultist"
 			x: 20.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -4044,7 +4044,7 @@
 			]
 			title: "&cPyromancer"
 			x: 18.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -4113,7 +4113,7 @@
 			]
 			title: "&eElectromancer"
 			x: 18.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -4182,7 +4182,7 @@
 			]
 			title: "&aArchevoker"
 			x: 18.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -4251,7 +4251,7 @@
 			]
 			title: "&6Priest"
 			x: 20.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -4320,7 +4320,7 @@
 			]
 			title: "&3Shadow-Walker"
 			x: 20.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7C8E51BC42921CD8"]
@@ -4389,7 +4389,7 @@
 			]
 			title: "&bCyromancer"
 			x: 20.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0148948D87C2AD46"]
@@ -4516,7 +4516,7 @@
 			]
 			title: "Wandering Magician"
 			x: 16.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["72BFDC167B05BBE4"]
@@ -4583,7 +4583,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["246A19339FC2A821"]
@@ -4616,7 +4616,7 @@
 				item: "irons_spellbooks:arcane_ingot"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 18.0d
 			y: -10.0d
 		}
 		{
@@ -4724,13 +4724,13 @@
 				item: "irons_spellbooks:blank_rune"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -18.0d
+			x: 20.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["2369E08DA0CBB964"]
 			description: [
-				"There are &69 schools of magic&r, and you require a &bmagical focus&r to craft &6scrolls&r or &6gear pertaining&r to that school. The schools and their focus are:"
+				"There are &68 schools of magic&r, and you require a &bmagical focus&r to craft &6scrolls&r or &6gear pertaining&r to that school. The schools and their focus are:"
 				""
 				"&cFire&r - Blaze Rods"
 				"&bIce&r - Frozen Bones"
@@ -4739,8 +4739,9 @@
 				"&4Blood&r - Blood Vials"
 				"&2Ender&r - Ender Pearls"
 				"&aEvocation&r - Emeralds"
-				"&8Void&r - Echo Shards"
 				"&5Poison&r - Poisonous Potatoes"
+				""
+				"There are also 3 more craftable runes which requires &6arcane essence&r, &6phantom membrane&r and &6pufferfish&r."
 			]
 			id: "1B269BD7FC7EFCA2"
 			rewards: [
@@ -4751,61 +4752,89 @@
 					type: "random"
 				}
 				{
-					id: "031FB73CB22EE6AF"
-					type: "xp"
-					xp: 50
+					exclude_from_claim_all: true
+					id: "5C02023FD340CDDC"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21627C8FDD5A479D"
+					table_id: 5877745173198024707L
+					type: "random"
 				}
 			]
 			tasks: [
 				{
+					count: 8L
 					id: "32D853B530C741F5"
 					item: "minecraft:blaze_rod"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "083329EA5B7BB73F"
 					item: "irons_spellbooks:frozen_bone"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "336A8AB2587219C6"
 					item: "irons_spellbooks:lightning_bottle"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "7CB0F3D6650EF82E"
 					item: "irons_spellbooks:divine_pearl"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "61928311B843CBC2"
 					item: "irons_spellbooks:blood_vial"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "32A145002DCBFE3D"
 					item: "minecraft:ender_pearl"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "3B05E9C3BB560155"
 					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
-					id: "1E0E5A85E3E18D73"
-					item: "minecraft:echo_shard"
+					count: 8L
+					id: "71473A5F254F4E95"
+					item: "minecraft:poisonous_potato"
 					type: "item"
 				}
 				{
-					id: "71473A5F254F4E95"
-					item: "minecraft:poisonous_potato"
+					count: 8L
+					id: "7B4F071E8563A36D"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0356718C50D61245"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4F2C0F6328D73177"
+					item: "minecraft:phantom_membrane"
 					type: "item"
 				}
 			]
 			title: "Focuses"
 			x: 18.0d
-			y: -16.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["246A19339FC2A821"]
@@ -4829,7 +4858,7 @@
 				}
 			]
 			x: 18.0d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["2369E08DA0CBB964"]
@@ -4878,7 +4907,7 @@
 				item: "irons_spellbooks:upgrade_orb"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 18.0d
 			y: -8.0d
 		}
 		{
@@ -7889,12 +7918,43 @@
 			dependencies: ["7D237EDAA683540E"]
 			description: ["&9Ender Guardian&r is the &6most difficult&r mob to defeat in this pack (V1.0). Defeating the Ender Guardian brings you to the &2MASTER MODE&r."]
 			id: "6F4DB0C5351F9116"
-			rewards: [{
-				auto: "invisible"
-				command: "/gamestage remove master_locked"
-				id: "0EA8EBC86B924E45"
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/gamestage remove master_locked"
+					id: "0EA8EBC86B924E45"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5206FDF3DC459787"
+					table_id: 4125960065121793971L
+					type: "random"
+				}
+				{
+					id: "14EE4341AE9CF4C5"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E8A7F6D669DD026"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "039DF7E858ED0C94"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75FD6A5E4F3C6F9E"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -8163,6 +8223,24 @@
 				"To &6insert&r the gem, first open your inventory. &dLC&r the gem then the unique weapon to be inserted. The gem will then disappear from your cursor and goes into the socket of the weapon."
 			]
 			id: "39173F0F4F4C64DB"
+			rewards: [
+				{
+					id: "124DD11EB8187C96"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "660A4C369E106ADD"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "0F95A903595BAE05"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [
 				{
 					id: "387BF89972FDF36F"
@@ -8191,6 +8269,24 @@
 			dependencies: ["6F4DB0C5351F9116"]
 			description: ["&bUnique weapons&r are &6powerful&r weapons that can be obtained by defeating cataclysm bosses, or with a 20% chance while slaying the Wither or Ender Dragon. Each of them carries a &cunique ability&r to help you combat those fierce enemies."]
 			id: "7CC2FC597B533D43"
+			rewards: [
+				{
+					id: "50E36FC7877A952F"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "604CFB8A9B75E0C4"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "16A51C6BC3375BEB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			tasks: [{
 				id: "6AF1B38D96F8A763"
 				item: {
@@ -8211,6 +8307,24 @@
 			dependencies: ["7CC2FC597B533D43"]
 			description: ["Smelting of unique weapons results in Empowered Remnant."]
 			id: "3227DC29012D2428"
+			rewards: [
+				{
+					id: "381792C709EC9D68"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "54A3E5DEBD332F3B"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BF305EC0C2C0519"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "49D6E25D9AD687F5"
 				item: "simplyswords:empowered_remnant"
@@ -8261,6 +8375,37 @@
 				"Items could also be &6repaired&r using xp."
 			]
 			id: "09A224DCE34351B5"
+			rewards: [
+				{
+					count: 4
+					id: "68206E068B664878"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "61B497E18FB9D443"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "407BBD5FCA4A0925"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00383A025C9300D4"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "66F2737B20FB85A4"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5B0E2E851204BF48"
 				item: "enchantinginfuser:advanced_enchanting_infuser"
@@ -8617,6 +8762,1066 @@
 			title: "&aAcid Split&r - Scroll of armor reduction"
 			x: 16.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["352CE5900BAE3041"]
+			description: ["It's probably a good time to start engaging in the world of &5mahou&r early. The mahou capacity increases every time you use 100 mahou. In the early stages, the only way you can spend your mahou is by transferring it into this &battuned diamond&r."]
+			id: "6002CC2508951098"
+			tasks: [{
+				id: "45AD7FE8AC47FCC2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 0
+						}
+					}
+					id: "mahoutsukai:attuned_diamond"
+					tag: {
+						MAHOUTSUKAI_GEM_STORED_MANA: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F4DB0C5351F9116"]
+			description: ["In the &9Ruined Citadel&r, you will encounter some &5Ender Golems&r. Defeat them to get a &6Void Core&r."]
+			id: "6C6B81A18E4ABEA8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C08E1CDAA661FD1"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "3D2E0E83E1ECAEF6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4EABBA9178A00D88"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"13F85F82CA5CE974"
+				"766CE96DD06B7392"
+			]
+			description: ["Craft a &6Pestle and Mortar&r, you need this item to powder the ore for performing &dmahou&r."]
+			icon: "mahoutsukai:mortar_and_pestle"
+			id: "0036ED20F55509A6"
+			rewards: [
+				{
+					id: "20FF3E7AEA547C4F"
+					item: "mahoutsukai:guidebook"
+					type: "item"
+				}
+				{
+					id: "16707AE8FBF002E4"
+					item: "majruszsdifficulty:enderium_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B3B08706E323A66"
+				item: "mahoutsukai:mortar_and_pestle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6C6B81A18E4ABEA8"]
+			id: "13F85F82CA5CE974"
+			rewards: [{
+				id: "6E1DF33F70702503"
+				item: "majruszsdifficulty:enderium_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E6A3BAC2CE19198"
+				item: "mahoutsukai:pestle"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6C6B81A18E4ABEA8"]
+			id: "766CE96DD06B7392"
+			rewards: [{
+				id: "5E53BE5D77C579F4"
+				item: "majruszsdifficulty:enderium_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61EAFB6ABE56BD70"
+				item: "mahoutsukai:mortar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["0036ED20F55509A6"]
+			description: [
+				"Obtain all types of &apowdered ores&r at once. Different materials represent different categories of &dmahou&r, which are:"
+				""
+				"Iron - Boundaries"
+				"Ender Pearl - Displacement"
+				"Diamond - Projection"
+				"Emerald - Exchange"
+				"Gold - Mystic"
+				"Quartz - Intelligence"
+				"Ender Eye - Mystic Eyes"
+			]
+			id: "745A077A1A0F00CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D8B2CCEAA571BAA"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1120D484FCB30DEC"
+					item: "mahoutsukai:powdered_diamond"
+					type: "item"
+				}
+				{
+					id: "3923CD56F277DD70"
+					item: "mahoutsukai:powdered_emerald"
+					type: "item"
+				}
+				{
+					id: "59DEBC9DFD8AA7CB"
+					item: "mahoutsukai:powdered_ender"
+					type: "item"
+				}
+				{
+					id: "7936906946F2C4D4"
+					item: "mahoutsukai:powdered_eye"
+					type: "item"
+				}
+				{
+					id: "20277A62CE599202"
+					item: "mahoutsukai:powdered_gold"
+					type: "item"
+				}
+				{
+					id: "6F0CE525CA47A5F6"
+					item: "mahoutsukai:powdered_iron"
+					type: "item"
+				}
+				{
+					id: "59E12517523B526A"
+					item: "mahoutsukai:powdered_quartz"
+					type: "item"
+				}
+			]
+			title: "Powdered Materials"
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["745A077A1A0F00CB"]
+			description: ["You need to sacrifice your &4blood&r in order to draw a &dmahoujin&r. The sacrifice is made through &dRC&r with a &6dagger&r. Craft a dagger and begin your journey to mahoujin."]
+			id: "46DCFBB16977550E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5674D1CE252A1DCA"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [{
+				id: "550CF094FBDB2056"
+				item: "mahoutsukai:dagger"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["46DCFBB16977550E"]
+			description: ["Some &dmahou&r requires a &6spell cloth&r to perform. You need to draw your mahoujin after placing the cloth on the ground."]
+			id: "789FA64CBC44F10F"
+			rewards: [{
+				count: 16
+				id: "4494BAA3B6DA7F09"
+				item: "irons_spellbooks:arcane_essence"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E9DD4A6052727E6"
+				item: "mahoutsukai:spell_cloth"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["789FA64CBC44F10F"]
+			description: ["&6Mahoujin Projector&r is a fun and good item to decorate your base with."]
+			id: "0487FE10A977427B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39962A4706E01427"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44936CB4AF22594F"
+				item: "mahoutsukai:mahoujin_projector"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["789FA64CBC44F10F"]
+			description: ["&6Mystic Code&r helps you to hold your scrolls."]
+			id: "336D174190B63959"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FE1E819D8D1C093"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
+			tasks: [{
+				id: "16C2FB6A80035A6E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 3
+						}
+					}
+					id: "mahoutsukai:mystic_code_first_sorcery"
+					tag: {
+						Damage: 0
+						capability: {
+							Items: [ ]
+							Size: 3
+						}
+						slot1: "SLOT EMPTY"
+						slot2: "SLOT EMPTY"
+						slot3: "SLOT EMPTY"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["789FA64CBC44F10F"]
+			description: [
+				"&6Scroll of Strengthening&r is one of the most used scrolls in Mahou Tsukai. This scroll can strengthen your gear, making them temporarily unbreakable and increasing their damage output."
+				""
+				"This scroll is also used to acquire several artifacts."
+			]
+			id: "11833D8C62D45FBB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41F181B62F209223"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "434D2E8C956CF394"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "10089401E2D90D58"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+					id: "mahoutsukai:scroll_strengthening"
+					tag: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["11833D8C62D45FBB"]
+			description: ["Hold a &6stick&r in your offhand and use the &6Scroll of Strengthening&r. When you are hit by a lightning bolt, the strengthened stick will turn into &eEmrys&r. &eEmrys&r is a powerful AOE weapon and especially useful when you are surrounded by mobs. Note that it can only be used at offhand."]
+			id: "72E63EACAD0F78F1"
+			rewards: [
+				{
+					id: "37E6F510710FDE17"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_GEM_STORED_MANA: 10000
+							}
+						}
+						id: "mahoutsukai:attuned_diamond"
+						tag: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 10000
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C02836D76E367A0"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51EE4761995E2320"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0F2DB51579F6C8F0"
+				item: "mahoutsukai:staff_emrys"
+				type: "item"
+			}]
+			title: "&eEmrys&r"
+			x: 12.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["11833D8C62D45FBB"]
+			description: [
+				"&5Clarent the Usurper&r is a powerful sword obtained by RC'ing the &6dragon's breath&r with a &6Strengthened Sword&r."
+				""
+				"Rather than retaining a damage value, Clarent instead mirrors the damage of its &3opponent's weapon&r. It blocks all incoming attacks and releases its pent-up frustrations in its next attack."
+				""
+				"Upon each attack, Clarent &4wounds&r its target, dealing damage when they move too quickly."
+			]
+			id: "3238DF77799F0651"
+			rewards: [
+				{
+					id: "6D249FAF8C7F0F47"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_GEM_STORED_MANA: 10000
+							}
+						}
+						id: "mahoutsukai:attuned_diamond"
+						tag: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 10000
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B939DA94BE3C09F"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F3FDF9F9165F47C"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2B30B27C1451FC81"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+					id: "mahoutsukai:clarent"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5Clarent the Usurper&r"
+			x: 12.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["46DCFBB16977550E"]
+			description: [
+				"Perform &dPower Consolidation&r, a mahou that spawns a Lake. The spawned lake gradually grows in size and absorbs a total of &b50000 mahou&r from the caster."
+				""
+				"This is used to obtain &6Caliburn&r, the legendary holy sword. The caster can throw an &aenchanted sword&r into the lake. Caliburn will be summoned based on the damage of the sword plus extra based on its enchantments. More enchantments result in extra values."
+				""
+				"&6Caliburn&r makes undead and unholy mobs fear it and attempt to flee. RC will pull you and the mobs closer. This sword can also smite those unholy mobs with a cooldown."
+				""
+				"You can enchant &6Caliburn&r and throw it into the lake again to &9increase its damage&r."
+				"There is an &9innate limit&r to the damage of Caliburn. To unlock this limit, you can throw a &dnether star&r with Caliburn."
+			]
+			id: "4773AAF0945FBCD5"
+			rewards: [
+				{
+					id: "1D05EC0032F4B4BF"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "1E5CA8D5289E930C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "25B43570ED385F88"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 0.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+					id: "mahoutsukai:caliburn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Caliburn&r"
+			x: 10.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4773AAF0945FBCD5"]
+			description: [
+				"&5Morgan&r can be obtained by slaying your best and most loyal friend (i.e. &bwolf&r) with &6Caliburn&r. The damage value of Morgan will inherit that of Caliburn. Differing from Caliburn, Morgan is the wicked sword. It obtains its power from &akilling villagers, especially child villagers&r. Each passed away soul increases the damage value by 1 and recovers the durability."
+				""
+				"&dRC&r with this sword releases &5a ball of evil&r to stab and pull nearby enemies. It also provides a &cRage&r effect, which temporarily boosts attack speed and walking speed."
+			]
+			id: "6229E8AC7B24AF1F"
+			rewards: [
+				{
+					count: 2
+					id: "7BEC75599AA67002"
+					item: "minecraft:villager_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "5B9A1BF7D94CFA0E"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "6C8D70BF83081B60"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 0.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+					id: "mahoutsukai:morgan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5Morgan&r "
+			x: 12.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["11833D8C62D45FBB"]
+			description: [
+				"&cReplica&r is a mainhand greatshield with a number of abilities. To obtain this shield, you need to block an attack with a &6strengthened shield&r in your main hand, while also having &6Immunity Exchange&r, 5 layers of &6Damage Exchange&r, armor points above 15, and over 100 &6Death Collection Souls&r."
+				""
+				"There are a total of 4 abilities granted by the shield. You can read the &bKnowledge Compendium&r for more information."
+			]
+			id: "6997BA5B12B64D4F"
+			rewards: [
+				{
+					id: "5AE353640955287C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_GEM_STORED_MANA: 10000
+							}
+						}
+						id: "mahoutsukai:attuned_diamond"
+						tag: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 10000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F4E6DD070AA309C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+						id: "mahoutsukai:scroll_geas"
+						tag: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E839A477F2227AF"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "595A65F3ACBA8DC1"
+				item: {
+					Count: 1b
+					id: "mahoutsukai:replica"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&cReplica&r"
+			x: 12.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["789FA64CBC44F10F"]
+			description: ["&6Scroll of Weapon Projectile&r is used to summon the &bBow of Weapon Projectile&r."]
+			id: "1887AE58C67FCCF1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18D36A1720F50B94"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "23A3428A27A23758"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "6119C29DD3E3C758"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+					id: "mahoutsukai:scroll_weapon_shooter"
+					tag: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["1887AE58C67FCCF1"]
+			description: ["&bBow of Weapon Projectile&r is a powerful, but &6short-lived&r Artifact. It &6shoots out your weapons&r in the inventory while consuming large amounts of mahou, and &6deals 20 times damage of your weapon&r. Remember to pick your weapon back up after shooting it out."]
+			id: "79F7A2988AA5EEB5"
+			rewards: [
+				{
+					id: "2DC14A714DF27E8D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_GEM_STORED_MANA: 10000
+							}
+						}
+						id: "mahoutsukai:attuned_diamond"
+						tag: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 10000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C5E5786EDB1BD08"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "590ECAC8BCE7E65B"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56E0427FA5A16B80"
+				item: {
+					Count: 1b
+					id: "mahoutsukai:weapon_projectile_bow"
+					tag: {
+						Damage: 0
+						mahou_b: 255.0f
+						mahou_b2: 255.0f
+						mahou_g: 255.0f
+						mahou_g2: 255.0f
+						mahou_r: 179.0f
+						mahou_r2: 179.0f
+						mahoutsukai_ammo_stack: {
+							Count: 1b
+							id: "simplyswords:runic_halberd"
+							tag: {
+								Damage: 0
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&bBow of Weapon Projectile&r"
+			x: 10.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["789FA64CBC44F10F"]
+			description: ["&6Scroll of Spatial Disorientation&r is used to obtain the &2Mystic Staff of Spatial Disorientation&r."]
+			id: "6E2B588F8637DCFC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F9D27347629AC6E"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "6FE962E46901CB1E"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "64C6937CB90DAD89"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+					id: "mahoutsukai:scroll_spatial_disorientation"
+					tag: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6E2B588F8637DCFC"]
+			description: ["&2Mystic Staff of Spatial Disorientation&r summons a mahoujin that &6projects any targeted entities&r in the &6direction of the caster's vision&r. Longer charge time provides more velocity. Alternatively, when a block is targeted, nearby entities will be pulled in and launched."]
+			id: "2540888CE535A500"
+			rewards: [
+				{
+					id: "53486596868AA36B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_GEM_STORED_MANA: 10000
+							}
+						}
+						id: "mahoutsukai:attuned_diamond"
+						tag: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 10000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53E4BB6C11A0DAC2"
+					item: "minecraft:pig_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "786691FC31C4BC5E"
+					item: "advancednetherite:netherite_emerald_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0AA403A7C3892F22"
+				item: {
+					Count: 1b
+					id: "mahoutsukai:spatial_disorientation_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Mystic Staff of Spatial Disorientation&r"
+			x: 8.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["789FA64CBC44F10F"]
+			description: ["The &6Scroll of the Treasury Projection Gauntlet&r is used to summon the &9Treasury Projection Gauntlet&r."]
+			id: "26F09C1038F5B803"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F19D7F94CB5EF3A"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "1F3E58DC160881E7"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "63EC72198B4A3E36"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+					id: "mahoutsukai:scroll_treasury_projection"
+					tag: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["26F09C1038F5B803"]
+			description: [
+				"&6Treasury Projection Gauntlet&r projects any weapons or tools found in the caster's inventory, backpacks, and ender chests (vanilla), to the target they are looking at."
+				""
+				"There are 3 types of modes changed by &d\"Shift+RC\"&r"
+				""
+				"&a&nAOE mode&r: Weapons are summoned behind and projected forward."
+				"&b&nTargeted mode&r: The weapons are projected to the targeted entity."
+				"&c&nChains Mode&r: Chains will spawn near the target. Each chain deals &c20 damage&r."
+				" "
+				"&7&nTips for chains mode:&r"
+				"&7Attempt to hit the entity when RC is held.&r"
+			]
+			id: "142A3B29214117DF"
+			rewards: [
+				{
+					id: "02BA7FA84E19C3BB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_GEM_STORED_MANA: 10000
+							}
+						}
+						id: "mahoutsukai:attuned_diamond"
+						tag: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 10000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E58C6BA90505ADA"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+				{
+					id: "0A18C4064CF3BF8A"
+					item: "advancednetherite:netherite_gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6792A9B6D1C7F006"
+				item: "mahoutsukai:treasury_projection_gauntlet"
+				title: "&6Treasury Projection Gauntlet&r"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["789FA64CBC44F10F"]
+			description: ["&6Scroll of Explosive Mana Condensation&r is used to summon the &cMystic Staff of Explosive Mana Condensation&r."]
+			id: "101205FFF2245CC3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77A60E1F55A32015"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					id: "759D85EB64FD5C4D"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "59DA622C8B89F312"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+					id: "mahoutsukai:scroll_mystic_staff"
+					tag: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["101205FFF2245CC3"]
+			description: [
+				"&cMystic Staff of Explosive Mana Condensation&r is an extremely powerful staff. It has 3 modes:"
+				""
+				"&4Big Explosion Mode&r: A large explosion is created after a long charge up time, dealing 4000 damage to entities."
+				""
+				"&6Beam Mode&r: The staff's damage accelerates the longer the beam is held. The beam also destroys blocks in contact with it."
+				""
+				"&aAOE Mode&r: Causes AOE explosion and deals 300 damage per explosion."
+			]
+			id: "6EE8AB6B70867D7A"
+			rewards: [
+				{
+					id: "1F08E5248D7F20D4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_GEM_STORED_MANA: 10000
+							}
+						}
+						id: "mahoutsukai:attuned_diamond"
+						tag: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 10000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B5BD1EE8391110C"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "51366B7E531F6647"
+					item: "advancednetherite:netherite_diamond_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7915F4EC5161FCFB"
+				item: {
+					Count: 1b
+					id: "mahoutsukai:mystic_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&cMystic Staff of Explosive Mana Condensation&r"
+			x: 4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["5B9761B680379E04"]
+			description: ["&bRunes&r infused with different classes of magics can be used to craft different &amagical armor sets&r, and also &bupgrade orbs&r which can be used to upgrade your armors."]
+			id: "44C90B78076C9FAF"
+			rewards: [{
+				id: "660CF996B0E2DE68"
+				item: "irons_spellbooks:arcane_salvage"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6114E6912E547240"
+					item: "irons_spellbooks:nature_rune"
+					type: "item"
+				}
+				{
+					id: "2E584C16E78559F9"
+					item: "irons_spellbooks:fire_rune"
+					type: "item"
+				}
+				{
+					id: "7A59358EC6302E9A"
+					item: "irons_spellbooks:ice_rune"
+					type: "item"
+				}
+				{
+					id: "3572D425A031DB66"
+					item: "irons_spellbooks:lightning_rune"
+					type: "item"
+				}
+				{
+					id: "37DB01D5AE1304A5"
+					item: "irons_spellbooks:ender_rune"
+					type: "item"
+				}
+				{
+					id: "752FE9431DA71634"
+					item: "irons_spellbooks:holy_rune"
+					type: "item"
+				}
+				{
+					id: "2AAB53E9EB02DB29"
+					item: "irons_spellbooks:blood_rune"
+					type: "item"
+				}
+				{
+					id: "4132EFCF0FD267AD"
+					item: "irons_spellbooks:evocation_rune"
+					title: "All types of runes"
+					type: "item"
+				}
+				{
+					id: "74C0B8728523FBAA"
+					item: "irons_spellbooks:arcane_rune"
+					type: "item"
+				}
+				{
+					id: "0EACD50E2D060E20"
+					item: "irons_spellbooks:cooldown_rune"
+					type: "item"
+				}
+				{
+					id: "1FFF89774A4A5B18"
+					item: "irons_spellbooks:protection_rune"
+					type: "item"
+				}
+			]
+			title: "All types of runes"
+			x: 20.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"44C90B78076C9FAF"
+				"53D9266F8D787375"
+			]
+			description: ["Try to get all types of &bupgrade orbs&r. They will definitely help you greatly in challenging bosses and exploration."]
+			id: "66D1655FBEB25ECC"
+			rewards: [{
+				count: 2
+				id: "33A251E3FE9555B6"
+				item: "irons_spellbooks:arcane_salvage"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "30679025139E0DD8"
+					item: "irons_spellbooks:nature_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "7B341256B6A096EA"
+					item: "irons_spellbooks:fire_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "6C9AF0AC906719BC"
+					item: "irons_spellbooks:ice_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "34CAAF25EA4D56A5"
+					item: "irons_spellbooks:lightning_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "10FF22DB74A1F3AA"
+					item: "irons_spellbooks:holy_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "3819F20A7C9D6DEF"
+					item: "irons_spellbooks:ender_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "54298E9AEE064F8C"
+					item: "irons_spellbooks:blood_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "04A4765C9DCC681E"
+					item: "irons_spellbooks:evocation_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "7F4173F2A8EF39E9"
+					item: "irons_spellbooks:mana_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "0DC2483BB9D858BA"
+					item: "irons_spellbooks:cooldown_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "5B5CC3454F5C330F"
+					item: "irons_spellbooks:protection_upgrade_orb"
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -8.0d
 		}
 	]
 	title: "Adventure"

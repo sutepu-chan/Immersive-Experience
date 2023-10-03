@@ -180,42 +180,42 @@
 	[projection."weapon projectile"]
 		#This is the cost of using the scroll
 		#Range: 0 ~ 100000000
-		WEAPON_SHOOTER_MANA_COST = 100
+		WEAPON_SHOOTER_MANA_COST = 23200
 		#Speed of projectiles shot from the weapon projectile bow
 		#Range: 0.0 ~ 1.0E7
 		WEAPON_SHOOTER_PROJECTILE_SPEED = 5.0
 		#Damage multiplier for projectiles shot from the weapon projectile bow
 		#Range: 0.0 ~ 1.0E7
-		WEAPON_SHOOTER_DAMAGE_MULTIPLIER = 2.2
+		WEAPON_SHOOTER_DAMAGE_MULTIPLIER = 20
 		#Weapon projectile bow durability
 		#Range: 0 ~ 10000000
-		WEAPON_SHOOTER_DURABILITY = 30
+		WEAPON_SHOOTER_DURABILITY = 20
 
 	[projection.treasury]
 		#This is the cost of using the scroll
 		#Range: 0 ~ 100000000
-		TREASURY_PROJECTION_SCROLL_MANA_COST = 5000
+		TREASURY_PROJECTION_SCROLL_MANA_COST = 10000
 		#This is the cost per projectile when using the gauntlet
 		#Range: 0 ~ 100000000
-		TREASURY_PROJECTION_GAUNTLET_MANA_COST = 200
+		TREASURY_PROJECTION_GAUNTLET_MANA_COST = 800
 		#This is the delay between projectiles of the gauntlet
 		#Range: 0 ~ 100000000
 		TREASURY_PROJECTION_COOLDOWN = 10
 		#This is the cost per chain when using the gauntlet in Chains mode
 		#Range: 0 ~ 100000000
-		TREASURY_PROJECTION_CHAINS_MANA_COST = 200
+		TREASURY_PROJECTION_CHAINS_MANA_COST = 1000
 		#This is the delay between chains of the gauntlet in Chains mode
 		#Range: 0 ~ 100000000
-		TREASURY_PROJECTION_CHAINS_COOLDOWN = 40
+		TREASURY_PROJECTION_CHAINS_COOLDOWN = 60
 		#How many initial chains to spawn
 		#Range: 0 ~ 100000000
-		TREASURY_PROJECTION_CHAINS_COUNT = 8
+		TREASURY_PROJECTION_CHAINS_COUNT = 5
 		#How much damage chains do on contact
 		#Range: 0.0 ~ 1.0E8
-		TREASURY_PROJECTION_CHAINS_DAMAGE = 4.0
+		TREASURY_PROJECTION_CHAINS_DAMAGE = 20.0
 		#This is the cost per weapon when using the gauntlet in AOE mode
 		#Range: 0 ~ 100000000
-		TREASURY_PROJECTION_AOE_MANA_COST = 200
+		TREASURY_PROJECTION_AOE_MANA_COST = 1500
 		#This is the delay between weapons of the gauntlet in AOE mode
 		#Range: 0 ~ 100000000
 		TREASURY_PROJECTION_AOE_COOLDOWN = 4
@@ -224,7 +224,7 @@
 		TREASURY_PROJECTION_DISTANCE = 20
 		#This is the min distance between the target and the projectile spawn
 		#Range: 0 ~ 100000000
-		TREASURY_PROJECTION_MIN_DISTANCE = 8
+		TREASURY_PROJECTION_MIN_DISTANCE = 5
 		#This is the wind up time each projectile has before firing.
 		#Range: 0.0 ~ 1.0E8
 		TREASURY_PROJECTION_SPEED = 30.0
@@ -253,7 +253,7 @@
 		TREASURY_PROJECTION_AOE_MAX_SPAWNS = 3.0
 		#Treasury Projection AOE Mode Swords Per Spawn
 		#Range: 0.0 ~ 100000.0
-		TREASURY_PROJECTION_AOE_SWORDS_PER_SPAWN = 5.0
+		TREASURY_PROJECTION_AOE_SWORDS_PER_SPAWN = 9.0
 		#Treasury Projection Increases Requires Unique Weapons
 		TREASURY_PROJECTION_INCREASE_REQUIRES_UNIQUE = true
 		#Treasury Projection Only Uses Ender Chest
@@ -264,7 +264,7 @@
 	[projection.strengthening]
 		#This is the cost of using the scroll
 		#Range: 0 ~ 100000000
-		STRENGTHENING_MANA_COST = 600
+		STRENGTHENING_MANA_COST = 1200
 		#Strengthening Item Spawn Blacklist
 		STRENGTHENING_ITEM_SPAWN_BLACKLIST = []
 		#Items that Strengthening won't work on
@@ -328,7 +328,7 @@
 		POWER_CONSOLIDATION_SWORD_MANA_COST = 10000
 		#This is the cost per cycle for creating the lake.
 		#Range: 0 ~ 100000000
-		POWER_CONSOLIDATION_LAKE_MANA_COST = 60
+		POWER_CONSOLIDATION_LAKE_MANA_COST = 2500
 		#This is how often the lake does it's thing to make a lake
 		#Range: 0 ~ 100000000
 		POWER_CONSOLIDATION_LAKE_CYCLE = 20
@@ -352,7 +352,7 @@
 		POWER_CONSOLIDATION_SMITE_RADIUS = 10
 		#How much durability Caliburn has.
 		#Range: 0 ~ 100000000
-		POWER_CONSOLIDATION_DURABILITY = 25600
+		POWER_CONSOLIDATION_DURABILITY = 256000
 		#This is the range for undead mobs to fear Caliburn
 		#Range: 0 ~ 100000000
 		POWER_CONSOLIDATION_FEAR_RADIUS = 15
@@ -406,19 +406,19 @@
 		CLARENT_UNBREAKABLE = true
 		#Clarent Durability
 		#Range: 0 ~ 100000000
-		CLARENT_DURABILITY = 15000
+		CLARENT_DURABILITY = 150000
 		#How long Clarent's wound lasts
 		#Range: 0 ~ 100000000
 		CLARENT_WOUND_TICKS = 600
 		#How much damage the wound does per hit
 		#Range: 0.0 ~ 1.0E8
-		CLARENT_WOUND_DAMAGE = 2
+		CLARENT_WOUND_DAMAGE = 25
 		#How much Clarent's stored damage decreases per tick while blocking
 		#Range: 0.0 ~ 1.0E8
 		CLARENT_DECREASE_PER_BLOCKING_TICK = 0.02
 		#How many hits the wound does each time it activates
 		#Range: 0 ~ 100000000
-		CLARENT_WOUND_DAMAGE_HITS = 3
+		CLARENT_WOUND_DAMAGE_HITS = 10
 		#Which swords cannot turn into Clarent
 		CLARENT_SWORD_BLACKLIST = ["mahoutsukai:caliburn", "mahoutsukai:morgan"]
 		#Max stored damage for Clarent
@@ -426,7 +426,7 @@
 		CLARENT_ATTACK_CAP = 5000000
 		#Nerf factor for damage stored by Clarent
 		#Range: 0.0 ~ 1.0E8
-		CLARENT_STORED_FACTOR = 0.5
+		CLARENT_STORED_FACTOR = 1.0
 		#Clarent Blacklist Toggle
 		CLARENT_BLACKLIST_TOGGLE = true
 		#Clarent Mana Per Damage
@@ -439,18 +439,18 @@
 		EMRYS_MAX_RANGE = 22
 		#Emrys Damage Focused Per Second
 		#Range: 0.0 ~ 1.0E8
-		EMRYS_DAMAGE_FOCUSED_PER_SECOND = 90
+		EMRYS_DAMAGE_FOCUSED_PER_SECOND = 100
 		#How much damage the chain lightning does
 		#Range: 0.0 ~ 1.0E8
-		EMRYS_DAMAGE_ZAP = 55
+		EMRYS_DAMAGE_ZAP = 60
 		#Whether sky lightning from the emrys staff ignites the ground
 		EMRYS_BOLT_FIRE = false
 		#How much mana per second drained by Emrys Staff when using focused attack
 		#Range: 0 ~ 100000000
-		EMRYS_MANA_COST_FOCUSED = 1000
+		EMRYS_MANA_COST_FOCUSED = 2000
 		#How much mana per second drained by Emrys Staff when using focused attack
 		#Range: 0 ~ 100000000
-		EMRYS_MANA_COST_PASSIVE = 200
+		EMRYS_MANA_COST_PASSIVE = 1000
 		#Disable Emrys
 		DISABLE_EMRYS = false
 
@@ -480,10 +480,10 @@
 		MORGAN_SPIKE_RANGE = 10
 		#Morgan Upgrade Mana Cost
 		#Range: 0 ~ 10000000
-		MORGAN_UPGRADE_MANA_COST = 400
+		MORGAN_UPGRADE_MANA_COST = 1000
 		#Caliburn Morgan Ability Mana Cost
 		#Range: 0 ~ 100000000
-		CALIBURN_MORGAN_ABILITY_MANA_COST = 300
+		CALIBURN_MORGAN_ABILITY_MANA_COST = 1000
 
 	[projection.replica]
 		#Replica Shockwave Base Damage
@@ -506,13 +506,13 @@
 		REPLICA_TELEPORT_LIFE = 140
 		#Replica Teleport Mana Cost
 		#Range: 0 ~ 10000000
-		REPLICA_TELEPORT_MANA_COST = 300
+		REPLICA_TELEPORT_MANA_COST = 1200
 		#Replica Shockwave Mana Cost
 		#Range: 0 ~ 10000000
-		REPLICA_ATTACK_MANA_COST = 30
+		REPLICA_ATTACK_MANA_COST = 800
 		#Replica Shockwave Cooldown
 		#Range: 0 ~ 1000000
-		REPLICA_SHOCKWAVE_COOLDOWN = 50
+		REPLICA_SHOCKWAVE_COOLDOWN = 100
 		#Replica Shockwave Range
 		#Range: 0.0 ~ 1.0E7
 		REPLICA_ATTACK_RANGE = 8.0
@@ -665,7 +665,7 @@
 		MYSTIC_STAFF_BIG_SCALES = false
 		#Either a fraction of the max mana (if scaling) or a flat damage value
 		#Range: 0.0 ~ 1.0E8
-		MYSTIC_STAFF_BIG_FACTOR = 3500
+		MYSTIC_STAFF_BIG_FACTOR = 4000
 		#Explosion Size for Big Explosion
 		#Range: 0 ~ 100000000
 		MYSTIC_STAFF_BIG_SIZE = 30
@@ -680,7 +680,7 @@
 	[mystic."aoe explosion"]
 		#This is the cost of using the multiple explosion mode
 		#Range: 0 ~ 100000000
-		MYSTIC_STAFF_AOE_MANA_COST = 2600
+		MYSTIC_STAFF_AOE_MANA_COST = 3000
 		#Mystic Staff AOE Scaling Mana Factor
 		#Range: 0.0 ~ 1.0E7
 		MYSTIC_STAFF_AOE_SCALING_MANA = 0.0
@@ -688,7 +688,7 @@
 		MYSTIC_STAFF_AOE_SCALES = false
 		#Either a fraction of the max mana (if scaling) or a flat damage value
 		#Range: 0.0 ~ 1.0E8
-		MYSTIC_STAFF_AOE_FACTOR = 150
+		MYSTIC_STAFF_AOE_FACTOR = 300
 		#Explosion Size for AOE Explosion
 		#Range: 0 ~ 100000000
 		MYSTIC_STAFF_AOE_SIZE = 4
@@ -705,7 +705,7 @@
 		MYSTIC_STAFF_BEAM_SCALING_MANA = 0.0
 		#Mystic Staff Beam Damage Factor
 		#Range: -1.0E7 ~ 1.0E8
-		MYSTIC_STAFF_BEAM_DAMAGE_FACTOR = 380
+		MYSTIC_STAFF_BEAM_DAMAGE_FACTOR = 200
 		#Whether the damage is flat or scales with caster's 'level'
 		MYSTIC_STAFF_BEAM_DAMAGE_SCALES = false
 		#Mystic Staff Beam Damage Acceleration
@@ -720,7 +720,7 @@
 	[mystic."rho aias"]
 		#This is the cost of using the scroll
 		#Range: 0 ~ 100000000
-		RHO_AIAS_MANA_COST = 300
+		RHO_AIAS_MANA_COST = 900
 		#How far away Rho Aias will delete entities
 		#Range: 0 ~ 100000000
 		RHO_AIAS_KILL_RANGE = 30
@@ -1230,7 +1230,7 @@
 	MANA_ADDED_SCALING_REGEN_PER_TICK = 0.002
 	#How much max mana increases every time it does
 	#Range: 0 ~ 100000000
-	MANA_INCREASE = 10000
+	MANA_INCREASE = 100
 	#How much mana players regen per tick
 	#Range: 0 ~ 100000000
 	MANA_REGEN_PER_TICK = 1
@@ -1295,7 +1295,7 @@
 
 [other]
 	#Bleeding only occurs when using dagger
-	BLEEDING_FROM_DAGGER_ONLY = false
+	BLEEDING_FROM_DAGGER_ONLY = true
 	#The block range value for any spells which use the player's line of sight
 	#Range: 0 ~ 100000000
 	GLOBAL_LOOK_RANGE = 100

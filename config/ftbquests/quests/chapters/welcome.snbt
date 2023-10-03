@@ -77,8 +77,8 @@
 				type: "item"
 			}]
 			title: "First Person Model"
-			x: 2.0d
-			y: 2.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			description: ["Now you can &bimport custom pictures&r to replace the dull and boring vanilla minecraft paints!"]
@@ -119,8 +119,8 @@
 				}
 			]
 			title: ".png in Minecraft"
-			x: -2.0d
-			y: 2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			description: ["&bBlaze Rods&r are now &6placeable&r on ground, like end rods. It becomes new items for decoration."]
@@ -214,7 +214,7 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -268,6 +268,17 @@
 			tasks: [{
 				id: "1F908D28D458FB73"
 				title: "Progress Forward"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			description: ["Currently, there is a known issue with &6two-handed items&r. If you place a two-handed item into your offhand, you run the risk of losing your item."]
+			id: "1167B88EC96C7934"
+			tasks: [{
+				id: "68D369BA6A6CB949"
+				title: "Two-handed Items"
 				type: "checkmark"
 			}]
 			x: 0.0d

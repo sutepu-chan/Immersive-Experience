@@ -1,5 +1,5 @@
 {
-    "armorSetName": "netherite-diamond",
+    "armorSetName": "Netherite-Diamond",
     "performanceMode": true,
     "head": {
       "itemKey": "advancednetherite:netherite_diamond_helmet",
@@ -44,16 +44,6 @@
         "modifierUUID": "58790243-ce06-475b-9223-192e80e09b55",
         "value": 8.0,
         "description": "+8 Armor",
-        "attributeOperation": 0,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      },
-      {
-        "type": "attribute",
-        "name": "irons_spellbooks:max_mana",
-        "modifierUUID": "7e67d23b-16ee-4d75-881a-7d6806e08d4d",
-        "value": 50,
-        "description": "+50 Max Mana",
         "attributeOperation": 0,
         "interactionType": "self",
         "hideBonusDescription": false

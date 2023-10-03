@@ -11,6 +11,25 @@
 		{
 			description: ["Finding a &2Village&r is undoubtedly an important thing to do in Minecraft. It is also an essential way to obtain various types of food and resources in the early game."]
 			id: "749C034674530750"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A633CF560787E5B"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "6A7FB18C6291872F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 3
+					id: "11AA94EC53897A47"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:bell"
 				id: "70983CFAADB3A332"
@@ -24,6 +43,25 @@
 		{
 			description: ["Finding a &5Witch Hut&r is a must-have step in your journey. Take a look at your quest book and try to figure out the reason"]
 			id: "01F5EAE4BCB69B8B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "554A85E960FB7FC8"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "2FBD23B3CE748A09"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "54B9557A7611BC2F"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:cauldron"
 				id: "78A3C01441CBF11B"
@@ -38,6 +76,25 @@
 		{
 			description: ["The &eDesert Temple&r has been overhauled. There are &cpuzzles, mazes and traps&r. Beware of these! At the same time, there are much better loot and you may even find &9Runic Weapons&r inside!"]
 			id: "26E16E1DBE091CB0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "517351553D7AF343"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "2B6023DC2B95CCB0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 12
+					id: "1F5FAA8D99B60F76"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:chiseled_sandstone"
 				id: "6242B301496E29A7"
@@ -52,6 +109,24 @@
 		{
 			description: ["The &2Jungle Temple&r has been overhauled. There are &cpuzzles, mazes and traps&r. Beware of these! At the same time, there are much better loot and you may even find &9Runic Weapons&r inside"]
 			id: "0DAC30C491B3A8A8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "242F96981CCF5A7B"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "28B769A9FF5E84F9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4DA7ED1F6A363B58"
+					item: "prettypipes:low_speed_module"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:mossy_cobblestone"
 				id: "035AE10A91E73CBD"
@@ -66,6 +141,24 @@
 		{
 			description: ["The &bOcean Monument&r is much bigger... with more &4Guardian&r spawns, but definitely better loot!"]
 			id: "0C20611CEF714552"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4EC5520690C536DF"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "4083A21C24FD06BC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "63881B57DD0B747C"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:prismarine_shard"
 				id: "362CFDD8A3B71871"
@@ -80,6 +173,26 @@
 		{
 			description: ["The &6Mineshaft&r is much bigger than before. There are many more ores stored and can be discovered on your journey inside the mineshaft."]
 			id: "2AB58726C75A0AAE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2BC4B2772228CE67"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "6A1BE7EBC072E56C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 13
+					id: "4467C6591FAD5869"
+					item: "minecraft:iron_nugget"
+					random_bonus: 8
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:rail"
 				id: "27A5200BD878DBB0"
@@ -94,6 +207,31 @@
 		{
 			description: ["A &2Mansion&r is undoubtedly an attractive place due to its &6loot&r. However, this place is even more &4dangerous&r than in vanilla Minecraft. You might even encounter a &cboss&r in the mansion. Conversely, due to the increased danger, the loot is &afurther enhanced&r"]
 			id: "2D1DF4BA848DD4FD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "584D32349D62AD60"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "60CED8EFE2627A27"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "33F5A33D1A9576FE"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:invisibility"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -113,6 +251,24 @@
 		{
 			description: ["A &9Catacomb&r is a very &4dangerous&r ball-like structure. The &6loot&r is fantastic but is protected by a &cboss&r"]
 			id: "36FEA7EF8B07D0E8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30A3ECAFE5D5C685"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "609D2D9B168513E6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "75E76B8921B46938"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "bygonenether:withered_blackstone_stairs"
 				id: "38247522A8817BFC"
@@ -126,6 +282,26 @@
 		{
 			description: ["A &2Citadel&r is a green tower where the warped enderman resides. There is &6good loot&r at the top of the tower, but the treasure is guarded by an &4elite warped enderman&r."]
 			id: "55E79DFE74A0ABF2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70AB30D141B5A9FB"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "02E9E83E704C3585"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 5
+					id: "47BBF6BF6B80667B"
+					item: "minecraft:warped_fungus"
+					random_bonus: 3
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:warped_nylium"
 				id: "216CEBE6D59731C1"
@@ -139,6 +315,24 @@
 		{
 			description: ["&4Badland Miner Outpost&r is a dangerous place where the pillagers, evokers, and their friends reside. Watch out for the &cdangerous mobs&r!"]
 			id: "6B38105BF598E2ED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CB5594BE790D64A"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "1DEA666EE9DE9E53"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "241127C5BF6539C1"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -198,6 +392,30 @@
 		{
 			description: ["The &9Ancient City&r is more dangerous than ever! DO NOT go there until you have &6good gear&r."]
 			id: "48BCB719C9B83DA3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62F8095A68E568FC"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "179103F4AD815C69"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "580018357E028029"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:sculk_shrieker"
 				id: "5D9032F95703A0AC"
@@ -212,6 +430,33 @@
 		{
 			description: ["There are &6good loots&r in the &aAncient Temple&r. Try to defeat the &9Warden&r and get the key to it."]
 			id: "0CBD4E9D49F9E6B9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A5CE42B36549377"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "4B4FA647B1011F45"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "45C0DE436FA0572A"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:swift_sneak"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -232,6 +477,19 @@
 		{
 			description: ["There is more than a simple tower in an &5Illusioner Tower&r. Try to look down instead of looking up."]
 			id: "50A9CBF150741C9C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27E81C158C24912D"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "253EAB265C7C382B"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				icon: "friendsandfoes:totem_of_illusion"
 				id: "55ECA28AC6208118"
@@ -246,6 +504,25 @@
 		{
 			description: ["&4Labyrinth&r is the palace of Illagers. Defeat the boss and obtain all the &6loots&r."]
 			id: "44D87AE638012E97"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "646AA830FAFB2EE5"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "2311C65C71104C14"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "3D744418040F9DBE"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "illagerinvasion:horn_of_sight"
 				id: "2907C4B7063DB820"
@@ -260,6 +537,25 @@
 		{
 			description: ["Looking for magic in Minecraft? This &6Theatre&r suits you."]
 			id: "1EAC2E059675B6D3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0854B727474403CE"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "6C85157EFF1826F1"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 25
+					id: "1888A6B584336A32"
+					item: "conjurer_illager:throwing_card"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "conjurer_illager:throwing_card"
 				id: "4EEE6C3792E09E00"
@@ -274,6 +570,25 @@
 		{
 			description: ["The &dEnd City&r is now much more dangerous than before. There are guards and warriors protecting all the treasures. In order to obtain the &9Elytra&r, you must also defeat their leader. Remember to &6make good use of the terrain advantage&r!"]
 			id: "25674A86CE9CA068"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "204CE712E5398CEC"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "006CD0CE0F106382"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "49500E853ACA1185"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:purpur_block"
 				id: "0AC931170A29FA16"
@@ -288,6 +603,25 @@
 		{
 			description: ["&6Hamlet&r is the place where the Piglins reside, and their leader - the &4Elite Brute&r - lives there. Find this structure and defeat the &4Elite Brute&r!"]
 			id: "2A1637722697A419"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A5DC67E1E6DCF90"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "546F6D4E586A00F9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "7B2463D671A85E7F"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -307,6 +641,25 @@
 		{
 			description: ["\"The &5Shiraz Palace&r is an incredibly large palace for you to explore. However, a terrible creature lives on top of the palace, protecting the treasures. It has a ridiculously high armor value. Try to make wise use of &dmagic&r to deal damage to it!"]
 			id: "68A42D4D95031142"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "379C3D98AC880C50"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "0A2E21CE115F2B65"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FD6C1002AD2DCAD"
+					table_id: 3847649148309268719L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:brown_glazed_terracotta"
 				id: "0F480012A98B407B"

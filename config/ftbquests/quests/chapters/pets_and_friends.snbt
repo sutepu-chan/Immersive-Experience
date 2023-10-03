@@ -50,6 +50,11 @@
 			dependencies: ["10BDE1B64DE07498"]
 			description: ["&6Taming a maid &rrequires &bcakes&r. Get a cake before summoning a maid."]
 			id: "7ADBD16688DE514C"
+			rewards: [{
+				id: "265CEBAB979D4124"
+				item: "minecraft:chicken_spawn_egg"
+				type: "item"
+			}]
 			tasks: [{
 				id: "374ABDF2A6411CB7"
 				item: "minecraft:cake"
@@ -66,6 +71,11 @@
 				"After building the altar, hold your &bGohei&r and &dRC&r  the red wool located at the centre left of the 4th row of the altar. The altar will then be activated."
 			]
 			id: "7BEB35BA8E2FBA6A"
+			rewards: [{
+				id: "567EF191B8A9081B"
+				item: "minecraft:sheep_spawn_egg"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 20L
@@ -85,14 +95,18 @@
 		}
 		{
 			dependencies: ["7BEB35BA8E2FBA6A"]
-			description: ["Other than the ingredients required in summoning a maid, you also need &bpower points&r, which can be obtained by &6killing maid fairy&r which spawns naturally in world."]
+			description: ["Other than the ingredients required in summoning a maid, you also need &bpower points&r, which can be obtained by &6killing maid fairy&r which spawns naturally in world, or spawned in&6 loot chests&r found in dungeons."]
 			id: "314EA14B07818860"
+			rewards: [{
+				count: 4
+				id: "04EA804B8F1E6F35"
+				item: "touhou_little_maid:power_point"
+				type: "item"
+			}]
 			tasks: [{
-				entity: "touhou_little_maid:fairy"
-				icon: "touhou_little_maid:power_point"
-				id: "79E421A1C4079BB6"
-				type: "kill"
-				value: 2L
+				id: "5EC4B1D5B6C12E7D"
+				item: "touhou_little_maid:power_point"
+				type: "item"
 			}]
 			x: -2.0d
 			y: 4.0d
@@ -101,6 +115,11 @@
 			dependencies: ["314EA14B07818860"]
 			description: ["Now, you can &6summon the maid&r. Place the ingredients on the &66 pillars&r by &dRC&r. Then, &dRC&r the altar with your Gohei to complete the summoning process."]
 			id: "1C3B65467F37594E"
+			rewards: [{
+				id: "0FEB428474B96E73"
+				item: "minecraft:cake"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "16A4832EFB2573B5"
@@ -149,6 +168,13 @@
 				"Maid can also use &bGohei&r to perform &6melee attacks&r with danmaku."
 			]
 			id: "6E8A1CB00CF4535D"
+			rewards: [{
+				count: 4
+				id: "5955D5D77A1EEBDD"
+				item: "minecraft:leather"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "21DFF1D2C90EF1ED"
 				item: "touhou_little_maid:maid_backpack_big"
@@ -161,6 +187,20 @@
 			dependencies: ["1C3B65467F37594E"]
 			description: ["There are also some items you can give to your maid."]
 			id: "1657D3F2BAFB6529"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78852C737A6BC791"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DEF22109598DAF1"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "04A6C0C3381941F7"
@@ -193,6 +233,12 @@
 				"&dRC&r the photo on &6ground&r to call back your maid."
 			]
 			id: "15957DE5991B5692"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "760C6260FC80FE98"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "55D3D1DDB41C427B"
 				item: {
@@ -215,6 +261,12 @@
 				"Hold the &6photo&r in your off-hand and &dRC&r a &6clay block&r with a &6chisel&r. The clay block will then turns into a statue."
 			]
 			id: "251D00F068807DF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1984EB7DFE607F86"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "79015B1CC15BE66A"
 				item: {
@@ -233,6 +285,20 @@
 			dependencies: ["1657D3F2BAFB6529"]
 			description: ["Perhaps you are using a special appearance of your maid's chair and you can't locate the hitbox of your chair. Use this item for location."]
 			id: "426DF06042403D34"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "186EBC1EB739CF0C"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05B3C03D607FDDD0"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0978D80A1972CD5D"
 				item: "touhou_little_maid:chair_show"
@@ -245,6 +311,12 @@
 			dependencies: ["1C3B65467F37594E"]
 			description: ["When the maid is dead, a &bfilm&r item will be dropped, which can be used for &6respawning&r the maid by the altar."]
 			id: "1FA7D00600603DD5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D77A77A379BCF66"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7CC67E4CA175BE0D"
 				item: "touhou_little_maid:film"
@@ -257,6 +329,12 @@
 			dependencies: ["1C3B65467F37594E"]
 			description: ["A &bTrumpet&r &6recalls&r all your maid in the loaded chunks."]
 			id: "1D751C3969A120E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B340D10E03E8AF5"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2E91B9C04B796BBA"
 				item: "touhou_little_maid:trumpet"
@@ -268,6 +346,12 @@
 		{
 			description: ["You can track properties of a &6tamed Creeper Minion&r with a &bCreeper Minion Tracker&r."]
 			id: "2506740ED87AE467"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C0A6AB285B37579"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7C59AB6324447849"
 				item: "mutantmonsters:creeper_minion_tracker"
@@ -305,6 +389,17 @@
 				"&n&9Aether Dragon&r: Hatched at y level>200"
 			]
 			id: "0B3684BC88B70BEE"
+			rewards: [{
+				id: "57F9EEDEC56396D3"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E80834E75602C1B"
 				item: {
@@ -340,6 +435,12 @@
 				"When the dragon takes damage, &6health can be restored&r by &bmeats&r. A few &6steaks&r will bring it back up full of energy and back to potential."
 			]
 			id: "133FF7B1D2380DC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10B3333EA4CF8DAB"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "354B18F856FC5824"
@@ -377,6 +478,12 @@
 				"With the &6wings&r they were born with, dragons can soar the skies and travel great distances. However, the control is a bit difference from walking. Check your control options."
 			]
 			id: "1626E73ADD469E5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54668C060E885A24"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4C74FFC1EDBC23F5"
 				item: "minecraft:saddle"
@@ -393,6 +500,12 @@
 				"To get started, you definitely need to &6tame a wolf&r first."
 			]
 			id: "2B1D1DE8F89FEC85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B0E71E928723305"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "568C647740CF6F35"
 				item: "minecraft:bone"
@@ -415,6 +528,11 @@
 				"- They have &6nourishment points&r which means having food in your inventory is a must"
 			]
 			id: "298B97FF14DCCEEF"
+			rewards: [{
+				id: "58E298D8C28BE0F9"
+				item: "doggytalents:training_treat"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "19E4D863CE4B7ECB"
@@ -441,6 +559,19 @@
 				"When your dog dies, &dRC&r the bed to &6revive&r them."
 			]
 			id: "3857B6E1B687274F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0041212FB70012B0"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "3BE61623E88FC13D"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -472,6 +603,19 @@
 				"&8When standing in the dog bath, the dog seems to continuously shake, flinging water particles and occasionally dropping fish if you have spent skill points on the Fisher Dog skill, all you have to do is get your dog sitting in the bath.&r"
 			]
 			id: "1214DB4CD8296D71"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32881C8263D0230C"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "47D215AAFBA8358F"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "572ED37449915453"
 				item: "doggytalents:dog_bath"
@@ -487,6 +631,19 @@
 				"An alternative to auto-feeding is to put food into a Trained dog with &bPuppy Pack Talent's&r inventory."
 			]
 			id: "03F4CE842634BA98"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4014B7D94B3227EE"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "1324B61E7802EB28"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "741075C87270E436"
 				item: "doggytalents:food_bowl"
@@ -519,6 +676,11 @@
 			dependencies: ["298B97FF14DCCEEF"]
 			description: ["There are different types of treats. Each types of treats can raise your &6dog's level and spendable points&r by 1. However, there is a&6 level limit&r of using the treats. Treats with higher tiers can raise your doggo to a higher level. Reaed the tooltip for more info."]
 			id: "209BE9D4AE001AA2"
+			rewards: [{
+				id: "27CA878B7A817B06"
+				item: "doggytalents:super_treat"
+				type: "item"
+			}]
 			tasks: [{
 				id: "09C44DD887DD3B0C"
 				item: "doggytalents:super_treat"
@@ -530,6 +692,11 @@
 		{
 			dependencies: ["209BE9D4AE001AA2"]
 			id: "61B0FA1A882DDB78"
+			rewards: [{
+				id: "5BADB39E580D1455"
+				item: "doggytalents:master_treat"
+				type: "item"
+			}]
 			tasks: [{
 				id: "434E85B6D496A662"
 				item: "doggytalents:master_treat"
@@ -541,6 +708,11 @@
 		{
 			dependencies: ["61B0FA1A882DDB78"]
 			id: "4180B0305E2DECD7"
+			rewards: [{
+				id: "312E83571E149ECF"
+				item: "doggytalents:dire_treat"
+				type: "item"
+			}]
 			tasks: [{
 				id: "17EF3BE168B3B82E"
 				item: "doggytalents:dire_treat"
@@ -561,6 +733,19 @@
 				"Additionally, you can use the &dcorresponding Number keys&r for each mode (shown before the mode in Orange) to quickly select it."
 			]
 			id: "0F3C3FC576DDFB03"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "29C5698CC357075C"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "06A81E5AD33F7063"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "56C80372F8C1286B"
 				item: "doggytalents:whistle"
@@ -577,6 +762,19 @@
 				"&dRC&r to open GUI and simply select the dog you want to track."
 			]
 			id: "59E69A0C152A8241"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C7C8B7D4D49BF3F"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "1453B693D377B07F"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "00E7BE36C767791D"
 				item: "doggytalents:canine_tracker"
@@ -589,6 +787,19 @@
 			dependencies: ["298B97FF14DCCEEF"]
 			description: ["&bRadio Collar&r is used alongside the &6Canine Tracker&r."]
 			id: "45132D7B675539A2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "440720053A455CAB"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "550B95AEF367C00E"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "37C3ABF3D8A10C62"
 				item: "doggytalents:radio_collar"
@@ -601,6 +812,19 @@
 			dependencies: ["298B97FF14DCCEEF"]
 			description: ["Trainable dogs are only &6breedable&r by &bBreeding Bone&r."]
 			id: "287D32B02C2327BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A55DFA427340BC3"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "384196E53FB881FA"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "0F4957D60CD8D5CC"
 				item: "doggytalents:breeding_bone"
@@ -619,6 +843,19 @@
 				"- &6Regeneration III&r for 5 seconds"
 			]
 			id: "2ED44D9AC33B0308"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C30A78C135EB6B2"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "54CA006E3F591FD3"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "32A01666820A8A2D"
 				item: "doggytalents:energizer_stick"
@@ -631,6 +868,19 @@
 			dependencies: ["298B97FF14DCCEEF"]
 			description: ["&bBand-Aid&r is able to speed up your dog's &6Incapacitate mode&r."]
 			id: "3008AB370B8C7375"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "419D495A41E60F44"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "0EFF4F0E6C48591C"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "4083BDCB30A35A0F"
 				item: "doggytalents:bandaid"
@@ -643,6 +893,19 @@
 			dependencies: ["298B97FF14DCCEEF"]
 			description: ["&bAmnesia Bone&r is a craftable dev-tier item that makes your dog &6forget certain things&r (changing owners and forgetting talents). This item can only be used up to &68 times&r."]
 			id: "5F1BC558F008671F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F1A78E9683D71D0"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "7C3A2C316817C663"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "560B4C6F4EB17C6D"
 				item: "doggytalents:amnesia_bone"
@@ -655,6 +918,19 @@
 			dependencies: ["298B97FF14DCCEEF"]
 			description: ["There are some &bdyeable customization&r available to your dogs."]
 			id: "52223B38EB0E6EDB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7827356F6846DA0B"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "5DB690B4F2517D4E"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "46D170925B0CE552"
@@ -685,6 +961,11 @@
 			dependencies: ["209BE9D4AE001AA2"]
 			description: ["&bTreat Bags&r help you store treats so that treats don't occupy your inventory space much."]
 			id: "431A815E9C1B875D"
+			rewards: [{
+				id: "0E61E69B9EF195B0"
+				item: "doggytalents:super_treat"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C6A3F782498BB1A"
 				item: "doggytalents:treat_bag"
@@ -697,6 +978,12 @@
 			dependencies: ["298B97FF14DCCEEF"]
 			description: ["&bFeathered Mantle&r is the only &6artifact&r available now that makes  your dog &6floats&r."]
 			id: "47279225ED0A389B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AC01466B0C23B16"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "39B12B4E41F08269"
 				item: "doggytalents:feathered_mantle"
@@ -709,6 +996,11 @@
 			dependencies: ["314EA14B07818860"]
 			description: ["&bShrine Lamp&r is able to give&6 bonus effect&r (like &6beacons&r) in a certain range. It costs &60.9 Power Point/h&r where the Power Point is absorbed in a radius of 6. You can also &6pre-store&r the Power Points by &dRC&r the lamp."]
 			id: "1AE8B602B5953B62"
+			rewards: [{
+				id: "51F532B817FB3FC8"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			tasks: [{
 				id: "55B01B6725F5C935"
 				item: {

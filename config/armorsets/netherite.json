@@ -1,5 +1,5 @@
 {
-  "armorSetName": "netherite",
+  "armorSetName": "Netherite",
   "performanceMode": true,
   "head": {
     "itemKey": "minecraft:netherite_helmet",
@@ -30,16 +30,6 @@
       "modifierUUID": "f17372f3-a0ba-41a3-87d4-fd47eb1bb627",
       "value": 2.0,
       "description": "+2 Health",
-      "attributeOperation": 0,
-      "interactionType": "self",
-      "hideBonusDescription": false
-    },
-    {
-      "type": "attribute",
-      "name": "irons_spellbooks:max_mana",
-      "modifierUUID": "77ed888f-a71f-4930-9b2c-807c445945f7",
-      "value": 10,
-      "description": "+10 Max Mana",
       "attributeOperation": 0,
       "interactionType": "self",
       "hideBonusDescription": false

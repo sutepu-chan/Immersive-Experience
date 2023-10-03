@@ -23,4 +23,11 @@ ServerEvents.recipes(e => {
     e.shapeless('9x minecraft:honeycomb', 'minecraft:honeycomb_block').id('kubejs:minecraft/decompress/honeycomb');
     e.shapeless('4x minecraft:nether_wart', 'minecraft:nether_wart_block').id(`kubejs:minecraft/decompress/nether_wart`);
     e.shapeless('minecraft:blaze_rod', '2x minecraft:blaze_powder').id('kubejs:minecraft/compress/blaze_powder');
-})
+
+    e.remove({id: 'minecraft:shield'});
+    e.shaped('minecraft:shield', ['IPI', 'IPI', 'IPI'], {
+        P: '#minecraft:planks',
+        I: 'mahoutsukai:powdered_iron'
+    }).id('kubejs:minecraft/shield');
+
+});

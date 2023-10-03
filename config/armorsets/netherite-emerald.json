@@ -1,5 +1,5 @@
 {
-    "armorSetName": "netherite-emerald",
+    "armorSetName": "Netherite-Emerald",
     "performanceMode": true,
     "head": {
       "itemKey": "advancednetherite:netherite_emerald_helmet",
@@ -44,16 +44,6 @@
         "modifierUUID": "9ebca5b3-180a-405c-8c08-5947e0d6ff64",
         "value": 6.0,
         "description": "+6 Armor",
-        "attributeOperation": 0,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      },
-      {
-        "type": "attribute",
-        "name": "irons_spellbooks:max_mana",
-        "modifierUUID": "81344a6c-70f8-4c53-8d59-8c19a1259588",
-        "value": 40,
-        "description": "+40 Max Mana",
         "attributeOperation": 0,
         "interactionType": "self",
         "hideBonusDescription": false

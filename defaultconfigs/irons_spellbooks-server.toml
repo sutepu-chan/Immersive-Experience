@@ -1,762 +1,1017 @@
 
 #Other Configuration
 [Misc]
-	#rarityConfig array values must sum to 1: [COMMON, UNCOMMON, RARE, EPIC, LEGENDARY]. Default: [.3d, .25d, .2d, .15d, .1d]
-	rarityConfig = [0.3, 0.25, 0.2, 0.15, 0.1]
-	#Whether or not imbued weapons require mana to be casted. Default: true
-	swordsConsumeMana = true
-	#The multiplier on the cooldown of imbued weapons. Default: 0.5 (50% of default cooldown)
-	swordsCooldownMultiplier = 0.5
-	#Whether or not players can harm their own magic summons. Default: false
-	canAttackOwnSummons = false
-	#The maximum amount of times an applicable piece of equipment can be upgraded in the arcane anvil. Default: 3
-	maxUpgrades = 3
-	#From 0-1, the percent of max mana a player respawns with. Default: 0.0
-	manaSpawnPercent = 0.0
-	#From 0-1, the percent chance for scrolls to be successfully recycled. Default: 0.5 (50%)
-	scrollRecycleChance = 0.5
-	#Whether or not potions should be allowed to be brewed in the alchemist cauldron)
-	allowCauldronBrewing = true
-	#If true the world will attempt to be upgraded from an older version of ISS
-	runWorldUpgrader = true
+#rarityConfig array values must sum to 1: [COMMON, UNCOMMON, RARE, EPIC, LEGENDARY]. Default: [.3d, .25d, .2d, .15d, .1d]
+rarityConfig = [0.3, 0.25, 0.2, 0.15, 0.1]
+#Whether or not imbued weapons require mana to be casted. Default: true
+swordsConsumeMana = true
+#The multiplier on the cooldown of imbued weapons. Default: 0.5 (50% of default cooldown)
+swordsCooldownMultiplier = 0.5
+#Whether or not players can harm their own magic summons. Default: false
+canAttackOwnSummons = false
+#The maximum amount of times an applicable piece of equipment can be upgraded in the arcane anvil. Default: 3
+maxUpgrades = 3
+#From 0-1, the percent of max mana a player respawns with. Default: 0.0
+manaSpawnPercent = 0.0
+#From 0-1, the percent chance for scrolls to be successfully recycled. Default: 0.5 (50%)
+scrollRecycleChance = 0.5
+#Whether or not potions should be allowed to be brewed in the alchemist cauldron)
+allowCauldronBrewing = true
+#If true the world will attempt to be upgraded from an older version of ISS
+runWorldUpgrader = true
 
 ["Upgrade Overrides"]
-	#Use these lists to change what items can interact with the Arcane Anvil's upgrade system. This can also be done via datapack.
-	#Upgrade Whitelist. Use an item's id to allow it to be upgraded, ex: "minecraft:iron_sword"
-	upgradeWhitelist = []
-	#Upgrade Blacklist. Use an item's id to prevent it from being upgraded, ex: "minecraft:iron_sword"
-	upgradeBlacklist = []
+#Use these lists to change what items can interact with the Arcane Anvil's upgrade system. This can also be done via datapack.
+#Upgrade Whitelist. Use an item's id to allow it to be upgraded, ex: "minecraft:iron_sword"
+upgradeWhitelist = [
+	"advancednetherite:netherite_iron_helmet",
+	"advancednetherite:netherite_iron_chestplate",
+	"advancednetherite:netherite_iron_leggings",
+	"advancednetherite:netherite_iron_boots",
+	"advancednetherite:netherite_gold_helmet",
+	"advancednetherite:netherite_gold_chestplate",
+	"advancednetherite:netherite_gold_leggings",
+	"advancednetherite:netherite_gold_boots",
+	"advancednetherite:netherite_emerald_helmet",
+	"advancednetherite:netherite_emerald_chestplate",
+	"advancednetherite:netherite_emerald_leggings",
+	"advancednetherite:netherite_emerald_boots",
+	"advancednetherite:netherite_diamond_helmet",
+	"advancednetherite:netherite_diamond_chestplate",
+	"advancednetherite:netherite_diamond_leggings",
+	"advancednetherite:netherite_diamond_boots",
+	"majruszsdifficulty:enderium_helmet",
+	"majruszsdifficulty:enderium_chestplate",
+	"majruszsdifficulty:enderium_leggings",
+	"majruszsdifficulty:enderium_boots",
+	"cataclysm:ignitium_helmet",
+	"cataclysm:ignitium_chestplate",
+	"cataclysm:ignitium_leggings",
+	"cataclysm:ignitium_boots",
+	"enlightened_end:adamantite_armor_helmet",
+	"enlightened_end:adamantite_armor_chestplate",
+	"enlightened_end:adamantite_armor_leggings",
+	"enlightened_end:adamantite_armor_boots",
+	"epicpaladins:arclight_helmet",
+	"epicpaladins:arclight_chestplate",
+	"epicpaladins:arclight_leggings",
+	"epicpaladins:arclight_boots",
+	"epicpaladins:bloodstone_helmet",
+	"epicpaladins:bloodstone_chestplate",
+	"epicpaladins:bloodstone_leggings",
+	"epicpaladins:bloodstone_boots",
+	"epicpaladins:cryorium_helmet",
+	"epicpaladins:cryorium_chestplate",
+	"epicpaladins:cryorium_leggings",
+	"epicpaladins:cryorium_boots",
+	"epicpaladins:jade_helmet",
+	"epicpaladins:jade_chestplate",
+	"epicpaladins:jade_leggings",
+	"epicpaladins:jade_boots",
+	"epicpaladins:moonlight_helmet",
+	"epicpaladins:moonlight_chestplate",
+	"epicpaladins:moonlight_leggings",
+	"epicpaladins:moonlight_boots",
+	"epicpaladins:sculk_helmet",
+	"epicpaladins:sculk_chestplate",
+	"epicpaladins:sculk_leggings",
+	"epicpaladins:sculk_boots",
+	"aquamirae:terrible_helmet",
+	"aquamirae:terrible_chestplate",
+	"aquamirae:terrible_leggings",
+	"aquamirae:terrible_boots",
+	"aquamirae:abyssal_helmet",
+	"aquamirae:abyssal_chestplate",
+	"aquamirae:abyssal_leggings",
+	"aquamirae:abyssal_boots",
+	"deeperdarker:warden_helmet",
+	"deeperdarker:warden_chestplate",
+	"deeperdarker:warden_leggings",
+	"deeperdarker:warden_boots",
+	"epicsamurai:gold_samurai_helmet",
+	"epicsamurai:gold_samurai_chestplate",
+	"epicsamurai:gold_samurai_leggings",
+	"epicsamurai:gold_samurai_boots",
+	"epicsamurai:iron_samurai_helmet",
+	"epicsamurai:iron_samurai_chestplate",
+	"epicsamurai:iron_samurai_leggings",
+	"epicsamurai:iron_samurai_boots",
+	"epicsamurai:silver_samurai_helmet",
+	"epicsamurai:silver_samurai_chestplate",
+	"epicsamurai:silver_samurai_leggings",
+	"epicsamurai:silver_samurai_boots",
+	"epicsamurai:steel_helmet",
+	"epicsamurai:steel_chestplate",
+	"epicsamurai:steel_leggings",
+	"epicsamurai:steel_boots",
+	"epicsamurai:red_samurai_helmet",
+	"epicsamurai:red_samurai_chestplate",
+	"epicsamurai:red_samurai_leggings",
+	"epicsamurai:red_samurai_boots",
+	"epicsamurai:diamond_samurai_helmet",
+	"epicsamurai:diamond_samurai_chestplate",
+	"epicsamurai:diamond_samurai_leggings",
+	"epicsamurai:diamond_samurai_boots",
+	"epicsamurai:brass_samurai_helmet",
+	"epicsamurai:brass_samurai_chestplate",
+	"epicsamurai:brass_samurai_leggings",
+	"epicsamurai:brass_samurai_boots",
+	"epicsamurai:gray_samurai_helmet",
+	"epicsamurai:gray_samurai_chestplate",
+	"epicsamurai:gray_samurai_leggings",
+	"epicsamurai:gray_samurai_boots",
+	"epicsamurai:green_samurai_helmet",
+	"epicsamurai:green_samurai_chestplate",
+	"epicsamurai:green_samurai_leggings",
+	"epicsamurai:green_samurai_boots",
+	"epicsamurai:blue_samurai_helmet",
+	"epicsamurai:blue_samurai_chestplate",
+	"epicsamurai:blue_samurai_leggings",
+	"epicsamurai:blue_samurai_boots",
+	"epicsamurai:amethyst_samurai_helmet",
+	"epicsamurai:amethyst_samurai_chestplate",
+	"epicsamurai:amethyst_samurai_leggings",
+	"epicsamurai:amethyst_samurai_boots",
+	"epicsamurai:quartz_samurai_helmet",
+	"epicsamurai:quartz_samurai_chestplate",
+	"epicsamurai:quartz_samurai_leggings",
+	"epicsamurai:quartz_samurai_boots",
+	"epicsamurai:netherite_samurai_helmet",
+	"epicsamurai:netherite_samurai_chestplate",
+	"epicsamurai:netherite_samurai_leggings",
+	"epicsamurai:netherite_samurai_boots",
+	"epicsamurai:sculk_samurai_helmet",
+	"epicsamurai:sculk_samurai_chestplate",
+	"epicsamurai:sculk_samurai_leggings",
+	"epicsamurai:sculk_samurai_boots",
+	"monsterplus:crystal_helmet",
+	"monsterplus:crystal_chestplate",
+	"monsterplus:crystal_leggings",
+	"monsterplus:crystal_boots",
+	"epicsamurai:iron_helmet",
+	"epicsamurai:iron_chestplate",
+	"epicsamurai:iron_leggings",
+	"epicsamurai:iron_boots",
+	"epicsamurai:golden_helmet",
+	"epicsamurai:golden_chestplate",
+	"epicsamurai:golden_leggings",
+	"epicsamurai:golden_boots",
+	"epicsamurai:diamond_helmet",
+	"epicsamurai:diamond_chestplate",
+	"epicsamurai:diamond_leggings",
+	"epicsamurai:diamond_boots",
+	"epicsamurai:netherite_helmet",
+	"epicsamurai:netherite_chestplate",
+	"epicsamurai:netherite_leggings",
+	"epicsamurai:netherite_boots",
+	"aether:zanite_helmet",
+	"aether:zanite_chestplate",
+	"aether:zanite_leggings",
+	"aether:zanite_boots",
+	"aether:gravitie_helmet",
+	"aether:gravitie_chestplate",
+	"aether:gravitie_leggings",
+	"aether:gravitie_boots",
+	"aether:valkyrie_helmet",
+	"aether:valkyrie_chestplate",
+	"aether:valkyrie_leggings",
+	"aether:valkyrie_boots",
+	"aether:neptune_helmet",
+	"aether:neptune_chestplate",
+	"aether:neptune_leggings",
+	"aether:neptune_boots",
+	"aether:phoenix_helmet",
+	"aether:phoenix_chestplate",
+	"aether:phoenix_leggings",
+	"aether:phoenix_boots",
+	"aether:obsidian_helmet",
+	"aether:obsidian_chestplate",
+	"aether:obsidian_leggings",
+	"aether:obsidian_boots",
+	"deep_aether:stratus_helmet",
+	"deep_aether:stratus_chestplate",
+	"deep_aether:stratus_leggings",
+	"deep_aether:stratus_boots",
+	"deep_aether:skyjade_helmet",
+	"deep_aether:skyjade_chestplate",
+	"deep_aether:skyjade_leggings",
+	"deep_aether:skyjade_boots",
+	"minecraft:leather_helmet",
+	"minecraft:leather_chestplate",
+	"minecraft:leather_leggings",
+	"minecraft:leather_boots",
+	"minecraft:chainmail_helmet",
+	"minecraft:chainmail_chestplate",
+	"minecraft:chainmail_leggings",
+	"minecraft:chainmail_boots",
+	"minecraft:iron_helmet",
+	"minecraft:iron_chestplate",
+	"minecraft:iron_leggings",
+	"minecraft:iron_boots",
+	"minecraft:golden_helmet",
+	"minecraft:golden_chestplate",
+	"minecraft:golden_leggings",
+	"minecraft:golden_boots",
+	"minecraft:diamond_helmet",
+	"minecraft:diamond_chestplate",
+	"minecraft:diamond_leggings",
+	"minecraft:diamond_boots",
+	"minecraft:netherite_helmet",
+	"minecraft:netherite_chestplate",
+	"minecraft:netherite_leggings",
+	"minecraft:netherite_boots",
+	"cataclysm:ignitium_elytra_chestplate",
+	"cataclysm:bloom_stone_pauldrons",
+	"fromtheshadows:crust_helmet",
+	"fromtheshadows:crust_chest",
+	"fromtheshadows:crust_leggings",
+	"fromtheshadows:diabolium_helmet",
+	"fromtheshadows:diabolium_chest",
+	"fromtheshadows:diabolium_leggings",
+	"mutantmonsters:mutant_skeleton_chestplate",
+	"mutantmonsters:mutant_skeleton_leggings",
+	"mutantmonsters:mutant_skeleton_boots",
+	"aquamirae:three_bolt_helmet",
+	"aquamirae:three_bolt_suit",
+	"aquamirae:three_bolt_leggings",
+	"aquamirae:three_bolt_boots",
+	"aquamirae:abyssal_tiara",
+	"epicsamurai:mask_quartz_samurai_helmet",
+	"epicsamurai:mask_netherite_samurai_helmet",
+	"epicsamurai:mask_amethyst_samurai_helmet",
+	"cataclysm:monstrous_helm"
+]
+#Upgrade Blacklist. Use an item's id to prevent it from being upgraded, ex: "minecraft:iron_sword"
+upgradeBlacklist = []
 
 ["Imbue Overrides"]
-	#Use these lists to change what items can interact with the Arcane Anvil's imbue system.
-	#!THIS MAY HAVE UNINTENDED CONSEQUENCES!
-	#Upgrade Whitelist. Use an item's id to allow it to be imbued, ex: "minecraft:iron_sword"
-	imbueWhitelist = []
-	#Upgrade Blacklist. Use an item's id to prevent it from being imbued, ex: "minecraft:iron_sword"
-	imbueBlacklist = []
+#Use these lists to change what items can interact with the Arcane Anvil's imbue system.
+#!THIS MAY HAVE UNINTENDED CONSEQUENCES!
+#Upgrade Whitelist. Use an item's id to allow it to be imbued, ex: "minecraft:iron_sword"
+imbueWhitelist = []
+#Upgrade Blacklist. Use an item's id to prevent it from being imbued, ex: "minecraft:iron_sword"
+imbueBlacklist = [
+	"simplyswords:brimstone_claymore",
+	"simplyswords:watcher_claymore",
+	"simplyswords:storms_edge",
+	"simplyswords:stormbringer",
+	"simplyswords:sword_on_a_stick",
+	"simplyswords:bramblethorn",
+	"simplyswords:watching_warglaive",
+	"simplyswords:toxic_longsword",
+	"simplyswords:emberblade",
+	"simplyswords:hearthflame",
+	"simplyswords:soulkeeper",
+	"simplyswords:twisted_blade",
+	"simplyswords:soulrender",
+	"simplyswords:soulstealer",
+	"simplyswords:mjolnir",
+	"simplyswords:soulpyre",
+	"simplyswords:frostfall",
+	"simplyswords:molten_edge",
+	"simplyswords:livyatan",
+	"simplyswords:icewhisper",
+	"simplyswords:arcanethyst",
+	"simplyswords:thunderbrand",
+	"simplyswords:waking_lichblade",
+	"simplyswords:awakened_lichblade",
+	"simplyswords:slumbering_lichblade",
+	"simplyswords:shadowsting",
+	"simplyswords:sunfire",
+	"simplyswords:harbinger",
+	"simplyswords:whisperwind",
+	"simplyswords:dormant_relic",
+	"simplyswords:righteous_relic",
+	"simplyswords:tainted_relic",
+	"cataclysm:infernal_forge",
+	"cataclysm:void_forge",
+	"cataclysm:the_incinerator",
+	"cataclysm:gauntlet_of_bulwark",
+	"cataclysm:gauntlet_of_guard",
+	"cataclysm:tidal_claws"
+]
 
 [Worldgen]
-	#The weight of the priest house spawning in a village. Default: 4
-	priestHouseWeight = 4
+#The weight of the priest house spawning in a village. Default: 4
+priestHouseWeight = 4
 
 #Individual Spell Configuration
 [Spells]
 
-	#irons_spellbooks:fire
-	[Spells."irons_spellbooks:fireball"]
-		Enabled = true
-		School = "irons_spellbooks:fire"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 25.0
-
-	[Spells."irons_spellbooks:wall_of_fire"]
-		Enabled = true
-		School = "irons_spellbooks:fire"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 20.0
-
-	[Spells."irons_spellbooks:fire_breath"]
-		Enabled = true
-		School = "irons_spellbooks:fire"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 12.0
-
-	[Spells."irons_spellbooks:magma_bomb"]
-		Enabled = true
-		School = "irons_spellbooks:fire"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 12.0
-
-	[Spells."irons_spellbooks:burning_dash"]
-		Enabled = true
-		School = "irons_spellbooks:fire"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 10.0
-
-	[Spells."irons_spellbooks:blaze_storm"]
-		Enabled = true
-		School = "irons_spellbooks:fire"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 20.0
-
-	[Spells."irons_spellbooks:firebolt"]
-		Enabled = true
-		School = "irons_spellbooks:fire"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 1.0
-
-	#irons_spellbooks:nature
-	[Spells."irons_spellbooks:poison_arrow"]
-		Enabled = true
-		School = "irons_spellbooks:nature"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 15.0
-
-	[Spells."irons_spellbooks:earthquake"]
-		Enabled = true
-		School = "irons_spellbooks:nature"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 16.0
-
-	[Spells."irons_spellbooks:poison_splash"]
-		Enabled = true
-		School = "irons_spellbooks:nature"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 20.0
-
-	[Spells."irons_spellbooks:oakskin"]
-		Enabled = true
-		School = "irons_spellbooks:nature"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 35.0
-
-	[Spells."irons_spellbooks:spider_aspect"]
-		Enabled = true
-		School = "irons_spellbooks:nature"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 90.0
-
-	[Spells."irons_spellbooks:firefly_swarm"]
-		Enabled = true
-		School = "irons_spellbooks:nature"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 20.0
-
-	[Spells."irons_spellbooks:root"]
-		Enabled = true
-		School = "irons_spellbooks:nature"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 35.0
-
-	[Spells."irons_spellbooks:blight"]
-		Enabled = true
-		School = "irons_spellbooks:nature"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 35.0
-
-	[Spells."irons_spellbooks:acid_orb"]
-		Enabled = true
-		School = "irons_spellbooks:nature"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 2.0
-		CooldownInSeconds = 15.0
-
-	[Spells."irons_spellbooks:poison_breath"]
-		Enabled = true
-		School = "irons_spellbooks:nature"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 12.0
-
-	#irons_spellbooks:evocation
-	[Spells."irons_spellbooks:fang_ward"]
-		Enabled = true
-		School = "irons_spellbooks:evocation"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 15.0
-
-	[Spells."irons_spellbooks:fang_strike"]
-		Enabled = true
-		School = "irons_spellbooks:evocation"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 5.0
-
-	[Spells."irons_spellbooks:chain_creeper"]
-		Enabled = true
-		School = "irons_spellbooks:evocation"
-		MaxLevel = 6
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 15.0
-
-	[Spells."irons_spellbooks:gust"]
-		Enabled = true
-		School = "irons_spellbooks:evocation"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 12.0
-
-	[Spells."irons_spellbooks:invisibility"]
-		Enabled = true
-		School = "irons_spellbooks:evocation"
-		MaxLevel = 6
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 45.0
-
-	[Spells."irons_spellbooks:summon_vex"]
-		Enabled = true
-		School = "irons_spellbooks:evocation"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 150.0
-
-	[Spells."irons_spellbooks:lob_creeper"]
-		Enabled = true
-		School = "irons_spellbooks:evocation"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 2.0
-
-	[Spells."irons_spellbooks:shield"]
-		Enabled = true
-		School = "irons_spellbooks:evocation"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 8.0
-
-	[Spells."irons_spellbooks:summon_horse"]
-		Enabled = true
-		School = "irons_spellbooks:evocation"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 20.0
-
-	[Spells."irons_spellbooks:spectral_hammer"]
-		Enabled = true
-		School = "irons_spellbooks:evocation"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 10.0
-
-	[Spells."irons_spellbooks:firecracker"]
-		Enabled = true
-		School = "irons_spellbooks:evocation"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 1.5
-
-	#irons_spellbooks:ice
-	[Spells."irons_spellbooks:frostbite"]
-		Enabled = false
-		School = "irons_spellbooks:ice"
-		MaxLevel = 0
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 0.0
-
-	[Spells."irons_spellbooks:ice_block"]
-		Enabled = true
-		School = "irons_spellbooks:ice"
-		MaxLevel = 6
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 15.0
-
-	[Spells."irons_spellbooks:ray_of_frost"]
-		Enabled = true
-		School = "irons_spellbooks:ice"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 15.0
-
-	[Spells."irons_spellbooks:cone_of_cold"]
-		Enabled = true
-		School = "irons_spellbooks:ice"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 12.0
-
-	[Spells."irons_spellbooks:frost_step"]
-		Enabled = true
-		School = "irons_spellbooks:ice"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 10.0
-
-	[Spells."irons_spellbooks:summon_polar_bear"]
-		Enabled = true
-		School = "irons_spellbooks:ice"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 180.0
-
-	[Spells."irons_spellbooks:icicle"]
-		Enabled = true
-		School = "irons_spellbooks:ice"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 1.0
-
-	#irons_spellbooks:ender
-	[Spells."irons_spellbooks:abyssal_shroud"]
-		Enabled = false
-		School = "irons_spellbooks:ender"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 300.0
-
-	[Spells."irons_spellbooks:evasion"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 180.0
-
-	[Spells."irons_spellbooks:magic_missile"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 1.0
-
-	[Spells."irons_spellbooks:void_tentacles"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 30.0
-
-	[Spells."irons_spellbooks:summon_ender_chest"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 1
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 5.0
-
-	[Spells."irons_spellbooks:magic_arrow"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 8.0
-
-	[Spells."irons_spellbooks:teleport"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 3.0
-
-	[Spells."irons_spellbooks:dragon_breath"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 12.0
-
-	[Spells."irons_spellbooks:black_hole"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 6
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 120.0
-
-	[Spells."irons_spellbooks:counterspell"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 1
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 15.0
-
-	[Spells."irons_spellbooks:starfall"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 16.0
-
-	#irons_spellbooks:holy
-	[Spells."irons_spellbooks:healing_circle"]
-		Enabled = true
-		School = "irons_spellbooks:holy"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 25.0
-
-	[Spells."irons_spellbooks:blessing_of_life"]
-		Enabled = true
-		School = "irons_spellbooks:holy"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 10.0
-
-	[Spells."irons_spellbooks:angel_wing"]
-		Enabled = true
-		School = "irons_spellbooks:holy"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 120.0
-
-	[Spells."irons_spellbooks:sunbeam"]
-		Enabled = false
-		School = "irons_spellbooks:holy"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 20.0
-
-	[Spells."irons_spellbooks:fortify"]
-		Enabled = true
-		School = "irons_spellbooks:holy"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 35.0
-
-	[Spells."irons_spellbooks:guiding_bolt"]
-		Enabled = true
-		School = "irons_spellbooks:holy"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 8.0
-
-	[Spells."irons_spellbooks:heal"]
-		Enabled = true
-		School = "irons_spellbooks:holy"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 25.0
-
-	[Spells."irons_spellbooks:wisp"]
-		Enabled = true
-		School = "irons_spellbooks:holy"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 3.0
-
-	[Spells."irons_spellbooks:greater_heal"]
-		Enabled = true
-		School = "irons_spellbooks:holy"
-		MaxLevel = 1
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 45.0
-
-	[Spells."irons_spellbooks:cloud_of_regeneration"]
-		Enabled = false
-		School = "irons_spellbooks:holy"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 35.0
-
-	#irons_spellbooks:blood
-	[Spells."irons_spellbooks:raise_dead"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 6
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 150.0
-
-	[Spells."irons_spellbooks:blood_slash"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 10.0
-
-	[Spells."irons_spellbooks:blood_step"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 5.0
-
-	[Spells."irons_spellbooks:acupuncture"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 20.0
-
-	[Spells."irons_spellbooks:ray_of_siphoning"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 15.0
-
-	[Spells."irons_spellbooks:blood_needles"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 10.0
-
-	[Spells."irons_spellbooks:heartstop"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 120.0
-
-	[Spells."irons_spellbooks:devour"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 20.0
-
-	[Spells."irons_spellbooks:wither_skull"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 1.0
-
-	#irons_spellbooks:lightning
-	[Spells."irons_spellbooks:ascension"]
-		Enabled = true
-		School = "irons_spellbooks:lightning"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 15.0
-
-	[Spells."irons_spellbooks:lightning_lance"]
-		Enabled = true
-		School = "irons_spellbooks:lightning"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 8.0
-
-	[Spells."irons_spellbooks:electrocute"]
-		Enabled = true
-		School = "irons_spellbooks:lightning"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 12.0
-
-	[Spells."irons_spellbooks:lightning_bolt"]
-		Enabled = true
-		School = "irons_spellbooks:lightning"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 25.0
-
-	[Spells."irons_spellbooks:charge"]
-		Enabled = true
-		School = "irons_spellbooks:lightning"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 40.0
-
-	[Spells."irons_spellbooks:chain_lightning"]
-		Enabled = true
-		School = "irons_spellbooks:lightning"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 3.0
-		CooldownInSeconds = 20.0
-
+#irons_spellbooks:fire
+[Spells."irons_spellbooks:fireball"]
+Enabled = true
+School = "irons_spellbooks:fire"
+MaxLevel = 3
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "EPIC"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 25.0
+
+[Spells."irons_spellbooks:wall_of_fire"]
+Enabled = true
+School = "irons_spellbooks:fire"
+MaxLevel = 5
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 20.0
+
+[Spells."irons_spellbooks:fire_breath"]
+Enabled = true
+School = "irons_spellbooks:fire"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 12.0
+
+[Spells."irons_spellbooks:magma_bomb"]
+Enabled = true
+School = "irons_spellbooks:fire"
+MaxLevel = 8
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 12.0
+
+[Spells."irons_spellbooks:burning_dash"]
+Enabled = true
+School = "irons_spellbooks:fire"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 10.0
+
+[Spells."irons_spellbooks:blaze_storm"]
+Enabled = true
+School = "irons_spellbooks:fire"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 20.0
+
+[Spells."irons_spellbooks:firebolt"]
+Enabled = true
+School = "irons_spellbooks:fire"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 1.0
+
+#irons_spellbooks:nature
+[Spells."irons_spellbooks:poison_arrow"]
+Enabled = true
+School = "irons_spellbooks:nature"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 15.0
+
+[Spells."irons_spellbooks:earthquake"]
+Enabled = true
+School = "irons_spellbooks:nature"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 16.0
+
+[Spells."irons_spellbooks:poison_splash"]
+Enabled = true
+School = "irons_spellbooks:nature"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 20.0
+
+[Spells."irons_spellbooks:oakskin"]
+Enabled = true
+School = "irons_spellbooks:nature"
+MaxLevel = 8
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 35.0
+
+[Spells."irons_spellbooks:spider_aspect"]
+Enabled = true
+School = "irons_spellbooks:nature"
+MaxLevel = 8
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 90.0
+
+[Spells."irons_spellbooks:firefly_swarm"]
+Enabled = true
+School = "irons_spellbooks:nature"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 20.0
+
+[Spells."irons_spellbooks:root"]
+Enabled = true
+School = "irons_spellbooks:nature"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 35.0
+
+[Spells."irons_spellbooks:blight"]
+Enabled = true
+School = "irons_spellbooks:nature"
+MaxLevel = 8
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 35.0
+
+[Spells."irons_spellbooks:acid_orb"]
+Enabled = true
+School = "irons_spellbooks:nature"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 2.0
+CooldownInSeconds = 15.0
+
+[Spells."irons_spellbooks:poison_breath"]
+Enabled = true
+School = "irons_spellbooks:nature"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 12.0
+
+#irons_spellbooks:evocation
+[Spells."irons_spellbooks:fang_ward"]
+Enabled = true
+School = "irons_spellbooks:evocation"
+MaxLevel = 8
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 15.0
+
+[Spells."irons_spellbooks:fang_strike"]
+Enabled = true
+School = "irons_spellbooks:evocation"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 5.0
+
+[Spells."irons_spellbooks:chain_creeper"]
+Enabled = true
+School = "irons_spellbooks:evocation"
+MaxLevel = 6
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 15.0
+
+[Spells."irons_spellbooks:gust"]
+Enabled = true
+School = "irons_spellbooks:evocation"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 12.0
+
+[Spells."irons_spellbooks:invisibility"]
+Enabled = true
+School = "irons_spellbooks:evocation"
+MaxLevel = 6
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 45.0
+
+[Spells."irons_spellbooks:summon_vex"]
+Enabled = true
+School = "irons_spellbooks:evocation"
+MaxLevel = 5
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 150.0
+
+[Spells."irons_spellbooks:lob_creeper"]
+Enabled = true
+School = "irons_spellbooks:evocation"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 2.0
+
+[Spells."irons_spellbooks:shield"]
+Enabled = true
+School = "irons_spellbooks:evocation"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 8.0
+
+[Spells."irons_spellbooks:summon_horse"]
+Enabled = true
+School = "irons_spellbooks:evocation"
+MaxLevel = 5
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 20.0
+
+[Spells."irons_spellbooks:spectral_hammer"]
+Enabled = true
+School = "irons_spellbooks:evocation"
+MaxLevel = 5
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 10.0
+
+[Spells."irons_spellbooks:firecracker"]
+Enabled = true
+School = "irons_spellbooks:evocation"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 1.5
+
+#irons_spellbooks:ice
+[Spells."irons_spellbooks:frostbite"]
+Enabled = false
+School = "irons_spellbooks:ice"
+MaxLevel = 0
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 0.0
+
+[Spells."irons_spellbooks:ice_block"]
+Enabled = true
+School = "irons_spellbooks:ice"
+MaxLevel = 6
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 15.0
+
+[Spells."irons_spellbooks:ray_of_frost"]
+Enabled = true
+School = "irons_spellbooks:ice"
+MaxLevel = 5
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 15.0
+
+[Spells."irons_spellbooks:cone_of_cold"]
+Enabled = true
+School = "irons_spellbooks:ice"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 12.0
+
+[Spells."irons_spellbooks:frost_step"]
+Enabled = true
+School = "irons_spellbooks:ice"
+MaxLevel = 8
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 10.0
+
+[Spells."irons_spellbooks:summon_polar_bear"]
+Enabled = true
+School = "irons_spellbooks:ice"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 180.0
+
+[Spells."irons_spellbooks:icicle"]
+Enabled = true
+School = "irons_spellbooks:ice"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 1.0
+
+#irons_spellbooks:ender
+[Spells."irons_spellbooks:abyssal_shroud"]
+Enabled = false
+School = "irons_spellbooks:ender"
+MaxLevel = 3
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "LEGENDARY"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 300.0
+
+[Spells."irons_spellbooks:evasion"]
+Enabled = true
+School = "irons_spellbooks:ender"
+MaxLevel = 5
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "EPIC"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 180.0
+
+[Spells."irons_spellbooks:magic_missile"]
+Enabled = true
+School = "irons_spellbooks:ender"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 1.0
+
+[Spells."irons_spellbooks:void_tentacles"]
+Enabled = true
+School = "irons_spellbooks:ender"
+MaxLevel = 3
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "LEGENDARY"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 30.0
+
+[Spells."irons_spellbooks:summon_ender_chest"]
+Enabled = true
+School = "irons_spellbooks:ender"
+MaxLevel = 1
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 5.0
+
+[Spells."irons_spellbooks:magic_arrow"]
+Enabled = true
+School = "irons_spellbooks:ender"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 8.0
+
+[Spells."irons_spellbooks:teleport"]
+Enabled = true
+School = "irons_spellbooks:ender"
+MaxLevel = 5
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 3.0
+
+[Spells."irons_spellbooks:dragon_breath"]
+Enabled = true
+School = "irons_spellbooks:ender"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 12.0
+
+[Spells."irons_spellbooks:black_hole"]
+Enabled = true
+School = "irons_spellbooks:ender"
+MaxLevel = 6
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "LEGENDARY"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 120.0
+
+[Spells."irons_spellbooks:counterspell"]
+Enabled = true
+School = "irons_spellbooks:ender"
+MaxLevel = 1
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 15.0
+
+[Spells."irons_spellbooks:starfall"]
+Enabled = true
+School = "irons_spellbooks:ender"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 16.0
+
+#irons_spellbooks:holy
+[Spells."irons_spellbooks:healing_circle"]
+Enabled = true
+School = "irons_spellbooks:holy"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 25.0
+
+[Spells."irons_spellbooks:blessing_of_life"]
+Enabled = true
+School = "irons_spellbooks:holy"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 10.0
+
+[Spells."irons_spellbooks:angel_wing"]
+Enabled = true
+School = "irons_spellbooks:holy"
+MaxLevel = 5
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "EPIC"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 120.0
+
+[Spells."irons_spellbooks:sunbeam"]
+Enabled = false
+School = "irons_spellbooks:holy"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 20.0
+
+[Spells."irons_spellbooks:fortify"]
+Enabled = true
+School = "irons_spellbooks:holy"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 35.0
+
+[Spells."irons_spellbooks:guiding_bolt"]
+Enabled = true
+School = "irons_spellbooks:holy"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 8.0
+
+[Spells."irons_spellbooks:heal"]
+Enabled = true
+School = "irons_spellbooks:holy"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 25.0
+
+[Spells."irons_spellbooks:wisp"]
+Enabled = true
+School = "irons_spellbooks:holy"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 3.0
+
+[Spells."irons_spellbooks:greater_heal"]
+Enabled = true
+School = "irons_spellbooks:holy"
+MaxLevel = 1
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 45.0
+
+[Spells."irons_spellbooks:cloud_of_regeneration"]
+Enabled = false
+School = "irons_spellbooks:holy"
+MaxLevel = 5
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 35.0
+
+#irons_spellbooks:blood
+[Spells."irons_spellbooks:raise_dead"]
+Enabled = true
+School = "irons_spellbooks:blood"
+MaxLevel = 6
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 150.0
+
+[Spells."irons_spellbooks:blood_slash"]
+Enabled = true
+School = "irons_spellbooks:blood"
+MaxLevel = 5
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 10.0
+
+[Spells."irons_spellbooks:blood_step"]
+Enabled = true
+School = "irons_spellbooks:blood"
+MaxLevel = 5
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 5.0
+
+[Spells."irons_spellbooks:acupuncture"]
+Enabled = true
+School = "irons_spellbooks:blood"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 20.0
+
+[Spells."irons_spellbooks:ray_of_siphoning"]
+Enabled = true
+School = "irons_spellbooks:blood"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 15.0
+
+[Spells."irons_spellbooks:blood_needles"]
+Enabled = true
+School = "irons_spellbooks:blood"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 10.0
+
+[Spells."irons_spellbooks:heartstop"]
+Enabled = true
+School = "irons_spellbooks:blood"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 120.0
+
+[Spells."irons_spellbooks:devour"]
+Enabled = true
+School = "irons_spellbooks:blood"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 20.0
+
+[Spells."irons_spellbooks:wither_skull"]
+Enabled = true
+School = "irons_spellbooks:blood"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 1.0
+
+#irons_spellbooks:lightning
+[Spells."irons_spellbooks:ascension"]
+Enabled = true
+School = "irons_spellbooks:lightning"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 15.0
+
+[Spells."irons_spellbooks:lightning_lance"]
+Enabled = true
+School = "irons_spellbooks:lightning"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 8.0
+
+[Spells."irons_spellbooks:electrocute"]
+Enabled = true
+School = "irons_spellbooks:lightning"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "COMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 12.0
+
+[Spells."irons_spellbooks:lightning_bolt"]
+Enabled = true
+School = "irons_spellbooks:lightning"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "EPIC"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 25.0
+
+[Spells."irons_spellbooks:charge"]
+Enabled = true
+School = "irons_spellbooks:lightning"
+MaxLevel = 3
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "RARE"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 40.0
+
+[Spells."irons_spellbooks:chain_lightning"]
+Enabled = true
+School = "irons_spellbooks:lightning"
+MaxLevel = 10
+#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+MinRarity = "UNCOMMON"
+ManaCostMultiplier = 1.0
+SpellPowerMultiplier = 3.0
+CooldownInSeconds = 20.0

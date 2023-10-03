@@ -2,15 +2,15 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [256, 256],
 	"textures": {
-		"1": "mahoutsukai:items/blademetal",
-		"2": "mahoutsukai:items/darkleather",
-		"3": "mahoutsukai:items/darkhandle",
-		"4": "mahoutsukai:items/bladeedges",
-		"5": "mahoutsukai:items/red",
-		"6": "mahoutsukai:items/redcircle",
-		"7": "mahoutsukai:items/redhollowcircle",
-		"8": "mahoutsukai:items/handlerrune1",
-		"9": "mahoutsukai:items/handlerrune2"
+		"1": "mahoutsukai:item/blademetal",
+		"2": "mahoutsukai:item/darkleather",
+		"3": "mahoutsukai:item/darkhandle",
+		"4": "mahoutsukai:item/bladeedges",
+		"5": "mahoutsukai:item/red",
+		"6": "mahoutsukai:item/redcircle",
+		"7": "mahoutsukai:item/redhollowcircle",
+		"8": "mahoutsukai:item/handlerrune1",
+		"9": "mahoutsukai:item/handlerrune2"
 	},
 	"elements": [
 		{

@@ -139,6 +139,7 @@
 				item: { Count: 5b, id: "simplyswords:empowered_remnant" }
 				type: "item"
 			}]
+			title: "Exchanging for &bUnique Weapon&r"
 			x: -2.0d
 			y: 4.0d
 		}
@@ -432,7 +433,9 @@
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			id: "53FFAA6DB037AE36"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2AF075FAB61F4D95"
@@ -457,7 +460,9 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			id: "656A226B2205A429"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "06D44456D62608A6"
@@ -482,7 +487,9 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			id: "4EDC666CDF4A0E9E"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "37847FC34A812AE1"
@@ -507,7 +514,9 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			id: "412B92A9ECA58DBF"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1225E48BC9054798"
@@ -553,9 +562,11 @@
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["1F19B83479B02347"]
 			description: ["After defeating the LV.20 &5Ender Dragon&r, you can obtain one unique weapon in every defeat."]
 			id: "18AA7D01C07AFF95"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -586,9 +597,11 @@
 			y: 4.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["39F1C572E332B440"]
 			description: ["After defeating the LV.10 &5Wither&r, you can obtain one unique weapon in every defeat."]
 			id: "3580877F040B049C"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true

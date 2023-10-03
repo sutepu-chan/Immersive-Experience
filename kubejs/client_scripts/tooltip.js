@@ -253,7 +253,8 @@ ItemEvents.tooltip(e => {
     //#endregion
     
     //#region miscellaneous
-    tooltips.darkPurple('manyideas_core:end_block', 'Just a decorative block')
+    tooltips.red('minecraft:shield', 'Disabled! Only used for obtaining Morgan.');
+    tooltips.darkPurple('manyideas_core:end_block', 'Just a decorative block');
     tooltips.blue('dragonmounts:dragon_egg', 'Dragon eggs will adapt to surrounding environment and change the breed.')
     tooltips.darkPurple('majruszsdifficulty:wither_sword', 'Turns normal skeletons into Wither skeleton by chances')
     tooltips.darkPurple('majruszsdifficulty:enderium_upgrade_smithing_template', 'Loots in structures in the End dimension')

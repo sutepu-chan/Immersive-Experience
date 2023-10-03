@@ -230,4 +230,8 @@ ItemEvents.modification(e => {
     e.modify('aquamirae:abyssal_tiara', (item) => {
         item.maxDamage = 1322 
     });
+
+    e.modify('minecraft:shield', item=> {
+        item.maxDamage = 1
+    });
 });

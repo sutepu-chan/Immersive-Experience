@@ -15,7 +15,7 @@ ServerEvents.recipes(e => {
 
     e.remove({id: 'constructionwand:infinity_wand'});
     e.shaped('constructionwand:infinity_wand', ['  I', ' W ', 'S  '], {
-        I: '#forge:gems/diamond',
+        I: 'minecraft:nether_star',
         S: '#forge:rods/wooden',
         W: 'constructionwand:diamond_wand'
     }).id('kubejs:constructionwand/infinity_wand');

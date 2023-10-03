@@ -18,6 +18,12 @@
 		{
 			description: ["&bAqeous sponge&r is a &6one-time&r use sponge"]
 			id: "207EAC6DC0D83CA4"
+			rewards: [{
+				count: 2
+				id: "70937F3EBCF52A5D"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "406E73BC1891C12E"
 				item: "permanentsponges:aqueous_sponge"
@@ -31,6 +37,12 @@
 			dependencies: ["207EAC6DC0D83CA4"]
 			description: ["&bAqueous sponge on a stick&r is a &6portable aqeous sponge&r with 65 uses."]
 			id: "16E5275EA2D2A6E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21C35EFAF3FAE0BA"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5A51AB1344FB3B5F"
 				item: {
@@ -48,6 +60,12 @@
 		{
 			description: ["&bMagmatic sponge&r is a &6one-time&r use sponge for lava."]
 			id: "47188BFB2FCB9BC8"
+			rewards: [{
+				count: 2
+				id: "5314F998D73A1ED2"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C760707BEAAB8A9"
 				item: "permanentsponges:magmatic_sponge"
@@ -61,6 +79,12 @@
 			dependencies: ["47188BFB2FCB9BC8"]
 			description: ["&bMagmatic sponge on a stick&r is a &6portable magmatic sponge&r with 65 uses."]
 			id: "2F64B4DA61D2A7B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A8D3C5278559ED5"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5A5709503016AC78"
 				item: {
@@ -76,7 +100,14 @@
 			y: 2.0d
 		}
 		{
+			description: ["&bTorch&r is definitely a &6must-need item&r in Minecraft."]
 			id: "62FA545E2B097980"
+			rewards: [{
+				count: 3
+				id: "13E444EA41B2766E"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6950DEF4C47FDFA2"
 				item: "minecraft:torch"
@@ -84,42 +115,6 @@
 			}]
 			x: 0.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["62FA545E2B097980"]
-			description: ["&bDiamond Magnum Torch&r is a mega torch &6prevents mob spawns&r in a certain radius. Read the tooltip for more info."]
-			id: "1E20584DE3D7E4F7"
-			tasks: [{
-				id: "05B342D729AF565A"
-				item: "magnumtorch:diamond_magnum_torch"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["62FA545E2B097980"]
-			description: ["&bEmerald Magnum Torch&r is a mega torch &6prevents mob spawns&r in a certain radius. Read the tooltip for more info."]
-			id: "1BA39EF67B77C655"
-			tasks: [{
-				id: "1EF26B69D7B2713C"
-				item: "magnumtorch:emerald_magnum_torch"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["62FA545E2B097980"]
-			description: ["&bAmethyst Magnum Torch&r is a mega torch &6prevents water creatures from spawning&r in a certain radius. Read the tooltip for more info."]
-			id: "2EF8609B80D04C23"
-			tasks: [{
-				id: "109067CB19536CE8"
-				item: "magnumtorch:amethyst_magnum_torch"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
 		}
 		{
 			description: [
@@ -130,6 +125,12 @@
 				"Read the tooltip for more info."
 			]
 			id: "44D77B07536C629D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BA3FE0F762731D6"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2363870B4A74D9EA"
 				item: {
@@ -148,6 +149,12 @@
 		{
 			dependencies: ["44D77B07536C629D"]
 			id: "526A32551247AF1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BF6F299FEBDB6A7"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "223980E123635175"
 				item: {
@@ -166,6 +173,12 @@
 		{
 			dependencies: ["526A32551247AF1C"]
 			id: "67C930CE9611169F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77FC5803DFA1E46C"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			tasks: [{
 				id: "362E18E116936682"
 				item: {
@@ -184,6 +197,12 @@
 		{
 			dependencies: ["67C930CE9611169F"]
 			id: "64F307F102F80E55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6498A8DD0F5D0BA6"
+				table_id: 6225236626738686000L
+				type: "random"
+			}]
 			tasks: [{
 				id: "356558B2C7978604"
 				item: {
@@ -202,6 +221,12 @@
 			dependencies: ["44D77B07536C629D"]
 			description: ["&bAngel Wand Core&r upgrades the wand so that blocks can be placed &6in air&r."]
 			id: "411F158BCA712FA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2000B7F3C1F388B9"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4008CAB635A4CBCD"
 				item: "constructionwand:core_angel"
@@ -214,6 +239,12 @@
 			dependencies: ["44D77B07536C629D"]
 			description: ["&bDestruction Wand Core&r &6destory blocks&r of the same type at once."]
 			id: "1096D7BD6B8A0CE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60C7FF08AB5AB845"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "29A91321BAA5757D"
 				item: "constructionwand:core_destruction"
@@ -231,6 +262,12 @@
 				"Powers can be supplied by &cCreate&r or &cIron Furnaces&r"
 			]
 			id: "513E942A377D9F60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1810EBC1DC6190DF"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2F04CAC7A6A452BA"
 				item: {
@@ -253,6 +290,12 @@
 		{
 			description: ["&bExchanging Gadget&r provides basic &6exchanging&r abilities using a set of different &6Exchanging Modes&r."]
 			id: "79BE800F8C4A9760"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F0C603D30EAB3F7"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "56C30E6132D0135C"
 				item: {
@@ -275,6 +318,12 @@
 		{
 			description: ["&bCopy Paste Gadget&r allows you to select a large radius to &6copy and paste&r in a different location."]
 			id: "16DA5530E434BAE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74A3667919F0442F"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2AF9951F97992D7A"
 				item: {
@@ -290,6 +339,12 @@
 		{
 			description: ["&bCut Paste Gadget&r allows you to select a large radius to &6cut and paste&r in a different location."]
 			id: "4F10E3643FD9311D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "228DF295BE86CA9A"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "73747B1E46D36FCE"
 				item: {
@@ -307,6 +362,12 @@
 		{
 			description: ["&bDestruction Gadget&r allows you to &6void&r a large area."]
 			id: "629629BAA35543BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A39CA188C0E3E3F"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "03E2D9656CD158C9"
 				item: "buildinggadgets2:gadget_destruction"
@@ -314,6 +375,100 @@
 			}]
 			x: -6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["62FA545E2B097980"]
+			description: [
+				"&bMega Torch&r prevents &6all types of mobs&r from spawning in a 128 blocks radius."
+				""
+				"&7This item is extremely expensive as the use of this item is discouraged especially during exploration. This item is intended to be used only when construction.&r"
+			]
+			id: "0CCE5C09A1BB1168"
+			tasks: [{
+				id: "770CB8EA60705D61"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["62FA545E2B097980"]
+			description: ["&bDread Lamp&r prevents &6non-hostile mobs&r from spawning in a 128 blocks radius."]
+			id: "027EFDB71B82A47E"
+			rewards: [
+				{
+					count: 2
+					id: "2FB0EB14116DAE64"
+					item: "minecraft:squid_spawn_egg"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "47959BFC5CD21695"
+					item: "minecraft:glow_squid_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1EDC082E7C95D808"
+				item: "torchmaster:dreadlamp"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62FA545E2B097980"]
+			description: ["&bFeral Flare Lantern&r places &6invisible lights&r in a large radius."]
+			id: "08F05E53E375DB24"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D22D5F044002987"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32F1BCF1B639D8AB"
+					table_id: 3847649148309268719L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "171EDE8A512AB62C"
+				item: "torchmaster:feral_flare_lantern"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08F05E53E375DB24"]
+			description: ["&bFrozen Pearl&r clear the invisible lights placed by the Feral Flare Lantern."]
+			id: "2B5F5872563287F7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7042435204F5A0E2"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1478A8DDCCC24422"
+					table_id: 3847649148309268719L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3C44F5D407A1245E"
+				item: "torchmaster:frozen_pearl"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
 		}
 	]
 	title: "Tools"

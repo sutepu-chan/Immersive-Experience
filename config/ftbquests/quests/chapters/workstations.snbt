@@ -11,6 +11,12 @@
 		{
 			description: ["This chapter introduces &l&6workstations&r to be worked with"]
 			id: "3521CF0E58CA5EE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C22661FF3CED422"
+				table_id: 3416584882695544973L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2B443679A642F165"
 				item: "minecraft:crafting_table"
@@ -40,6 +46,12 @@
 				"&7-> remove the fluid camo&r"
 			]
 			id: "335336251E567C41"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33EEF58C75D29BF3"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "665E33BD79CB342C"
@@ -65,6 +77,12 @@
 				"RF can be supplied with contraptions from &c&lIron Furnaces&r and &c&lCreates&r."
 			]
 			id: "5BE7CEE22321F65F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36485F7D485BE7A4"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1E62266A59253E70"
 				item: "framedblocks:powered_framing_saw"
@@ -77,6 +95,12 @@
 			dependencies: ["335336251E567C41"]
 			description: ["&bFramed Hammer&r removes camo upon &dRC&r on &6framed blocks&r."]
 			id: "4191CE495332BD38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E8C5864C06AD45E"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5BCDC3B32FA73150"
 				item: "framedblocks:framed_hammer"
@@ -89,6 +113,12 @@
 			dependencies: ["335336251E567C41"]
 			description: ["&bFramed Wrench&r rotates the targed &6framed block&r."]
 			id: "0A7E1BAE3AB5A8D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5110A1D3A83B8D31"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5F11C0AE970C4854"
 				item: "framedblocks:framed_wrench"
@@ -101,6 +131,12 @@
 			dependencies: ["335336251E567C41"]
 			description: ["&bFramed Blueprints&r copies the attributes, including the camo and glowing state, from one &6framaed block&r to another."]
 			id: "6C0DA1B9C45607DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EF1A3719EFBA2B1"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5426F6F04E472BEE"
 				item: {
@@ -127,6 +163,12 @@
 				"The changes are only allowed in single face at once. There might be potential rendering error when a plane cannot be formed by the corners."
 			]
 			id: "2703F62CDF243F2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59624B72CCE7F184"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "028832CF1988F795"
 				item: "framedblocks:framed_collapsible_block"
@@ -139,6 +181,12 @@
 			dependencies: ["335336251E567C41"]
 			description: ["&bFramed Key&r lock the framed blocks upon &dRC&r in their current attributes which help you suppress neighbour updates"]
 			id: "4DB5A61E354B3C80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10F75C613DB5F625"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6CF432B13C0035A3"
 				item: "framedblocks:framed_key"
@@ -151,6 +199,12 @@
 			dependencies: ["335336251E567C41"]
 			description: ["&bFramed Reinforcement&r makes the framed block &6blast resistant&r."]
 			id: "35AEC9DAD4C0222A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E44152D24701D99"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0764488A6D818183"
 				item: "framedblocks:framed_reinforcement"
@@ -163,6 +217,12 @@
 			dependencies: ["335336251E567C41"]
 			description: ["&bFramed Screwdriver&r cycle through different states of the camo block (e.g. purpur pillar)."]
 			id: "70A0A9DAB7CD3D4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1744B9E474668D39"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0AAC9B8D1BA48720"
 				item: "framedblocks:framed_screwdriver"
@@ -175,6 +235,12 @@
 			dependencies: ["3521CF0E58CA5EE6"]
 			description: ["&bChisel&r from &6&lRechiseled&r brings you more variants of certain blocks, increasing the variation in your builds!"]
 			id: "7906A4246DB0C8A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4870455988A57646"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "24DB7A78465E3E19"
 				item: {
@@ -194,6 +260,12 @@
 				"&bWoodcutters&r have the same function as stonecutter, but for wood!"
 			]
 			id: "1A69ACFE7CDEF456"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54F3BD11E066B694"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1F9837E1BDE8918B"
 				item: {
@@ -214,6 +286,12 @@
 			dependencies: ["00D943721FD6C3ED"]
 			description: ["&bDye Crafting Table&r are specifically used in this mod to obtain specific coloured blocks."]
 			id: "3E5448A6A1B39BED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11D46062677A3176"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [{
 				id: "482CCC8A354E8186"
 				item: "manyideas_core:dye_crafting_table"
@@ -229,6 +307,12 @@
 				"&bTable Saw&r produces materials for crafting. Higher tiers are capable of producing &6more advanced materials&r."
 			]
 			id: "00D943721FD6C3ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49EF423A2FAB1298"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "1319EF823163757C"
@@ -254,6 +338,12 @@
 			dependencies: ["00D943721FD6C3ED"]
 			description: ["&bMortals&r can crush &6prismarine crystals&r into &brainbow dyes&r, which can be used to craft &6rainbow block&r that changes its colour upon time."]
 			id: "5230F9C201CEFB82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EF36E5460E43754"
+				table_id: 1613080448957740991L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "61FBD4FCAEB9D68D"

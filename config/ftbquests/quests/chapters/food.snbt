@@ -12,6 +12,19 @@
 			dependencies: ["1421C541ABA38519"]
 			description: ["&bFarmers Delight&r is a &6kitchen and food&r mod that allows you to craft copious type of food."]
 			id: "63976D3D56F0CC0E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CD0CA35C6E83A68"
+					table_id: 5877745173198024707L
+					type: "choice"
+				}
+				{
+					id: "7C60E326AB28771B"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "6B0BCB92E5AAC452"
@@ -60,6 +73,19 @@
 			dependencies: ["63976D3D56F0CC0E"]
 			description: ["&bBlackstone Stove&r is the &6nether version&r of the regular stove."]
 			id: "69F1BB4C79E0D1B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CAEB0FF2D4F3432"
+					table_id: 5877745173198024707L
+					type: "choice"
+				}
+				{
+					id: "0E678507B87C4D7B"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "4E5B5CB68BD68BB4"
 				item: "nethersdelight:blackstone_stove"
@@ -77,6 +103,12 @@
 				"Rich Soil is obtained from &bOrganic Compost&r. Place the compost on ground and wait it to turn into Rich Soil automatically. The process can be sped up with &6adjacent water&r or &6fungus.&r"
 			]
 			id: "1AE0C615FD0BE07C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AA90AC79A9BC043"
+				table_id: 3416584882695544973L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "0FFE63A1B7F2F174"
@@ -97,6 +129,19 @@
 			dependencies: ["69F1BB4C79E0D1B6"]
 			description: ["&bEnd Stove&r is the &6end version&r of the regular stove."]
 			id: "0B1D4920D498ECDD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AFFE712F3C9A009"
+					table_id: 5877745173198024707L
+					type: "choice"
+				}
+				{
+					id: "1C3C44BFCC42CCC9"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "6F0B261A2DDC2315"
 				item: "ends_delight:end_stove"
@@ -112,9 +157,15 @@
 				"Balancing the nutrition gives you &6extra effects&r which assists you in adventuring. "
 				"When either one type of the nutrition are too &4low&r, &4bad effects&r will be granted."
 				""
-				"Try to max out all your nutritions!"
+				"Try to maintain all your nutrition in a suitable level!"
 			]
 			id: "1421C541ABA38519"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EEA418CDAEA79D9"
+				table_id: 3416584882695544973L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0C71997F93AE56C9"
 				item: "minecraft:apple"
@@ -128,6 +179,12 @@
 			dependencies: ["1421C541ABA38519"]
 			description: ["&bVinery&r is a mod that make &6wines&r in minecraft. Wines can also give some effects to you"]
 			id: "1D89AEC45F5CC452"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A9E4F2CAA77F4ED"
+				table_id: 2922747324652607733L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "7E88EC990778EC49"
@@ -162,6 +219,12 @@
 				"&bWine Box&r and &bShelf&r can&6 display wines&r and items in world."
 			]
 			id: "3D86526A9253830E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "428AFABD10D07DF8"
+				table_id: 1613080448957740991L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "106FE4752276637D"
@@ -207,6 +270,12 @@
 			dependencies: ["1D89AEC45F5CC452"]
 			description: ["You may also meet &bwandering wine maker&r in world that &6trades seeds and wines&r."]
 			id: "70E0292EE5822986"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12936A5484CCEF8B"
+				table_id: 2922747324652607733L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5AD2D3F9DBC99B54"
 				item: "vinery:red_grapejuice_wine_bottle"

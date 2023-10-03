@@ -8,8 +8,9 @@ ServerEvents.recipes(e => {
     }).id('kubejs:mahoutsukai/pestle');
     e.remove({ id: 'mahoutsukai:mortar' });
 
-    e.shaped('mahoutsukai:mortar', ['N N', ' N '], {
-        N: 'advancednetherite:netherite_diamond_ingot'
+    e.shaped('mahoutsukai:mortar', ['N N', ' C '], {
+        N: 'advancednetherite:netherite_diamond_ingot',
+        C: 'cataclysm:void_core'
     }).id('kubejs:mahoutsukai/mortar');
 
     e.replaceInput({ id: 'mahoutsukai:spell_cloth' }, 'minecraft:white_wool', 'irons_spellbooks:magic_cloth');

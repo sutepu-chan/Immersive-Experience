@@ -1,5 +1,5 @@
 {
-    "armorSetName": "mutant_skeleton",
+    "armorSetName": "Mutant Skeleton",
     "performanceMode": true,
     "head": {
       "itemKey": "mutantmonsters:mutant_skeleton_skull",
@@ -35,16 +35,6 @@
         "value": 0.1,
         "description": "+10% Attack Damage",
         "attributeOperation": 2,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      },
-      {
-        "type": "attribute",
-        "name": "minecraft:generic.armor",
-        "modifierUUID": "3ae75e95-d540-4bf1-8fad-f66cb988f807",
-        "value": 2.0,
-        "description": "+2 Armor",
-        "attributeOperation": 0,
         "interactionType": "self",
         "hideBonusDescription": false
       },

@@ -1,5 +1,5 @@
 {
-    "armorSetName": "enderium",
+    "armorSetName": "Enderium",
     "performanceMode": true,
     "head": {
       "itemKey": "majruszsdifficulty:enderium_helmet",
@@ -44,16 +44,6 @@
         "modifierUUID": "aaec4146-ffd5-4807-815e-22e7a332a860",
         "value": 10.0,
         "description": "+10 Armor",
-        "attributeOperation": 0,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      },
-      {
-        "type": "attribute",
-        "name": "irons_spellbooks:max_mana",
-        "modifierUUID": "e273989f-7acd-49e2-ad28-c79f18986c48",
-        "value": 60,
-        "description": "+60 Max Mana",
         "attributeOperation": 0,
         "interactionType": "self",
         "hideBonusDescription": false

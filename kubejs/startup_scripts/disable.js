@@ -10,7 +10,6 @@ global.recipe_disable = [
     'nourished_nether:obsidian_brick_wall',
     'functionalstorage:armory_cabinet',
     'functionalstorage:ender_drawer',
-    'minecraft:shield',
     'bygonenether:gilded_netherite_shield',
     'majruszsdifficulty:ender_pouch',
     'ironfurnaces:allthemodium_furnace',
