@@ -130,6 +130,7 @@
 				exclude_from_claim_all: true
 				id: "59C9AEE8E219BA44"
 				table_id: 4125960065121793971L
+				team_reward: true
 				type: "choice"
 			}]
 			tasks: [{
@@ -162,6 +163,7 @@
 					exclude_from_claim_all: true
 					id: "0468D0B0F925EA7D"
 					table_id: 4125960065121793971L
+					team_reward: true
 					type: "loot"
 				}
 				{
@@ -198,6 +200,7 @@
 					exclude_from_claim_all: true
 					id: "7E50143976138300"
 					table_id: 4125960065121793971L
+					team_reward: true
 					type: "loot"
 				}
 				{
@@ -239,6 +242,7 @@
 					exclude_from_claim_all: true
 					id: "407FB64C407089C3"
 					table_id: 4125960065121793971L
+					team_reward: true
 					type: "loot"
 				}
 				{
@@ -275,6 +279,7 @@
 					exclude_from_claim_all: true
 					id: "670F1C85650AA6B6"
 					table_id: 4125960065121793971L
+					team_reward: true
 					type: "loot"
 				}
 				{
@@ -311,6 +316,7 @@
 					exclude_from_claim_all: true
 					id: "6F5AC2ED2DE55F61"
 					table_id: 4125960065121793971L
+					team_reward: true
 					type: "random"
 				}
 				{
@@ -572,6 +578,7 @@
 					exclude_from_claim_all: true
 					id: "15A8E3831FA2F35F"
 					table_id: 4125960065121793971L
+					team_reward: true
 					type: "random"
 				}
 				{
@@ -607,6 +614,7 @@
 					exclude_from_claim_all: true
 					id: "4A725B7EC1C7B7CC"
 					table_id: 4125960065121793971L
+					team_reward: true
 					type: "random"
 				}
 				{
@@ -638,6 +646,11 @@
 			hide: true
 			id: "3E8046F93033B406"
 			optional: true
+			rewards: [{
+				id: "3C57BE36F07B00E2"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_egg"

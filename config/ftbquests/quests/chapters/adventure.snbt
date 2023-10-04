@@ -5975,9 +5975,9 @@
 					xp_levels: 50
 				}
 				{
-					exclude_from_claim_all: true
 					id: "37C6A825D9B13B98"
 					table_id: 4125960065121793971L
+					team_reward: true
 					type: "random"
 				}
 			]
@@ -6149,9 +6149,9 @@
 					xp_levels: 50
 				}
 				{
-					exclude_from_claim_all: true
 					id: "4EFE09CD615BDF7B"
 					table_id: 4125960065121793971L
+					team_reward: true
 					type: "random"
 				}
 			]
@@ -7929,6 +7929,7 @@
 					exclude_from_claim_all: true
 					id: "5206FDF3DC459787"
 					table_id: 4125960065121793971L
+					team_reward: true
 					type: "random"
 				}
 				{
