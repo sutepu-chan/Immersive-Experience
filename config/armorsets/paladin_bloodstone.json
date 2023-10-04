@@ -1,0 +1,59 @@
+{
+    "armorSetName": "Bloodstone",
+    "performanceMode": true,
+    "head": {
+        "itemKey": "epicpaladins:bloodstone_helmet",
+        "mustBeEmpty": false
+    },
+    "chest": {
+        "itemKey": "epicpaladins:bloodstone_chestplate",
+        "mustBeEmpty": false
+    },
+    "legs": {
+        "itemKey": "epicpaladins:bloodstone_leggings",
+        "mustBeEmpty": false
+    },
+    "boots": {
+        "itemKey": "epicpaladins:bloodstone_boots",
+        "mustBeEmpty": false
+    },
+    "fullSetBonuses": [
+        {
+			"type": "attribute",
+			"name": "minecraft:generic.max_health",
+			"modifierUUID": "3f6416eb-d401-4d7b-b255-ea38e95861f0",
+			"value": -6.0,
+			"description": "-6 Health",
+			"attributeOperation": 0,
+			"interactionType": "self",
+			"hideBonusDescription": false
+		},
+        {
+            "type": "attribute",
+            "name": "minecraft:generic.attack_damage",
+            "modifierUUID": "e1617cbb-6439-43bb-9e6c-60d4e85115fc",
+            "value": 0.06,
+            "description": "+6% Attack Damage",
+            "attributeOperation": 2,
+            "interactionType": "self",
+            "hideBonusDescription": false
+        },
+        {
+            "type": "attribute",
+            "name": "minecraft:generic.attack_speed",
+            "modifierUUID": "3137c978-7633-4034-989a-1029cda25e93",
+            "value": 0.2,
+            "description": "+0.2 Attack Speed",
+            "attributeOperation": 0,
+            "interactionType": "self",
+            "hideBonusDescription": false
+        },
+        {
+            "type": "effect",
+            "name": "minecraft:weakness",
+            "interactionType": "immunity",
+            "description": "Weakness immunity"
+        }
+    ],
+    "hideGeneratedTooltip": false
+}

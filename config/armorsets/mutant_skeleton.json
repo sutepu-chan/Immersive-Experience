@@ -1,53 +1,53 @@
 {
-    "armorSetName": "Mutant Skeleton",
-    "performanceMode": true,
-    "head": {
-      "itemKey": "mutantmonsters:mutant_skeleton_skull",
-      "mustBeEmpty": false
+  "armorSetName": "Mutant Skeleton",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "mutantmonsters:mutant_skeleton_skull",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "mutantmonsters:mutant_skeleton_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "mutantmonsters:mutant_skeleton_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "mutantmonsters:mutant_skeleton_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "modifierUUID": "c0f5586e-b46f-4175-b043-9faf727060d4",
+      "value": 2.0,
+      "description": "+2 Health",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false
     },
-    "chest": {
-      "itemKey": "mutantmonsters:mutant_skeleton_chestplate",
-      "mustBeEmpty": false
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "modifierUUID": "5852b44e-a363-4f01-bdda-7240a301af15",
+      "value": 0.1,
+      "description": "+10% Attack Damage",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false
     },
-    "legs": {
-      "itemKey": "mutantmonsters:mutant_skeleton_leggings",
-      "mustBeEmpty": false
-    },
-    "boots": {
-      "itemKey": "mutantmonsters:mutant_skeleton_boots",
-      "mustBeEmpty": false
-    },
-    "fullSetBonuses": [
-      {
-        "type": "attribute",
-        "name": "minecraft:generic.max_health",
-        "modifierUUID": "c0f5586e-b46f-4175-b043-9faf727060d4",
-        "value": 2.0,
-        "description": "+2 Health",
-        "attributeOperation": 0,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      },
-      {
-        "type": "attribute",
-        "name": "minecraft:generic.attack_damage",
-        "modifierUUID": "5852b44e-a363-4f01-bdda-7240a301af15",
-        "value": 0.1,
-        "description": "+10% Attack Damage",
-        "attributeOperation": 2,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      },
-      {
-        "type": "attribute",
-        "name": "minecraft:generic.knockback_resistance",
-        "modifierUUID": "ee1a3bb8-d5ca-4c9e-9761-7d0b41d042e6",
-        "value": 0.4,
-        "description": "+4 Knockback Resistance",
-        "attributeOperation": 0,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      }
-    ],
-    "hideGeneratedTooltip": false
-  }
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.knockback_resistance",
+      "modifierUUID": "ee1a3bb8-d5ca-4c9e-9761-7d0b41d042e6",
+      "value": 0.4,
+      "description": "+4 Knockback Resistance",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

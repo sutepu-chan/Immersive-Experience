@@ -1,59 +1,59 @@
 {
-    "armorSetName": "Enderium",
-    "performanceMode": true,
-    "head": {
-      "itemKey": "majruszsdifficulty:enderium_helmet",
-      "mustBeEmpty": false
+  "armorSetName": "Enderium",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "majruszsdifficulty:enderium_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "majruszsdifficulty:enderium_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "majruszsdifficulty:enderium_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "majruszsdifficulty:enderium_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "modifierUUID": "66b6eda3-f6d8-4e2b-b09f-aa8ef21489fa",
+      "value": 8.0,
+      "description": "+8 Health",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false
     },
-    "chest": {
-      "itemKey": "majruszsdifficulty:enderium_chestplate",
-      "mustBeEmpty": false
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "modifierUUID": "4ad3e877-aca4-4dca-aff2-c2bd1479414d",
+      "value": 0.20,
+      "description": "+20% Attack Damage",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false
     },
-    "legs": {
-      "itemKey": "majruszsdifficulty:enderium_leggings",
-      "mustBeEmpty": false
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "modifierUUID": "aaec4146-ffd5-4807-815e-22e7a332a860",
+      "value": 10.0,
+      "description": "+10 Armor",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false
     },
-    "boots": {
-      "itemKey": "majruszsdifficulty:enderium_boots",
-      "mustBeEmpty": false
-    },
-    "fullSetBonuses": [
-      {
-        "type": "attribute",
-        "name": "minecraft:generic.max_health",
-        "modifierUUID": "66b6eda3-f6d8-4e2b-b09f-aa8ef21489fa",
-        "value": 8.0,
-        "description": "+8 Health",
-        "attributeOperation": 0,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      },
-      {
-        "type": "attribute",
-        "name": "minecraft:generic.attack_damage",
-        "modifierUUID": "4ad3e877-aca4-4dca-aff2-c2bd1479414d",
-        "value": 0.2,
-        "description": "+20% Attack Damage",
-        "attributeOperation": 2,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      },
-      {
-        "type": "attribute",
-        "name": "minecraft:generic.armor",
-        "modifierUUID": "aaec4146-ffd5-4807-815e-22e7a332a860",
-        "value": 10.0,
-        "description": "+10 Armor",
-        "attributeOperation": 0,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      },
-      {
-        "type": "effect",
-        "name": "minecraft:wither",
-        "interactionType": "immunity",
-        "description": "Wither immunity"
-      }
-    ],
-    "hideGeneratedTooltip": false
-  }
+    {
+      "type": "effect",
+      "name": "minecraft:wither",
+      "interactionType": "immunity",
+      "description": "Wither immunity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

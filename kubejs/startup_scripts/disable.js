@@ -19,5 +19,9 @@ global.recipe_disable = [
     'ironfurnaces:upgrade_vibranium',
     'ironfurnaces:upgrade_unobtainium',
     'ironfurnaces:rainbow_coal',
-    'mahoutsukai:hammer'
+    'mahoutsukai:hammer',
+    'majruszsdifficulty:enderium_pickaxe',
+    'majruszsdifficulty:enderium_axe',
+    'majruszsdifficulty:enderium_shovel',
+    'majruszsdifficulty:enderium_hoe'
 ]

@@ -35,8 +35,8 @@
       "type": "attribute",
       "name": "minecraft:generic.attack_damage",
       "modifierUUID": "6554c963-3691-4e40-8b1d-b3fc45033fa2",
-      "value": 0.3,
-      "description": "+3% Attack Damage",
+      "value": 0.30,
+      "description": "+30% Attack Damage",
       "attributeOperation": 2,
       "interactionType": "self",
       "hideBonusDescription": false
@@ -53,20 +53,10 @@
     },
     {
       "type": "attribute",
-      "name": "irons_spellbooks:max_mana",
-      "modifierUUID": "f53e68dd-beb4-4742-8985-b7be74c77fc1",
-      "value": 80,
-      "description": "+80 Max Mana",
-      "attributeOperation": 0,
-      "interactionType": "self",
-      "hideBonusDescription": false
-    },
-    {
-      "type": "attribute",
       "name": "irons_spellbooks:spell_power",
-      "modifierUUID": "0f3d9393-00fa-4ce3-8711-d1e7f6798e6a",
-      "value": 100,
-      "description": "+100% spell power",
+      "modifierUUID": "690142db-5546-4aab-a2e5-01578ccf94b1",
+      "value": 1.0,
+      "description": "+100% Spell Popwer",
       "attributeOperation": 2,
       "interactionType": "self",
       "hideBonusDescription": false
@@ -76,6 +66,18 @@
       "name": "minecraft:wither",
       "interactionType": "immunity",
       "description": "Wither immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:levitation",
+      "interactionType": "immunity",
+      "description": "Levitation immunity"
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:stun",
+      "interactionType": "immunity",
+      "description": "Stum immunity"
     }
   ],
   "hideGeneratedTooltip": false

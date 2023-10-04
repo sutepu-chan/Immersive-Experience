@@ -1,0 +1,66 @@
+{
+	"armorSetName": "Cryorium",
+	"performanceMode": true,
+	"head": {
+		"itemKey": "epicpaladins:cryorium_helmet",
+		"mustBeEmpty": false
+	},
+	"chest": {
+		"itemKey": "epicpaladins:cryorium_chestplate",
+		"mustBeEmpty": false
+	},
+	"legs": {
+		"itemKey": "epicpaladins:cryorium_leggings",
+		"mustBeEmpty": false
+	},
+	"boots": {
+		"itemKey": "epicpaladins:cryorium_boots",
+		"mustBeEmpty": false
+	},
+	"fullSetBonuses": [
+		{
+            "type": "attribute",
+            "name": "minecraft:generic.attack_damage",
+            "modifierUUID": "faf26ac5-fd7c-4db9-b8a6-f0276b0c01e8",
+            "value": -0.03,
+            "description": "-3% Attack Damage",
+            "attributeOperation": 0,
+            "interactionType": "self",
+            "hideBonusDescription": false
+        },
+		{
+			"type": "attribute",
+			"name": "minecraft:generic.armor_toughness",
+			"modifierUUID": "a047d367-7dc5-400c-9092-8873d4670bb8",
+			"value": 2,
+			"description": "+2 Toughness",
+			"attributeOperation": 0,
+			"interactionType": "self",
+			"hideBonusDescription": false
+		},
+		{
+			"type": "attribute",
+			"name": "minecraft:generic.knockback_resistance",
+			"modifierUUID": "ab4db347-c0a8-47b4-a270-129ca4a16b97",
+			"value": 0.3,
+			"description": "+0.3 Knockback Resistance",
+			"attributeOperation": 0,
+			"interactionType": "self",
+			"hideBonusDescription": false
+		},
+        {
+            "type": "effect",
+            "name": "minecraft:haste",
+            "value": 0.0,
+            "description": "Haste I",
+            "hideBonusDescription": false
+        },
+		{
+			"type": "effect",
+			"name": "minecraft:nausea",
+			"interactionType": "immunity",
+			"description": "Nausea immunity"
+		}
+	],
+	"hideGeneratedTooltip": false
+}

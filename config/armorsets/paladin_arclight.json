@@ -1,0 +1,59 @@
+{
+	"armorSetName": "Arclight",
+	"performanceMode": true,
+	"head": {
+		"itemKey": "epicpaladins:arclight_helmet",
+		"mustBeEmpty": false
+	},
+	"chest": {
+		"itemKey": "epicpaladins:arclight_chestplate",
+		"mustBeEmpty": false
+	},
+	"legs": {
+		"itemKey": "epicpaladins:arclight_leggings",
+		"mustBeEmpty": false
+	},
+	"boots": {
+		"itemKey": "epicpaladins:arclight_boots",
+		"mustBeEmpty": false
+	},
+	"fullSetBonuses": [
+		{
+			"type": "attribute",
+			"name": "minecraft:generic.max_health",
+			"modifierUUID": "8177e21b-f53b-4cb2-99c6-0cfff86f50fb",
+			"value": 4.0,
+			"description": "+4 Health",
+			"attributeOperation": 0,
+			"interactionType": "self",
+			"hideBonusDescription": false
+		},
+		{
+			"type": "attribute",
+			"name": "minecraft:generic.armor",
+			"modifierUUID": "a1964b8b-019e-40fc-9996-2a0f016fcf8c",
+			"value": 5.0,
+			"description": "+5 Armor",
+			"attributeOperation": 0,
+			"interactionType": "self",
+			"hideBonusDescription": false
+		},
+		{
+			"type": "attribute",
+			"name": "minecraft:generic.movement_speed",
+			"modifierUUID": "ccb5fdce-383f-4c64-bc8f-5221b358534e",
+			"value": -0.05,
+			"description": "-5% Speed",
+			"attributeOperation": 2,
+			"interactionType": "self",
+			"hideBonusDescription": false
+		},
+		{
+			"type": "effect",
+			"name": "minecraft:blindness",
+			"interactionType": "immunity",
+			"description": "Blindness immunity"
+		}
+	],
+	"hideGeneratedTooltip": false
+}

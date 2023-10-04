@@ -33,7 +33,9 @@ LootJS.modifiers(e => {
 
     e.addLootTypeModifier(LootType.ENTITY)
         .removeLoot('endrem:witch_pupil');
-    e.addEntityLootModifier('betterwitchhuts:chests/hut_0')
+    e.addEntityLootModifier('minecraft:pig')
+        .removeLoot('endrem:witch_pupil');
+    e.addLootTableModifier('betterwitchhuts:chests/hut_0')
         .addLoot('endrem:witch_pupil');
 
     e.addLootTypeModifier(LootType.CHEST)

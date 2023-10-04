@@ -1,0 +1,59 @@
+{
+    "armorSetName": "Jade",
+    "performanceMode": true,
+    "head": {
+        "itemKey": "epicpaladins:jade_helmet",
+        "mustBeEmpty": false
+    },
+    "chest": {
+        "itemKey": "epicpaladins:jade_chestplate",
+        "mustBeEmpty": false
+    },
+    "legs": {
+        "itemKey": "epicpaladins:jade_leggings",
+        "mustBeEmpty": false
+    },
+    "boots": {
+        "itemKey": "epicpaladins:jade_boots",
+        "mustBeEmpty": false
+    },
+    "fullSetBonuses": [
+        {
+			"type": "attribute",
+			"name": "minecraft:generic.max_health",
+			"modifierUUID": "5b33fea2-7bfc-4f69-bfe5-fe8680410693",
+			"value": 4.0,
+			"description": "+4 Health",
+			"attributeOperation": 0,
+			"interactionType": "self",
+			"hideBonusDescription": false
+		},
+        {
+            "type": "attribute",
+            "name": "minecraft:generic.attack_damage",
+            "modifierUUID": "dd470ac1-bed7-4668-a2be-4ea7792c511c",
+            "value": 0.09,
+            "description": "+9% Attack Damage",
+            "attributeOperation": 2,
+            "interactionType": "self",
+            "hideBonusDescription": false
+        },
+        {
+            "type": "attribute",
+            "name": "minecraft:generic.armor_toughness",
+            "modifierUUID": "4fc21d11-cdfa-4c27-86d9-4284c729d4f4",
+            "value": 2,
+            "description": "+2 Toughness",
+            "attributeOperation": 0,
+            "interactionType": "self",
+            "hideBonusDescription": false
+        },
+        {
+            "type": "effect",
+            "name": "minecraft:darkness",
+            "interactionType": "immunity",
+            "description": "Darkness immunity"
+        }
+    ],
+    "hideGeneratedTooltip": false
+}

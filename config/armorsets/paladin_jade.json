@@ -1,0 +1,66 @@
+{
+    "armorSetName": "Jade",
+    "performanceMode": true,
+    "head": {
+        "itemKey": "epicpaladins:jade_helmet",
+        "mustBeEmpty": false
+    },
+    "chest": {
+        "itemKey": "epicpaladins:jade_chestplate",
+        "mustBeEmpty": false
+    },
+    "legs": {
+        "itemKey": "epicpaladins:jade_leggings",
+        "mustBeEmpty": false
+    },
+    "boots": {
+        "itemKey": "epicpaladins:jade_boots",
+        "mustBeEmpty": false
+    },
+    "fullSetBonuses": [
+        {
+			"type": "attribute",
+			"name": "minecraft:generic.max_health",
+			"modifierUUID": "3fcf19ea-5a73-4225-9eb0-abc4169b929b",
+			"value": 4.0,
+			"description": "+4 Health",
+			"attributeOperation": 0,
+			"interactionType": "self",
+			"hideBonusDescription": false
+		},
+        {
+            "type": "attribute",
+            "name": "minecraft:generic.attack_speed",
+            "modifierUUID": "2cd70366-ae0d-434c-a989-5ebf695634f1",
+            "value": -0.1,
+            "description": "-0.1 Attack Speed",
+            "attributeOperation": 0,
+            "interactionType": "self",
+            "hideBonusDescription": false
+        },
+        {
+            "type": "attribute",
+            "name": "minecraft:generic.luck",
+            "modifierUUID": "c644d00f-06bb-4075-be91-50ba6922f07f",
+            "value": 2,
+            "description": "+2 Luck",
+            "attributeOperation": 0,
+            "interactionType": "self",
+            "hideBonusDescription": false
+        },
+        {
+            "type": "effect",
+            "name": "minecraft:luck",
+            "value": 0.0,
+            "description": "Luck I",
+            "hideBonusDescription": false
+        },
+        {
+            "type": "effect",
+            "name": "minecraft:bad_omen",
+            "interactionType": "immunity",
+            "description": "Bad Omen immunity"
+        }
+    ],
+    "hideGeneratedTooltip": false
+}

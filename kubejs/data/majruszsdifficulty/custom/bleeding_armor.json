@@ -208,70 +208,6 @@
         "chance_multiplier": 0.65
     },
     {
-        "id": "tofucraft:tofu_solid_helmet",
-        "chance_multiplier": 0.9
-    },
-    {
-        "id": "tofucraft:tofu_solid_chestplate",
-        "chance_multiplier": 0.8
-    },
-    {
-        "id": "tofucraft:tofu_solid_leggings",
-        "chance_multiplier": 0.9
-    },
-    {
-        "id": "tofucraft:tofu_solid_boots",
-        "chance_multiplier": 0.95
-    },
-    {
-        "id": "tofucraft:tofu_metal_helmet",
-        "chance_multiplier": 0.9
-    },
-    {
-        "id": "tofucraft:tofu_metal_chestplate",
-        "chance_multiplier": 0.8
-    },
-    {
-        "id": "tofucraft:tofu_metal_leggings",
-        "chance_multiplier": 0.85
-    },
-    {
-        "id": "tofucraft:tofu_metal_boots",
-        "chance_multiplier": 0.95
-    },
-    {
-        "id": "tofucraft:tofu_diamond_helmet",
-        "chance_multiplier": 0.8
-    },
-    {
-        "id": "tofucraft:tofu_diamond_chestplate",
-        "chance_multiplier": 0.7
-    },
-    {
-        "id": "tofucraft:tofu_diamond_leggings",
-        "chance_multiplier": 0.75
-    },
-    {
-        "id": "tofucraft:tofu_diamond_boots",
-        "chance_multiplier": 0.85
-    },
-    {
-        "id": "tofucraft:sculk_bone_helmet",
-        "chance_multiplier": 0.8
-    },
-    {
-        "id": "tofucraft:sculk_bone_chestplate",
-        "chance_multiplier": 0.65
-    },
-    {
-        "id": "tofucraft:sculk_bone_leggings",
-        "chance_multiplier": 0.7
-    },
-    {
-        "id": "tofucraft:sculk_bone_boots",
-        "chance_multiplier": 0.8
-    },
-    {
         "id": "aquamirae:terrible_helmet",
         "chance_multiplier": 0.9
     },
@@ -289,35 +225,35 @@
     },
     {
         "id": "aquamirae:abyssal_helmet",
-        "chance_multiplier": 0.65
+        "chance_multiplier": 0.55
     },
     {
         "id": "aquamirae:abyssal_chestplate",
-        "chance_multiplier": 0.8
+        "chance_multiplier": 0.7
     },
     {
         "id": "aquamirae:abyssal_leggings",
-        "chance_multiplier": 0.8
+        "chance_multiplier": 0.7
     },
     {
         "id": "aquamirae:abyssal_boots",
-        "chance_multiplier": 0.9
+        "chance_multiplier": 0.8
     },
     {
         "id": "aquamirae:three_bolt_helmet",
-        "chance_multiplier": 0.5
+        "chance_multiplier": 0.35
     },
     {
         "id": "aquamirae:three_bolt_chestplate",
-        "chance_multiplier": 0.6
+        "chance_multiplier": 0.5
     },
     {
         "id": "aquamirae:three_bolt_leggings",
-        "chance_multiplier": 0.6
+        "chance_multiplier": 0.5
     },
     {
         "id": "aquamirae:three_bolt_boots",
-        "chance_multiplier": 0.7
+        "chance_multiplier": 0.6
     },
     {
         "id": "deeperdarker:warden_helmet",

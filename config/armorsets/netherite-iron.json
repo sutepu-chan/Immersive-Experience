@@ -1,59 +1,53 @@
 {
-    "armorSetName": "Netherite-Iron",
-    "performanceMode": true,
-    "head": {
-      "itemKey": "advancednetherite:netherite_iron_helmet",
-      "mustBeEmpty": false
+  "armorSetName": "Netherite-Iron",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "advancednetherite:netherite_iron_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "advancednetherite:netherite_iron_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "advancednetherite:netherite_iron_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "advancednetherite:netherite_iron_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "modifierUUID": "b0c67cda-2359-4d08-a234-7df977afa50b",
+      "value": 3.0,
+      "description": "+3 Health",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false
     },
-    "chest": {
-      "itemKey": "advancednetherite:netherite_iron_chestplate",
-      "mustBeEmpty": false
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "modifierUUID": "04eb4a22-9ece-415a-b3c5-16964b95a374",
+      "value": 0.05,
+      "description": "+5% Attack Damage",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false
     },
-    "legs": {
-      "itemKey": "advancednetherite:netherite_iron_leggings",
-      "mustBeEmpty": false
-    },
-    "boots": {
-      "itemKey": "advancednetherite:netherite_iron_boots",
-      "mustBeEmpty": false
-    },
-    "fullSetBonuses": [
-      {
-        "type": "attribute",
-        "name": "minecraft:generic.max_health",
-        "modifierUUID": "b0c67cda-2359-4d08-a234-7df977afa50b",
-        "value": 2.0,
-        "description": "+2 Health",
-        "attributeOperation": 0,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      },
-      {
-        "type": "attribute",
-        "name": "minecraft:generic.attack_damage",
-        "modifierUUID": "04eb4a22-9ece-415a-b3c5-16964b95a374",
-        "value": 0.05,
-        "description": "+5% Attack Damage",
-        "attributeOperation": 2,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      },
-      {
-        "type": "attribute",
-        "name": "minecraft:generic.armor",
-        "modifierUUID": "c70faaf5-e39b-4744-8bac-f014c1292efe",
-        "value": 2.0,
-        "description": "+2 Armor",
-        "attributeOperation": 0,
-        "interactionType": "self",
-        "hideBonusDescription": false
-      },
-      {
-        "type": "effect",
-        "name": "minecraft:slowness",
-        "interactionType": "immunity",
-        "description": "Slowness immunity"
-      }
-    ],
-    "hideGeneratedTooltip": false
-  }
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "modifierUUID": "c70faaf5-e39b-4744-8bac-f014c1292efe",
+      "value": 2.0,
+      "description": "+2 Armor",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

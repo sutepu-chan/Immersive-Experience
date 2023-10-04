@@ -1,11 +1,12 @@
 ServerEvents.recipes(e => {
-    let armorTypes = [
+    let toolTypes = [
         'helmet',
         'chestplate',
         'leggings',
-        'boots'
+        'boots',
+        'sword',
     ];
-    armorTypes.forEach(armorType => {
+    toolTypes.forEach(armorType => {
         e.remove({ output: `majruszsdifficulty:enderium_${armorType}` });
         e.smithing(
             `majruszsdifficulty:enderium_${armorType}`,
@@ -19,5 +20,5 @@ ServerEvents.recipes(e => {
         D: 'minecraft:diamond',
         T: 'majruszsdifficulty:enderium_upgrade_smithing_template',
         E: 'majruszsdifficulty:enderium_shard'
-    });
+    }).id('kubejs:enderite/upgrade_smithing_template');
 });
