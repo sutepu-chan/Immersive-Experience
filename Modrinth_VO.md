@@ -57,6 +57,9 @@
 - Balm (Forge Edition)
     - https://legacy.curseforge.com/minecraft/mc-mods/balm
     - https://mods.twelveiterations.com/permissions
+- Structory
+    - https://legacy.curseforge.com/minecraft/mc-mods/structory
+    - https://imgur.com/a/LxVW1v4
 </details>
 
 <details>

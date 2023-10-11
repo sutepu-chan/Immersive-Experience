@@ -11,6 +11,12 @@
 		{
 			description: ["&bPretty Pipes&r are fancy and efficient ways to move items and fluids. Many modules can be installed to facilitate logistic process."]
 			id: "780209673B6D13F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20986DA4B1FF34A4"
+				table_id: 3416584882695544973L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "0FB4A6FDC7F58972"
@@ -37,6 +43,12 @@
 		{
 			description: ["Basic Minecraft furnaces"]
 			id: "1E5B36798C69B241"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28804873567805C6"
+				table_id: 3416584882695544973L
+				type: "random"
+			}]
 			tasks: [{
 				id: "355A850C9A8FEC4D"
 				item: "minecraft:furnace"
@@ -50,6 +62,20 @@
 			dependencies: ["1E5B36798C69B241"]
 			description: ["&bFurnace&r are &6upgradable&r which can smelt items faster and accept new upgrades."]
 			id: "2AFC2AA197D438BD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "043F0D151706169F"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49F1BC78B53DFE78"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "4608C0A6CB4DF87D"
@@ -104,6 +130,20 @@
 			dependencies: ["2AFC2AA197D438BD"]
 			description: ["The &cultimate furnace&r, smelting &664 items per operation&r."]
 			id: "40FBEF78DE497ACD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00721558AF41C745"
+					table_id: 6225236626738686000L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "069A878F8ACA3D38"
+					table_id: 5877745173198024707L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "3E00AA62EA7FBDF4"
@@ -137,6 +177,20 @@
 			dependencies: ["2AFC2AA197D438BD"]
 			description: ["Some misc upgrades applicable to the furnaces. Read the tooltip for more info"]
 			id: "4D2110ADE30AD836"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07FB89C344067601"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CE4C763F2B3CF3E"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "3768B0FBD332725C"
@@ -167,6 +221,20 @@
 			dependencies: ["2AFC2AA197D438BD"]
 			description: ["Furnaces can be turnt into a &6power generator&r or accept power to undergo &6multiple operations&r at the same time."]
 			id: "0CD7CA5EE976C5E3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F6502A788EDCD7C"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35C20033DF60D4E8"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "3029546C19A34600"
@@ -185,20 +253,22 @@
 		}
 		{
 			dependencies: ["2AFC2AA197D438BD"]
-			description: ["&6Rainbow furnace&r can also act as a generator, via a &brainbow linker&r. Link the rainbow furnace with all types of furnace. When all the linked furnaces are generating power at the same time,  rainbow furnace will then generate a large amount of energy."]
-			id: "67F6A3B6CB01EE25"
-			tasks: [{
-				id: "1419DC5DA6E8D452"
-				item: "ironfurnaces:item_linker"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["2AFC2AA197D438BD"]
 			description: ["&bFurnace Setting Linker&r allows you to &6copy settings&r of a furnace, such as input and output port, from one furnace to another."]
 			id: "4786782B61D45B5C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2596DBA5FC39E03F"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B5019C2737AB858"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "73E957A580DBAEAA"
 				item: "ironfurnaces:item_copy"
@@ -215,6 +285,20 @@
 				"Then, &dRC&r the &6transmitter&r with your &bWireless Heat Receiver&r and put it into the &6fuel slot&r of a furnace. Your furnace will be directly powered from your energy source now."
 			]
 			id: "4C436418C6584A2D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71EB7A6F13A396B4"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DC57138A3CC0F33"
+					table_id: 3416584882695544973L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "4BAA1C6ADE93AC15"

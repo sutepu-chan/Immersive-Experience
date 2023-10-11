@@ -96,6 +96,10 @@
         "chance_multiplier": 0.55
     },
     {
+        "id": "cataclysm:ignitium_elytra_chestplate",
+        "chance_multiplier": 0.2
+    },
+    {
         "id": "enlightened_end:adamantite_armor_helmet",
         "chance_multiplier": 0.8
     },

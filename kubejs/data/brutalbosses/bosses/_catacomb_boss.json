@@ -1,7 +1,7 @@
 {
     "entity": "bygonenether:wither_skeleton_knight",
-    "name": "§0黒鉄 - Withered Samurai",
-    "visualscale": 1.3,
+    "name": "§0黒鉄 - Withered Shogun",
+    "visualscale": 1.1,
     "experience": 1000,
     "protect_treasure": true,
     "effects": {
@@ -12,7 +12,7 @@
     "attributes": {
         "generic.max_health": 1400,
         "generic.follow_range": 40,
-        "generic.attack_damage": 10,
+        "generic.attack_damage": 1,
         "generic.armor": 20
     },
     "customattributes": {
@@ -20,7 +20,7 @@
         "attack_speed": 1.5
     },
     "gear": {
-        "mainhand": "{id: \"epicsamurai:katana\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I;-123823,8492,225332,-16984], Amount: 24, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123823,8792,225332,-17184], Amount: -2.2d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I; -123823,8792,225332,-17384], Amount: 0.1d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I; -123823,8792,225332,-17584], Amount: 43d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"妖刀村正\",\"italic\":true,\"color\":\"dark_red\"}]'}}}"
+        "mainhand": "{id: \"epicsamurai:katana\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I;-123823,8492,225332,-16984], Amount: 25, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123823,8792,225332,-17184], Amount: -2.2d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I; -123823,8792,225332,-17384], Amount: 0.1d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I; -123823,8792,225332,-17584], Amount: 44d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"妖刀村正☪\",\"italic\":true,\"color\":\"dark_red\"}]'}}}"
     },
     "ai-goals": {
         "brutalbosses:aftercombatregen": {
@@ -43,10 +43,12 @@
             "count": 3,
             "entities": [
                 {
-                    "entityid": "bygonenether:wraither"
+                    "entityid": "minecraft:zombie",
+                    "entitynbt": "{IsBaby:1,CustomName:'[{\"text\":\"Withered Ninja\"}]',Health:10,LeftHanded:1b,ActiveEffects:[{Id:1,Duration:10000,Amplifier:4,ShowParticles:0b}],HandItems:[{id:\"epicsamurai:kunai\",Count:1}],HandDropChances:[f],ArmorItems:[{id:\"epicsamurai:diamond_ninja_boots\",Count:0},{id:\"epicsamurai:ninja_leggings\",Count:1},{id:\"epicsamurai:diamond_ninja_chestplate\",Count:1},{id:\"epicsamurai:diamond_ninja_helmet\",Count:1}],ArmorDropChances:[f,f,f,f],Attributes:[{Name:\"generic.attack_damage\",Base:16f},{Name:\"generic.armor\",Base:4f},{Name:\"generic.max_health\",Base:30f}]}"
                 },
                 {
-                    "entityid": "minecraft:blaze"
+                    "entityid": "minecraft:wither",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Withered Samurai\"}]',Health:125,LeftHanded:1b,ActiveEffects:[{Id:1,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:12,Duration:10000,ShowParticles:0b}],HandItems:[{id:\"epicsamurai:naginata\",Count:1}],HandDropChances:[f],ArmorItems:[{id:\"epicsamurai:quartz_samurai_boots\",Count:1},{id:\"epicsamurai:quartz_samurai_leggings\",Count:1},{id:\"epicsamurai:quartz_samurai_chestplate\",Count:1},{id:\"epicsamurai:mask_quartz_samurai_helmet\",Count:1}],ArmorDropChances:[f,f,f,f],Attributes:[{Name:\"generic.armor\",Base:8f},{Name:\"generic.armor_toughness\",Base:3f},{Name:\"generic.attack_damage\",Base:11f},{Name:\"generic.knockback_resistance\",Base:0.2f},{Name:\"generic.max_health\",Base:125f}]}"
                 }
             ]
         },

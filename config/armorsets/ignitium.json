@@ -77,7 +77,19 @@
       "type": "effect",
       "name": "cataclysm:stun",
       "interactionType": "immunity",
-      "description": "Stum immunity"
+      "description": "Stun immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:blindness",
+      "interactionType": "immunity",
+      "description": "Blindness immunity"
+    },
+    {
+        "type": "effect",
+        "name": "minecraft:fire_resistance",
+        "value": 0.0,
+        "description": "Fire Resistance"
     }
   ],
   "hideGeneratedTooltip": false

@@ -1,0 +1,58 @@
+{
+    "entity": "mutantmonsters:mutant_skeleton",
+    "name": "§6Morbidreaper",
+    "visualscale": 0.85,
+    "experience": 500,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:fire_resistance": 0,
+        "minecraft:speed": 1
+    },
+    "attributes": {
+        "generic.max_health": 640,
+        "generic.follow_range": 40,
+        "generic.attack_damage": 10,
+        "generic.armor": 12
+    },
+    "customattributes": {
+        "dropgear": 2,
+        "projectile_damage_bonus": 8
+    },
+    "gear": {
+        "offhand": "{id: \"minecraft:diamond\", Count: 32b}"
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 3
+        },
+        "brutalbosses:summonmobs": {
+            "healthinterval": "60-0",
+            "interval": 400,
+            "maxcount": 4,
+            "count": 2,
+            "entities": [
+                {
+                    "entityid": "monsterplus:glow_skeleton",
+                    "entitynbt": "{Health:45,HandItems:[{id:bow,tag:{AttributeModifiers:[{AttributeName:\"projectile_damage:generic\",Amount:0,Slot:mainhand,Name:\"Weapon Attribute\",UUID:[I;-123911,1021,135711,-2042]}]},Count:1}],HandDropChances:[f],ArmorItems:[{id:\"mutantmonsters:mutant_skeleton_boots\",Count:1},{id:\"mutantmonsters:mutant_skeleton_leggings\",Count:1},{id:\"mutantmonsters:mutant_skeleton_chestplate\",Count:1}],ArmorDropChances:[f,f,f],Attributes:[{Name:\"generic.max_health\",Base:45f}]}"
+                },
+                {
+                    "entityid": "monsterplus:overgrown_skeleton",
+                    "entitynbt": "{Health:45,HandItems:[{id:bow,tag:{AttributeModifiers:[{AttributeName:\"projectile_damage:generic\",Amount:0,Slot:mainhand,Name:\"Weapon Attribute\",UUID:[I;-123911,1021,135711,-2042]}]},Count:1}],HandDropChances:[f],ArmorItems:[{id:\"mutantmonsters:mutant_skeleton_boots\",Count:1},{id:\"mutantmonsters:mutant_skeleton_leggings\",Count:1},{id:\"mutantmonsters:mutant_skeleton_chestplate\",Count:1}],ArmorDropChances:[f,f,f],Attributes:[{Name:\"generic.max_health\",Base:45f}]}"
+                }
+            ]
+        },
+        "brutalbosses:whirldwind": {
+            "attackdist": 5,
+            "extradamage": 5,
+            "potiononhit": "minecraft:slowness",
+            "potionlevel": 3,
+            "potionduration": 30,
+            "knockback": 4,
+            "cooldown": 200,
+            "knockup": false 
+        }
+    },
+    "spawnatchest": {
+        "dungeons_arise:chests/abandoned_temple/abandoned_temple_top": 1
+    }
+}

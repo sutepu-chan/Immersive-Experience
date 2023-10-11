@@ -1,0 +1,82 @@
+{
+    "entity": "epicsamurai:jorogumo",
+    "name": "§4Aracnean Aviator",
+    "visualscale": 1.5,
+    "experience": 2000,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:fire_resistance": 0,
+        "minecraft:speed": 0,
+        "minecraft:resistance": 1
+    },
+    "attributes": {
+        "generic.max_health": 1234,
+        "generic.follow_range": 40,
+        "generic.attack_damage": 15,
+        "generic.armor": 30
+    },
+    "customattributes": {
+        "dropgear": 2,
+        "projectile_damage_bonus": 12
+    },
+    "gear": {
+        "offhand": "{id: \"majruszsdifficulty:enderium_helmet\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"head\", AttributeName: \"generic.armor\", UUID: [I; -123910, 57452, 15030, -114904], Amount: 13, Name: \"generic.armor\"}, {Slot: \"head\", AttributeName: \"generic.armor_toughness\", UUID: [I; -123910, 57552, 15030, -115104], Amount: 3, Name: \"generic.armor_toughness\"}, {Slot: \"head\", AttributeName: \"generic.knockback_resistance\", UUID: [I; -123910, 57652, 15030, -115304], Amount: 5, Name: \"generic.knockback_resistance\"}, {Slot: \"head\", AttributeName: \"generic.max_health\", UUID: [I; -123910, 57752, 15030, -115504], Amount: 5.0d, Name: \"generic.max_health\"}], display: {Name: '[{\"text\":\"✵Crown of the Aviary✵\",\"italic\":false,\"color\":\"red\"}]'}}}"
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 3
+        },
+        "brutalbosses:summonmobs": {
+            "healthinterval": "100-0",
+            "interval": 1000,
+            "maxcount": 4,
+            "count": 1,
+            "entities": [
+                {
+                    "entityid": "mutantmonsters:spider_pig",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Project of the Aracnean Aviator\",\"color\":\"light_purple\"}]',CustomNameVisible:1b,Health:400,Glowing:1b,Attributes:[{Name:\"generic.armor\",Base:12f},{Name:\"generic.armor\"},{Name:\"generic.max_health\",Base:400f}]}"
+                }
+            ]
+        },
+        "brutalbosses:summonmobs1": {
+            "healthinterval": "100-0",
+            "interval": 200,
+            "maxcount": 4,
+            "count": 2,
+            "entities": [
+                {
+                    "entityid": "minecraft:phantom",
+                    "entitynbt": "{Size:6,CustomName:'[{\"text\":\"Air Guard of the Aracnean Aviator\",\"color\":\"light_purple\"}]',Health:101,HandItems:[{id:\"bygonenether:netherite_scrap_nugget\",Count:1}],Attributes:[{Name:\"generic.armor\",Base:24f},{Name:\"generic.attack_knockback\",Base:1.2f},{Name:\"generic.attack_damage\",Base:14f},{Name:\"generic.max_health\",Base:101f}],HandDropChances:[0f]}"
+                }
+            ]
+        },
+        "brutalbosses:whirldwind": {
+            "attackdist": 16,
+            "extradamage": 5,
+            "potiononhit": "aquamirae:health_decrease",
+            "potionlevel": 8,
+            "potionduration": 500,
+            "knockback": 8,
+            "cooldown": 150,
+            "knockup": true 
+        },
+        "brutalbosses:shootwitherskulls": {
+            "healthinterval": "60-0",
+            "projectile_count": 3,
+            "projectile_interval": 100,
+            "projectile_distance": 12,
+            "projectile_speed": 1.2,
+            "projectile_aoe": true,
+            "dangerous": true
+        },
+        "brutalbosses:charge": {
+            "healthinterval": "30-0",
+            "mindist": 4,
+            "duration": 30,
+            "interval": 200 
+        }
+    },
+    "spawnatchest": {
+        "dungeons_arise:chests/aviary/aviary_treasure": 1
+    }
+}

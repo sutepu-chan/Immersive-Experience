@@ -1,8 +1,8 @@
 {
     "entity": "minecraft:evoker",
-    "name": "Rumak the Miner Manager",
-    "visualscale": 1.1,
-    "experience": 500,
+    "name": "Miner Manager",
+    "visualscale": 1.2,
+    "experience": 250,
     "protect_treasure": true,
     "effects": {
         "minecraft:fire_resistance": 1,
@@ -12,7 +12,7 @@
     "attributes": {
         "generic.max_health": 600,
         "generic.follow_range": 25,
-        "generic.attack_damage": 12,
+        "generic.attack_damage": 10,
         "generic.armor": 12
     },
     "customattributes": {
@@ -31,7 +31,7 @@
         "brutalbosses:shootbigfireballs": {
             "healthinterval": "50-0",
             "projectile_count": 3,
-            "projectile_interval": 100,
+            "projectile_interval": 160,
             "projectile_distance": 16,
             "projectile_speed": 1.6,
             "projectile_aoe": true
@@ -43,16 +43,20 @@
             "count": 4,
             "entities": [
                 {
-                    "entityid": "minecraft:vindicator"
+                    "entityid": "minecraft:vindicator",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Miner Worker\",\"color\":\"aqua\"}]',Health:75,Attributes:[{Name:\"generic.armor\",Base:8f},{Name:\"generic.armor_toughness\",Base:2f},{Name:\"generic.knockback_resistance\",Base:0.3f},{Name:\"generic.attack_damage\",Base:8f},{Name:\"generic.max_health\",Base:75f}]}"
                 },
                 {
-                    "entityid": "illagerinvasion:necromancer"
+                    "entityid": "illagerinvasion:necromancer",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Miner Worker\",\"color\":\"aqua\"}]',Health:75,Attributes:[{Name:\"generic.armor\",Base:8f},{Name:\"generic.armor_toughness\",Base:2f},{Name:\"generic.knockback_resistance\",Base:0.3f},{Name:\"generic.attack_damage\",Base:8f},{Name:\"generic.max_health\",Base:75f}]}"
                 },
                 {
-                    "entityid": "illagerinvasion:marauder"
+                    "entityid": "illagerinvasion:marauder",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Miner Worker\",\"color\":\"aqua\"}]',Health:75,Attributes:[{Name:\"generic.armor\",Base:8f},{Name:\"generic.armor_toughness\",Base:2f},{Name:\"generic.knockback_resistance\",Base:0.3f},{Name:\"generic.attack_damage\",Base:8f},{Name:\"generic.max_health\",Base:75f}]}"
                 },
                 {
-                    "entityid": "illagerinvasion:inquisitor"
+                    "entityid": "illagerinvasion:inquisitor",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Miner Worker\",\"color\":\"aqua\"}]',Health:75,Attributes:[{Name:\"generic.armor\",Base:8f},{Name:\"generic.armor_toughness\",Base:2f},{Name:\"generic.knockback_resistance\",Base:0.3f},{Name:\"generic.attack_damage\",Base:8f},{Name:\"generic.max_health\",Base:75f}]}"
                 }
             ]
         }

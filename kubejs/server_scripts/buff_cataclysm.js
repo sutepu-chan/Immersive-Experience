@@ -27,40 +27,46 @@ ServerEvents.recipes(e => {
             ]
         }`
     */
-    e.replaceOutput({ output: 'cataclysm:the_incinerator' }, 'cataclysm:the_incinerator',
-        Item.of('cataclysm:the_incinerator', `{
-            AttributeModifiers:[
-                {
-                    Amount:32,
-                    AttributeName:"minecraft:generic.attack_damage",
-                    Name:"Weapon modifier",
-                    Slot:mainhand,
-                    UUID:[I;-123815,4834,23275,-9468]
-                },
-                {
-                    Amount:-2.4,
-                    AttributeName:"minecraft:generic.attack_speed",
-                    Name:"Weapon modifier",
-                    Slot:mainhand,
-                    UUID:[I;-123815,4834,23275,-9468]
-                },
-                {
-                    AttributeName:"obscure_api:critical_hit",
-                    Amount:0.8,
-                    Name:"Weapon modifier",
-                    Slot:mainhand,
-                    UUID:[I;-123815,4834,23275,-9668]
-                },
-                {
-                    AttributeName:"obscure_api:critical_damage",
-                    Amount:5.0,
-                    Name:"Weapon modifier",
-                    Slot:mainhand,
-                    UUID:[I;-123815,4834,23275,-9868]
-                }
-            ]
-        }`)
-    );
+
+    e.remove({ id: 'cataclysm:the_incinerator' });
+    e.shaped(Item.of('cataclysm:the_incinerator', `{
+        AttributeModifiers:[
+            {
+                Amount:42,
+                AttributeName:"minecraft:generic.attack_damage",
+                Name:"Weapon modifier",
+                Slot:mainhand,
+                UUID:[I;-123815,4834,23275,-9468]
+            },
+            {
+                Amount:-2.4,
+                AttributeName:"minecraft:generic.attack_speed",
+                Name:"Weapon modifier",
+                Slot:mainhand,
+                UUID:[I;-123815,4834,23275,-9468]
+            },
+            {
+                AttributeName:"obscure_api:critical_hit",
+                Amount:0.8,
+                Name:"Weapon modifier",
+                Slot:mainhand,
+                UUID:[I;-123815,4834,23275,-9668]
+            },
+            {
+                AttributeName:"obscure_api:critical_damage",
+                Amount:5.0,
+                Name:"Weapon modifier",
+                Slot:mainhand,
+                UUID:[I;-123815,4834,23275,-9868]
+            }
+        ]
+    }`), [' BI', 'VIB', 'SV '], {
+        S: 'majruszsdifficulty:enderium_sword',
+        V: 'cataclysm:void_core',
+        I: 'cataclysm:ignitium_ingot',
+        B: 'minecraft:blaze_rod'
+    }).id('kubejs:cataclysm/the_incinerator')
+
     e.replaceOutput({ output: 'cataclysm:gauntlet_of_bulwark' }, 'cataclysm:gauntlet_of_bulwark',
         Item.of('cataclysm:gauntlet_of_bulwark', `{
             AttributeModifiers:[

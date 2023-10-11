@@ -1,0 +1,11 @@
+{
+    "entity": "majruszsdifficulty:tank",
+    "name": "Boss for testing",
+    "attributes": {
+        "generic.max_health": 100000,
+        "generic.attack_damage": 1
+    },
+    "spawnatchest": {
+        "philipsruins:chests/ocean_ruins_loot": 1
+    }
+}

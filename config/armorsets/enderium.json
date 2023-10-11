@@ -53,6 +53,12 @@
       "name": "minecraft:wither",
       "interactionType": "immunity",
       "description": "Wither immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:blindness",
+      "interactionType": "immunity",
+      "description": "Blindness immunity"
     }
   ],
   "hideGeneratedTooltip": false

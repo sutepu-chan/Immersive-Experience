@@ -33,7 +33,7 @@ REIEvents.add('item', e => {
     e.add(Item.of('cataclysm:the_incinerator', `{
         AttributeModifiers:[
             {
-                Amount:32,
+                Amount:42,
                 AttributeName:"minecraft:generic.attack_damage",
                 Name:"Weapon modifier",
                 Slot:mainhand,

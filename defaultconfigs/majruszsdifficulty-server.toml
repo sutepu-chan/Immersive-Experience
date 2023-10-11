@@ -375,7 +375,7 @@
 		is_enabled = true
 		#List of mobs that should not get health and damage bonuses. (for instance minecraft:wither)
 		#Supports 'regular expressions' when text starts with {regex} prefix.
-		excluded_mobs = ["{regex}cataclysm:.+", "minecraft:wither", "minecraft:ender_dragon"]
+		excluded_mobs = ["minecraft:wither", "minecraft:ender_dragon", "cataclysm:ignis", "cataclysm:the_leviathan", "cataclysm:the_harbinger", "cataclysm:ender_guardian", "cataclysm:netherite_monstrosity"]
 		#List of dimensions where health and damage bonuses should not be applied. (for instance minecraft:overworld)
 		#Supports 'regular expressions' when text starts with {regex} prefix.
 		excluded_dimensions = []

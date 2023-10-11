@@ -5,5 +5,5 @@
 	"enablePassiveParticles": true,
 	"enableUniqueGemSockets": true,
 	"compatGobberEndWeaponsUnbreakable": true,
-	"compatEnableSpellPowerScaling": true
+	"compatEnableSpellPowerScaling": false
 }

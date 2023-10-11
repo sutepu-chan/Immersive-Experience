@@ -10,17 +10,18 @@
         "minecraft:resistance": 0
     },
     "attributes": {
-        "generic.max_health": 600,
+        "generic.max_health": 700,
         "generic.follow_range": 40,
-        "generic.attack_damage": 12,
-        "generic.armor": 20
+        "generic.attack_damage": 6,
+        "generic.armor": 24
     },
     "customattributes": {
         "dropgear": 2,
         "attack_speed": 1.2
     },
     "gear": {
-        "offhand": "{id: \"advancednetherite:netherite_gold_axe\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I;-123827,18906,231242,-37812], Amount: 19, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123827,19206,231242,-38412], Amount: -2.9d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I;-123827,19306,231242,-38612], Amount: 0.35d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I;-123827,19406,231242,-38812], Amount: 2.1d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"Brutal Axe\",\"italic\":true,\"color\":\"gold\"}]'}}}"
+        "mainhand": "{id: \"advancednetherite:netherite_gold_axe\", Count: 1b}",
+        "offhand": "{id: \"advancednetherite:netherite_gold_axe\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I;-123827,18906,231242,-37812], Amount: 22, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123827,19206,231242,-38412], Amount: -2.9d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I;-123827,19306,231242,-38612], Amount: 0.35d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I;-123827,19406,231242,-38812], Amount: 2.1d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"🜌Brutal Axe🜌\",\"italic\":true,\"color\":\"gold\"}]'}}}"
     },
     "ai-goals": {
         "brutalbosses:aftercombatregen": {
@@ -34,10 +35,8 @@
             "count": 3,
             "entities": [
                 {
-                    "entityid": "minecraft:piglin"
-                },
-                {
-                    "entityid": "minecraft:blaze"
+                    "entityid": "bygonenether:piglin_hunter",
+                    "entitynbt": "{IsImmuneToZombification:1,CustomName:'[{\"text\":\"Brutal Warrior\",\"color\":\"gold\"}]',Health:98,ActiveEffects:[{Id:10,Duration:10000,Amplifier:0,ShowParticles:0b},{Id:1,Duration:10000,Amplifier:1,ShowParticles:0b}],HandItems:[{id:\"epicpaladins:bloodstone_sword\",Count:1},{id:\"shieldexp:netherite_shield\",Count:1}],HandDropChances:[f,f],ArmorItems:[{id:\"epicpaladins:knight_boots\",Count:1},{id:\"epicpaladins:knight_leggings\",Count:1},{id:\"epicpaladins:knight_chestplate\",Count:1},{id:\"epicpaladins:knight_helmet\",Count:1}],ArmorDropChances:[f,f,f,f],Attributes:[{Name:\"generic.attack_damage\",Base:8f},{Name:\"generic.attack_knockback\",Base:1.2f},{Name:\"generic.max_health\",Base:98f}]}"
                 }
             ]
         },
@@ -50,12 +49,12 @@
         "brutalbosses:meleehit": {
             "healthinterval": "100-0",
             "attackdist": 3,
-            "damage": 10,
+            "damage": 11,
             "potiononhit": "minecraft:darkness",
             "potionlevel": 2,
-            "potionduration": 40,
+            "potionduration": 100,
             "knockback": 3,
-            "cooldown": 200
+            "cooldown": 60
         }
     },
     "spawnatchest": {

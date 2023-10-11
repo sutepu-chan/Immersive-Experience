@@ -62,13 +62,16 @@
             "count": 2,
             "entities": [
                 {
-                    "entityid": "minecraft:husk"
+                    "entityid": "minecraft:husk",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Lost soul of Paraoh\",\"color\":\"yellow\"}]',Health:25,ActiveEffects:[{Id:1,Duration:10000,Amplifier:1,ShowParticles:0b}],HandItems:[{id:\"farmersdelight:golden_knife\",Count:1}],HandDropChances:[f],ArmorItems:[{id:leather_boots,Count:1},{id:diamond_leggings,Count:1},{id:golden_chestplate,Count:1},{id:chainmail_helmet,Count:1}],ArmorDropChances:[f,f,f,f],Attributes:[{Name:\"generic.attack_damage\",Base:5f},{Name:\"generic.max_health\",Base:25f}]}"
                 },
                 {
-                    "entityid": "monsterplus:crystal_zombie"
+                    "entityid": "monsterplus:crystal_zombie",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Lost soul of Paraoh\",\"color\":\"yellow\"}]',Health:25,ActiveEffects:[{Id:1,Duration:10000,Amplifier:1,ShowParticles:0b}],HandItems:[{id:\"farmersdelight:golden_knife\",Count:1}],HandDropChances:[f],ArmorItems:[{id:leather_boots,Count:1},{id:diamond_leggings,Count:1},{id:golden_chestplate,Count:1},{id:chainmail_helmet,Count:1}],ArmorDropChances:[f,f,f,f],Attributes:[{Name:\"generic.attack_damage\",Base:5f},{Name:\"generic.max_health\",Base:25f}]}"
                 },
                 {
-                    "entityid": "monsterplus:swamp_zombie"
+                    "entityid": "monsterplus:swamp_zombie",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Lost soul of Paraoh\",\"color\":\"yellow\"}]',Health:25,ActiveEffects:[{Id:1,Duration:10000,Amplifier:1,ShowParticles:0b}],HandItems:[{id:\"farmersdelight:golden_knife\",Count:1}],HandDropChances:[f],ArmorItems:[{id:leather_boots,Count:1},{id:diamond_leggings,Count:1},{id:golden_chestplate,Count:1},{id:chainmail_helmet,Count:1}],ArmorDropChances:[f,f,f,f],Attributes:[{Name:\"generic.attack_damage\",Base:5f},{Name:\"generic.max_health\",Base:25f}]}"
                 }
             ]
         }
