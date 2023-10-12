@@ -9,14 +9,14 @@
     "attributes": {
         "generic.max_health": 960,
         "generic.follow_range": 40,
-        "generic.attack_damage": 8,
+        "generic.attack_damage": 1,
         "generic.armor": 24
     },
     "customattributes": {
         "dropgear": 1
     },
     "gear": {
-        "mainhand": "{id: \"simplyswords:runic_halberd\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I;-123828,18178,145641,-36356], Amount: 26, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123828,18278,145641,-36556], Amount: -2.8d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I;-123828,18378,145641,-36756], Amount: 0.32d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I;-123828,18478,145641,-36956], Amount: 2.4d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"Runic Arclight of the Illagers\",\"italic\":true,\"color\":\"aqua\"}]'}}}",
+        "mainhand": "{id: \"simplyswords:runic_halberd\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I;-123828,18178,145641,-36356], Amount: 26, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123828,18278,145641,-36556], Amount: -2.8d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I;-123828,18378,145641,-36756], Amount: 0.32d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I;-123828,18478,145641,-36956], Amount: 2.4d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"⍟Runic Arclight of the Illagers⍟\",\"italic\":true,\"color\":\"aqua\"}]'}}}",
         "offhand": "{id: \"shieldexp:netherite_shield\", Count: 1b, tag: {Damage: 0}}"
     },
     "ai-goals": {
@@ -36,15 +36,17 @@
             "damage": 16
         },
         "brutalbosses:summonmobs": {
-            "interval": 600,
+            "interval": 1000,
             "maxcount": 8,
             "count": 4,
             "entities": [
                 {
-                    "entityid": "illagerinvasion:necromancer"
+                    "entityid": "illagerinvasion:necromancer",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Necromancator\",\"color\":\"dark_red\"}]',Health:200,Attributes:[{Name:\"generic.max_health\",Base:200f}]}"
                 },
                 {
-                    "entityid": "illagerinvasion:sorcerer"
+                    "entityid": "illagerinvasion:sorcerer",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Sorcerator\",\"color\":\"dark_red\"}]',Health:200,Attributes:[{Name:\"generic.max_health\",Base:200f}]}"
                 }
             ]
         },

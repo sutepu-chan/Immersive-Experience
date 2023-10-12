@@ -1,0 +1,42 @@
+{
+    "entity": "minecraft:vindicator",
+    "name": "§dTitanic Vindi",
+    "visualscale": 1.2,
+    "experience": 100,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:fire_resistance": 0,
+        "minecraft:regeneration": 0,
+        "minecraft:speed": 0
+    },
+    "attributes": {
+        "generic.max_health": 200,
+        "generic.follow_range": 25,
+        "generic.attack_knockback": 8,
+        "generic.armor": 11
+    },
+    "customattributes": {
+        "dropgear": 1
+    },
+    "gear": {
+        "mainhand": "{id: \"minecraft:diamond_axe\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I; -123912, 54597, 15326, -109194], Amount: 22, Name: \"generic.attack_damage\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_knockback\", UUID: [I; -123912, 54697, 15326, -109394], Amount: 10, Name: \"generic.attack_knockback\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123912, 54797, 15326, -109594], Amount: -3.0d, Name: \"generic.attack_speed\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I; -123912, 24897, 15326, -49794], Amount: 0.45d, Name: \"critical_hit\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I; -123912, 24997, 15326, -49994], Amount: 0.3d, Name: \"critical_damage\"}], display: {Lore: ['[{\"text\":\"Forged from purest diamond, infused with wind\",\"italic\":false}]', '[{\"text\":\"Giving unparalleled efficiency and its swings unleashed gusts, hurling enemies away.\",\"italic\":false}]'], Name: '[{\"text\":\"Vindaxe🈖\",\"italic\":false,\"color\":\"yellow\"}]'}, Enchantments: [{lvl: 30, id: \"efficiency\"}]}}"
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 3
+        },
+        "brutalbosses:itemshootgoal": {
+            "projectile_count": 3,
+            "projectile_interval": 80,
+            "projectile_distance": 16,
+            "projectile_speed": 1.2,
+            "projectile_aoe": false,
+            "projectilesize": 1.5,
+            "item": "{id: \"minecraft:iron_axe\", Count: 1b}",
+            "damage": 3
+        }
+    },
+    "spawnatchest": {
+        "dungeons_arise:chests/bandit_towers/bandit_towers_treasure": 1
+    }
+}

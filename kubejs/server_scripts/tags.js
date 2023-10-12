@@ -34,6 +34,30 @@ ServerEvents.tags('item', e => {
         'epicsamurai:mask_straw_hat',
         'epicsamurai:straw_hat',
     ]);
+
+    e.add('kubejs:endrem', [
+        'endrem:black_eye',
+        'endrem:cold_eye',
+        'endrem:corrupted_eye',
+        'endrem:lost_eye',
+        'endrem:nether_eye',
+        'endrem:old_eye',
+        'endrem:rogue_eye',
+        'endrem:cursed_eye',
+        'endrem:evil_eye',
+        'endrem:guardian_eye',
+        'endrem:magical_eye',
+        'endrem:wither_eye',
+        'endrem:witch_eye',
+        'endrem:undead_eye',
+        'endrem:exotic_eye',
+        'endrem:cryptic_eye'
+    ]);
+
+    e.add('forge:obsidian', [
+        'nourished_nether:glowing_obsidian'
+    ])
+
     //#region nutrition
     e.add('forge:fruits', [
         'ends_delight:dragon_leg_with_sauce',
@@ -155,6 +179,7 @@ ServerEvents.tags('item', e => {
         'shieldexp:netherite_shield',
         'shieldexp:paragon_shield',
     ]);
+    //#endregion
 })
 
 ServerEvents.tags('block', e => {

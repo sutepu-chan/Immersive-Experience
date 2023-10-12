@@ -9,13 +9,17 @@
         "minecraft:speed": 2
     },
     "attributes": {
-        "generic.max_health": 1500,
+        "generic.max_health": 100,
         "generic.follow_range": 25,
         "generic.attack_damage": 20,
-        "generic.armor": 100
+        "generic.armor": 1000
     },
     "customattributes": {
-        "projectile_damage_bonus": 5
+        "projectile_damage_bonus": 5,
+        "dropgear": 1
+    },
+    "gear": {
+        "mainhand": "{id: \"irons_spellbooks:upgrade_orb\", Count: 4b}"
     },
     "ai-goals": {
         "brutalbosses:aftercombatregen": {
@@ -23,15 +27,17 @@
         },
         "brutalbosses:summonmobs": {
             "healthinterval": "100-50",
-            "interval": 900,
+            "interval": 400,
             "maxcount": 8,
             "count": 4,
             "entities": [
                 {
-                    "entityid": "cataclysm:deepling_brute"
+                    "entityid": "cataclysm:deepling_brute",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Abyssal Brute\",\"color\":\"dark_purple\"}]',Health:30,Attributes:[{Name:\"generic.armor\",Base:300f},{Name:\"generic.max_health\",Base:30f}]}"
                 },
                 {
-                    "entityid": "cataclysm:deepling_priest"
+                    "entityid": "cataclysm:deepling_priest",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Abyssal Priest\",\"color\":\"dark_purple\"}]',Health:30,Attributes:[{Name:\"generic.armor\",Base:300f},{Name:\"generic.max_health\",Base:30f}]}"
                 }
             ]
         }

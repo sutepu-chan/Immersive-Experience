@@ -68,5 +68,7 @@ REIEvents.information(e => {
     e.addItem('aquamirae:sweet_lance', 'sweet_lance'.format(), [
         'Festical version of Coral Lance'
     ]);
-
+    e.addItem('cataclysm:burning_ashes', 'burning_ashes'.format(), [
+        'Use for activating the Altar of Fire to summon Ignis.'
+    ])
 })

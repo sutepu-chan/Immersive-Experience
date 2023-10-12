@@ -56,7 +56,8 @@
             "count": 2,
             "entities": [
                 {
-                    "entityid": "minecraft:cave_spider"
+                    "entityid": "minecraft:cave_spider",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Venom Crawler\",\"color\":\"dark_green\"}]',Health:30,ActiveEffects:[{Id:1,Duration:10000,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:\"generic.armor\",Base:4f},{Name:\"generic.armor_toughness\",Base:2f},{Name:\"generic.knockback_resistance\",Base:0.3f},{Name:\"generic.max_health\",Base:30f}]}"
                 }
             ]
         }

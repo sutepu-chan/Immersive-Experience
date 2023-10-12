@@ -1,6 +1,6 @@
 {
     "entity": "minecraft:enderman",
-    "name": "§5Ender Overlord",
+    "name": "§5Overlord of the End",
     "visualscale": 1.5,
     "experience": 1000,
     "protect_treasure": true,
@@ -20,7 +20,7 @@
         "attack_speed": 1.2
     },
     "gear": {
-        "offhand": "{id: \"simplyswords:netherite_glaive\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I; -123823, 44102, 34910, -88204], Amount: 20, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123823, 44202, 34910, -88404], Amount: -2.6d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I; -123823, 44302, 34910, -88604], Amount: 0.35d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I; -123823, 44402, 34910, -88804], Amount: 2.1d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"Nightfall Blade\",\"italic\":false,\"color\":\"light_purple\"}]'}}}"
+        "offhand": "{id: \"simplyswords:runic_glaive\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I; -123823, 44102, 34910, -88204], Amount: 20, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123823, 44202, 34910, -88404], Amount: -2.6d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_hit\", UUID: [I; -123823, 44302, 34910, -88604], Amount: 0.35d, Name: \"Weapon Modifier\"}, {Slot: \"mainhand\", AttributeName: \"obscure_api:critical_damage\", UUID: [I; -123823, 44402, 34910, -88804], Amount: 2.1d, Name: \"Weapon Modifier\"}], display: {Name: '[{\"text\":\"Nightfall Blade\",\"italic\":false,\"color\":\"light_purple\"}]'}}}"
     },
     "ai-goals": {
         "brutalbosses:aftercombatregen": {
@@ -44,10 +44,12 @@
             "count": 2,
             "entities": [
                 {
-                    "entityid": "farlanders:ender_guardian"
+                    "entityid": "farlanders:ender_guardian",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Warrior of Overlord\",\"color\":\"dark_purple\"}]',Health:80,Attributes:[{Name:\"generic.armor\",Base:5f},{Name:\"generic.armor_toughness\",Base:2f},{Name:\"generic.knockback_resistance\",Base:0.1f},{Name:\"generic.max_health\",Base:80f}]}"
                 },
                 {
-                    "entityid": "farlanders:rebel"
+                    "entityid": "farlanders:rebel",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Warrior of Overlord\",\"color\":\"dark_purple\"}]',Health:60,Attributes:[{Name:\"generic.armor\",Base:5f},{Name:\"generic.armor_toughness\",Base:2f},{Name:\"generic.knockback_resistance\",Base:0.1f},{Name:\"generic.max_health\",Base:60f}]}"
                 }
             ]
         }

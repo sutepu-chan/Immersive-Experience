@@ -11,14 +11,13 @@
     "attributes": {
         "generic.max_health": 1000,
         "generic.follow_range": 40,
-        "generic.attack_damage": 8,
         "generic.armor": 24
     },
     "customattributes": {
         "dropgear": 1
     },
     "gear": {
-        "mainhand": "{id: \"nyfsarcheryplus:netherite_bow\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"projectile_damage:generic\", UUID: [I;-123830,22302,2645,-44604], Amount: 30, Name: \"Bow Modifier\"}], display: {Name: '[{\"text\":\"Bow of Blizz\",\"italic\":true,\"color\":\"aqua\"}]'}}}"
+        "mainhand": "{id: \"minecraft:bow\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"projectile_damage:generic\", UUID: [I;-123830,22302,2645,-44604], Amount: 40, Name: \"Bow Modifier\"}], display: {Name: '[{\"text\":\"❅Bow of Blizz❅\",\"italic\":true,\"color\":\"aqua\"}]'}}}"
     },
     "ai-goals": {
         "brutalbosses:itemshootgoal": {
@@ -37,13 +36,16 @@
             "count": 3,
             "entities": [
                 {
-                    "entityid": "minecraft:stray"
+                    "entityid": "minecraft:stray",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Blizzardbane Stray\",\"color\":\"aqua\"}]',Health:70,Attributes:[{Name:\"generic.armor\",Base:12f},{Name:\"generic.armor_toughness\",Base:3f},{Name:\"generic.knockback_resistance\",Base:0.3f},{Name:\"generic.max_health\",Base:70f}]}"
                 },
                 {
-                    "entityid": "minecraft:vindicator"
+                    "entityid": "minecraft:vindicator",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Blizzardborne Vindicator\",\"color\":\"aqua\"}]',Health:85,ActiveEffects:[{Id:1,Duration:10000,Amplifier:0,ShowParticles:0b}],HandItems:[{id:\"frosted_friends:ice_axe\",Count:1}],HandDropChances:[f],ArmorItems:[{id:\"aquamirae:terrible_boots\",Count:1},{id:\"aquamirae:terrible_leggings\",Count:1},{id:\"aquamirae:terrible_chestplate\",Count:1},{id:\"aquamirae:terrible_helmet\",Count:1}],ArmorDropChances:[f,f,f,f],Attributes:[{Name:\"generic.attack_damage\",Base:6f},{Name:\"generic.max_health\",Base:85f}]}"
                 },
                 {
-                    "entityid": "minecraft:evoker"
+                    "entityid": "minecraft:evoker",
+                    "entitynbt": "{SpellTicks:20,CustomName:'[{\"text\":\"Blizzardborne Evoker\",\"color\":\"aqua\"}]',Health:60,HandItems:[{id:\"friendsandfoes:totem_of_illusion\",Count:1}],Attributes:[{Name:\"generic.armor\",Base:11f},{Name:\"generic.armor_toughness\",Base:2f},{Name:\"generic.knockback_resistance\",Base:0.1f},{Name:\"generic.max_health\",Base:60f}],HandDropChances:[0f]}"
                 }
             ]
         },

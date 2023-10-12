@@ -1,0 +1,80 @@
+{
+    "custom_name": {
+        "overrides": [
+            "§5Drug Dealer§f"
+        ]
+    },
+    "experience_multiplier": 1.2,
+    "attributes": [
+        {
+            "id": "minecraft:generic.movement_speed",
+            "modifier_name": "Tank Speed",
+            "amount": {
+                "min": 1.4,
+                "max": 1.8
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Tank Health",
+            "amount": {
+                "min": 0.8,
+                "max": 1.2
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.armor",
+            "modifier_name": "Tank Armor",
+            "amount": {
+                "min": 2,
+                "max": 4
+            },
+            "operation": "addition"
+        },
+        {
+            "id": "minecraft:generic.knockback_resistance",
+            "modifier_name": "Tank Knockback Resistance",
+            "amount": {
+                "min": 0.1,
+                "max": 0.2
+            },
+            "operation": "addition"
+        }
+    ],
+    "potion_effects": [
+        {
+            "id": "minecraft:poison",
+            "amplifier": {
+                "min": 3,
+                "max": 5
+            },
+            "hide_particles": true
+        },
+        {
+            "id": "minecraft:resistance",
+            "amplifier": {
+                "min": 1,
+                "max": 2
+            },
+            "hide_particles": true
+        }
+    ],
+    "equipment": {
+        "main_hand": {
+            "items": [
+                {
+                    "id": "minecraft:experience_bottle",
+                    "drop_chance": 0.0,
+                    "weight": 2
+                },
+                {
+                    "id": "minecraft:glass_bottle",
+                    "drop_chance": 0.0,
+                    "weight": 8
+                }
+            ]
+        }
+    }
+}

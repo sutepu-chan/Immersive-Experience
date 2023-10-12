@@ -457,7 +457,7 @@ MaxLevel = 10
 #Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 MinRarity = "COMMON"
 ManaCostMultiplier = 1.0
-SpellPowerMultiplier = 2.0
+SpellPowerMultiplier = 1.0
 CooldownInSeconds = 15.0
 
 [Spells."irons_spellbooks:poison_breath"]
