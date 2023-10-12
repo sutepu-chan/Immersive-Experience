@@ -9,7 +9,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Finding a &2Village&r is undoubtedly an important thing to do in Minecraft. It is also an essential way to obtain various types of food and resources in the early game."]
+			description: [
+				"Finding a &2Village&r is undoubtedly an important thing to do in Minecraft. It is also an essential way to obtain various types of food and resources in the early game."
+				""
+				"{image:kubejs:textures/quest/structures/village.png width:256 height:150 align:1}"
+			]
 			id: "749C034674530750"
 			rewards: [
 				{
@@ -41,7 +45,11 @@
 			y: 0.0d
 		}
 		{
-			description: ["Finding a &5Witch Hut&r is a must-have step in your journey. Take a look at your quest book and try to figure out the reason"]
+			description: [
+				"Finding a &5Witch Hut&r is a must-have step in your journey. Take a look at your quest book and try to figure out the reason."
+				""
+				"{image:kubejs:textures/quest/structures/witch_hut.png width:256 height:150 align:1}"
+			]
 			id: "01F5EAE4BCB69B8B"
 			rewards: [
 				{
@@ -74,7 +82,11 @@
 			y: 0.0d
 		}
 		{
-			description: ["The &eDesert Temple&r has been overhauled. There are &cpuzzles, mazes and traps&r. Beware of these! At the same time, there are much better loot and you may even find &9Runic Weapons&r inside!"]
+			description: [
+				"The &eDesert Temple&r has been overhauled. Overcome all the traps and puzzles, and reach to the palace of Paraoh. Challange the &eParaoh boss&r and look for the &6better loot&r which you may even find Runic Weapons inside!"
+				""
+				"{image:kubejs:textures/quest/structures/desert_temple.png width:256 height:150 align:1}"
+			]
 			id: "26E16E1DBE091CB0"
 			rewards: [
 				{
@@ -107,7 +119,11 @@
 			y: 0.0d
 		}
 		{
-			description: ["The &2Jungle Temple&r has been overhauled. There are &cpuzzles, mazes and traps&r. Beware of these! At the same time, there are much better loot and you may even find &9Runic Weapons&r inside"]
+			description: [
+				"The &2Jungle Temple&r has been overhauled. Solve the &6puzzles&r and overcome the &6traps&r. Defeat the &2Corvin the Temple Webweaver&r, to get the treasures!"
+				""
+				"{image:kubejs:textures/quest/structures/jungle_temple.png width:256 height:150 align:1}"
+			]
 			id: "0DAC30C491B3A8A8"
 			rewards: [
 				{
@@ -139,7 +155,11 @@
 			y: 0.0d
 		}
 		{
-			description: ["The &bOcean Monument&r is much bigger... with more &4Guardian&r spawns, but definitely better loot!"]
+			description: [
+				"The &bOcean Monument&r is much bigger... with more &4Guardian&r spawns, but definitely better loot!"
+				""
+				"{image:kubejs:textures/quest/structures/monument.png width:256 height:150 align:1}"
+			]
 			id: "0C20611CEF714552"
 			rewards: [
 				{
@@ -171,7 +191,11 @@
 			y: 2.0d
 		}
 		{
-			description: ["The &6Mineshaft&r is much bigger than before. There are many more ores stored and can be discovered on your journey inside the mineshaft."]
+			description: [
+				"The &6Mineshaft&r is much bigger than before. There are many more ores stored and can be discovered on your journey inside the mineshaft."
+				""
+				"{image:kubejs:textures/quest/structures/mineshaft.png width:256 height:150 align:1}"
+			]
 			id: "2AB58726C75A0AAE"
 			rewards: [
 				{
@@ -205,7 +229,10 @@
 			y: 2.0d
 		}
 		{
-			description: ["A &2Mansion&r is undoubtedly an attractive place due to its &6loot&r. However, this place is even more &4dangerous&r than in vanilla Minecraft. You might even encounter a &cboss&r in the mansion. Conversely, due to the increased danger, the loot is &afurther enhanced&r"]
+			description: [
+				"A &2Mansion&r is undoubtedly an attractive place due to its loot. However, this place is even more &4dangerous&r than in vanilla Minecraft. Try to defeat the &4Boss&r and get the &6enchaned loot&r!"
+				"{image:kubejs:textures/quest/structures/mansion.png width:256 height:150 align:1}"
+			]
 			id: "2D1DF4BA848DD4FD"
 			rewards: [
 				{
@@ -249,7 +276,11 @@
 			y: 0.0d
 		}
 		{
-			description: ["A &9Catacomb&r is a very &4dangerous&r ball-like structure. The &6loot&r is fantastic but is protected by a &cboss&r"]
+			description: [
+				"A &9Catacomb&r is a dangerous ball-like structure. Defeat the &8黒鉄 - Withered Shogun&r and obtain the protected loots."
+				""
+				"{image:kubejs:textures/quest/structures/catacomb.png width:256 height:150 align:1}"
+			]
 			id: "36FEA7EF8B07D0E8"
 			rewards: [
 				{
@@ -280,7 +311,11 @@
 			y: 2.0d
 		}
 		{
-			description: ["A &2Citadel&r is a green tower where the warped enderman resides. There is &6good loot&r at the top of the tower, but the treasure is guarded by an &4elite warped enderman&r."]
+			description: [
+				"A &2Citadel&r is a green tower where the warped enderman resides. There is &6good loot&r at the top of the tower, but the treasure is guarded by an &4elite warped enderman&r."
+				""
+				"{image:kubejs:textures/quest/structures/citadel_bygone_nether.png width:256 height:150 align:1}"
+			]
 			id: "55E79DFE74A0ABF2"
 			rewards: [
 				{
@@ -313,7 +348,11 @@
 			y: 2.0d
 		}
 		{
-			description: ["&4Badland Miner Outpost&r is a dangerous place where the pillagers, evokers, and their friends reside. Watch out for the &cdangerous mobs&r!"]
+			description: [
+				"&4Badland Miner Outpost&r is a dangerous place where the pillagers, evokers, and their friends reside. Watch out for the dangerous mobs and defeat the Boss &4Miner Manager&r!"
+				""
+				"{image:kubejs:textures/quest/structures/badland_miner_outpost.png width:256 height:150 align:1}"
+			]
 			id: "6B38105BF598E2ED"
 			rewards: [
 				{
@@ -390,7 +429,11 @@
 			y: -2.0d
 		}
 		{
-			description: ["The &9Ancient City&r is more dangerous than ever! DO NOT go there until you have &6good gear&r."]
+			description: [
+				"The &9Ancient City&r is more dangerous than ever! &3Warden&r is further buffed. DO NOT go there until you have &6good gear&r."
+				""
+				"{image:kubejs:textures/quest/structures/ancient_city.png width:256 height:150 align:1}"
+			]
 			id: "48BCB719C9B83DA3"
 			rewards: [
 				{
@@ -428,7 +471,11 @@
 			y: 4.0d
 		}
 		{
-			description: ["There are &6good loots&r in the &aAncient Temple&r. Try to defeat the &9Warden&r and get the key to it."]
+			description: [
+				"There are &6good loots&r in the &aAncient Temple&r. Try to defeat the &9Warden&r and get the key to it."
+				""
+				"{image:kubejs:textures/quest/structures/ancient_temple.png width:256 height:150 align:1}"
+			]
 			id: "0CBD4E9D49F9E6B9"
 			rewards: [
 				{
@@ -475,7 +522,11 @@
 			y: 4.0d
 		}
 		{
-			description: ["There is more than a simple tower in an &5Illusioner Tower&r. Try to look down instead of looking up."]
+			description: [
+				"There is more than a simple tower in an &5Illusioner Tower&r. Try to look down instead of looking up. "
+				""
+				"{image:kubejs:textures/quest/structures/illusioner_tower.png width:256 height:150 align:1}"
+			]
 			id: "50A9CBF150741C9C"
 			rewards: [
 				{
@@ -502,7 +553,11 @@
 			y: -2.0d
 		}
 		{
-			description: ["&4Labyrinth&r is the palace of Illagers. Defeat the boss and obtain all the &6loots&r."]
+			description: [
+				"&4Labyrinth&r is the palace of Illagers. Defeat the boss and obtain all the &6loots&r."
+				""
+				"{image:kubejs:textures/quest/structures/labyrinth.png width:256 height:150 align:1}"
+			]
 			id: "44D87AE638012E97"
 			rewards: [
 				{
@@ -535,7 +590,11 @@
 			y: 2.0d
 		}
 		{
-			description: ["Looking for magic in Minecraft? This &6Theatre&r suits you."]
+			description: [
+				"Looking for magic in Minecraft? This &6Theatre&r suits you."
+				""
+				"{image:kubejs:textures/quest/structures/theatre.png width:256 height:150 align:1}"
+			]
 			id: "1EAC2E059675B6D3"
 			rewards: [
 				{
@@ -568,7 +627,11 @@
 			y: -2.0d
 		}
 		{
-			description: ["The &dEnd City&r is now much more dangerous than before. There are guards and warriors protecting all the treasures. In order to obtain the &9Elytra&r, you must also defeat their leader. Remember to &6make good use of the terrain advantage&r!"]
+			description: [
+				"The &dEnd City&r is now much more dangerous than before. There are guards and warriors protecting all the treasures. In order to obtain the &9Elytra&r, you must also defeat their leader. Remember to &6make good use of the terrain advantage&r!"
+				""
+				"{image:kubejs:textures/quest/structures/end_city.png width:256 height:150 align:1}"
+			]
 			id: "25674A86CE9CA068"
 			rewards: [
 				{
@@ -601,7 +664,11 @@
 			y: 4.0d
 		}
 		{
-			description: ["&6Hamlet&r is the place where the Piglins reside, and their leader - the &4Elite Brute&r - lives there. Find this structure and defeat the &4Elite Brute&r!"]
+			description: [
+				"&6Hamlet&r is the place where the Piglins reside, and their leader - the &4Elite Brute&r - lives there. Find this structure and defeat the &4Elite Brute&r!"
+				""
+				"{image:kubejs:textures/quest/structures/hamlet.png width:256 height:150 align:1}"
+			]
 			id: "2A1637722697A419"
 			rewards: [
 				{
@@ -639,7 +706,11 @@
 			y: -2.0d
 		}
 		{
-			description: ["\"The &5Shiraz Palace&r is an incredibly large palace for you to explore. However, a terrible creature lives on top of the palace, protecting the treasures. It has a ridiculously high armor value. Try to make wise use of &dmagic&r to deal damage to it!"]
+			description: [
+				"\"The &5Shiraz Palace&r is an incredibly large palace for you to explore. However, the &6valuable treasures &rare protected by &dAmethylene Crabyst&r, which has a ridiculously high armor value. Try to make wise use of magic to deal damage to it!"
+				""
+				"{image:kubejs:textures/quest/structures/shiraz_palace.png width:256 height:150 align:1}"
+			]
 			id: "68A42D4D95031142"
 			rewards: [
 				{
@@ -665,6 +736,231 @@
 				id: "0F480012A98B407B"
 				structure: "dungeons_arise:shiraz_palace"
 				title: "Find a &5Shiraz Palace&r"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&9Abandoned Temple&r is a tall tower that usually locates on top of a mountain. Defeat the &6Morbidreaper&r and acquire the protected treasures."
+				""
+				"{image:kubejs:textures/quest/structures/abandoned_temple.png width:256 height:150 align:1}"
+			]
+			id: "1F146CF4ADA76736"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65EA6B31C3619561"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "4B7535B14AFDE830"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "377BA57AF78018EE"
+					item: "minecraft:powder_snow_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:oak_planks"
+				id: "6C67F4E76D9009C9"
+				structure: "dungeons_arise:abandoned_temple"
+				title: "Find an &9Abandoned Temple&r"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&9Aviary&r is an enormous structure located in the End Dimension. There are tons of flying mobs and strong guards protecting the loot. Also, try to defeat the &4Aracnean Aviator&r to conquer this structure!"
+				""
+				"{image:kubejs:textures/quest/structures/avairy.png width:256 height:150 align:1}"
+			]
+			id: "6AE7022A347B1162"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C27CC845F7D3C02"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "6678C65D6155A603"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1F4796227CA19177"
+					item: "majruszsdifficulty:enderium_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:packed_ice"
+				id: "3EA25EEFFB4719FF"
+				structure: "dungeons_arise:aviary"
+				title: "Find an &9Aviary&r"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&dBandit Towers&r are formed by huge towers with iconic colors connecting with each other. You really need to spend some time exploring all the places, and be aware of the boss spawning on top of the tower. Defeat the boss &4Titanic Vindi&r to get a useful tool!"
+				""
+				"{image:kubejs:textures/quest/structures/bandit_towers.png width:256 height:150 align:1}"
+			]
+			id: "4A1FAA20F3B13794"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "742676324057B765"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "3124DEF09DEB2569"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "31BCEF9D7C095AD6"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:magenta_concrete_powder"
+				id: "0BBEBE6BF9F21133"
+				structure: "dungeons_arise:bandit_towers"
+				title: "Find a &dBandit Towers&r"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"The &6Fortress&r, one of the most symbolic structures in Minecraft, is now overhauled and bigger than ever. Explore the fortress and defeat the &6Shadowflame Wraith&r to obtain the loot!"
+				""
+				"{image:kubejs:textures/quest/structures/fortress.png width:256 height:150 align:1}"
+			]
+			id: "1121273BC19B7F8C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22DB7FFC9FAF8EDE"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "2D9B4330BCEEE276"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3A174E9ADB8067C0"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "415CF601390E56D1"
+				structure: "betterfortresses:fortress"
+				title: "Find a Fortress"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&9Illager Hideout&r is a huge underground structure where you will find a lot of illagers. Take on the challenge and face the &4Illagitor Boss&r!"
+				""
+				"{image:kubejs:textures/quest/structures/illager_hideout.png width:256 height:150 align:1}"
+			]
+			id: "43467581E3004C4A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "044C6A0EB9A2BE39"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "57502096DCFA6ACB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 12
+					id: "2CD38B5B8075F2A6"
+					item: "minecraft:candle"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:dark_oak_fence"
+				id: "323B479F70A5EC24"
+				structure: "nova_structures:illager_hideout"
+				title: "Find an &9Illager Hideout&r "
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&9Stray Fort&r is an Overworld fortress owned by Stray. Look up to the high towers and be aware of the rain of arrows. Defeat the &bSnowdrift Overlord&r and you will acquire a powerful bow!"
+				""
+				"{image:kubejs:textures/quest/structures/stray_fort.png width:256 height:150 align:1}"
+			]
+			id: "32DE634275712044"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C7D76C706416761"
+					table_id: 1613080448957740991L
+					type: "random"
+				}
+				{
+					id: "52A7202DA95BA3D6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 64
+					id: "25FDB9971553A5BA"
+					item: {
+						Count: 1b
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:long_weakness"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "minecraft:weakness"
+					}
+				}
+				id: "1DF3163DBEDD8C81"
+				structure: "nova_structures:stray_fort"
+				title: "Find a &9Stray Fort&r"
 				type: "structure"
 			}]
 			x: 2.0d
