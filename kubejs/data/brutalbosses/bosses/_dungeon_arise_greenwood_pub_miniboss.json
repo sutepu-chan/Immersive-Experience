@@ -1,0 +1,51 @@
+{
+    "entity": "minecraft:villager",
+    "name": "§aVillager Guard",
+    "showbossbar": false,
+    "visualscale": 1.1,
+    "experience": 10,
+    "protect_treasure": false,
+    "effects": {
+        "minecraft:speed": 1,
+        "minecraft:strength": 1
+    },
+    "attributes": {
+        "generic.max_health": 80
+    },
+    "gear": {
+        "mainhand": "{id: \"minecraft:iron_sword\", Count: 1b}",
+        "head": "{id: \"minecraft:iron_helmet\", Count: 1b}",
+        "chest": "{id: \"minecraft:iron_chestplate\", Count: 1b}",
+        "legs": "{id: \"minecraft:iron_leggings\", Count: 1b}",
+        "feet": "{id: \"minecraft:iron_boots\", Count: 1b}"
+    },
+    "ai-goals": {
+        "minecraft:target": {},
+        "brutalbosses:chasetarget": {
+            "chasedistance": 16
+        },
+        "brutalbosses:itemshootgoal": {
+            "projectile_count": 3,
+            "projectile_interval": 20,
+            "projectile_distance": 16,
+            "projectile_speed": 1.2,
+            "projectile_aoe": false,
+            "projectilesize": 1.5,
+            "item": "{id: \"minecraft:emerald\", Count: 1b}",
+            "damage": 3
+        },
+        "brutalbosses:meleehit": {
+            "healthinterval": "100-0",
+            "attackdist": 2,
+            "damage": 5,
+            "potionhit": "minecraft:weakness",
+            "potionlevel": 0,
+            "potionduration": 20,
+            "knockback": 2,
+            "cooldown": 20
+        }
+    },
+    "spawnatchest": {
+        "dungeons_arise:chests/greenwood_pub/greenwood_pub_barrels_hallways": 1
+    }
+}

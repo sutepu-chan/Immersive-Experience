@@ -18,9 +18,9 @@ pack_edit_mode = false
 		#Modpack Configs
 		[modules.server_creator_banner.pack]
 			#The title to display at the top of the entry.
-			title = "Wanna to play with friends but do not know how to set up one? Just get already well configured server!"
+			title = "Wanna to play with friends but do not know how to set up one?"
 			#The description to display below the title.
-			description = "Click on the picture above to get 25% off and enjoy playing with your friends!"
+			description = "Click on the picture above to get 25% off server!"
 			#Set this to true to use specific language translation keys.
 			#This requires a custom mod that adds resource files, such as OpenLoader.
 			#Use 'server_entry.title' key for the Title;

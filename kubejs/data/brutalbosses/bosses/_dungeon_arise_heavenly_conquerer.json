@@ -1,0 +1,74 @@
+{
+    "entity": "irons_spellbooks:citadel_keeper",
+    "name": "§4Netherite Dreadknight",
+    "visualscale": 1.18,
+    "experience": 1200,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:speed": 1,
+        "minecraft:regeneration": 1
+    },
+    "attributes": {
+        "generic.max_health": 1140,
+        "generic.follow_range": 40,
+        "generic.attack_damage": 2,
+        "generic.armor": 8
+    },
+    "customattributes": {
+        "attack_speed": 1.8 ,
+        "dropgear": 1
+    },
+    "gear": {
+        "mainhand": "{id: \"simplyswords:runic_twinblade\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I; -123923, 24191, 2561, -48382], Amount: 21, Name: \"generic.attack_damage\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123923, 24291, 2561, -48582], Amount: -2, Name: \"generic.attack_speed\"}, {Slot: \"mainhand\", AttributeName: \"generic.armor\", UUID: [I; -123923, 24391, 2561, -48782], Amount: 0.2d, Name: \"generic.armor\"}, {Slot: \"mainhand\", AttributeName: \"generic.armor\", UUID: [I; -123923, 24491, 2561, -48982], Amount: 0.28d, Name: \"generic.armor\"}], display: {Lore: ['[{\"text\":\"Spawned in Netherite fires, bears enigmatic runes that unleash devastating power against the undead realms\",\"italic\":false}]'], Name: '[{\"text\":\"⧪ Runic Necroslayer ⧪\",\"italic\":false,\"color\":\"aqua\"}]'}, Enchantments: [{lvl: 255, id: \"smite\"}]}}"
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 8
+        },
+        "brutalbosses:summonmobs": {
+            "healthinterval": "100-0",
+            "interval": 400,
+            "maxcount": 6,
+            "count": 2,
+            "entities": [
+                {
+                    "entityid": "minecraft:wither_skeleton",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Dreadknight\"}]',Health:67,active_effects:[{id:regeneration,duration:10000,amplifier:0,show_particles:0b}],HandItems:[{id:\"farlanders:nightfall_sword\",Count:1}],HandDropChances:[f],ArmorItems:[{id:\"farlanders:nightfall_boots\",Count:1},{id:\"farlanders:nightfall_chestplate\",Count:1},{id:\"farlanders:nightfall_chestplate\",Count:1},{id:\"farlanders:nightfall_helmet\",Count:1}],ArmorDropChances:[f,f,f,f],Attributes:[{Name:\"generic.armor\",Base:4f},{Name:\"generic.max_health\",Base:67f}]}"
+                }
+            ]
+        },
+        "brutalbosses:whirldwind": {
+            "healthinterval": "50-0",
+            "attackdist": 5,
+            "extradamage": 2,
+            "potionhit": "cataclysm:stun",
+            "potionlevel": 0,
+            "potionduration": 60,
+            "knockback": 10,
+            "cooldown": 300,
+            "knockup": true
+        },
+        "brutalbosses:meleehit": {
+            "healthinterval": "100-0",
+            "attackdist": 3,
+            "damage": 110,
+            "potionhit": "aquamirae:health_decrease",
+            "potionlevel": 5,
+            "potionduration": 250,
+            "knockback": 4,
+            "cooldown": 200
+        },
+        "brutalbosses:shootwitherskulls": {
+            "healthinterval": "100-00",
+            "projectile_count": 3,
+            "projectile_interval": 100,
+            "projectile_distance": 16,
+            "projectile_speed": 1.5,
+            "projectile_aoe": true,
+            "dangerous": false
+        }
+    },
+    "spawnatchest": {
+        "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_treasure": 1
+    }
+}

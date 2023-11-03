@@ -47,7 +47,7 @@
                     "entitynbt": "{IsBaby:1,CustomName:'[{\"text\":\"Withered Ninja\"}]',Health:10,LeftHanded:1b,ActiveEffects:[{Id:1,Duration:10000,Amplifier:4,ShowParticles:0b}],HandItems:[{id:\"epicsamurai:kunai\",Count:1}],HandDropChances:[f],ArmorItems:[{id:\"epicsamurai:diamond_ninja_boots\",Count:0},{id:\"epicsamurai:ninja_leggings\",Count:1},{id:\"epicsamurai:diamond_ninja_chestplate\",Count:1},{id:\"epicsamurai:diamond_ninja_helmet\",Count:1}],ArmorDropChances:[f,f,f,f],Attributes:[{Name:\"generic.attack_damage\",Base:16f},{Name:\"generic.armor\",Base:4f},{Name:\"generic.max_health\",Base:30f}]}"
                 },
                 {
-                    "entityid": "minecraft:wither",
+                    "entityid": "minecraft:wither_skeleton",
                     "entitynbt": "{CustomName:'[{\"text\":\"Withered Samurai\"}]',Health:125,LeftHanded:1b,ActiveEffects:[{Id:1,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:12,Duration:10000,ShowParticles:0b}],HandItems:[{id:\"epicsamurai:naginata\",Count:1}],HandDropChances:[f],ArmorItems:[{id:\"epicsamurai:quartz_samurai_boots\",Count:1},{id:\"epicsamurai:quartz_samurai_leggings\",Count:1},{id:\"epicsamurai:quartz_samurai_chestplate\",Count:1},{id:\"epicsamurai:mask_quartz_samurai_helmet\",Count:1}],ArmorDropChances:[f,f,f,f],Attributes:[{Name:\"generic.armor\",Base:8f},{Name:\"generic.armor_toughness\",Base:3f},{Name:\"generic.attack_damage\",Base:11f},{Name:\"generic.knockback_resistance\",Base:0.2f},{Name:\"generic.max_health\",Base:125f}]}"
                 }
             ]

@@ -123,7 +123,8 @@ ServerEvents.tags('item', e => {
         'nethersdelight:plate_of_stuffed_hoglin_ham',
         'nethersdelight:plate_of_stuffed_hoglin_roast',
         'cataclysm:amethyst_crab_meat',
-        'cataclysm:blessed_amethyst_crab_meat'
+        'cataclysm:blessed_amethyst_crab_meat',
+        'oceansdelight:bowl_of_guardian_soup'
     ]);
     e.add('forge:carbs', [
         '#forge:crops/rice',
@@ -145,6 +146,7 @@ ServerEvents.tags('item', e => {
         'nethersdelight:plate_of_stuffed_hoglin_ham',
         'nethersdelight:plate_of_stuffed_hoglin_roast',
         'regions_unexplored:meadow_sage',
+        'oceansdelight:bowl_of_guardian_soup'
     ]);
     //#endregion
 

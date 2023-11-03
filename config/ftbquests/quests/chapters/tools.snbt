@@ -5,10 +5,9 @@
 	group: "00E9424D6B3ED400"
 	icon: {
 		Count: 1b
-		id: "constructionwand:iron_wand"
+		id: "wands:creative_wand"
 		tag: {
 			Damage: 0
-			wand_options: { }
 		}
 	}
 	id: "760BA30BB7A3E4C3"
@@ -117,266 +116,6 @@
 			y: 4.0d
 		}
 		{
-			description: [
-				"&6&lConstruction Wand&r help you place multiple blocks at once. Higher tiers can &6place more blocks&r at once and have higher capacity to be &6upgraded&r with additional cores."
-				""
-				"&bPlacement modes&r can be changed by &dShift+scroll&r or  &dCtrl+Shift+RC&r."
-				""
-				"Read the tooltip for more info."
-			]
-			id: "44D77B07536C629D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2BA3FE0F762731D6"
-				table_id: 1613080448957740991L
-				type: "random"
-			}]
-			tasks: [{
-				id: "2363870B4A74D9EA"
-				item: {
-					Count: 1b
-					id: "constructionwand:stone_wand"
-					tag: {
-						Damage: 0
-						wand_options: { }
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["44D77B07536C629D"]
-			id: "526A32551247AF1C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5BF6F299FEBDB6A7"
-				table_id: 1613080448957740991L
-				type: "random"
-			}]
-			tasks: [{
-				id: "223980E123635175"
-				item: {
-					Count: 1b
-					id: "constructionwand:iron_wand"
-					tag: {
-						Damage: 0
-						wand_options: { }
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["526A32551247AF1C"]
-			id: "67C930CE9611169F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "77FC5803DFA1E46C"
-				table_id: 6225236626738686000L
-				type: "random"
-			}]
-			tasks: [{
-				id: "362E18E116936682"
-				item: {
-					Count: 1b
-					id: "constructionwand:diamond_wand"
-					tag: {
-						Damage: 0
-						wand_options: { }
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["67C930CE9611169F"]
-			id: "64F307F102F80E55"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6498A8DD0F5D0BA6"
-				table_id: 6225236626738686000L
-				type: "random"
-			}]
-			tasks: [{
-				id: "356558B2C7978604"
-				item: {
-					Count: 1b
-					id: "constructionwand:infinity_wand"
-					tag: {
-						wand_options: { }
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["44D77B07536C629D"]
-			description: ["&bAngel Wand Core&r upgrades the wand so that blocks can be placed &6in air&r."]
-			id: "411F158BCA712FA6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2000B7F3C1F388B9"
-				table_id: 1613080448957740991L
-				type: "random"
-			}]
-			tasks: [{
-				id: "4008CAB635A4CBCD"
-				item: "constructionwand:core_angel"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["44D77B07536C629D"]
-			description: ["&bDestruction Wand Core&r &6destory blocks&r of the same type at once."]
-			id: "1096D7BD6B8A0CE8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "60C7FF08AB5AB845"
-				table_id: 1613080448957740991L
-				type: "random"
-			}]
-			tasks: [{
-				id: "29A91321BAA5757D"
-				item: "constructionwand:core_destruction"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			description: [
-				"&bBuilding Gadget&r eases the progress of building and avoids building repetitive patterns. No more tedious building!"
-				""
-				"&dShift+RC&r to set the &6block type&r and press &dG&r to open &6menu"
-				"&r"
-				"Powers can be supplied by &cCreate&r or &cIron Furnaces&r"
-			]
-			id: "513E942A377D9F60"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1810EBC1DC6190DF"
-				table_id: 1613080448957740991L
-				type: "random"
-			}]
-			tasks: [{
-				id: "2F04CAC7A6A452BA"
-				item: {
-					Count: 1b
-					id: "buildinggadgets2:gadget_building"
-					tag: {
-						uuid: [I;
-							431572373
-							1504857431
-							-1637709218
-							-1549344476
-						]
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.0d
-		}
-		{
-			description: ["&bExchanging Gadget&r provides basic &6exchanging&r abilities using a set of different &6Exchanging Modes&r."]
-			id: "79BE800F8C4A9760"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0F0C603D30EAB3F7"
-				table_id: 1613080448957740991L
-				type: "random"
-			}]
-			tasks: [{
-				id: "56C30E6132D0135C"
-				item: {
-					Count: 1b
-					id: "buildinggadgets2:gadget_exchanging"
-					tag: {
-						uuid: [I;
-							-1815708421
-							-1767030570
-							-2049039995
-							489083277
-						]
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			description: ["&bCopy Paste Gadget&r allows you to select a large radius to &6copy and paste&r in a different location."]
-			id: "16DA5530E434BAE8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "74A3667919F0442F"
-				table_id: 1613080448957740991L
-				type: "random"
-			}]
-			tasks: [{
-				id: "2AF9951F97992D7A"
-				item: {
-					Count: 1b
-					id: "buildinggadgets2:gadget_copy_paste"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			description: ["&bCut Paste Gadget&r allows you to select a large radius to &6cut and paste&r in a different location."]
-			id: "4F10E3643FD9311D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "228DF295BE86CA9A"
-				table_id: 1613080448957740991L
-				type: "random"
-			}]
-			tasks: [{
-				id: "73747B1E46D36FCE"
-				item: {
-					Count: 1b
-					id: "buildinggadgets2:gadget_cut_paste"
-					tag: {
-						pastereplace: 1b
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			description: ["&bDestruction Gadget&r allows you to &6void&r a large area."]
-			id: "629629BAA35543BD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0A39CA188C0E3E3F"
-				table_id: 1613080448957740991L
-				type: "random"
-			}]
-			tasks: [{
-				id: "03E2D9656CD158C9"
-				item: "buildinggadgets2:gadget_destruction"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["62FA545E2B097980"]
 			description: [
 				"&bMega Torch&r prevents &6all types of mobs&r from spawning in a 128 blocks radius."
@@ -469,6 +208,24 @@
 			}]
 			x: 2.0d
 			y: 8.0d
+		}
+		{
+			description: ["&b&lAdditional Lights&r brings a wide variety of &6lights&r that enchances your building. You can now more fancy light sources other than torches."]
+			id: "744928E4C418E830"
+			tasks: [{
+				id: "0729CB93AED50F6C"
+				item: {
+					Count: 1b
+					id: "additional_lights:soul_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Additional Lights"
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 	title: "Tools"

@@ -1,0 +1,65 @@
+{
+    "entity": "fromtheshadows:nehemoth",
+    "name": "§dBehemoth",
+    "visualscale": 1.5,
+    "experience": 1200,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:fire_resistance": 0,
+        "minecraft:speed": 1,
+        "minecraft:regeneration": 1
+    },
+    "attributes": {
+        "generic.max_health": 1000,
+        "generic.follow_range": 25,
+        "generic.attack_damage": 18,
+        "generic.armor": 30
+    },
+    "customattributes": {
+        "dropgear": 1
+    },
+    "gear": {
+        "mainhand": "{id: \"advancednetherite:netherite_iron_pickaxe\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"offhand\", AttributeName: \"generic.max_health\", UUID: [I; -123913, 31712, 34253, -63424], Amount: 5, Name: \"generic.max_health\"}, {Slot: \"mainhand\", AttributeName: \"generic.luck\", UUID: [I; -123913, 31812, 34253, -63624], Amount: 10, Name: \"generic.luck\"}, {Slot: \"offhand\", AttributeName: \"generic.armor\", UUID: [I; -123913, 31912, 34253, -63824], Amount: 8, Name: \"generic.armor\"}, {Amount: 0.2d, Slot: \"offhand\", AttributeName: \"generic.attack_damage\", Operation: 2, UUID: [I; -123913, 32012, 34253, -64024], Name: \"generic.attack_damage\"}], display: {Lore: ['[{\"text\":\"Embodied with indomitable strength, shattering the hardest stones and unearthing treasures buried deep within the earth\",\"italic\":false}]'], Name: '[{\"text\":\"Bane of Behemoth\",\"italic\":false,\"color\":\"red\"}]'}, Enchantments: [{lvl: 40, id: \"efficiency\"},{lvl: 25, id: \"fortune\"}]}}"
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 3
+        },
+        "brutalbosses:summonmobs": {
+            "healthinterval": "100-0",
+            "interval": 400,
+            "maxcount": 3,
+            "count": 3,
+            "entities": [
+                {
+                    "entityid": "creeperoverhaul:cave_creeper",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Blitz Boomling\",\"color\":\"light_purple\"}]',Health:50,active_effects:[{id:speed,duration:10000,amplifier:1,show_particles:0b}],Attributes:[{Name:\"generic.max_health\",Base:50f}]}"
+                }
+            ]
+        },
+        "brutalbosses:whirldwind": {
+            "healthinterval": "80-60",
+            "attackdist": 5,
+            "extradamage": 3,
+            "potionhit": "minecraft:darkness",
+            "potionlevel": 5,
+            "potionduration": 100,
+            "knockback": 12,
+            "cooldown": 400,
+            "knockup": true
+        },
+        "brutalbosses:meleehit": {
+            "healthinterval": "100-0",
+            "attackdist": 3,
+            "damage": 10,
+            "potionhit": "minecraft:blindness",
+            "potionlevel": 5,
+            "potionduration": 100,
+            "knockback": 2,
+            "cooldown": 400
+        }
+    },
+    "spawnatchest": {
+        "dungeons_arise:chests/foundry/foundry_treasure": 1
+    }
+}

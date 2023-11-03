@@ -1,0 +1,29 @@
+{
+    "entity": "minecraft:vindicator",
+    "name": "§dVindi",
+    "showbossbar": false,
+    "visualscale": 1.2,
+    "experience": 100,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:fire_resistance": 0,
+        "minecraft:regeneration": 0,
+        "minecraft:speed": 0
+    },
+    "attributes": {
+        "generic.max_health": 100,
+        "generic.follow_range": 25,
+        "generic.attack_knockback": 6,
+        "generic.attack_damage": 10,
+        "generic.armor": 8
+    },
+    "customattributes": {
+        "dropgear": 6
+    },
+    "gear": {
+        "helmet": "{id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: \"MHF_Vex\"}}"
+    },
+    "spawnatchest": {
+        "dungeons_arise:chests/bandit_towers/bandit_towers_treasure": 30
+    }
+}

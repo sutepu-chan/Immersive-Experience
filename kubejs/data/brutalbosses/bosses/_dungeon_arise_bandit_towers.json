@@ -10,10 +10,10 @@
         "minecraft:speed": 0
     },
     "attributes": {
-        "generic.max_health": 200,
+        "generic.max_health": 500,
         "generic.follow_range": 25,
-        "generic.attack_knockback": 8,
-        "generic.armor": 11
+        "generic.attack_knockback": 10,
+        "generic.armor": 14
     },
     "customattributes": {
         "dropgear": 1

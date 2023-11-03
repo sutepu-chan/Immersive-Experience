@@ -23,5 +23,9 @@ global.recipe_disable = [
     'majruszsdifficulty:enderium_pickaxe',
     'majruszsdifficulty:enderium_axe',
     'majruszsdifficulty:enderium_shovel',
-    'majruszsdifficulty:enderium_hoe'
+    'majruszsdifficulty:enderium_hoe',
+    'majruszsdifficulty:advancement_normal',
+    'majruszsdifficulty:advancement_expert',
+    'majruszsdifficulty:advancement_master',
+    'majruszsdifficulty:advancement_bleeding'
 ]

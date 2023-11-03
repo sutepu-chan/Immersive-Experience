@@ -1,16 +1,1 @@
-'endrem:black_eye', 
-'endrem:cold_eye', 
-'endrem:corrupted_eye', 
-'endrem:lost_eye', 
-'endrem:nether_eye', 
-'endrem:old_eye', 
-'endrem:rogue_eye', 
-'endrem:cursed_eye', 
-'endrem:evil_eye', 
-'endrem:guardian_eye', 
-'endrem:magical_eye', 
-'endrem:wither_eye', 
-'endrem:witch_eye', 
-'endrem:undead_eye', 
-'endrem:exotic_eye', 
-'endrem:cryptic_eye'
+{id: \"simplyswords:runic_twinblade\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", UUID: [I; -123923, 24191, 2561, -48382], Amount: 21, Name: \"generic.attack_damage\"}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", UUID: [I; -123923, 24291, 2561, -48582], Amount: -2, Name: \"generic.attack_speed\"}, {Slot: \"mainhand\", AttributeName: \"generic.armor\", UUID: [I; -123923, 24391, 2561, -48782], Amount: 0.2d, Name: \"generic.armor\"}, {Slot: \"mainhand\", AttributeName: \"generic.armor\", UUID: [I; -123923, 24491, 2561, -48982], Amount: 0.28d, Name: \"generic.armor\"}], display: {Lore: ['[{\"text\":\"Spawned in Netherite fires, bears enigmatic runes that unleash devastating power against the undead realms\",\"italic\":false}]'], Name: '[{\"text\":\"⧪ Runic Necroslayer ⧪\",\"italic\":false,\"color\":\"aqua\"}]'}, Enchantments: [{lvl: 255, id: \"smite\"}]}}

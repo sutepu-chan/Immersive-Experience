@@ -1,0 +1,75 @@
+{
+    "entity": "farlanders:titan",
+    "name": "§1Seraphim Stalker",
+    "visualscale": 0.75,
+    "experience": 800,
+    "protect_treasure": true,
+    "effects": {
+        "minecraft:speed": 1
+    },
+    "attributes": {
+        "generic.max_health": 1040,
+        "generic.follow_range": 25,
+        "generic.armor": 12
+    },
+    "customattributes": {
+        "dropgear": 1
+    },
+    "gear": {
+        "mainhand": "{id: \"minecraft:netherite_shovel\", Count: 1b, tag: {Unbreakable: 1, Damage: 0, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.luck\", UUID: [I; -123915, 20017, 4459, -40034], Amount: 10, Name: \"generic.luck\"}], display: {Lore: ['[{\"text\":\"Fashioned in celestial fires, bears heavenly might and ethereal essence, unearthing profound secrets with each dig.\",\"italic\":false}]'], Name: '[{\"text\":\"✡Heavenly Spade✡\",\"italic\":false,\"color\":\"aqua\"}]'}, Enchantments: [{lvl: 20, id: \"efficiency\"}]}}"
+    },
+    "ai-goals": {
+        "brutalbosses:aftercombatregen": {
+            "amount": 10
+        },
+        "brutalbosses:summonmobs": {
+            "healthinterval": "100-0",
+            "interval": 200,
+            "maxcount": 6,
+            "count": 3,
+            "entities": [
+                {
+                    "entityid": "farlanders:ender_guardian",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Seraphim Sentinel\"}]',Health:60,active_effects:[{id:speed,duration:10000,amplifier:1,show_particles:0b}],Attributes:[{Name:\"generic.armor\",Base:6f},{Name:\"generic.armor_toughness\",Base:2f},{Name:\"generic.knockback_resistance\",Base:0.3f},{Name:\"generic.attack_damage\",Base:6f},{Name:\"generic.max_health\",Base:60f}]}"
+                },
+                {
+                    "entityid": "farlanders:looter",
+                    "entitynbt": "{CustomName:'[{\"text\":\"Seraphim Scavenger\"}]',Health:60,active_effects:[{id:speed,duration:10000,amplifier:1,show_particles:0b}],Attributes:[{Name:\"generic.armor\",Base:6f},{Name:\"generic.armor_toughness\",Base:2f},{Name:\"generic.knockback_resistance\",Base:0.3f},{Name:\"generic.attack_damage\",Base:6f},{Name:\"generic.max_health\",Base:60f}]}"
+                }
+            ]
+        },
+        "brutalbosses:whirldwind": {
+            "healthinterval": "50-0",
+            "attackdist": 5,
+            "extradamage": 0,
+            "potionhit": "minecraft:nausea",
+            "potionlevel": 5,
+            "potionduration": 100,
+            "knockback": 5,
+            "cooldown": 400,
+            "knockup": true
+        },
+        "brutalbosses:meleehit": {
+            "healthinterval": "100-0",
+            "attackdist": 3,
+            "damage": 10,
+            "potionhit": "minecraft:blindness",
+            "potionlevel": 0,
+            "potionduration": 200,
+            "knockback": 2,
+            "cooldown": 400
+        },
+        "brutalbosses:shootwitherskulls": {
+            "healthinterval": "100-50",
+            "projectile_count": 5,
+            "projectile_interval": 160,
+            "projectile_distance": 16,
+            "projectile_speed": 1.2,
+            "projectile_aoe": true,
+            "dangerous": false
+        }
+    },
+    "spawnatchest": {
+        "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_treasure": 1
+    }
+}

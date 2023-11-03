@@ -1,0 +1,32 @@
+{
+    "target": "enderzoology:infested_zombie",
+    "presets": {
+        "chance": 0.25,
+        "list": [
+            {
+                "id": "varied_mobs:tank",
+                "weight": 10
+            },
+            {
+                "id": "varied_mobs:titan",
+                "weight": 6
+            },
+            {
+                "id": "varied_mobs:assassin",
+                "weight": 8
+            },
+            {
+                "id": "varied_mobs:paladin",
+                "weight": 2
+            },
+            {
+                "id": "varied_mobs:samurai",
+                "weight": 4
+            },
+            {
+                "id": "varied_mobs:drug_dealer",
+                "weight": 5
+            }
+        ]
+    }
+}

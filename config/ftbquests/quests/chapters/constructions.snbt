@@ -32,25 +32,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3A226597FB53BABA"]
-			description: ["&b&lAdditional Lights&r brings a wide variety of &6lights&r that enchances your building. You can now more fancy light sources other than torches."]
-			id: "744928E4C418E830"
-			tasks: [{
-				id: "0729CB93AED50F6C"
-				item: {
-					Count: 1b
-					id: "additional_lights:soul_wand"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Additional Lights"
-			x: -2.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["6389CE0B6A274DAB"]
 			description: ["There are &6modern cars&r available in this pack. However, &6energy&r is required to initiate the progress of crafting your car. Energy can be easily produced by a &bdynamo&r and &bcrank&r."]
 			id: "371D05F13A5E5480"
